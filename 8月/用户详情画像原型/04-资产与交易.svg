@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+<style>text{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif} .shadow{filter:drop-shadow(0 2px 6px rgba(15,23,42,.06))}</style>
+<rect x="0" y="0" width="1600" height="1200" rx="0" fill="#F5F7FB" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="1600" height="58" rx="0" fill="#111827" stroke="none" stroke-width="1"/>
+<text x="28" y="36" font-size="18" fill="#FFFFFF" font-weight="500" text-anchor="start">SANO 管理后台</text>
+<text x="190" y="35" font-size="13" fill="#CBD5E1" font-weight="400" text-anchor="start">用户管理  /  用户详情（画像）</text>
+<rect x="1330" y="15" width="112" height="28" rx="14" fill="#263247" stroke="none" stroke-width="1"/>
+<text x="1386" y="34" font-size="12" fill="#D5DEEC" font-weight="500" text-anchor="middle">原型示例数据</text>
+<text x="1550" y="35" font-size="13" fill="#E2E8F0" font-weight="400" text-anchor="end">管理员</text>
+<rect x="20" y="72" width="1560" height="146" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<circle cx="78" cy="126" r="34" fill="#E0E7FF"/>
+<text x="78" y="136" font-size="28" fill="#4F46E5" font-weight="500" text-anchor="middle">L</text>
+<text x="126" y="105" font-size="20" fill="#0F172A" font-weight="500" text-anchor="start">Lina_Star</text>
+<text x="126" y="130" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">ID 102938475 · 泰国 · 女</text>
+<rect x="126" y="148" width="82" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="167" y="167" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="middle">高级主播</text>
+<rect x="216" y="148" width="82" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="257" y="167" font-size="12" fill="#047857" font-weight="500" text-anchor="middle">优质主播</text>
+<rect x="306" y="148" width="82" height="28" rx="14" fill="#FFF7ED" stroke="none" stroke-width="1"/>
+<text x="347" y="167" font-size="12" fill="#C2410C" font-weight="500" text-anchor="middle">公会成员</text>
+<rect x="396" y="148" width="97" height="28" rx="14" fill="#FDF2F8" stroke="none" stroke-width="1"/>
+<text x="444.5" y="167" font-size="12" fill="#BE185D" font-weight="500" text-anchor="middle">VIP 6</text>
+<rect x="126" y="181" width="112" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="182" y="200" font-size="12" fill="#047857" font-weight="500" text-anchor="middle">实名认证通过</text>
+<text x="510" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">财富等级</text>
+<text x="510" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">Lv.42</text>
+<text x="655" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">魅力等级</text>
+<text x="655" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">Lv.36</text>
+<text x="800" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">金币余额</text>
+<text x="800" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">1,286,400</text>
+<text x="945" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">钻石余额</text>
+<text x="945" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">92,680,000</text>
+<text x="1090" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">累计充值</text>
+<text x="1090" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">$48,260.00</text>
+<text x="1235" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">累计提现</text>
+<text x="1235" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">$31,800.00</text>
+<text x="1380" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">今日直播</text>
+<text x="1380" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">3小时42分</text>
+<text x="510" y="184" font-size="12" fill="#475569" font-weight="500" text-anchor="start">主播综合评分 86.4</text>
+<text x="660" y="184" font-size="12" fill="#475569" font-weight="500" text-anchor="start">用户综合评分 79.8</text>
+<text x="810" y="184" font-size="12" fill="#475569" font-weight="500" text-anchor="start">幸运礼物EV 96.55%</text>
+<text x="1420" y="196" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">更新于 2026-08-14 11:20:08</text>
+<rect x="20" y="230" width="1560" height="54" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="112" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">画像概览</text>
+<text x="282" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">用户活跃日历</text>
+<text x="452" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">身份与关系</text>
+<text x="622" y="263" font-size="14" fill="#4F46E5" font-weight="500" text-anchor="middle">资产与交易</text>
+<rect x="570" y="279" width="104" height="3" rx="2" fill="#4F46E5" stroke="none" stroke-width="1"/>
+<text x="792" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">消费与收益</text>
+<text x="962" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">直播分析</text>
+<text x="1132" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">风控记录</text>
+<text x="1535" y="263" font-size="12" fill="#94A3B8" font-weight="400" text-anchor="end">资产与交易</text>
+<text x="28" y="316" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">资产概览</text>
+<rect x="28" y="334" width="373" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="28" y="334" width="4" height="88" rx="2" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="44" y="359" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">今日充值</text>
+<text x="44" y="389" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">$1,280.00</text>
+<text x="44" y="409" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">近7天 $3,860 · ↑22.4%</text>
+<rect x="415" y="334" width="373" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="415" y="334" width="4" height="88" rx="2" fill="#0EA5E9" stroke="none" stroke-width="1"/>
+<text x="431" y="359" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">今日提现</text>
+<text x="431" y="389" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">$420.00</text>
+<text x="431" y="409" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">近7天 $1,780 · ↓8.6%</text>
+<rect x="802" y="334" width="373" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="802" y="334" width="4" height="88" rx="2" fill="#F59E0B" stroke="none" stroke-width="1"/>
+<text x="818" y="359" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">金币余额</text>
+<text x="818" y="389" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">1,286,400</text>
+<text x="818" y="409" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">当前余额</text>
+<rect x="1189" y="334" width="373" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="1189" y="334" width="4" height="88" rx="2" fill="#EC4899" stroke="none" stroke-width="1"/>
+<text x="1205" y="359" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">钻石余额</text>
+<text x="1205" y="389" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">92,680,000</text>
+<text x="1205" y="409" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">当前余额</text>
+<rect x="28" y="438" width="373" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="28" y="438" width="4" height="88" rx="2" fill="#059669" stroke="none" stroke-width="1"/>
+<text x="44" y="463" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">累计充值</text>
+<text x="44" y="493" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">$48,260.00</text>
+<text x="44" y="513" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">最近成功 08-14 10:42</text>
+<rect x="415" y="438" width="373" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="415" y="438" width="4" height="88" rx="2" fill="#0284C7" stroke="none" stroke-width="1"/>
+<text x="431" y="463" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">累计提现</text>
+<text x="431" y="493" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">$31,800.00</text>
+<text x="431" y="513" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">最近打款 08-14 09:28</text>
+<rect x="802" y="438" width="373" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="802" y="438" width="4" height="88" rx="2" fill="#4F46E5" stroke="none" stroke-width="1"/>
+<text x="818" y="463" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">财富等级</text>
+<text x="818" y="493" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">Lv.42</text>
+<text x="818" y="513" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">当前等级</text>
+<rect x="1189" y="438" width="373" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="1189" y="438" width="4" height="88" rx="2" fill="#8B5CF6" stroke="none" stroke-width="1"/>
+<text x="1205" y="463" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">魅力等级</text>
+<text x="1205" y="493" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">Lv.36</text>
+<text x="1205" y="513" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">当前等级</text>
+<rect x="28" y="544" width="1544" height="278" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="48" y="575" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">充值记录</text>
+<text x="48" y="598" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">追溯资金进入平台、金币到账与订单状态；汇总只统计成功订单</text>
+<line x1="48" y1="612" x2="1552" y2="612" stroke="#E2E8F0" stroke-width="1"/>
+<text x="1548" y="575" font-size="11" fill="#4F46E5" font-weight="500" text-anchor="end">日期段：今日（08-14 00:00—当前）  ▼</text>
+<rect x="48" y="622" width="1504" height="36" rx="6" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<text x="58" y="645" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">订单号</text>
+<text x="298" y="645" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">币商ID</text>
+<text x="428" y="645" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">国家</text>
+<text x="528" y="645" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">渠道</text>
+<text x="683" y="645" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">支付金额($)</text>
+<text x="838" y="645" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">到账/赠送金币</text>
+<text x="1048" y="645" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">状态</text>
+<text x="1148" y="645" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">支付成功时间</text>
+<line x1="48" y1="658" x2="1552" y2="658" stroke="#EEF2F7" stroke-width="1"/>
+<text x="58" y="683" font-size="12" fill="#334155" font-weight="400" text-anchor="start">RC20260814001882</text>
+<text x="298" y="683" font-size="12" fill="#334155" font-weight="400" text-anchor="start">DS-8821</text>
+<text x="428" y="683" font-size="12" fill="#334155" font-weight="400" text-anchor="start">泰国</text>
+<text x="528" y="683" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Google Pay</text>
+<text x="683" y="683" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$680.00</text>
+<text x="838" y="683" font-size="12" fill="#334155" font-weight="400" text-anchor="start">6,800,000 / 68,000</text>
+<text x="1048" y="683" font-size="12" fill="#334155" font-weight="400" text-anchor="start">成功</text>
+<text x="1148" y="683" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-14 10:42:18</text>
+<line x1="48" y1="703" x2="1552" y2="703" stroke="#EEF2F7" stroke-width="1"/>
+<text x="58" y="728" font-size="12" fill="#334155" font-weight="400" text-anchor="start">RC20260814001129</text>
+<text x="298" y="728" font-size="12" fill="#334155" font-weight="400" text-anchor="start">--</text>
+<text x="428" y="728" font-size="12" fill="#334155" font-weight="400" text-anchor="start">泰国</text>
+<text x="528" y="728" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Apple IAP</text>
+<text x="683" y="728" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$600.00</text>
+<text x="838" y="728" font-size="12" fill="#334155" font-weight="400" text-anchor="start">6,000,000 / 0</text>
+<text x="1048" y="728" font-size="12" fill="#334155" font-weight="400" text-anchor="start">成功</text>
+<text x="1148" y="728" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-14 08:16:05</text>
+<line x1="48" y1="748" x2="1552" y2="748" stroke="#EEF2F7" stroke-width="1"/>
+<text x="58" y="773" font-size="12" fill="#334155" font-weight="400" text-anchor="start">RC20260814000617</text>
+<text x="298" y="773" font-size="12" fill="#334155" font-weight="400" text-anchor="start">DS-8821</text>
+<text x="428" y="773" font-size="12" fill="#334155" font-weight="400" text-anchor="start">泰国</text>
+<text x="528" y="773" font-size="12" fill="#334155" font-weight="400" text-anchor="start">PromptPay</text>
+<text x="683" y="773" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$1,250.00</text>
+<text x="838" y="773" font-size="12" fill="#334155" font-weight="400" text-anchor="start">12,500,000 / 250,000</text>
+<text x="1048" y="773" font-size="12" fill="#334155" font-weight="400" text-anchor="start">成功</text>
+<text x="1148" y="773" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-14 06:33:40</text>
+<text x="48" y="804" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">共 126 条   ‹  1  2  3  …  13  ›</text>
+<rect x="28" y="840" width="1544" height="320" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="48" y="871" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">提现记录</text>
+<text x="48" y="894" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">追溯申请、审核、打款与到账全过程；今日提现按打款成功时间统计</text>
+<line x1="48" y1="908" x2="1552" y2="908" stroke="#E2E8F0" stroke-width="1"/>
+<text x="1548" y="871" font-size="11" fill="#4F46E5" font-weight="500" text-anchor="end">日期段：今日（08-14 00:00—当前）  ▼</text>
+<rect x="48" y="918" width="1504" height="36" rx="6" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<text x="58" y="941" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">流水号</text>
+<text x="293" y="941" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">国家</text>
+<text x="383" y="941" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">提现/到账金额</text>
+<text x="563" y="941" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">扣除钻石</text>
+<text x="723" y="941" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">打款金额/币种</text>
+<text x="918" y="941" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">渠道</text>
+<text x="1048" y="941" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">状态</text>
+<text x="1148" y="941" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">打款时间</text>
+<line x1="48" y1="954" x2="1552" y2="954" stroke="#EEF2F7" stroke-width="1"/>
+<text x="58" y="979" font-size="12" fill="#334155" font-weight="400" text-anchor="start">WD20260814000328</text>
+<text x="293" y="979" font-size="12" fill="#334155" font-weight="400" text-anchor="start">泰国</text>
+<text x="383" y="979" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$420 / $410</text>
+<text x="563" y="979" font-size="12" fill="#334155" font-weight="400" text-anchor="start">4,200,000</text>
+<text x="723" y="979" font-size="12" fill="#334155" font-weight="400" text-anchor="start">14,500 THB</text>
+<text x="918" y="979" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Bank TH</text>
+<text x="1048" y="979" font-size="12" fill="#334155" font-weight="400" text-anchor="start">成功</text>
+<text x="1148" y="979" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-14 09:28:12</text>
+<line x1="48" y1="999" x2="1552" y2="999" stroke="#EEF2F7" stroke-width="1"/>
+<text x="58" y="1024" font-size="12" fill="#334155" font-weight="400" text-anchor="start">WD20260814000291</text>
+<text x="293" y="1024" font-size="12" fill="#334155" font-weight="400" text-anchor="start">泰国</text>
+<text x="383" y="1024" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$800 / $782</text>
+<text x="563" y="1024" font-size="12" fill="#334155" font-weight="400" text-anchor="start">8,000,000</text>
+<text x="723" y="1024" font-size="12" fill="#334155" font-weight="400" text-anchor="start">27,660 THB</text>
+<text x="918" y="1024" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Bank TH</text>
+<text x="1048" y="1024" font-size="12" fill="#334155" font-weight="400" text-anchor="start">成功</text>
+<text x="1148" y="1024" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-14 08:44:30</text>
+<line x1="48" y1="1044" x2="1552" y2="1044" stroke="#EEF2F7" stroke-width="1"/>
+<text x="58" y="1069" font-size="12" fill="#334155" font-weight="400" text-anchor="start">WD20260814000152</text>
+<text x="293" y="1069" font-size="12" fill="#334155" font-weight="400" text-anchor="start">泰国</text>
+<text x="383" y="1069" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$560 / --</text>
+<text x="563" y="1069" font-size="12" fill="#334155" font-weight="400" text-anchor="start">5,600,000</text>
+<text x="723" y="1069" font-size="12" fill="#334155" font-weight="400" text-anchor="start">--</text>
+<text x="918" y="1069" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Wallet</text>
+<text x="1048" y="1069" font-size="12" fill="#334155" font-weight="400" text-anchor="start">审核中</text>
+<text x="1148" y="1069" font-size="12" fill="#334155" font-weight="400" text-anchor="start">--</text>
+<text x="48" y="1138" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">共 48 条   ‹  1  2  3  4  5  ›</text>
+</svg>

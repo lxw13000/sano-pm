@@ -1,0 +1,258 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+<style>text{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif} .shadow{filter:drop-shadow(0 2px 6px rgba(15,23,42,.06))}</style>
+<rect x="0" y="0" width="1600" height="1200" rx="0" fill="#F5F7FB" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="1600" height="58" rx="0" fill="#111827" stroke="none" stroke-width="1"/>
+<text x="28" y="36" font-size="18" fill="#FFFFFF" font-weight="500" text-anchor="start">SANO 管理后台</text>
+<text x="190" y="35" font-size="13" fill="#CBD5E1" font-weight="400" text-anchor="start">用户管理  /  用户详情（画像）</text>
+<rect x="1330" y="15" width="112" height="28" rx="14" fill="#263247" stroke="none" stroke-width="1"/>
+<text x="1386" y="34" font-size="12" fill="#D5DEEC" font-weight="500" text-anchor="middle">原型示例数据</text>
+<text x="1550" y="35" font-size="13" fill="#E2E8F0" font-weight="400" text-anchor="end">管理员</text>
+<rect x="20" y="72" width="1560" height="146" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<circle cx="78" cy="126" r="34" fill="#E0E7FF"/>
+<text x="78" y="136" font-size="28" fill="#4F46E5" font-weight="500" text-anchor="middle">L</text>
+<text x="126" y="105" font-size="20" fill="#0F172A" font-weight="500" text-anchor="start">Lina_Star</text>
+<text x="126" y="130" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">ID 102938475 · 泰国 · 女</text>
+<rect x="126" y="148" width="82" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="167" y="167" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="middle">高级主播</text>
+<rect x="216" y="148" width="82" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="257" y="167" font-size="12" fill="#047857" font-weight="500" text-anchor="middle">优质主播</text>
+<rect x="306" y="148" width="82" height="28" rx="14" fill="#FFF7ED" stroke="none" stroke-width="1"/>
+<text x="347" y="167" font-size="12" fill="#C2410C" font-weight="500" text-anchor="middle">公会成员</text>
+<rect x="396" y="148" width="97" height="28" rx="14" fill="#FDF2F8" stroke="none" stroke-width="1"/>
+<text x="444.5" y="167" font-size="12" fill="#BE185D" font-weight="500" text-anchor="middle">VIP 6</text>
+<rect x="126" y="181" width="112" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="182" y="200" font-size="12" fill="#047857" font-weight="500" text-anchor="middle">实名认证通过</text>
+<text x="510" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">财富等级</text>
+<text x="510" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">Lv.42</text>
+<text x="655" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">魅力等级</text>
+<text x="655" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">Lv.36</text>
+<text x="800" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">金币余额</text>
+<text x="800" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">1,286,400</text>
+<text x="945" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">钻石余额</text>
+<text x="945" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">92,680,000</text>
+<text x="1090" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">累计充值</text>
+<text x="1090" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">$48,260.00</text>
+<text x="1235" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">累计提现</text>
+<text x="1235" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">$31,800.00</text>
+<text x="1380" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">今日直播</text>
+<text x="1380" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">3小时42分</text>
+<text x="510" y="184" font-size="12" fill="#475569" font-weight="500" text-anchor="start">主播综合评分 86.4</text>
+<text x="660" y="184" font-size="12" fill="#475569" font-weight="500" text-anchor="start">用户综合评分 79.8</text>
+<text x="810" y="184" font-size="12" fill="#475569" font-weight="500" text-anchor="start">幸运礼物EV 96.55%</text>
+<text x="1420" y="196" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">更新于 2026-08-14 11:20:08</text>
+<rect x="20" y="230" width="1560" height="54" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="112" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">画像概览</text>
+<text x="282" y="263" font-size="14" fill="#4F46E5" font-weight="500" text-anchor="middle">用户活跃日历</text>
+<rect x="230" y="279" width="104" height="3" rx="2" fill="#4F46E5" stroke="none" stroke-width="1"/>
+<text x="452" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">身份与关系</text>
+<text x="622" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">资产与交易</text>
+<text x="792" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">消费与收益</text>
+<text x="962" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">直播分析</text>
+<text x="1132" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">风控记录</text>
+<text x="1535" y="263" font-size="12" fill="#94A3B8" font-weight="400" text-anchor="end">用户活跃日历</text>
+<text x="28" y="316" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">用户活跃日历</text>
+<rect x="28" y="334" width="373" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="28" y="334" width="4" height="88" rx="2" fill="#4F46E5" stroke="none" stroke-width="1"/>
+<text x="44" y="359" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">累计登录天数</text>
+<text x="44" y="389" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">418天</text>
+<text x="44" y="409" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">本月13天 · 同期+2</text>
+<rect x="415" y="334" width="373" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="415" y="334" width="4" height="88" rx="2" fill="#0EA5E9" stroke="none" stroke-width="1"/>
+<text x="431" y="359" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">连续登录天数</text>
+<text x="431" y="389" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">9天</text>
+<text x="431" y="409" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">当前连续</text>
+<rect x="802" y="334" width="373" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="802" y="334" width="4" height="88" rx="2" fill="#8B5CF6" stroke="none" stroke-width="1"/>
+<text x="818" y="359" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">累计直播天数</text>
+<text x="818" y="389" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">196天</text>
+<text x="818" y="409" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">本月11天 · 同期+3</text>
+<rect x="1189" y="334" width="373" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="1189" y="334" width="4" height="88" rx="2" fill="#EC4899" stroke="none" stroke-width="1"/>
+<text x="1205" y="359" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">连续直播天数</text>
+<text x="1205" y="389" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">4天</text>
+<text x="1205" y="409" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">上次中断 08-10</text>
+<rect x="28" y="440" width="1090" height="720" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="48" y="471" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">月度活跃日历</text>
+<text x="48" y="494" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">按 UTC+8 自然日展示登录与直播状态；切换月份不改变顶部累计及连续指标</text>
+<line x1="48" y1="508" x2="1098" y2="508" stroke="#E2E8F0" stroke-width="1"/>
+<text x="52" y="542" font-size="20" fill="#64748B" font-weight="500" text-anchor="start">‹</text>
+<text x="92" y="541" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">2026年8月</text>
+<text x="196" y="542" font-size="20" fill="#64748B" font-weight="500" text-anchor="start">›</text>
+<rect x="236" y="520" width="82" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="277" y="539" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="middle">返回本月</text>
+<rect x="716" y="523" width="14" height="14" rx="3" fill="#DBEAFE" stroke="none" stroke-width="1"/>
+<text x="738" y="535" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">登录</text>
+<rect x="790" y="523" width="14" height="14" rx="3" fill="#F3E8FF" stroke="none" stroke-width="1"/>
+<text x="812" y="535" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">直播</text>
+<text x="1068" y="535" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="end">更新于 08-14 11:20</text>
+<text x="118" y="582" font-size="12" fill="#64748B" font-weight="500" text-anchor="middle">周一</text>
+<text x="266" y="582" font-size="12" fill="#64748B" font-weight="500" text-anchor="middle">周二</text>
+<text x="414" y="582" font-size="12" fill="#64748B" font-weight="500" text-anchor="middle">周三</text>
+<text x="562" y="582" font-size="12" fill="#64748B" font-weight="500" text-anchor="middle">周四</text>
+<text x="710" y="582" font-size="12" fill="#64748B" font-weight="500" text-anchor="middle">周五</text>
+<text x="858" y="582" font-size="12" fill="#64748B" font-weight="500" text-anchor="middle">周六</text>
+<text x="1006" y="582" font-size="12" fill="#64748B" font-weight="500" text-anchor="middle">周日</text>
+<rect x="48" y="598" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="60" y="620" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">27</text>
+<rect x="196" y="598" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="208" y="620" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">28</text>
+<rect x="344" y="598" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="356" y="620" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">29</text>
+<rect x="492" y="598" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="504" y="620" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">30</text>
+<rect x="640" y="598" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="652" y="620" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">31</text>
+<rect x="788" y="598" width="140" height="78" rx="7" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="800" y="620" font-size="12" fill="#334155" font-weight="500" text-anchor="start">1</text>
+<rect x="800" y="638" width="50" height="22" rx="11" fill="#DBEAFE" stroke="none" stroke-width="1"/>
+<text x="825" y="653" font-size="10" fill="#1D4ED8" font-weight="500" text-anchor="middle">登录</text>
+<rect x="858" y="638" width="50" height="22" rx="11" fill="#F3E8FF" stroke="none" stroke-width="1"/>
+<text x="883" y="653" font-size="10" fill="#7E22CE" font-weight="500" text-anchor="middle">直播</text>
+<rect x="936" y="598" width="140" height="78" rx="7" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="948" y="620" font-size="12" fill="#334155" font-weight="500" text-anchor="start">2</text>
+<rect x="948" y="638" width="50" height="22" rx="11" fill="#DBEAFE" stroke="none" stroke-width="1"/>
+<text x="973" y="653" font-size="10" fill="#1D4ED8" font-weight="500" text-anchor="middle">登录</text>
+<rect x="1006" y="638" width="50" height="22" rx="11" fill="#F3E8FF" stroke="none" stroke-width="1"/>
+<text x="1031" y="653" font-size="10" fill="#7E22CE" font-weight="500" text-anchor="middle">直播</text>
+<rect x="48" y="686" width="140" height="78" rx="7" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="60" y="708" font-size="12" fill="#334155" font-weight="500" text-anchor="start">3</text>
+<rect x="60" y="726" width="50" height="22" rx="11" fill="#DBEAFE" stroke="none" stroke-width="1"/>
+<text x="85" y="741" font-size="10" fill="#1D4ED8" font-weight="500" text-anchor="middle">登录</text>
+<rect x="196" y="686" width="140" height="78" rx="7" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="208" y="708" font-size="12" fill="#334155" font-weight="500" text-anchor="start">4</text>
+<rect x="208" y="726" width="50" height="22" rx="11" fill="#DBEAFE" stroke="none" stroke-width="1"/>
+<text x="233" y="741" font-size="10" fill="#1D4ED8" font-weight="500" text-anchor="middle">登录</text>
+<rect x="266" y="726" width="50" height="22" rx="11" fill="#F3E8FF" stroke="none" stroke-width="1"/>
+<text x="291" y="741" font-size="10" fill="#7E22CE" font-weight="500" text-anchor="middle">直播</text>
+<rect x="344" y="686" width="140" height="78" rx="7" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="356" y="708" font-size="12" fill="#334155" font-weight="500" text-anchor="start">5</text>
+<rect x="492" y="686" width="140" height="78" rx="7" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="504" y="708" font-size="12" fill="#334155" font-weight="500" text-anchor="start">6</text>
+<rect x="504" y="726" width="50" height="22" rx="11" fill="#DBEAFE" stroke="none" stroke-width="1"/>
+<text x="529" y="741" font-size="10" fill="#1D4ED8" font-weight="500" text-anchor="middle">登录</text>
+<rect x="562" y="726" width="50" height="22" rx="11" fill="#F3E8FF" stroke="none" stroke-width="1"/>
+<text x="587" y="741" font-size="10" fill="#7E22CE" font-weight="500" text-anchor="middle">直播</text>
+<rect x="640" y="686" width="140" height="78" rx="7" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="652" y="708" font-size="12" fill="#334155" font-weight="500" text-anchor="start">7</text>
+<rect x="652" y="726" width="50" height="22" rx="11" fill="#DBEAFE" stroke="none" stroke-width="1"/>
+<text x="677" y="741" font-size="10" fill="#1D4ED8" font-weight="500" text-anchor="middle">登录</text>
+<rect x="710" y="726" width="50" height="22" rx="11" fill="#F3E8FF" stroke="none" stroke-width="1"/>
+<text x="735" y="741" font-size="10" fill="#7E22CE" font-weight="500" text-anchor="middle">直播</text>
+<rect x="788" y="686" width="140" height="78" rx="7" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="800" y="708" font-size="12" fill="#334155" font-weight="500" text-anchor="start">8</text>
+<rect x="800" y="726" width="50" height="22" rx="11" fill="#DBEAFE" stroke="none" stroke-width="1"/>
+<text x="825" y="741" font-size="10" fill="#1D4ED8" font-weight="500" text-anchor="middle">登录</text>
+<rect x="858" y="726" width="50" height="22" rx="11" fill="#F3E8FF" stroke="none" stroke-width="1"/>
+<text x="883" y="741" font-size="10" fill="#7E22CE" font-weight="500" text-anchor="middle">直播</text>
+<rect x="936" y="686" width="140" height="78" rx="7" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="948" y="708" font-size="12" fill="#334155" font-weight="500" text-anchor="start">9</text>
+<rect x="948" y="726" width="50" height="22" rx="11" fill="#DBEAFE" stroke="none" stroke-width="1"/>
+<text x="973" y="741" font-size="10" fill="#1D4ED8" font-weight="500" text-anchor="middle">登录</text>
+<rect x="1006" y="726" width="50" height="22" rx="11" fill="#F3E8FF" stroke="none" stroke-width="1"/>
+<text x="1031" y="741" font-size="10" fill="#7E22CE" font-weight="500" text-anchor="middle">直播</text>
+<rect x="48" y="774" width="140" height="78" rx="7" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="60" y="796" font-size="12" fill="#334155" font-weight="500" text-anchor="start">10</text>
+<rect x="60" y="814" width="50" height="22" rx="11" fill="#DBEAFE" stroke="none" stroke-width="1"/>
+<text x="85" y="829" font-size="10" fill="#1D4ED8" font-weight="500" text-anchor="middle">登录</text>
+<rect x="196" y="774" width="140" height="78" rx="7" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="208" y="796" font-size="12" fill="#334155" font-weight="500" text-anchor="start">11</text>
+<rect x="208" y="814" width="50" height="22" rx="11" fill="#DBEAFE" stroke="none" stroke-width="1"/>
+<text x="233" y="829" font-size="10" fill="#1D4ED8" font-weight="500" text-anchor="middle">登录</text>
+<rect x="266" y="814" width="50" height="22" rx="11" fill="#F3E8FF" stroke="none" stroke-width="1"/>
+<text x="291" y="829" font-size="10" fill="#7E22CE" font-weight="500" text-anchor="middle">直播</text>
+<rect x="344" y="774" width="140" height="78" rx="7" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="356" y="796" font-size="12" fill="#334155" font-weight="500" text-anchor="start">12</text>
+<rect x="356" y="814" width="50" height="22" rx="11" fill="#DBEAFE" stroke="none" stroke-width="1"/>
+<text x="381" y="829" font-size="10" fill="#1D4ED8" font-weight="500" text-anchor="middle">登录</text>
+<rect x="414" y="814" width="50" height="22" rx="11" fill="#F3E8FF" stroke="none" stroke-width="1"/>
+<text x="439" y="829" font-size="10" fill="#7E22CE" font-weight="500" text-anchor="middle">直播</text>
+<rect x="492" y="774" width="140" height="78" rx="7" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="504" y="796" font-size="12" fill="#334155" font-weight="500" text-anchor="start">13</text>
+<rect x="504" y="814" width="50" height="22" rx="11" fill="#DBEAFE" stroke="none" stroke-width="1"/>
+<text x="529" y="829" font-size="10" fill="#1D4ED8" font-weight="500" text-anchor="middle">登录</text>
+<rect x="562" y="814" width="50" height="22" rx="11" fill="#F3E8FF" stroke="none" stroke-width="1"/>
+<text x="587" y="829" font-size="10" fill="#7E22CE" font-weight="500" text-anchor="middle">直播</text>
+<rect x="640" y="774" width="140" height="78" rx="7" fill="#EEF2FF" stroke="#6366F1" stroke-width="1"/>
+<text x="652" y="796" font-size="12" fill="#334155" font-weight="500" text-anchor="start">14</text>
+<rect x="652" y="814" width="50" height="22" rx="11" fill="#DBEAFE" stroke="none" stroke-width="1"/>
+<text x="677" y="829" font-size="10" fill="#1D4ED8" font-weight="500" text-anchor="middle">登录</text>
+<rect x="710" y="814" width="50" height="22" rx="11" fill="#F3E8FF" stroke="none" stroke-width="1"/>
+<text x="735" y="829" font-size="10" fill="#7E22CE" font-weight="500" text-anchor="middle">直播</text>
+<rect x="788" y="774" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="800" y="796" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">15</text>
+<rect x="936" y="774" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="948" y="796" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">16</text>
+<rect x="48" y="862" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="60" y="884" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">17</text>
+<rect x="196" y="862" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="208" y="884" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">18</text>
+<rect x="344" y="862" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="356" y="884" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">19</text>
+<rect x="492" y="862" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="504" y="884" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">20</text>
+<rect x="640" y="862" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="652" y="884" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">21</text>
+<rect x="788" y="862" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="800" y="884" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">22</text>
+<rect x="936" y="862" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="948" y="884" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">23</text>
+<rect x="48" y="950" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="60" y="972" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">24</text>
+<rect x="196" y="950" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="208" y="972" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">25</text>
+<rect x="344" y="950" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="356" y="972" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">26</text>
+<rect x="492" y="950" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="504" y="972" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">27</text>
+<rect x="640" y="950" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="652" y="972" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">28</text>
+<rect x="788" y="950" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="800" y="972" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">29</text>
+<rect x="936" y="950" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="948" y="972" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">30</text>
+<rect x="48" y="1038" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="60" y="1060" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">31</text>
+<rect x="196" y="1038" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="208" y="1060" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">1</text>
+<rect x="344" y="1038" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="356" y="1060" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">2</text>
+<rect x="492" y="1038" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="504" y="1060" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">3</text>
+<rect x="640" y="1038" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="652" y="1060" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">4</text>
+<rect x="788" y="1038" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="800" y="1060" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">5</text>
+<rect x="936" y="1038" width="140" height="78" rx="7" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<text x="948" y="1060" font-size="12" fill="#B6C0CE" font-weight="500" text-anchor="start">6</text>
+<rect x="1136" y="440" width="436" height="326" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="1156" y="471" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">2026年8月14日</text>
+<text x="1156" y="494" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">点击日期查看当日登录与直播详情</text>
+<line x1="1156" y1="508" x2="1552" y2="508" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="1156" y="524" width="67" height="28" rx="14" fill="#DBEAFE" stroke="none" stroke-width="1"/>
+<text x="1189.5" y="543" font-size="12" fill="#1D4ED8" font-weight="500" text-anchor="middle">已登录</text>
+<rect x="1248" y="524" width="67" height="28" rx="14" fill="#F3E8FF" stroke="none" stroke-width="1"/>
+<text x="1281.5" y="543" font-size="12" fill="#7E22CE" font-weight="500" text-anchor="middle">已直播</text>
+<text x="1156" y="590" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">登录次数</text>
+<text x="1280" y="590" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">3次</text>
+<text x="1156" y="624" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">首次登录</text>
+<text x="1280" y="624" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">08:11:06</text>
+<text x="1156" y="658" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">最近登录</text>
+<text x="1280" y="658" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">10:58:32</text>
+<text x="1156" y="692" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">直播数据</text>
+<text x="1280" y="692" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">3小时42分 / 2场</text>
+<text x="1156" y="726" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">最近活跃</text>
+<text x="1280" y="726" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">11:17:09</text>
+<rect x="1136" y="784" width="436" height="376" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="1156" y="815" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">统计口径</text>
+<text x="1156" y="838" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">累计看历史规模，连续看当前活跃稳定性</text>
+<line x1="1156" y1="852" x2="1552" y2="852" stroke="#E2E8F0" stroke-width="1"/>
+<text x="1156" y="876" font-size="12" fill="#475569" font-weight="400" text-anchor="start">• 所有日期边界使用服务器时间 UTC+8</text>
+<text x="1156" y="914" font-size="12" fill="#475569" font-weight="400" text-anchor="start">• 同一自然日多次登录只计1个登录日</text>
+<text x="1156" y="952" font-size="12" fill="#475569" font-weight="400" text-anchor="start">• 同一自然日多场直播只计1个直播日</text>
+<text x="1156" y="990" font-size="12" fill="#475569" font-weight="400" text-anchor="start">• 跨零点直播按实际涉及的自然日标记</text>
+<text x="1156" y="1028" font-size="12" fill="#475569" font-weight="400" text-anchor="start">• 当天未结束时不提前判定连续中断</text>
+<line x1="1156" y1="1052" x2="1552" y2="1052" stroke="#E2E8F0" stroke-width="1"/>
+<text x="1156" y="1086" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">本月截至8月14日</text>
+<text x="1156" y="1118" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">登录 13天    直播 11天</text>
+<text x="1156" y="1144" font-size="11" fill="#047857" font-weight="500" text-anchor="start">较上月同期：登录 +2天  ·  直播 +3天</text>
+</svg>

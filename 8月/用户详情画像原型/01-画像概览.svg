@@ -1,0 +1,292 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1390" viewBox="0 0 1600 1390">
+<style>text{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif} .shadow{filter:drop-shadow(0 2px 6px rgba(15,23,42,.06))}</style>
+<rect x="0" y="0" width="1600" height="1390" rx="0" fill="#F5F7FB" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="1600" height="58" rx="0" fill="#111827" stroke="none" stroke-width="1"/>
+<text x="28" y="36" font-size="18" fill="#FFFFFF" font-weight="500" text-anchor="start">SANO 管理后台</text>
+<text x="190" y="35" font-size="13" fill="#CBD5E1" font-weight="400" text-anchor="start">用户管理  /  用户详情（画像）</text>
+<rect x="1330" y="15" width="112" height="28" rx="14" fill="#263247" stroke="none" stroke-width="1"/>
+<text x="1386" y="34" font-size="12" fill="#D5DEEC" font-weight="500" text-anchor="middle">原型示例数据</text>
+<text x="1550" y="35" font-size="13" fill="#E2E8F0" font-weight="400" text-anchor="end">管理员</text>
+<rect x="20" y="72" width="1560" height="146" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<circle cx="78" cy="126" r="34" fill="#E0E7FF"/>
+<text x="78" y="136" font-size="28" fill="#4F46E5" font-weight="500" text-anchor="middle">L</text>
+<text x="126" y="105" font-size="20" fill="#0F172A" font-weight="500" text-anchor="start">Lina_Star</text>
+<text x="126" y="130" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">ID 102938475 · 泰国 · 女</text>
+<rect x="126" y="148" width="82" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="167" y="167" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="middle">高级主播</text>
+<rect x="216" y="148" width="82" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="257" y="167" font-size="12" fill="#047857" font-weight="500" text-anchor="middle">优质主播</text>
+<rect x="306" y="148" width="82" height="28" rx="14" fill="#FFF7ED" stroke="none" stroke-width="1"/>
+<text x="347" y="167" font-size="12" fill="#C2410C" font-weight="500" text-anchor="middle">公会成员</text>
+<rect x="396" y="148" width="97" height="28" rx="14" fill="#FDF2F8" stroke="none" stroke-width="1"/>
+<text x="444.5" y="167" font-size="12" fill="#BE185D" font-weight="500" text-anchor="middle">VIP 6</text>
+<rect x="126" y="181" width="112" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="182" y="200" font-size="12" fill="#047857" font-weight="500" text-anchor="middle">实名认证通过</text>
+<text x="510" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">财富等级</text>
+<text x="510" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">Lv.42</text>
+<text x="655" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">魅力等级</text>
+<text x="655" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">Lv.36</text>
+<text x="800" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">金币余额</text>
+<text x="800" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">1,286,400</text>
+<text x="945" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">钻石余额</text>
+<text x="945" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">92,680,000</text>
+<text x="1090" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">累计充值</text>
+<text x="1090" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">$48,260.00</text>
+<text x="1235" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">累计提现</text>
+<text x="1235" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">$31,800.00</text>
+<text x="1380" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">今日直播</text>
+<text x="1380" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">3小时42分</text>
+<text x="510" y="184" font-size="12" fill="#475569" font-weight="500" text-anchor="start">主播综合评分 86.4</text>
+<text x="660" y="184" font-size="12" fill="#475569" font-weight="500" text-anchor="start">用户综合评分 79.8</text>
+<text x="810" y="184" font-size="12" fill="#475569" font-weight="500" text-anchor="start">幸运礼物EV 96.55%</text>
+<text x="1420" y="196" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">更新于 2026-08-14 11:20:08</text>
+<rect x="20" y="230" width="1560" height="54" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="112" y="263" font-size="14" fill="#4F46E5" font-weight="500" text-anchor="middle">画像概览</text>
+<rect x="60" y="279" width="104" height="3" rx="2" fill="#4F46E5" stroke="none" stroke-width="1"/>
+<text x="282" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">用户活跃日历</text>
+<text x="452" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">身份与关系</text>
+<text x="622" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">资产与交易</text>
+<text x="792" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">消费与收益</text>
+<text x="962" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">直播分析</text>
+<text x="1132" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">风控记录</text>
+<text x="1535" y="263" font-size="12" fill="#94A3B8" font-weight="400" text-anchor="end">画像概览</text>
+<text x="28" y="316" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">价值判断摘要</text>
+<rect x="28" y="334" width="760" height="172" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="48" y="365" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">主播价值</text>
+<text x="48" y="388" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">用现有评分、近期收入、平台经营贡献、活跃稳定性和风险证据支持判断</text>
+<line x1="48" y1="402" x2="768" y2="402" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="48" y="416" width="97" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="96.5" y="435" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="middle">成长型主播</text>
+<text x="164" y="434" font-size="12" fill="#334155" font-weight="500" text-anchor="start">主播评分 86.4</text>
+<text x="290" y="434" font-size="12" fill="#334155" font-weight="500" text-anchor="start">近7天收入 $4,620.80</text>
+<text x="482" y="434" font-size="12" fill="#047857" font-weight="500" text-anchor="start">较前7天 ↑18.6%</text>
+<text x="48" y="464" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="start">平台贡献净收益 $1,745.60  ·  较前7天 ↑15.2%  ·  查看计算明细 →</text>
+<text x="48" y="490" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">每小时收入 $158.76  ·  连续直播4天  ·  Top1贡献31%  ·  当前低风险</text>
+<rect x="806" y="334" width="766" height="172" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="826" y="365" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">用户价值</text>
+<text x="826" y="388" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">用现有评分、资金贡献、近期消费、登录稳定性和风险证据支持判断</text>
+<line x1="826" y1="402" x2="1552" y2="402" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="826" y="416" width="97" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="874.5" y="435" font-size="12" fill="#047857" font-weight="500" text-anchor="middle">高价值活跃</text>
+<text x="942" y="434" font-size="12" fill="#334155" font-weight="500" text-anchor="start">用户评分 79.8</text>
+<text x="1068" y="434" font-size="12" fill="#334155" font-weight="500" text-anchor="start">近7天消费 $11,480.00</text>
+<text x="1272" y="434" font-size="12" fill="#047857" font-weight="500" text-anchor="start">较前7天 ↑12.3%</text>
+<text x="826" y="466" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">累计充值 $48,260  ·  连续登录9天  ·  Top1去处28%  ·  当前低风险</text>
+<g transform="translate(0 214)">
+<text x="28" y="316" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">今日关键数据</text>
+<rect x="28" y="334" width="210" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="28" y="334" width="4" height="88" rx="2" fill="#4F46E5" stroke="none" stroke-width="1"/>
+<text x="44" y="359" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">今日充值</text>
+<text x="44" y="389" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">$1,280.00</text>
+<text x="44" y="409" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">成功金额</text>
+<rect x="248" y="334" width="210" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="248" y="334" width="4" height="88" rx="2" fill="#0EA5E9" stroke="none" stroke-width="1"/>
+<text x="264" y="359" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">今日提现</text>
+<text x="264" y="389" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">$420.00</text>
+<text x="264" y="409" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">按打款日</text>
+<rect x="468" y="334" width="210" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="468" y="334" width="4" height="88" rx="2" fill="#F59E0B" stroke="none" stroke-width="1"/>
+<text x="484" y="359" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">今日消费</text>
+<text x="484" y="389" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">$856.30</text>
+<text x="484" y="409" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">截至11:20</text>
+<rect x="688" y="334" width="210" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="688" y="334" width="4" height="88" rx="2" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="704" y="359" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">今日返奖</text>
+<text x="704" y="389" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">$214.60</text>
+<text x="704" y="409" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">幸运+游戏</text>
+<rect x="908" y="334" width="210" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="908" y="334" width="4" height="88" rx="2" fill="#EF4444" stroke="none" stroke-width="1"/>
+<text x="924" y="359" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">Jackpot中奖</text>
+<text x="924" y="389" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">$500.00</text>
+<text x="924" y="409" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">幸运+游戏</text>
+<rect x="1128" y="334" width="210" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="1128" y="334" width="4" height="88" rx="2" fill="#8B5CF6" stroke="none" stroke-width="1"/>
+<text x="1144" y="359" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">单人直播</text>
+<text x="1144" y="389" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">2小时18分</text>
+<text x="1144" y="409" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">今日</text>
+<rect x="1348" y="334" width="210" height="88" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="1348" y="334" width="4" height="88" rx="2" fill="#EC4899" stroke="none" stroke-width="1"/>
+<text x="1364" y="359" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">多人直播</text>
+<text x="1364" y="389" font-size="21" fill="#0F172A" font-weight="500" text-anchor="start">1小时24分</text>
+<text x="1364" y="409" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">今日</text>
+<rect x="28" y="440" width="760" height="330" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="48" y="471" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">近7天消费构成</text>
+<text x="48" y="494" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">看消费规模与普通礼物、幸运礼物、游戏、商城和VIP的构成变化</text>
+<line x1="48" y1="508" x2="768" y2="508" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="76" y1="708" x2="746" y2="708" stroke="#CBD5E1" stroke-width="1"/>
+<line x1="76" y1="528" x2="76" y2="708" stroke="#CBD5E1" stroke-width="1"/>
+<line x1="76" y1="573" x2="746" y2="573" stroke="#EEF2F7" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="76" y1="618" x2="746" y2="618" stroke="#EEF2F7" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="76" y1="663" x2="746" y2="663" stroke="#EEF2F7" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="68" y="532" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="end">$</text>
+<rect x="100" y="680.28" width="42" height="27.72" rx="2" fill="#4F46E5" stroke="none" stroke-width="1"/>
+<rect x="100" y="663.78" width="42" height="16.5" rx="2" fill="#F59E0B" stroke="none" stroke-width="1"/>
+<rect x="100" y="651.9" width="42" height="11.88" rx="2" fill="#10B981" stroke="none" stroke-width="1"/>
+<rect x="100" y="645.96" width="42" height="5.94" rx="2" fill="#8B5CF6" stroke="none" stroke-width="1"/>
+<rect x="100" y="642" width="42" height="3.96" rx="2" fill="#EC4899" stroke="none" stroke-width="1"/>
+<rect x="192" y="666.42" width="42" height="41.58" rx="2" fill="#4F46E5" stroke="none" stroke-width="1"/>
+<rect x="192" y="641.67" width="42" height="24.75" rx="2" fill="#F59E0B" stroke="none" stroke-width="1"/>
+<rect x="192" y="623.85" width="42" height="17.82" rx="2" fill="#10B981" stroke="none" stroke-width="1"/>
+<rect x="192" y="614.94" width="42" height="8.91" rx="2" fill="#8B5CF6" stroke="none" stroke-width="1"/>
+<rect x="192" y="609" width="42" height="5.94" rx="2" fill="#EC4899" stroke="none" stroke-width="1"/>
+<rect x="284" y="674.505" width="42" height="33.495" rx="2" fill="#4F46E5" stroke="none" stroke-width="1"/>
+<rect x="284" y="654.5675" width="42" height="19.9375" rx="2" fill="#F59E0B" stroke="none" stroke-width="1"/>
+<rect x="284" y="640.2125" width="42" height="14.355" rx="2" fill="#10B981" stroke="none" stroke-width="1"/>
+<rect x="284" y="633.035" width="42" height="7.1775" rx="2" fill="#8B5CF6" stroke="none" stroke-width="1"/>
+<rect x="284" y="628.25" width="42" height="4.785" rx="2" fill="#EC4899" stroke="none" stroke-width="1"/>
+<rect x="376" y="652.56" width="42" height="55.44" rx="2" fill="#4F46E5" stroke="none" stroke-width="1"/>
+<rect x="376" y="619.56" width="42" height="33" rx="2" fill="#F59E0B" stroke="none" stroke-width="1"/>
+<rect x="376" y="595.8" width="42" height="23.76" rx="2" fill="#10B981" stroke="none" stroke-width="1"/>
+<rect x="376" y="583.92" width="42" height="11.88" rx="2" fill="#8B5CF6" stroke="none" stroke-width="1"/>
+<rect x="376" y="576" width="42" height="7.92" rx="2" fill="#EC4899" stroke="none" stroke-width="1"/>
+<rect x="468" y="659.49" width="42" height="48.51" rx="2" fill="#4F46E5" stroke="none" stroke-width="1"/>
+<rect x="468" y="630.615" width="42" height="28.875" rx="2" fill="#F59E0B" stroke="none" stroke-width="1"/>
+<rect x="468" y="609.825" width="42" height="20.79" rx="2" fill="#10B981" stroke="none" stroke-width="1"/>
+<rect x="468" y="599.43" width="42" height="10.395" rx="2" fill="#8B5CF6" stroke="none" stroke-width="1"/>
+<rect x="468" y="592.5" width="42" height="6.93" rx="2" fill="#EC4899" stroke="none" stroke-width="1"/>
+<rect x="560" y="634.08" width="42" height="73.92" rx="2" fill="#4F46E5" stroke="none" stroke-width="1"/>
+<rect x="560" y="590.08" width="42" height="44" rx="2" fill="#F59E0B" stroke="none" stroke-width="1"/>
+<rect x="560" y="558.4" width="42" height="31.68" rx="2" fill="#10B981" stroke="none" stroke-width="1"/>
+<rect x="560" y="542.56" width="42" height="15.84" rx="2" fill="#8B5CF6" stroke="none" stroke-width="1"/>
+<rect x="560" y="532" width="42" height="10.56" rx="2" fill="#EC4899" stroke="none" stroke-width="1"/>
+<rect x="652" y="642.165" width="42" height="65.835" rx="2" fill="#4F46E5" stroke="none" stroke-width="1"/>
+<rect x="652" y="602.9775" width="42" height="39.1875" rx="2" fill="#F59E0B" stroke="none" stroke-width="1"/>
+<rect x="652" y="574.7625" width="42" height="28.215" rx="2" fill="#10B981" stroke="none" stroke-width="1"/>
+<rect x="652" y="560.655" width="42" height="14.1075" rx="2" fill="#8B5CF6" stroke="none" stroke-width="1"/>
+<rect x="652" y="551.25" width="42" height="9.405" rx="2" fill="#EC4899" stroke="none" stroke-width="1"/>
+<text x="121" y="730" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="middle">08-08</text>
+<text x="213" y="730" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="middle">08-09</text>
+<text x="305" y="730" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="middle">08-10</text>
+<text x="397" y="730" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="middle">08-11</text>
+<text x="489" y="730" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="middle">08-12</text>
+<text x="581" y="730" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="middle">08-13</text>
+<text x="673" y="730" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="middle">08-14</text>
+<text x="76" y="754" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">■ 普通礼物   ■ 幸运礼物   ■ 游戏   ■ 商城道具   ■ VIP</text>
+<rect x="806" y="440" width="766" height="330" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="826" y="471" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">近7天直播趋势</text>
+<text x="826" y="494" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">时长对应左轴；观看人次和直播场次对应右轴双值刻度</text>
+<line x1="826" y1="508" x2="1552" y2="508" stroke="#E2E8F0" stroke-width="1"/>
+<line x1="854" y1="708" x2="1524" y2="708" stroke="#CBD5E1" stroke-width="1"/>
+<line x1="854" y1="528" x2="854" y2="708" stroke="#CBD5E1" stroke-width="1"/>
+<line x1="854" y1="573" x2="1524" y2="573" stroke="#EEF2F7" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="854" y1="618" x2="1524" y2="618" stroke="#EEF2F7" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="854" y1="663" x2="1524" y2="663" stroke="#EEF2F7" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="846" y="532" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="end">小时</text>
+<rect x="882" y="637.6" width="42" height="70.4" rx="3" fill="#A5B4FC" stroke="none" stroke-width="1"/>
+<rect x="974" y="620" width="42" height="88" rx="3" fill="#A5B4FC" stroke="none" stroke-width="1"/>
+<rect x="1066" y="653" width="42" height="55" rx="3" fill="#A5B4FC" stroke="none" stroke-width="1"/>
+<rect x="1158" y="595.8" width="42" height="112.2" rx="3" fill="#A5B4FC" stroke="none" stroke-width="1"/>
+<rect x="1250" y="606.8" width="42" height="101.2" rx="3" fill="#A5B4FC" stroke="none" stroke-width="1"/>
+<rect x="1342" y="576" width="42" height="132" rx="3" fill="#A5B4FC" stroke="none" stroke-width="1"/>
+<rect x="1434" y="626.6" width="42" height="81.4" rx="3" fill="#A5B4FC" stroke="none" stroke-width="1"/>
+<polyline points="903,619.8 995,600.9 1087,638.7 1179,578.4 1271,589.2 1363,546.9 1455,543.21" fill="none" stroke="#F97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="903" cy="619.8" r="4" fill="#F97316"/>
+<circle cx="995" cy="600.9" r="4" fill="#F97316"/>
+<circle cx="1087" cy="638.7" r="4" fill="#F97316"/>
+<circle cx="1179" cy="578.4" r="4" fill="#F97316"/>
+<circle cx="1271" cy="589.2" r="4" fill="#F97316"/>
+<circle cx="1363" cy="546.9" r="4" fill="#F97316"/>
+<circle cx="1455" cy="543.21" r="4" fill="#F97316"/>
+<polyline points="903,648 995,618 1087,648 1179,588 1271,618 1363,558 1455,618" fill="none" stroke="#8B5CF6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="903" cy="648" r="4" fill="#8B5CF6"/>
+<circle cx="995" cy="618" r="4" fill="#8B5CF6"/>
+<circle cx="1087" cy="648" r="4" fill="#8B5CF6"/>
+<circle cx="1179" cy="588" r="4" fill="#8B5CF6"/>
+<circle cx="1271" cy="618" r="4" fill="#8B5CF6"/>
+<circle cx="1363" cy="558" r="4" fill="#8B5CF6"/>
+<circle cx="1455" cy="618" r="4" fill="#8B5CF6"/>
+<line x1="1524" y1="528" x2="1524" y2="708" stroke="#CBD5E1" stroke-width="1"/>
+<text x="1532" y="532" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="start">4,000 / 6</text>
+<text x="1532" y="577" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="start">3,000 / 4.5</text>
+<text x="1532" y="622" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="start">2,000 / 3</text>
+<text x="1532" y="667" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="start">1,000 / 1.5</text>
+<text x="1532" y="706" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="start">0 / 0</text>
+<text x="1560" y="514" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="end">人次 / 场次</text>
+<text x="903" y="730" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="middle">08-08</text>
+<text x="995" y="730" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="middle">08-09</text>
+<text x="1087" y="730" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="middle">08-10</text>
+<text x="1179" y="730" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="middle">08-11</text>
+<text x="1271" y="730" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="middle">08-12</text>
+<text x="1363" y="730" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="middle">08-13</text>
+<text x="1455" y="730" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="middle">08-14</text>
+<text x="854" y="754" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">■ 直播时长（左轴）   ● 观看人次（右轴）   ● 直播场次（右轴）</text>
+<rect x="28" y="788" width="505" height="370" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="48" y="819" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">近7天收入来源 Top 3</text>
+<text x="48" y="842" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">谁给当前用户消费，识别核心贡献者</text>
+<line x1="48" y1="856" x2="513" y2="856" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="48" y="862" width="465" height="36" rx="6" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<text x="58" y="885" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">排名</text>
+<text x="113" y="885" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">消费者</text>
+<text x="263" y="885" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">公会ID</text>
+<text x="368" y="885" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">近7天金额</text>
+<line x1="48" y1="898" x2="513" y2="898" stroke="#EEF2F7" stroke-width="1"/>
+<text x="58" y="923" font-size="12" fill="#334155" font-weight="400" text-anchor="start">1</text>
+<text x="113" y="923" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Arun · 882016</text>
+<text x="263" y="923" font-size="12" fill="#334155" font-weight="400" text-anchor="start">G-1024</text>
+<text x="368" y="923" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$3,680.00</text>
+<line x1="48" y1="946" x2="513" y2="946" stroke="#EEF2F7" stroke-width="1"/>
+<text x="58" y="971" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2</text>
+<text x="113" y="971" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Mina · 552193</text>
+<text x="263" y="971" font-size="12" fill="#334155" font-weight="400" text-anchor="start">G-2048</text>
+<text x="368" y="971" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$2,910.50</text>
+<line x1="48" y1="994" x2="513" y2="994" stroke="#EEF2F7" stroke-width="1"/>
+<text x="58" y="1019" font-size="12" fill="#334155" font-weight="400" text-anchor="start">3</text>
+<text x="113" y="1019" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Nok · 761829</text>
+<text x="263" y="1019" font-size="12" fill="#334155" font-weight="400" text-anchor="start">G-1024</text>
+<text x="368" y="1019" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$1,860.00</text>
+<text x="48" y="1067" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">普通礼物  62%    幸运礼物  25%    游戏  13%</text>
+<rect x="48" y="1090" width="445" height="12" rx="6" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<rect x="48" y="1090" width="276" height="12" rx="6" fill="#4F46E5" stroke="none" stroke-width="1"/>
+<text x="48" y="1128" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="start">查看全部收入来源 →</text>
+<rect x="548" y="788" width="505" height="370" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="568" y="819" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">近7天消费去处 Top 3</text>
+<text x="568" y="842" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">当前用户给谁消费，识别偏好与集中关系</text>
+<line x1="568" y1="856" x2="1033" y2="856" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="568" y="862" width="465" height="36" rx="6" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<text x="578" y="885" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">排名</text>
+<text x="633" y="885" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">收益者</text>
+<text x="783" y="885" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">公会ID</text>
+<text x="888" y="885" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">近7天金额</text>
+<line x1="568" y1="898" x2="1033" y2="898" stroke="#EEF2F7" stroke-width="1"/>
+<text x="578" y="923" font-size="12" fill="#334155" font-weight="400" text-anchor="start">1</text>
+<text x="633" y="923" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Ploy · 991205</text>
+<text x="783" y="923" font-size="12" fill="#334155" font-weight="400" text-anchor="start">G-3091</text>
+<text x="888" y="923" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$2,760.00</text>
+<line x1="568" y1="946" x2="1033" y2="946" stroke="#EEF2F7" stroke-width="1"/>
+<text x="578" y="971" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2</text>
+<text x="633" y="971" font-size="12" fill="#334155" font-weight="400" text-anchor="start">June · 620418</text>
+<text x="783" y="971" font-size="12" fill="#334155" font-weight="400" text-anchor="start">G-1024</text>
+<text x="888" y="971" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$1,940.50</text>
+<line x1="568" y1="994" x2="1033" y2="994" stroke="#EEF2F7" stroke-width="1"/>
+<text x="578" y="1019" font-size="12" fill="#334155" font-weight="400" text-anchor="start">3</text>
+<text x="633" y="1019" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Amy · 340872</text>
+<text x="783" y="1019" font-size="12" fill="#334155" font-weight="400" text-anchor="start">G-7621</text>
+<text x="888" y="1019" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$920.00</text>
+<text x="568" y="1067" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">普通礼物  48%    幸运礼物  37%    游戏  15%</text>
+<rect x="568" y="1090" width="445" height="12" rx="6" fill="#FFF7ED" stroke="none" stroke-width="1"/>
+<rect x="568" y="1090" width="215" height="12" rx="6" fill="#F59E0B" stroke="none" stroke-width="1"/>
+<text x="568" y="1128" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="start">查看全部消费去处 →</text>
+<rect x="1068" y="788" width="504" height="370" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="1088" y="819" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">关系、风险与关键事件</text>
+<text x="1088" y="842" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">确认组织归属、当前风险及最近的重要变化</text>
+<line x1="1088" y1="856" x2="1552" y2="856" stroke="#E2E8F0" stroke-width="1"/>
+<text x="1088" y="872" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">当前公会</text>
+<text x="1190" y="872" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">Bright Star / G-1024</text>
+<text x="1088" y="906" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">所属运营</text>
+<text x="1190" y="906" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">OP-208 / Nita</text>
+<text x="1088" y="940" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">会员状态</text>
+<text x="1190" y="940" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">VIP 6，有效至 2026-09-18</text>
+<line x1="1088" y1="962" x2="1552" y2="962" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="1088" y="982" width="112" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="1144" y="1001" font-size="12" fill="#047857" font-weight="500" text-anchor="middle">实名认证通过</text>
+<rect x="1225" y="982" width="112" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="1281" y="1001" font-size="12" fill="#047857" font-weight="500" text-anchor="middle">无有效黑名单</text>
+<text x="1088" y="1048" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">08-14</text>
+<text x="1170" y="1048" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">今日充值 $1,280.00</text>
+<text x="1088" y="1082" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">08-12</text>
+<text x="1170" y="1082" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">真人比对不一致，已关播</text>
+<text x="1088" y="1116" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">08-10</text>
+<text x="1170" y="1116" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">连续直播中断</text>
+<text x="1088" y="1144" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="start">查看全部关键事件与风险证据 →</text>
+</g>
+</svg>

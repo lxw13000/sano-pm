@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1440" viewBox="0 0 1600 1440">
+<style>text{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif} .shadow{filter:drop-shadow(0 2px 6px rgba(15,23,42,.06))}</style>
+<rect x="0" y="0" width="1600" height="1440" rx="0" fill="#F5F7FB" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="1600" height="58" rx="0" fill="#111827" stroke="none" stroke-width="1"/>
+<text x="28" y="36" font-size="18" fill="#FFFFFF" font-weight="500" text-anchor="start">SANO 管理后台</text>
+<text x="190" y="35" font-size="13" fill="#CBD5E1" font-weight="400" text-anchor="start">用户管理  /  用户详情（画像）</text>
+<rect x="1330" y="15" width="112" height="28" rx="14" fill="#263247" stroke="none" stroke-width="1"/>
+<text x="1386" y="34" font-size="12" fill="#D5DEEC" font-weight="500" text-anchor="middle">原型示例数据</text>
+<text x="1550" y="35" font-size="13" fill="#E2E8F0" font-weight="400" text-anchor="end">管理员</text>
+<rect x="20" y="72" width="1560" height="146" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<circle cx="78" cy="126" r="34" fill="#E0E7FF"/>
+<text x="78" y="136" font-size="28" fill="#4F46E5" font-weight="500" text-anchor="middle">L</text>
+<text x="126" y="105" font-size="20" fill="#0F172A" font-weight="500" text-anchor="start">Lina_Star</text>
+<text x="126" y="130" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">ID 102938475 · 泰国 · 女</text>
+<rect x="126" y="148" width="82" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="167" y="167" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="middle">高级主播</text>
+<rect x="216" y="148" width="82" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="257" y="167" font-size="12" fill="#047857" font-weight="500" text-anchor="middle">优质主播</text>
+<rect x="306" y="148" width="82" height="28" rx="14" fill="#FFF7ED" stroke="none" stroke-width="1"/>
+<text x="347" y="167" font-size="12" fill="#C2410C" font-weight="500" text-anchor="middle">公会成员</text>
+<rect x="396" y="148" width="97" height="28" rx="14" fill="#FDF2F8" stroke="none" stroke-width="1"/>
+<text x="444.5" y="167" font-size="12" fill="#BE185D" font-weight="500" text-anchor="middle">VIP 6</text>
+<rect x="126" y="181" width="112" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="182" y="200" font-size="12" fill="#047857" font-weight="500" text-anchor="middle">实名认证通过</text>
+<text x="510" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">财富等级</text>
+<text x="510" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">Lv.42</text>
+<text x="655" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">魅力等级</text>
+<text x="655" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">Lv.36</text>
+<text x="800" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">金币余额</text>
+<text x="800" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">1,286,400</text>
+<text x="945" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">钻石余额</text>
+<text x="945" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">92,680,000</text>
+<text x="1090" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">累计充值</text>
+<text x="1090" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">$48,260.00</text>
+<text x="1235" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">累计提现</text>
+<text x="1235" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">$31,800.00</text>
+<text x="1380" y="111" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">今日直播</text>
+<text x="1380" y="139" font-size="17" fill="#0F172A" font-weight="500" text-anchor="start">3小时42分</text>
+<text x="510" y="184" font-size="12" fill="#475569" font-weight="500" text-anchor="start">主播综合评分 86.4</text>
+<text x="660" y="184" font-size="12" fill="#475569" font-weight="500" text-anchor="start">用户综合评分 79.8</text>
+<text x="810" y="184" font-size="12" fill="#475569" font-weight="500" text-anchor="start">幸运礼物EV 96.55%</text>
+<text x="1420" y="196" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">更新于 2026-08-14 11:20:08</text>
+<rect x="20" y="230" width="1560" height="54" rx="10" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="112" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">画像概览</text>
+<text x="282" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">用户活跃日历</text>
+<text x="452" y="263" font-size="14" fill="#4F46E5" font-weight="500" text-anchor="middle">身份与关系</text>
+<rect x="400" y="279" width="104" height="3" rx="2" fill="#4F46E5" stroke="none" stroke-width="1"/>
+<text x="622" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">资产与交易</text>
+<text x="792" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">消费与收益</text>
+<text x="962" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">直播分析</text>
+<text x="1132" y="263" font-size="14" fill="#64748B" font-weight="400" text-anchor="middle">风控记录</text>
+<text x="1535" y="263" font-size="12" fill="#94A3B8" font-weight="400" text-anchor="end">身份与关系</text>
+<rect x="28" y="310" width="1544" height="188" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="48" y="341" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">基础资料</text>
+<text x="48" y="364" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">确认用户来源、登录活跃和账号状态</text>
+<line x1="48" y1="378" x2="1552" y2="378" stroke="#E2E8F0" stroke-width="1"/>
+<text x="52" y="400" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">昵称</text>
+<text x="170" y="400" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">Lina_Star</text>
+<text x="52" y="434" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">邮箱</text>
+<text x="170" y="434" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">li***@mail.com</text>
+<text x="52" y="468" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">语言</text>
+<text x="170" y="468" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">泰语</text>
+<text x="380" y="400" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">注册时间</text>
+<text x="498" y="400" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">2025-03-18 14:22:06</text>
+<text x="380" y="434" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">注册渠道</text>
+<text x="498" y="434" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">Google Ads / TH</text>
+<text x="380" y="468" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">注册设备</text>
+<text x="498" y="468" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">iPhone 15 / iOS 18.2</text>
+<text x="780" y="400" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">最近登录</text>
+<text x="898" y="400" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">2026-08-14 10:58:32</text>
+<text x="780" y="434" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">最近活跃</text>
+<text x="898" y="434" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">2026-08-14 11:17:09</text>
+<text x="780" y="468" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">登录IP国家</text>
+<text x="898" y="468" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">泰国 / 49.228.***.***</text>
+<text x="1190" y="400" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">账号状态</text>
+<text x="1308" y="400" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">正常</text>
+<text x="1190" y="434" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">是否首充</text>
+<text x="1308" y="434" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">是</text>
+<text x="1190" y="468" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">资料更新时间</text>
+<text x="1308" y="468" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">2026-08-14 11:20:08</text>
+<rect x="28" y="516" width="1544" height="200" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="48" y="547" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">主播及业务角色</text>
+<text x="48" y="570" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">多角色独立展示，保留生效时间、等级和运营归属</text>
+<line x1="48" y1="584" x2="1552" y2="584" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="48" y="596" width="202" height="92" rx="8" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="48" y="596" width="4" height="92" rx="2" fill="#4F46E5" stroke="none" stroke-width="1"/>
+<text x="63" y="625" font-size="13" fill="#0F172A" font-weight="500" text-anchor="start">高级主播</text>
+<text x="63" y="650" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="start">有效</text>
+<text x="63" y="674" font-size="10" fill="#64748B" font-weight="400" text-anchor="start">2026-04-02通过 · 连续134天</text>
+<rect x="264" y="596" width="202" height="92" rx="8" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="264" y="596" width="4" height="92" rx="2" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="279" y="625" font-size="13" fill="#0F172A" font-weight="500" text-anchor="start">优质主播</text>
+<text x="279" y="650" font-size="12" fill="#10B981" font-weight="500" text-anchor="start">有效</text>
+<text x="279" y="674" font-size="10" fill="#64748B" font-weight="400" text-anchor="start">2026-05-16通过 · 连续90天</text>
+<rect x="480" y="596" width="202" height="92" rx="8" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="480" y="596" width="4" height="92" rx="2" fill="#94A3B8" stroke="none" stroke-width="1"/>
+<text x="495" y="625" font-size="13" fill="#0F172A" font-weight="500" text-anchor="start">公会长</text>
+<text x="495" y="650" font-size="12" fill="#94A3B8" font-weight="500" text-anchor="start">否</text>
+<text x="495" y="674" font-size="10" fill="#64748B" font-weight="400" text-anchor="start">未开通</text>
+<rect x="696" y="596" width="202" height="92" rx="8" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="696" y="596" width="4" height="92" rx="2" fill="#94A3B8" stroke="none" stroke-width="1"/>
+<text x="711" y="625" font-size="13" fill="#0F172A" font-weight="500" text-anchor="start">币商</text>
+<text x="711" y="650" font-size="12" fill="#94A3B8" font-weight="500" text-anchor="start">否</text>
+<text x="711" y="674" font-size="10" fill="#64748B" font-weight="400" text-anchor="start">未开通</text>
+<rect x="912" y="596" width="202" height="92" rx="8" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="912" y="596" width="4" height="92" rx="2" fill="#F59E0B" stroke="none" stroke-width="1"/>
+<text x="927" y="625" font-size="13" fill="#0F172A" font-weight="500" text-anchor="start">Payroll</text>
+<text x="927" y="650" font-size="12" fill="#F59E0B" font-weight="500" text-anchor="start">有效</text>
+<text x="927" y="674" font-size="10" fill="#64748B" font-weight="400" text-anchor="start">2026-06-01 · OP-208</text>
+<rect x="1128" y="596" width="202" height="92" rx="8" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="1128" y="596" width="4" height="92" rx="2" fill="#94A3B8" stroke="none" stroke-width="1"/>
+<text x="1143" y="625" font-size="13" fill="#0F172A" font-weight="500" text-anchor="start">BD</text>
+<text x="1143" y="650" font-size="12" fill="#94A3B8" font-weight="500" text-anchor="start">否</text>
+<text x="1143" y="674" font-size="10" fill="#64748B" font-weight="400" text-anchor="start">未开通</text>
+<rect x="1344" y="596" width="202" height="92" rx="8" fill="#F8FAFC" stroke="#E5EAF2" stroke-width="1"/>
+<rect x="1344" y="596" width="4" height="92" rx="2" fill="#EC4899" stroke="none" stroke-width="1"/>
+<text x="1359" y="625" font-size="13" fill="#0F172A" font-weight="500" text-anchor="start">会员 VIP6</text>
+<text x="1359" y="650" font-size="12" fill="#EC4899" font-weight="500" text-anchor="start">有效</text>
+<text x="1359" y="674" font-size="10" fill="#64748B" font-weight="400" text-anchor="start">至2026-09-18</text>
+<rect x="28" y="734" width="650" height="404" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="48" y="765" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">实名认证</text>
+<text x="48" y="788" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">查看认证结果与图片，认证状态和禁止真人认证状态分开表达</text>
+<line x1="48" y1="802" x2="658" y2="802" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="48" y="812" width="82" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="89" y="831" font-size="12" fill="#047857" font-weight="500" text-anchor="middle">认证通过</text>
+<rect x="160" y="812" width="112" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="216" y="831" font-size="12" fill="#047857" font-weight="500" text-anchor="middle">允许真人认证</text>
+<rect x="48" y="860" width="174" height="190" rx="8" fill="#E8EEF7" stroke="none" stroke-width="1"/>
+<rect x="92" y="892" width="86" height="58" rx="6" fill="#CBD5E1" stroke="none" stroke-width="1"/>
+<circle cx="135" cy="995" r="22" fill="#94A3B8"/>
+<text x="135" y="1080" font-size="12" fill="#64748B" font-weight="400" text-anchor="middle">证件正面</text>
+<rect x="242" y="860" width="174" height="190" rx="8" fill="#E8EEF7" stroke="none" stroke-width="1"/>
+<rect x="286" y="892" width="86" height="58" rx="6" fill="#CBD5E1" stroke="none" stroke-width="1"/>
+<circle cx="329" cy="995" r="22" fill="#94A3B8"/>
+<text x="329" y="1080" font-size="12" fill="#64748B" font-weight="400" text-anchor="middle">证件背面</text>
+<rect x="436" y="860" width="174" height="190" rx="8" fill="#E8EEF7" stroke="none" stroke-width="1"/>
+<rect x="480" y="892" width="86" height="58" rx="6" fill="#CBD5E1" stroke="none" stroke-width="1"/>
+<circle cx="523" cy="995" r="22" fill="#94A3B8"/>
+<text x="523" y="1080" font-size="12" fill="#64748B" font-weight="400" text-anchor="middle">真人照片</text>
+<text x="48" y="1116" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="start">点击缩略图预览 · 图片带查看人和时间水印</text>
+<rect x="696" y="734" width="876" height="404" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="716" y="765" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">当前公会与下级关系</text>
+<text x="716" y="788" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">确认组织层级、运营归属及已经计算完成的分层结果</text>
+<line x1="716" y1="802" x2="1552" y2="802" stroke="#E2E8F0" stroke-width="1"/>
+<text x="716" y="817" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">当前公会</text>
+<text x="832" y="817" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">Bright Star / G-1024</text>
+<text x="716" y="849" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">公会长</text>
+<text x="832" y="849" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">Araya / 22019384</text>
+<text x="716" y="881" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">所属运营</text>
+<text x="832" y="881" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">Nita / OP-208</text>
+<text x="716" y="913" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">加入时间</text>
+<text x="832" y="913" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">2025-05-01 09:30:00</text>
+<text x="1110" y="817" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">公会层级</text>
+<text x="1226" y="817" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">A级 / 二级公会</text>
+<text x="1110" y="849" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">上级公会</text>
+<text x="1226" y="849" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">G-0088 / Galaxy</text>
+<text x="1110" y="881" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">公会分层</text>
+<text x="1226" y="881" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">18%</text>
+<text x="1110" y="913" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">实际分层</text>
+<text x="1226" y="913" font-size="13" fill="#1E293B" font-weight="500" text-anchor="start">16.5%（已计算）</text>
+<text x="716" y="962" font-size="13" fill="#0F172A" font-weight="500" text-anchor="start">子公会列表</text>
+<rect x="716" y="978" width="836" height="36" rx="6" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<text x="726" y="1001" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">公会</text>
+<text x="946" y="1001" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">公会长</text>
+<text x="1136" y="1001" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">运营</text>
+<text x="1266" y="1001" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">层级</text>
+<text x="1366" y="1001" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">创建时间</text>
+<line x1="716" y1="1014" x2="1552" y2="1014" stroke="#EEF2F7" stroke-width="1"/>
+<text x="726" y="1039" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Moon TH · G-2011</text>
+<text x="946" y="1039" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Mira · 66302</text>
+<text x="1136" y="1039" font-size="12" fill="#334155" font-weight="400" text-anchor="start">OP-208</text>
+<text x="1266" y="1039" font-size="12" fill="#334155" font-weight="400" text-anchor="start">三级</text>
+<text x="1366" y="1039" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2026-02-18</text>
+<line x1="716" y1="1059" x2="1552" y2="1059" stroke="#EEF2F7" stroke-width="1"/>
+<text x="726" y="1084" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Peach Live · G-2210</text>
+<text x="946" y="1084" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Nok · 88120</text>
+<text x="1136" y="1084" font-size="12" fill="#334155" font-weight="400" text-anchor="start">OP-208</text>
+<text x="1266" y="1084" font-size="12" fill="#334155" font-weight="400" text-anchor="start">三级</text>
+<text x="1366" y="1084" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2026-05-09</text>
+<rect x="28" y="1158" width="1544" height="260" rx="12" fill="#FFFFFF" stroke="#E5EAF2" stroke-width="1"/>
+<text x="48" y="1189" font-size="16" fill="#0F172A" font-weight="500" text-anchor="start">身份与关系事件</text>
+<text x="48" y="1212" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">解释当前主播身份、会员和组织关系形成过程</text>
+<line x1="48" y1="1226" x2="1552" y2="1226" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="48" y="1236" width="1504" height="36" rx="6" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<text x="58" y="1259" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">时间</text>
+<text x="278" y="1259" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">事件类型</text>
+<text x="498" y="1259" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">事件内容</text>
+<text x="1198" y="1259" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">关联对象</text>
+<line x1="48" y1="1272" x2="1552" y2="1272" stroke="#EEF2F7" stroke-width="1"/>
+<text x="58" y="1297" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2026-06-01</text>
+<text x="278" y="1297" font-size="12" fill="#334155" font-weight="400" text-anchor="start">业务角色</text>
+<text x="498" y="1297" font-size="12" fill="#334155" font-weight="400" text-anchor="start">成为Payroll，所属运营OP-208</text>
+<text x="1198" y="1297" font-size="12" fill="#334155" font-weight="400" text-anchor="start">OP-208 / Nita</text>
+<line x1="48" y1="1314" x2="1552" y2="1314" stroke="#EEF2F7" stroke-width="1"/>
+<text x="58" y="1339" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2026-05-16</text>
+<text x="278" y="1339" font-size="12" fill="#334155" font-weight="400" text-anchor="start">主播身份</text>
+<text x="498" y="1339" font-size="12" fill="#334155" font-weight="400" text-anchor="start">通过优质主播审核，连续有效90天</text>
+<text x="1198" y="1339" font-size="12" fill="#334155" font-weight="400" text-anchor="start">优质主播</text>
+<line x1="48" y1="1356" x2="1552" y2="1356" stroke="#EEF2F7" stroke-width="1"/>
+<text x="58" y="1381" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2026-04-02</text>
+<text x="278" y="1381" font-size="12" fill="#334155" font-weight="400" text-anchor="start">主播身份</text>
+<text x="498" y="1381" font-size="12" fill="#334155" font-weight="400" text-anchor="start">通过高级主播审核，连续有效134天</text>
+<text x="1198" y="1381" font-size="12" fill="#334155" font-weight="400" text-anchor="start">高级主播</text>
+</svg>
