@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="941" height="1672" viewBox="0 0 941 1672">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient><linearGradient id="softPurple" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F5F1FF"/><stop offset="1" stop-color="#E9E2FF"/></linearGradient><filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#4C1D95" flood-opacity="0.12"/></filter></defs>
+<style>text{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif}.shadow{filter:url(#softShadow)}</style>
+<rect x="0" y="0" width="941" height="1672" rx="0" fill="#F5F2FF" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="941" height="108" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<circle cx="56" cy="55" r="26" fill="#F5F3FF" stroke="none" stroke-width="1"/>
+<text x="56" y="65" font-size="38" fill="#111827" font-weight="500" text-anchor="middle">‹</text>
+<text x="470" y="66" font-size="30" fill="#111827" font-weight="700" text-anchor="middle">高峰时段达标天数</text>
+<rect x="40" y="132" width="861" height="248" rx="26" fill="url(#purpleGradient)" filter="url(#softShadow)"/>
+<rect x="72" y="164" width="84" height="28" rx="14" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="114" y="183" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">系统统计</text>
+<text x="72" y="232" font-size="34" fill="#FFFFFF" font-weight="700" text-anchor="start">本周已达标 3/4天</text>
+<text x="72" y="276" font-size="17" fill="#EDE9FE" font-weight="400" text-anchor="start">还差1天完成任务</text>
+<rect x="72" y="316" width="620" height="10" rx="5" fill="#E9E5F7" stroke="none" stroke-width="1"/>
+<rect x="72" y="316" width="465" height="10" rx="5" fill="#FBBF24" stroke="none" stroke-width="1"/>
+<rect x="730" y="292" width="69" height="28" rx="14" fill="#F5F3FF" stroke="none" stroke-width="1"/>
+<text x="764.5" y="311" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">进行中</text>
+<text x="40" y="438" font-size="23" fill="#111827" font-weight="700" text-anchor="start">任务要求</text>
+<rect x="40" y="470" width="861" height="184" rx="22" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>
+<text x="78" y="526" font-size="20" fill="#111827" font-weight="700" text-anchor="start">每周至少4天达到高峰直播要求</text>
+<text x="78" y="570" font-size="16" fill="#475569" font-weight="500" text-anchor="start">每日高峰时段累计直播 ≥ 120分钟</text>
+<rect x="78" y="598" width="189" height="28" rx="14" fill="#F5F3FF" stroke="none" stroke-width="1"/>
+<text x="172.5" y="617" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">12:00—14:00</text>
+<rect x="238" y="598" width="189" height="28" rx="14" fill="#F5F3FF" stroke="none" stroke-width="1"/>
+<text x="332.5" y="617" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">20:00—24:00</text>
+<text x="40" y="714" font-size="23" fill="#111827" font-weight="700" text-anchor="start">每日结果</text>
+<text x="866" y="714" font-size="15" fill="#64748B" font-weight="400" text-anchor="end">08/17—08/23</text>
+<rect x="40" y="744" width="861" height="76" rx="17" fill="#FFFFFF" stroke="#E3DDFD" stroke-width="1"/>
+<circle cx="82" cy="782" r="17" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="82" y="788" font-size="13" fill="#16A34A" font-weight="700" text-anchor="middle">✓</text>
+<text x="116" y="789" font-size="17" fill="#111827" font-weight="600" text-anchor="start">08/17 周一</text>
+<text x="610" y="789" font-size="16" fill="#64748B" font-weight="400" text-anchor="end">132分钟</text>
+<text x="848" y="789" font-size="16" fill="#16A34A" font-weight="600" text-anchor="end">完成</text>
+<rect x="40" y="836" width="861" height="76" rx="17" fill="#FFFFFF" stroke="#E3DDFD" stroke-width="1"/>
+<circle cx="82" cy="874" r="17" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="82" y="880" font-size="13" fill="#16A34A" font-weight="700" text-anchor="middle">✓</text>
+<text x="116" y="881" font-size="17" fill="#111827" font-weight="600" text-anchor="start">08/18 周二</text>
+<text x="610" y="881" font-size="16" fill="#64748B" font-weight="400" text-anchor="end">148分钟</text>
+<text x="848" y="881" font-size="16" fill="#16A34A" font-weight="600" text-anchor="end">完成</text>
+<rect x="40" y="928" width="861" height="76" rx="17" fill="#FFFFFF" stroke="#E3DDFD" stroke-width="1"/>
+<circle cx="82" cy="966" r="17" fill="#FEE2E2" stroke="none" stroke-width="1"/>
+<text x="82" y="972" font-size="13" fill="#DC2626" font-weight="700" text-anchor="middle">!</text>
+<text x="116" y="973" font-size="17" fill="#111827" font-weight="600" text-anchor="start">08/19 周三</text>
+<text x="610" y="973" font-size="16" fill="#64748B" font-weight="400" text-anchor="end">86分钟</text>
+<text x="848" y="973" font-size="16" fill="#DC2626" font-weight="600" text-anchor="end">未完成</text>
+<rect x="40" y="1020" width="861" height="76" rx="17" fill="#FFFFFF" stroke="#E3DDFD" stroke-width="1"/>
+<circle cx="82" cy="1058" r="17" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="82" y="1064" font-size="13" fill="#16A34A" font-weight="700" text-anchor="middle">✓</text>
+<text x="116" y="1065" font-size="17" fill="#111827" font-weight="600" text-anchor="start">08/20 周四</text>
+<text x="610" y="1065" font-size="16" fill="#64748B" font-weight="400" text-anchor="end">125分钟</text>
+<text x="848" y="1065" font-size="16" fill="#16A34A" font-weight="600" text-anchor="end">完成</text>
+<rect x="40" y="1112" width="861" height="76" rx="17" fill="#FFFFFF" stroke="#E3DDFD" stroke-width="1"/>
+<circle cx="82" cy="1150" r="17" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="82" y="1156" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="middle">·</text>
+<text x="116" y="1157" font-size="17" fill="#111827" font-weight="600" text-anchor="start">08/21 周五</text>
+<text x="610" y="1157" font-size="16" fill="#64748B" font-weight="400" text-anchor="end">64分钟</text>
+<text x="848" y="1157" font-size="16" fill="#4F2BEE" font-weight="600" text-anchor="end">进行中</text>
+<rect x="40" y="1204" width="861" height="76" rx="17" fill="#FFFFFF" stroke="#E3DDFD" stroke-width="1"/>
+<circle cx="82" cy="1242" r="17" fill="#F1F5F9" stroke="none" stroke-width="1"/>
+<text x="82" y="1248" font-size="13" fill="#64748B" font-weight="700" text-anchor="middle">·</text>
+<text x="116" y="1249" font-size="17" fill="#111827" font-weight="600" text-anchor="start">08/22 周六</text>
+<text x="610" y="1249" font-size="16" fill="#64748B" font-weight="400" text-anchor="end">--</text>
+<text x="848" y="1249" font-size="16" fill="#64748B" font-weight="600" text-anchor="end">待统计</text>
+<rect x="40" y="1296" width="861" height="76" rx="17" fill="#FFFFFF" stroke="#E3DDFD" stroke-width="1"/>
+<circle cx="82" cy="1334" r="17" fill="#F1F5F9" stroke="none" stroke-width="1"/>
+<text x="82" y="1340" font-size="13" fill="#64748B" font-weight="700" text-anchor="middle">·</text>
+<text x="116" y="1341" font-size="17" fill="#111827" font-weight="600" text-anchor="start">08/23 周日</text>
+<text x="610" y="1341" font-size="16" fill="#64748B" font-weight="400" text-anchor="end">--</text>
+<text x="848" y="1341" font-size="16" fill="#64748B" font-weight="600" text-anchor="end">待统计</text>
+<rect x="40" y="1420" width="861" height="110" rx="20" fill="#F5F3FF" stroke="none" stroke-width="1"/>
+<text x="76" y="1460" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">当前结果</text>
+<text x="76" y="1494" font-size="20" fill="#4F2BEE" font-weight="700" text-anchor="start">本周高峰时段达标3/4天</text>
+<text x="860" y="1494" font-size="14" fill="#64748B" font-weight="400" text-anchor="end">数据每日更新</text>
+</svg>

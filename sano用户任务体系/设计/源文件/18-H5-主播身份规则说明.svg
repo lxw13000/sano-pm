@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="941" height="1672" viewBox="0 0 941 1672">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient><linearGradient id="softPurple" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F5F1FF"/><stop offset="1" stop-color="#E9E2FF"/></linearGradient><filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#4C1D95" flood-opacity="0.12"/></filter></defs>
+<style>text{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif}.shadow{filter:url(#softShadow)}</style>
+<rect x="0" y="0" width="941" height="1672" rx="0" fill="#F5F2FF" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="941" height="108" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<circle cx="56" cy="55" r="26" fill="#F5F3FF" stroke="none" stroke-width="1"/>
+<text x="56" y="65" font-size="38" fill="#111827" font-weight="500" text-anchor="middle">‹</text>
+<text x="470" y="66" font-size="30" fill="#111827" font-weight="700" text-anchor="middle">身份规则说明</text>
+<rect x="40" y="132" width="861" height="220" rx="26" fill="url(#purpleGradient)" filter="url(#softShadow)"/>
+<rect x="72" y="164" width="84" height="28" rx="14" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="114" y="183" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">当前身份</text>
+<text x="72" y="238" font-size="36" fill="#FFFFFF" font-weight="700" text-anchor="start">黄金优质主播</text>
+<text x="72" y="286" font-size="17" fill="#EDE9FE" font-weight="400" text-anchor="start">资格、功能、任务奖励，一页看懂</text>
+<text x="710" y="266" font-size="14" fill="#DDD6FE" font-weight="400" text-anchor="start">每周最高</text>
+<text x="710" y="310" font-size="34" fill="#FFFFFF" font-weight="700" text-anchor="start">$30</text>
+<text x="40" y="408" font-size="23" fill="#111827" font-weight="700" text-anchor="start">身份规则</text>
+<rect x="40" y="440" width="861" height="132" rx="20" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>
+<rect x="70" y="468" width="64" height="64" rx="18" fill="#F1EDFF" stroke="none" stroke-width="1"/>
+<text x="102" y="509" font-size="16" fill="#5B36F2" font-weight="700" text-anchor="middle">01</text>
+<text x="164" y="488" font-size="21" fill="#111827" font-weight="700" text-anchor="start">身份资格</text>
+<text x="164" y="524" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">完成申请与资格审核后，按审核结果获得主播身份。</text>
+<text x="850" y="510" font-size="20" fill="#475569" font-weight="400" text-anchor="middle">⌄</text>
+<rect x="40" y="592" width="861" height="132" rx="20" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>
+<rect x="70" y="620" width="64" height="64" rx="18" fill="#F1EDFF" stroke="none" stroke-width="1"/>
+<text x="102" y="661" font-size="16" fill="#5B36F2" font-weight="700" text-anchor="middle">02</text>
+<text x="164" y="640" font-size="21" fill="#111827" font-weight="700" text-anchor="start">可用功能</text>
+<text x="164" y="676" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">查看任务、提交审核材料、查询结算和领取奖励。</text>
+<text x="850" y="662" font-size="20" fill="#475569" font-weight="400" text-anchor="middle">⌄</text>
+<rect x="40" y="744" width="861" height="132" rx="20" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>
+<rect x="70" y="772" width="64" height="64" rx="18" fill="#F1EDFF" stroke="none" stroke-width="1"/>
+<text x="102" y="813" font-size="16" fill="#5B36F2" font-weight="700" text-anchor="middle">03</text>
+<text x="164" y="792" font-size="21" fill="#111827" font-weight="700" text-anchor="start">任务与模块</text>
+<text x="164" y="828" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">每个模块包含多个任务项；模块内任务全部完成才达标。</text>
+<text x="850" y="814" font-size="20" fill="#475569" font-weight="400" text-anchor="middle">⌄</text>
+<rect x="40" y="896" width="861" height="132" rx="20" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>
+<rect x="70" y="924" width="64" height="64" rx="18" fill="#F1EDFF" stroke="none" stroke-width="1"/>
+<text x="102" y="965" font-size="16" fill="#5B36F2" font-weight="700" text-anchor="middle">04</text>
+<text x="164" y="944" font-size="21" fill="#111827" font-weight="700" text-anchor="start">分项奖励</text>
+<text x="164" y="980" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">每个达标模块独立计奖，最高奖励为所有模块奖励之和。</text>
+<text x="850" y="966" font-size="20" fill="#475569" font-weight="400" text-anchor="middle">⌄</text>
+<rect x="40" y="1048" width="861" height="132" rx="20" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>
+<rect x="70" y="1076" width="64" height="64" rx="18" fill="#F1EDFF" stroke="none" stroke-width="1"/>
+<text x="102" y="1117" font-size="16" fill="#5B36F2" font-weight="700" text-anchor="middle">05</text>
+<text x="164" y="1096" font-size="21" fill="#111827" font-weight="700" text-anchor="start">申请与生效</text>
+<text x="164" y="1132" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">每周一完成审核，下一个周一按完整自然周生效。</text>
+<text x="850" y="1118" font-size="20" fill="#475569" font-weight="400" text-anchor="middle">⌄</text>
+<rect x="40" y="1200" width="861" height="132" rx="20" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>
+<rect x="70" y="1228" width="64" height="64" rx="18" fill="#F1EDFF" stroke="none" stroke-width="1"/>
+<text x="102" y="1269" font-size="16" fill="#5B36F2" font-weight="700" text-anchor="middle">06</text>
+<text x="164" y="1248" font-size="21" fill="#111827" font-weight="700" text-anchor="start">审核与结算</text>
+<text x="164" y="1284" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">系统统计或人工评审；周一汇总，最迟周二统一结算。</text>
+<text x="850" y="1270" font-size="20" fill="#475569" font-weight="400" text-anchor="middle">⌄</text>
+<rect x="40" y="1352" width="861" height="132" rx="20" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>
+<rect x="70" y="1380" width="64" height="64" rx="18" fill="#F1EDFF" stroke="none" stroke-width="1"/>
+<text x="102" y="1421" font-size="16" fill="#5B36F2" font-weight="700" text-anchor="middle">07</text>
+<text x="164" y="1400" font-size="21" fill="#111827" font-weight="700" text-anchor="start">领取与身份变更</text>
+<text x="164" y="1436" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">结算后主动领取；升降级或失效以下一周期为主。</text>
+<text x="850" y="1422" font-size="20" fill="#475569" font-weight="400" text-anchor="middle">⌄</text>
+</svg>

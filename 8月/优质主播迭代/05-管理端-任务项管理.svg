@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient><linearGradient id="softPurple" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F5F1FF"/><stop offset="1" stop-color="#E9E2FF"/></linearGradient><filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#4C1D95" flood-opacity="0.12"/></filter></defs>
+<style>text{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif}.shadow{filter:url(#softShadow)}</style>
+<rect x="0" y="0" width="1672" height="941" rx="0" fill="#F8FAFD" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="250" height="941" rx="0" fill="#061A33" stroke="none" stroke-width="1"/>
+<text x="28" y="48" font-size="24" fill="#FFFFFF" font-weight="400" text-anchor="start">☰</text>
+<text x="30" y="112" font-size="16" fill="#FFFFFF" font-weight="500" text-anchor="start">▣  主播体系配置</text>
+<text x="220" y="112" font-size="18" fill="#FFFFFF" font-weight="400" text-anchor="start">⌄</text>
+<circle cx="58" cy="143" r="4" fill="#94A3B8" stroke="none" stroke-width="1"/>
+<text x="78" y="150" font-size="15" fill="#E2E8F0" font-weight="500" text-anchor="start">主播身份</text>
+<rect x="26" y="172" width="206" height="46" rx="7" fill="#5632EE" stroke="none" stroke-width="1"/>
+<circle cx="58" cy="195" r="4" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="78" y="202" font-size="15" fill="#FFFFFF" font-weight="500" text-anchor="start">任务库</text>
+<text x="30" y="286" font-size="18" fill="#FFFFFF" font-weight="400" text-anchor="start">□</text>
+<text x="64" y="286" font-size="15" fill="#FFFFFF" font-weight="500" text-anchor="start">主播身份成员</text>
+<text x="30" y="350" font-size="18" fill="#FFFFFF" font-weight="400" text-anchor="start">□</text>
+<text x="64" y="350" font-size="15" fill="#FFFFFF" font-weight="500" text-anchor="start">周任务审核</text>
+<text x="30" y="414" font-size="18" fill="#FFFFFF" font-weight="400" text-anchor="start">□</text>
+<text x="64" y="414" font-size="15" fill="#FFFFFF" font-weight="500" text-anchor="start">奖励领取记录</text>
+<text x="290" y="64" font-size="31" fill="#111827" font-weight="700" text-anchor="start">任务库</text>
+<text x="292" y="98" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">公共任务项与任务模块管理</text>
+<text x="320" y="152" font-size="15" fill="#4F2BEE" font-weight="600" text-anchor="start">任务项列表</text>
+<rect x="312" y="170" width="112" height="3" rx="2" fill="#4F2BEE" stroke="none" stroke-width="1"/>
+<text x="470" y="152" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">任务模块</text>
+<line x1="250" y1="180" x2="1672" y2="180" stroke="#E5E7EB" stroke-width="1"/>
+<rect x="270" y="200" width="520" height="700" rx="10" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<text x="290" y="234" font-size="17" fill="#111827" font-weight="600" text-anchor="start">任务项列表</text>
+<text x="290" y="258" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">选择任务项后在右侧查看和编辑</text>
+<text x="294" y="270" font-size="13" fill="#334155" font-weight="500" text-anchor="start"></text>
+<rect x="294" y="282" width="286" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="308" y="309" font-size="13" fill="#94A3B8" font-weight="400" text-anchor="start">搜索任务名称或编码</text>
+<rect x="600" y="282" width="164" height="42" rx="7" fill="#4F2BEE" stroke="#4F2BEE" stroke-width="1"/>
+<text x="682" y="309" font-size="14" fill="#FFFFFF" font-weight="500" text-anchor="middle">＋ 新增任务项</text>
+<rect x="292" y="356" width="472" height="66" rx="8" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<text x="312" y="383" font-size="13" fill="#111827" font-weight="600" text-anchor="start">有效直播总时长</text>
+<text x="312" y="407" font-size="10" fill="#64748B" font-weight="400" text-anchor="start">LIVE_TOTAL_MINUTES</text>
+<rect x="642" y="374" width="84" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="684" y="393" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="middle">系统统计</text>
+<rect x="292" y="434" width="472" height="66" rx="8" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<text x="312" y="461" font-size="13" fill="#111827" font-weight="600" text-anchor="start">有效直播天数</text>
+<text x="312" y="485" font-size="10" fill="#64748B" font-weight="400" text-anchor="start">LIVE_VALID_DAYS</text>
+<rect x="642" y="452" width="84" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="684" y="471" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="middle">系统统计</text>
+<rect x="292" y="512" width="472" height="66" rx="8" fill="#FAF8FF" stroke="#5B36F2" stroke-width="1"/>
+<text x="312" y="539" font-size="13" fill="#111827" font-weight="600" text-anchor="start">黄金时段达标天数</text>
+<text x="312" y="563" font-size="10" fill="#64748B" font-weight="400" text-anchor="start">GOLDEN_PEAK_DAYS</text>
+<rect x="642" y="530" width="84" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="684" y="549" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="middle">系统统计</text>
+<rect x="292" y="590" width="472" height="66" rx="8" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<text x="312" y="617" font-size="13" fill="#111827" font-weight="600" text-anchor="start">有效新用户</text>
+<text x="312" y="641" font-size="10" fill="#64748B" font-weight="400" text-anchor="start">VALID_NEW_USERS</text>
+<rect x="642" y="608" width="84" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="684" y="627" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="middle">系统统计</text>
+<rect x="292" y="668" width="472" height="66" rx="8" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<text x="312" y="695" font-size="13" fill="#111827" font-weight="600" text-anchor="start">发布Sano相关外部内容</text>
+<text x="312" y="719" font-size="10" fill="#64748B" font-weight="400" text-anchor="start">SANO_EXTERNAL_CONTENT</text>
+<rect x="642" y="686" width="84" height="28" rx="14" fill="#FFF7ED" stroke="none" stroke-width="1"/>
+<text x="684" y="705" font-size="12" fill="#C2410C" font-weight="500" text-anchor="middle">材料审核</text>
+<rect x="292" y="746" width="472" height="66" rx="8" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<text x="312" y="773" font-size="13" fill="#111827" font-weight="600" text-anchor="start">互动质量评审</text>
+<text x="312" y="797" font-size="10" fill="#64748B" font-weight="400" text-anchor="start">INTERACTION_REVIEW</text>
+<rect x="642" y="764" width="84" height="28" rx="14" fill="#FDF2F8" stroke="none" stroke-width="1"/>
+<text x="684" y="783" font-size="12" fill="#BE185D" font-weight="500" text-anchor="middle">运营评审</text>
+<rect x="292" y="842" width="472" height="38" rx="7" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+<text x="312" y="867" font-size="11" fill="#9A3412" font-weight="500" text-anchor="start">技术维护任务定义；运营仅管理关联关系。</text>
+<rect x="810" y="200" width="830" height="700" rx="10" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<text x="830" y="234" font-size="17" fill="#111827" font-weight="600" text-anchor="start">任务项详情</text>
+<text x="830" y="258" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">新增与编辑共用右侧表单</text>
+<rect x="1080" y="214" width="99" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="1129.5" y="233" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="middle">编辑任务项</text>
+<rect x="1488" y="218" width="126" height="42" rx="7" fill="#4F2BEE" stroke="#4F2BEE" stroke-width="1"/>
+<text x="1551" y="245" font-size="14" fill="#FFFFFF" font-weight="500" text-anchor="middle">保存修改</text>
+<text x="834" y="274" font-size="11" fill="#64748B" font-weight="500" text-anchor="start">任务名称</text>
+<rect x="834" y="288" width="238" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="848" y="315" font-size="12" fill="#111827" font-weight="500" text-anchor="start">黄金时段达标天数</text>
+<text x="1088" y="274" font-size="11" fill="#64748B" font-weight="500" text-anchor="start">任务编码</text>
+<rect x="1088" y="288" width="236" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="1102" y="315" font-size="11" fill="#334155" font-weight="500" text-anchor="start">GOLDEN_PEAK_DAYS</text>
+<text x="1340" y="274" font-size="11" fill="#64748B" font-weight="500" text-anchor="start">任务类型</text>
+<rect x="1340" y="288" width="250" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="1354" y="315" font-size="12" fill="#334155" font-weight="500" text-anchor="start">系统统计  ⌄</text>
+<text x="834" y="356" font-size="11" fill="#64748B" font-weight="500" text-anchor="start">执行器标识</text>
+<rect x="834" y="370" width="490" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="848" y="397" font-size="12" fill="#334155" font-weight="500" text-anchor="start">GoldenPeakDaysHandler</text>
+<text x="1340" y="356" font-size="11" fill="#64748B" font-weight="500" text-anchor="start">是否启用</text>
+<rect x="1340" y="370" width="62" height="28" rx="14" fill="#4F2BEE" stroke="none" stroke-width="1"/>
+<text x="1371" y="389" font-size="12" fill="#FFFFFF" font-weight="500" text-anchor="middle">启用</text>
+<rect x="1430" y="370" width="62" height="28" rx="14" fill="#F1F5F9" stroke="none" stroke-width="1"/>
+<text x="1461" y="389" font-size="12" fill="#64748B" font-weight="500" text-anchor="middle">停用</text>
+<text x="834" y="452" font-size="14" fill="#111827" font-weight="600" text-anchor="start">任务参数 JSON</text>
+<rect x="834" y="470" width="366" height="204" rx="8" fill="#111827" stroke="none" stroke-width="1"/>
+<text x="852" y="500" font-size="12" fill="#E2E8F0" font-weight="400" text-anchor="start">{</text>
+<text x="870" y="528" font-size="11" fill="#C4B5FD" font-weight="400" text-anchor="start">&quot;requiredDays&quot;: 4,</text>
+<text x="870" y="554" font-size="11" fill="#C4B5FD" font-weight="400" text-anchor="start">&quot;dailyRequiredMinutes&quot;: 120,</text>
+<text x="870" y="580" font-size="11" fill="#C4B5FD" font-weight="400" text-anchor="start">&quot;timeRanges&quot;: [</text>
+<text x="886" y="606" font-size="10" fill="#A7F3D0" font-weight="400" text-anchor="start">&quot;12:00-14:00&quot;, &quot;20:00-24:00&quot;</text>
+<text x="870" y="632" font-size="11" fill="#C4B5FD" font-weight="400" text-anchor="start">]</text>
+<text x="852" y="658" font-size="12" fill="#E2E8F0" font-weight="400" text-anchor="start">}</text>
+<text x="1220" y="452" font-size="14" fill="#111827" font-weight="600" text-anchor="start">展示说明</text>
+<rect x="1220" y="470" width="394" height="84" rx="8" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="1238" y="500" font-size="11" fill="#334155" font-weight="400" text-anchor="start">每周至少4天，每天在高峰时段</text>
+<text x="1238" y="526" font-size="11" fill="#334155" font-weight="400" text-anchor="start">累计直播满2小时。</text>
+<text x="1220" y="582" font-size="14" fill="#111827" font-weight="600" text-anchor="start">实现说明</text>
+<rect x="1220" y="600" width="394" height="74" rx="8" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="1238" y="630" font-size="11" fill="#334155" font-weight="400" text-anchor="start">按每日全部配置时段累计有效直播分钟数。</text>
+<text x="834" y="714" font-size="14" fill="#111827" font-weight="600" text-anchor="start">统一结果约定与示例</text>
+<rect x="834" y="732" width="780" height="92" rx="8" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1"/>
+<rect x="854" y="750" width="69" height="28" rx="14" fill="#FEE2E2" stroke="none" stroke-width="1"/>
+<text x="888.5" y="769" font-size="12" fill="#DC2626" font-weight="500" text-anchor="middle">未完成</text>
+<text x="978" y="770" font-size="11" fill="#64748B" font-weight="500" text-anchor="start">completed = false</text>
+<text x="1110" y="770" font-size="12" fill="#111827" font-weight="600" text-anchor="start">resultText：本周高峰时段达标3/4天</text>
+<text x="854" y="806" font-size="11" fill="#475569" font-weight="400" text-anchor="start">08-17完成；08-18完成；08-19未完成；08-20完成</text>
+<rect x="834" y="844" width="780" height="36" rx="7" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+<text x="854" y="868" font-size="10" fill="#475569" font-weight="400" text-anchor="start">点击“新增任务项”后，右侧清空并切换为新增状态；已生成周任务快照不受编辑影响。</text>
+</svg>

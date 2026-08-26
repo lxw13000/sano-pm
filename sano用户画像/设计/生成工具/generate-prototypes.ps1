@@ -1,6 +1,9 @@
 ﻿$ErrorActionPreference = 'Stop'
 
-$OutputDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$ToolDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$ProjectDir = Split-Path -Parent (Split-Path -Parent $ToolDir)
+$OutputDir = Join-Path $ProjectDir '设计\源文件'
+New-Item -ItemType Directory -Path $OutputDir -Force | Out-Null
 $Utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 $Width = 1600
 $Height = 1200

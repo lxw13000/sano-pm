@@ -1,6 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop'
 
-$PrototypeDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$ToolDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$ProjectDir = Split-Path -Parent (Split-Path -Parent $ToolDir)
+$SvgDir = Join-Path $ProjectDir '设计\源文件'
+$PngDir = Join-Path $ProjectDir '设计\原型图'
+New-Item -ItemType Directory -Path $PngDir -Force | Out-Null
 $Edge = 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
 
 if (-not (Test-Path -LiteralPath $Edge)) {
@@ -20,8 +24,8 @@ $Files = @(
 $Index = 0
 foreach ($Name in $Files) {
     $Index++
-    $SvgPath = Join-Path $PrototypeDir ($Name + '.svg')
-    $PngPath = Join-Path $PrototypeDir ($Name + '.png')
+    $SvgPath = Join-Path $SvgDir ($Name + '.svg')
+    $PngPath = Join-Path $PngDir ($Name + '.png')
     $ProfileDir = Join-Path ([System.IO.Path]::GetTempPath()) ("codex-user-profile-prototype-edge-$Index")
     if (-not (Test-Path -LiteralPath $SvgPath)) {
         throw "Missing SVG prototype: $SvgPath"
@@ -46,4 +50,4 @@ foreach ($Name in $Files) {
     }
 }
 
-Get-ChildItem -LiteralPath $PrototypeDir -Filter '*.png' | Select-Object Name, Length, LastWriteTime
+Get-ChildItem -LiteralPath $PngDir -Filter '*.png' | Select-Object Name, Length, LastWriteTime
