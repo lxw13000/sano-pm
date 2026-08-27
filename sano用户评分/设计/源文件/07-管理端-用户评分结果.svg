@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient><filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#4C1D95" flood-opacity="0.12"/></filter></defs>
+<style>text{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif}.shadow{filter:url(#softShadow)}</style>
+<rect x="0" y="0" width="1672" height="941" rx="0" fill="#F8FAFD" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="250" height="941" rx="0" fill="#061A33" stroke="none" stroke-width="1"/>
+<text x="28" y="48" font-size="24" fill="#FFFFFF" font-weight="400" text-anchor="start">☰</text>
+<text x="30" y="112" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="start">▣  用户评分体系</text>
+<text x="220" y="112" font-size="18" fill="#FFFFFF" font-weight="400" text-anchor="start">⌄</text>
+<circle cx="58" cy="151" r="4" fill="#94A3B8" stroke="none" stroke-width="1"/>
+<text x="78" y="158" font-size="15" fill="#E2E8F0" font-weight="500" text-anchor="start">评分类型</text>
+<circle cx="58" cy="205" r="4" fill="#94A3B8" stroke="none" stroke-width="1"/>
+<text x="78" y="212" font-size="15" fill="#E2E8F0" font-weight="500" text-anchor="start">评分参数</text>
+<rect x="26" y="235" width="206" height="46" rx="7" fill="#5632EE" stroke="none" stroke-width="1"/>
+<circle cx="58" cy="259" r="4" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="78" y="266" font-size="15" fill="#FFFFFF" font-weight="500" text-anchor="start">用户评分结果</text>
+<text x="290" y="58" font-size="30" fill="#111827" font-weight="700" text-anchor="start">用户评分结果</text>
+<text x="292" y="92" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">查询用户各评分类型的最终评分，并查看参数得分明细</text>
+<rect x="280" y="122" width="1360" height="150" rx="10" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<text x="300" y="156" font-size="17" fill="#111827" font-weight="700" text-anchor="start">查询条件</text>
+<text x="304" y="182" font-size="12" fill="#475569" font-weight="600" text-anchor="start">用户ID</text>
+<rect x="304" y="194" width="220" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="318" y="221" font-size="12" fill="#94A3B8" font-weight="500" text-anchor="start">请输入用户ID</text>
+<text x="544" y="182" font-size="12" fill="#475569" font-weight="600" text-anchor="start">评分类型</text>
+<rect x="544" y="194" width="220" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="558" y="221" font-size="12" fill="#1E293B" font-weight="500" text-anchor="start">全部类型</text>
+<text x="784" y="182" font-size="12" fill="#475569" font-weight="600" text-anchor="start">最低分</text>
+<rect x="784" y="194" width="150" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="798" y="221" font-size="12" fill="#94A3B8" font-weight="500" text-anchor="start">0.00</text>
+<text x="954" y="182" font-size="12" fill="#475569" font-weight="600" text-anchor="start">最高分</text>
+<rect x="954" y="194" width="150" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="968" y="221" font-size="12" fill="#94A3B8" font-weight="500" text-anchor="start">100.00</text>
+<text x="1124" y="182" font-size="12" fill="#475569" font-weight="600" text-anchor="start">评分更新时间</text>
+<rect x="1124" y="194" width="250" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="1138" y="221" font-size="12" fill="#1E293B" font-weight="500" text-anchor="start">2026-08-01 — 2026-08-27</text>
+<rect x="1396" y="194" width="92" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="1442" y="221" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">重置</text>
+<rect x="1504" y="194" width="110" height="42" rx="7" fill="#4F2BEE" stroke="#4F2BEE" stroke-width="1"/>
+<text x="1559" y="221" font-size="14" fill="#FFFFFF" font-weight="600" text-anchor="middle">查询</text>
+<rect x="280" y="294" width="1360" height="618" rx="10" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<text x="300" y="328" font-size="17" fill="#111827" font-weight="700" text-anchor="start">评分结果</text>
+<text x="300" y="351" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">共 1,286 条 · 默认按评分更新时间倒序</text>
+<rect x="304" y="364" width="1312" height="44" rx="6" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1"/>
+<text x="316" y="392" font-size="12" fill="#475569" font-weight="600" text-anchor="start">用户ID</text>
+<text x="506" y="392" font-size="12" fill="#475569" font-weight="600" text-anchor="start">评分类型</text>
+<text x="736" y="392" font-size="12" fill="#475569" font-weight="600" text-anchor="start">类型标识</text>
+<text x="956" y="392" font-size="12" fill="#475569" font-weight="600" text-anchor="start">最终评分</text>
+<text x="1136" y="392" font-size="12" fill="#475569" font-weight="600" text-anchor="start">评分更新时间</text>
+<text x="1416" y="392" font-size="12" fill="#475569" font-weight="600" text-anchor="start">操作</text>
+<rect x="304" y="408" width="1312" height="58" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="316" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">102938475</text>
+<text x="506" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">用户综合评分</text>
+<text x="736" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">USER_TOTAL</text>
+<text x="956" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">86.50</text>
+<text x="1136" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2026-08-27 03:00:18</text>
+<text x="1416" y="441" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">查看详情</text>
+<rect x="304" y="466" width="1312" height="58" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="316" y="499" font-size="12" fill="#334155" font-weight="400" text-anchor="start">882016</text>
+<text x="506" y="499" font-size="12" fill="#334155" font-weight="400" text-anchor="start">主播质量评分</text>
+<text x="736" y="499" font-size="12" fill="#334155" font-weight="400" text-anchor="start">HOST_QUALITY</text>
+<text x="956" y="499" font-size="12" fill="#334155" font-weight="400" text-anchor="start">92.00</text>
+<text x="1136" y="499" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2026-08-27 03:00:16</text>
+<text x="1416" y="499" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">查看详情</text>
+<rect x="304" y="524" width="1312" height="58" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="316" y="557" font-size="12" fill="#334155" font-weight="400" text-anchor="start">620418</text>
+<text x="506" y="557" font-size="12" fill="#334155" font-weight="400" text-anchor="start">用户活跃评分</text>
+<text x="736" y="557" font-size="12" fill="#334155" font-weight="400" text-anchor="start">USER_ACTIVE</text>
+<text x="956" y="557" font-size="12" fill="#334155" font-weight="400" text-anchor="start">78.25</text>
+<text x="1136" y="557" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2026-08-27 03:00:12</text>
+<text x="1416" y="557" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">查看详情</text>
+<rect x="304" y="582" width="1312" height="58" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="316" y="615" font-size="12" fill="#334155" font-weight="400" text-anchor="start">991205</text>
+<text x="506" y="615" font-size="12" fill="#334155" font-weight="400" text-anchor="start">消费能力评分</text>
+<text x="736" y="615" font-size="12" fill="#334155" font-weight="400" text-anchor="start">PAY_ABILITY</text>
+<text x="956" y="615" font-size="12" fill="#334155" font-weight="400" text-anchor="start">68.00</text>
+<text x="1136" y="615" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2026-08-27 03:00:10</text>
+<text x="1416" y="615" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">查看详情</text>
+<rect x="304" y="640" width="1312" height="58" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="316" y="673" font-size="12" fill="#334155" font-weight="400" text-anchor="start">762018</text>
+<text x="506" y="673" font-size="12" fill="#334155" font-weight="400" text-anchor="start">用户综合评分</text>
+<text x="736" y="673" font-size="12" fill="#334155" font-weight="400" text-anchor="start">USER_TOTAL</text>
+<text x="956" y="673" font-size="12" fill="#334155" font-weight="400" text-anchor="start">81.75</text>
+<text x="1136" y="673" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2026-08-27 03:00:08</text>
+<text x="1416" y="673" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">查看详情</text>
+<rect x="304" y="698" width="1312" height="58" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="316" y="731" font-size="12" fill="#334155" font-weight="400" text-anchor="start">501829</text>
+<text x="506" y="731" font-size="12" fill="#334155" font-weight="400" text-anchor="start">风险评分</text>
+<text x="736" y="731" font-size="12" fill="#334155" font-weight="400" text-anchor="start">RISK_SCORE</text>
+<text x="956" y="731" font-size="12" fill="#334155" font-weight="400" text-anchor="start">12.50</text>
+<text x="1136" y="731" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2026-08-26 03:00:22</text>
+<text x="1416" y="731" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">查看详情</text>
+<rect x="304" y="756" width="1312" height="58" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="316" y="789" font-size="12" fill="#334155" font-weight="400" text-anchor="start">731902</text>
+<text x="506" y="789" font-size="12" fill="#334155" font-weight="400" text-anchor="start">用户活跃评分</text>
+<text x="736" y="789" font-size="12" fill="#334155" font-weight="400" text-anchor="start">USER_ACTIVE</text>
+<text x="956" y="789" font-size="12" fill="#334155" font-weight="400" text-anchor="start">74.00</text>
+<text x="1136" y="789" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2026-08-26 03:00:18</text>
+<text x="1416" y="789" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">查看详情</text>
+<text x="304" y="846" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">仅展示用户ID，不关联用户昵称或其他资料；本页不提供导出。</text>
+<text x="1220" y="858" font-size="12" fill="#475569" font-weight="500" text-anchor="start">每页 20 条  ⌄</text>
+<rect x="1360" y="838" width="42" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="1381" y="865" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">‹</text>
+<rect x="1416" y="844" width="62" height="28" rx="14" fill="#4F2BEE" stroke="none" stroke-width="1"/>
+<text x="1447" y="863" font-size="12" fill="#FFFFFF" font-weight="600" text-anchor="middle">1</text>
+<rect x="1494" y="838" width="42" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="1515" y="865" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">2</text>
+<rect x="1548" y="838" width="42" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="1569" y="865" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">›</text>
+</svg>

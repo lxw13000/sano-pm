@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient><filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#4C1D95" flood-opacity="0.12"/></filter></defs>
+<style>text{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif}.shadow{filter:url(#softShadow)}</style>
+<rect x="0" y="0" width="1672" height="941" rx="0" fill="#F8FAFD" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="250" height="941" rx="0" fill="#061A33" stroke="none" stroke-width="1"/>
+<text x="28" y="48" font-size="24" fill="#FFFFFF" font-weight="400" text-anchor="start">☰</text>
+<text x="30" y="112" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="start">▣  用户评分体系</text>
+<text x="220" y="112" font-size="18" fill="#FFFFFF" font-weight="400" text-anchor="start">⌄</text>
+<rect x="26" y="127" width="206" height="46" rx="7" fill="#5632EE" stroke="none" stroke-width="1"/>
+<circle cx="58" cy="151" r="4" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="78" y="158" font-size="15" fill="#FFFFFF" font-weight="500" text-anchor="start">评分类型</text>
+<circle cx="58" cy="205" r="4" fill="#94A3B8" stroke="none" stroke-width="1"/>
+<text x="78" y="212" font-size="15" fill="#E2E8F0" font-weight="500" text-anchor="start">评分参数</text>
+<circle cx="58" cy="259" r="4" fill="#94A3B8" stroke="none" stroke-width="1"/>
+<text x="78" y="266" font-size="15" fill="#E2E8F0" font-weight="500" text-anchor="start">用户评分结果</text>
+<text x="290" y="58" font-size="30" fill="#111827" font-weight="700" text-anchor="start">评分类型</text>
+<text x="292" y="92" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">运营维护评分类型及其关联的评分参数</text>
+<rect x="280" y="122" width="420" height="790" rx="10" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<text x="300" y="156" font-size="17" fill="#111827" font-weight="700" text-anchor="start">评分类型列表</text>
+<text x="300" y="179" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">选择类型后在右侧查看和编辑</text>
+<text x="302" y="194" font-size="12" fill="#475569" font-weight="600" text-anchor="start"></text>
+<rect x="302" y="206" width="240" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="316" y="233" font-size="12" fill="#94A3B8" font-weight="500" text-anchor="start">搜索名称或类型标识</text>
+<rect x="558" y="206" width="118" height="42" rx="7" fill="#4F2BEE" stroke="#4F2BEE" stroke-width="1"/>
+<text x="617" y="233" font-size="14" fill="#FFFFFF" font-weight="600" text-anchor="middle">＋ 新增</text>
+<rect x="302" y="276" width="374" height="84" rx="8" fill="#FAF8FF" stroke="#5B36F2" stroke-width="1"/>
+<circle cx="338" cy="318" r="21" fill="#5B36F2" stroke="none" stroke-width="1"/>
+<text x="338" y="325" font-size="14" fill="#FFFFFF" font-weight="700" text-anchor="middle">S</text>
+<text x="374" y="310" font-size="14" fill="#111827" font-weight="600" text-anchor="start">用户综合评分</text>
+<text x="374" y="335" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">USER_TOTAL</text>
+<rect x="570" y="303" width="62" height="28" rx="14" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="601" y="322" font-size="12" fill="#16A34A" font-weight="600" text-anchor="middle">启用</text>
+<rect x="302" y="380" width="374" height="84" rx="8" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<circle cx="338" cy="422" r="21" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="338" y="429" font-size="14" fill="#4F2BEE" font-weight="700" text-anchor="middle">S</text>
+<text x="374" y="414" font-size="14" fill="#111827" font-weight="600" text-anchor="start">主播质量评分</text>
+<text x="374" y="439" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">HOST_QUALITY</text>
+<rect x="570" y="407" width="62" height="28" rx="14" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="601" y="426" font-size="12" fill="#16A34A" font-weight="600" text-anchor="middle">启用</text>
+<rect x="302" y="484" width="374" height="84" rx="8" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<circle cx="338" cy="526" r="21" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="338" y="533" font-size="14" fill="#4F2BEE" font-weight="700" text-anchor="middle">S</text>
+<text x="374" y="518" font-size="14" fill="#111827" font-weight="600" text-anchor="start">用户活跃评分</text>
+<text x="374" y="543" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">USER_ACTIVE</text>
+<rect x="570" y="511" width="62" height="28" rx="14" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="601" y="530" font-size="12" fill="#16A34A" font-weight="600" text-anchor="middle">启用</text>
+<rect x="302" y="588" width="374" height="84" rx="8" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<circle cx="338" cy="630" r="21" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="338" y="637" font-size="14" fill="#4F2BEE" font-weight="700" text-anchor="middle">S</text>
+<text x="374" y="622" font-size="14" fill="#111827" font-weight="600" text-anchor="start">消费能力评分</text>
+<text x="374" y="647" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">PAY_ABILITY</text>
+<rect x="570" y="615" width="62" height="28" rx="14" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="601" y="634" font-size="12" fill="#16A34A" font-weight="600" text-anchor="middle">启用</text>
+<rect x="302" y="692" width="374" height="84" rx="8" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<circle cx="338" cy="734" r="21" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="338" y="741" font-size="14" fill="#4F2BEE" font-weight="700" text-anchor="middle">S</text>
+<text x="374" y="726" font-size="14" fill="#111827" font-weight="600" text-anchor="start">风险评分</text>
+<text x="374" y="751" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">RISK_SCORE</text>
+<rect x="570" y="719" width="62" height="28" rx="14" fill="#F1F5F9" stroke="none" stroke-width="1"/>
+<text x="601" y="738" font-size="12" fill="#64748B" font-weight="600" text-anchor="middle">停用</text>
+<rect x="302" y="816" width="374" height="60" rx="7" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+<text x="320" y="842" font-size="11" fill="#475569" font-weight="500" text-anchor="start">运营维护类型和关联关系；</text>
+<text x="320" y="862" font-size="11" fill="#475569" font-weight="500" text-anchor="start">评分参数内容只读。</text>
+<rect x="720" y="122" width="920" height="790" rx="10" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<text x="740" y="156" font-size="17" fill="#111827" font-weight="700" text-anchor="start">用户综合评分</text>
+<text x="740" y="179" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">类型标识 USER_TOTAL</text>
+<rect x="1008" y="142" width="62" height="28" rx="14" fill="#DCFCE7" stroke="none" stroke-width="1"/>
+<text x="1039" y="161" font-size="12" fill="#16A34A" font-weight="600" text-anchor="middle">启用</text>
+<rect x="1390" y="140" width="92" height="42" rx="7" fill="#FFFFFF" stroke="#FCA5A5" stroke-width="1"/>
+<text x="1436" y="167" font-size="14" fill="#DC2626" font-weight="600" text-anchor="middle">删除</text>
+<rect x="1496" y="140" width="118" height="42" rx="7" fill="#4F2BEE" stroke="#4F2BEE" stroke-width="1"/>
+<text x="1555" y="167" font-size="14" fill="#FFFFFF" font-weight="600" text-anchor="middle">保存修改</text>
+<text x="744" y="216" font-size="16" fill="#111827" font-weight="700" text-anchor="start">基础配置</text>
+<text x="744" y="250" font-size="12" fill="#475569" font-weight="600" text-anchor="start">类型标识</text>
+<rect x="744" y="262" width="260" height="42" rx="6" fill="#F8FAFC" stroke="#DCE3EE" stroke-width="1"/>
+<text x="758" y="289" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">USER_TOTAL</text>
+<text x="1024" y="250" font-size="12" fill="#475569" font-weight="600" text-anchor="start">类型名称</text>
+<rect x="1024" y="262" width="260" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="1038" y="289" font-size="12" fill="#1E293B" font-weight="500" text-anchor="start">用户综合评分</text>
+<text x="1304" y="250" font-size="12" fill="#475569" font-weight="600" text-anchor="start">默认分数</text>
+<rect x="1304" y="262" width="140" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="1318" y="289" font-size="12" fill="#1E293B" font-weight="500" text-anchor="start">60.00</text>
+<text x="1464" y="250" font-size="12" fill="#475569" font-weight="600" text-anchor="start">最近登录天数</text>
+<rect x="1464" y="262" width="150" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="1478" y="289" font-size="12" fill="#1E293B" font-weight="500" text-anchor="start">30</text>
+<text x="744" y="326" font-size="12" fill="#475569" font-weight="600" text-anchor="start">状态</text>
+<rect x="744" y="340" width="50" height="26" rx="13" fill="#4F2BEE" stroke="none" stroke-width="1"/>
+<circle cx="781" cy="353" r="10" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="810" y="358" font-size="12" fill="#334155" font-weight="500" text-anchor="start">启用</text>
+<text x="1024" y="326" font-size="12" fill="#475569" font-weight="600" text-anchor="start">最近执行时间</text>
+<text x="1024" y="360" font-size="13" fill="#334155" font-weight="500" text-anchor="start">2026-08-27 03:00:18</text>
+<text x="1304" y="326" font-size="12" fill="#475569" font-weight="600" text-anchor="start">最近执行耗时</text>
+<text x="1304" y="360" font-size="13" fill="#334155" font-weight="500" text-anchor="start">18,642 ms</text>
+<line x1="744" y1="392" x2="1614" y2="392" stroke="#E9EDF3" stroke-width="1"/>
+<text x="744" y="430" font-size="16" fill="#111827" font-weight="700" text-anchor="start">关联评分参数</text>
+<text x="744" y="454" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">运营选择参数组合；同一类型不能重复关联同一参数。</text>
+<rect x="1422" y="416" width="192" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="1518" y="443" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">＋ 关联评分参数</text>
+<rect x="744" y="482" width="870" height="44" rx="6" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1"/>
+<text x="756" y="510" font-size="12" fill="#475569" font-weight="600" text-anchor="start">参数名称</text>
+<text x="946" y="510" font-size="12" fill="#475569" font-weight="600" text-anchor="start">参数标识</text>
+<text x="1136" y="510" font-size="12" fill="#475569" font-weight="600" text-anchor="start">优先级</text>
+<text x="1246" y="510" font-size="12" fill="#475569" font-weight="600" text-anchor="start">默认分</text>
+<text x="1356" y="510" font-size="12" fill="#475569" font-weight="600" text-anchor="start">状态</text>
+<text x="1456" y="510" font-size="12" fill="#475569" font-weight="600" text-anchor="start">操作</text>
+<rect x="744" y="526" width="870" height="56" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="756" y="559" font-size="12" fill="#334155" font-weight="400" text-anchor="start">近30日活跃度</text>
+<text x="946" y="559" font-size="12" fill="#334155" font-weight="400" text-anchor="start">ACTIVE_30D</text>
+<text x="1136" y="559" font-size="12" fill="#334155" font-weight="400" text-anchor="start">100</text>
+<text x="1246" y="559" font-size="12" fill="#334155" font-weight="400" text-anchor="start">20.00</text>
+<text x="1356" y="559" font-size="12" fill="#334155" font-weight="400" text-anchor="start">启用</text>
+<text x="1456" y="559" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">查看  移除</text>
+<rect x="744" y="582" width="870" height="56" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="756" y="615" font-size="12" fill="#334155" font-weight="400" text-anchor="start">付费能力</text>
+<text x="946" y="615" font-size="12" fill="#334155" font-weight="400" text-anchor="start">PAY_LEVEL</text>
+<text x="1136" y="615" font-size="12" fill="#334155" font-weight="400" text-anchor="start">80</text>
+<text x="1246" y="615" font-size="12" fill="#334155" font-weight="400" text-anchor="start">30.00</text>
+<text x="1356" y="615" font-size="12" fill="#334155" font-weight="400" text-anchor="start">启用</text>
+<text x="1456" y="615" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">查看  移除</text>
+<rect x="744" y="638" width="870" height="56" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="756" y="671" font-size="12" fill="#334155" font-weight="400" text-anchor="start">内容互动质量</text>
+<text x="946" y="671" font-size="12" fill="#334155" font-weight="400" text-anchor="start">INTERACTION</text>
+<text x="1136" y="671" font-size="12" fill="#334155" font-weight="400" text-anchor="start">60</text>
+<text x="1246" y="671" font-size="12" fill="#334155" font-weight="400" text-anchor="start">10.00</text>
+<text x="1356" y="671" font-size="12" fill="#334155" font-weight="400" text-anchor="start">启用</text>
+<text x="1456" y="671" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">查看  移除</text>
+<rect x="744" y="694" width="870" height="56" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="756" y="727" font-size="12" fill="#334155" font-weight="400" text-anchor="start">账号风险</text>
+<text x="946" y="727" font-size="12" fill="#334155" font-weight="400" text-anchor="start">ACCOUNT_RISK</text>
+<text x="1136" y="727" font-size="12" fill="#334155" font-weight="400" text-anchor="start">40</text>
+<text x="1246" y="727" font-size="12" fill="#334155" font-weight="400" text-anchor="start">0.00</text>
+<text x="1356" y="727" font-size="12" fill="#334155" font-weight="400" text-anchor="start">停用</text>
+<text x="1456" y="727" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">查看  移除</text>
+<rect x="744" y="784" width="870" height="72" rx="8" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+<text x="764" y="814" font-size="11" fill="#9A3412" font-weight="500" text-anchor="start">提示：已停用参数保留关联展示并标记状态，实际计算行为沿用既有架构。</text>
+<text x="764" y="838" font-size="11" fill="#9A3412" font-weight="500" text-anchor="start">参数内容由技术维护，运营在本页只能查看、关联或移除。</text>
+<rect x="250" y="0" width="1422" height="941" fill="#0F172A" opacity="0.42"/>
+<rect x="560" y="104" width="870" height="730" rx="16" fill="#FFFFFF" filter="url(#softShadow)"/>
+<text x="596" y="154" font-size="23" fill="#111827" font-weight="700" text-anchor="start">关联评分参数</text>
+<text x="596" y="184" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">用户综合评分 · 可一次选择多个参数</text>
+<text x="1390" y="154" font-size="24" fill="#64748B" font-weight="400" text-anchor="middle">×</text>
+<text x="596" y="226" font-size="12" fill="#475569" font-weight="600" text-anchor="start"></text>
+<rect x="596" y="238" width="520" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="610" y="265" font-size="12" fill="#94A3B8" font-weight="500" text-anchor="start">搜索参数名称或参数标识</text>
+<rect x="1134" y="238" width="96" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="1182" y="265" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">搜索</text>
+<rect x="1250" y="244" width="129" height="28" rx="14" fill="#F5F3FF" stroke="none" stroke-width="1"/>
+<text x="1314.5" y="263" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="middle">已选择 2 项</text>
+<rect x="596" y="302" width="798" height="44" rx="6" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1"/>
+<text x="608" y="330" font-size="12" fill="#475569" font-weight="600" text-anchor="start">选择</text>
+<text x="698" y="330" font-size="12" fill="#475569" font-weight="600" text-anchor="start">参数名称</text>
+<text x="888" y="330" font-size="12" fill="#475569" font-weight="600" text-anchor="start">参数标识</text>
+<text x="1108" y="330" font-size="12" fill="#475569" font-weight="600" text-anchor="start">优先级</text>
+<text x="1238" y="330" font-size="12" fill="#475569" font-weight="600" text-anchor="start">状态</text>
+<rect x="596" y="346" width="798" height="56" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="608" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">☑</text>
+<text x="698" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">直播稳定度</text>
+<text x="888" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">LIVE_STABLE</text>
+<text x="1108" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">90</text>
+<text x="1238" y="379" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">启用</text>
+<rect x="596" y="402" width="798" height="56" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="608" y="435" font-size="12" fill="#334155" font-weight="400" text-anchor="start">☑</text>
+<text x="698" y="435" font-size="12" fill="#334155" font-weight="400" text-anchor="start">社交关系质量</text>
+<text x="888" y="435" font-size="12" fill="#334155" font-weight="400" text-anchor="start">SOCIAL_QUALITY</text>
+<text x="1108" y="435" font-size="12" fill="#334155" font-weight="400" text-anchor="start">70</text>
+<text x="1238" y="435" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">启用</text>
+<rect x="596" y="458" width="798" height="56" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="608" y="491" font-size="12" fill="#334155" font-weight="400" text-anchor="start">□</text>
+<text x="698" y="491" font-size="12" fill="#334155" font-weight="400" text-anchor="start">内容价值</text>
+<text x="888" y="491" font-size="12" fill="#334155" font-weight="400" text-anchor="start">CONTENT_VALUE</text>
+<text x="1108" y="491" font-size="12" fill="#334155" font-weight="400" text-anchor="start">65</text>
+<text x="1238" y="491" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">启用</text>
+<rect x="596" y="514" width="798" height="56" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="608" y="547" font-size="12" fill="#334155" font-weight="400" text-anchor="start">已关联</text>
+<text x="698" y="547" font-size="12" fill="#334155" font-weight="400" text-anchor="start">近30日活跃度</text>
+<text x="888" y="547" font-size="12" fill="#334155" font-weight="400" text-anchor="start">ACTIVE_30D</text>
+<text x="1108" y="547" font-size="12" fill="#334155" font-weight="400" text-anchor="start">100</text>
+<text x="1238" y="547" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">启用</text>
+<rect x="596" y="570" width="798" height="56" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="608" y="603" font-size="12" fill="#334155" font-weight="400" text-anchor="start">已关联</text>
+<text x="698" y="603" font-size="12" fill="#334155" font-weight="400" text-anchor="start">付费能力</text>
+<text x="888" y="603" font-size="12" fill="#334155" font-weight="400" text-anchor="start">PAY_LEVEL</text>
+<text x="1108" y="603" font-size="12" fill="#334155" font-weight="400" text-anchor="start">80</text>
+<text x="1238" y="603" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">启用</text>
+<rect x="596" y="626" width="798" height="56" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="608" y="659" font-size="12" fill="#334155" font-weight="400" text-anchor="start">不可选</text>
+<text x="698" y="659" font-size="12" fill="#334155" font-weight="400" text-anchor="start">设备风险</text>
+<text x="888" y="659" font-size="12" fill="#334155" font-weight="400" text-anchor="start">DEVICE_RISK</text>
+<text x="1108" y="659" font-size="12" fill="#334155" font-weight="400" text-anchor="start">50</text>
+<text x="1238" y="659" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">停用</text>
+<rect x="596" y="694" width="798" height="56" rx="8" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+<text x="616" y="728" font-size="12" fill="#475569" font-weight="500" text-anchor="start">已关联参数不能重复选择；停用参数不可新增关联。</text>
+<rect x="1152" y="770" width="104" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="1204" y="797" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">取消</text>
+<rect x="1274" y="770" width="120" height="42" rx="7" fill="#4F2BEE" stroke="#4F2BEE" stroke-width="1"/>
+<text x="1334" y="797" font-size="14" fill="#FFFFFF" font-weight="600" text-anchor="middle">确认关联</text>
+</svg>
