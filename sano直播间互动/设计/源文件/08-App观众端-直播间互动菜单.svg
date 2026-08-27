@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="941" height="1672" viewBox="0 0 941 1672">
+<defs>
+      <linearGradient id="liveGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#243B66"/><stop offset="0.55" stop-color="#34205F"/><stop offset="1" stop-color="#101828"/></linearGradient>
+      <linearGradient id="purpleGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient>
+      <linearGradient id="warmGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF7A00"/><stop offset="1" stop-color="#FF3D71"/></linearGradient>
+      <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#101828" flood-opacity="0.14"/></filter>
+      <filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#4F2BEE" flood-opacity="0.16"/></filter>
+    </defs>
+<style>text{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif}.shadow{filter:url(#shadow)}.soft-shadow{filter:url(#softShadow)}</style>
+<rect x="0" y="0" width="941" height="1672" rx="0" fill="#111827" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="941" height="670" rx="0" fill="url(#liveGrad)" stroke="none" stroke-width="1"/>
+<text x="42" y="45" font-size="17" fill="#FFFFFF" font-weight="700" text-anchor="start" opacity="1">9:41</text>
+<text x="850" y="45" font-size="15" fill="#FFFFFF" font-weight="600" text-anchor="middle" opacity="1">▰  5G</text>
+<circle cx="54" cy="108" r="28" fill="#F4C9AA" stroke="#FFFFFF" stroke-width="2"/>
+<text x="94" y="103" font-size="17" fill="#FFFFFF" font-weight="700" text-anchor="start" opacity="1">主播小鹿</text>
+<text x="94" y="128" font-size="12" fill="#D0D5DD" font-weight="400" text-anchor="start" opacity="1">1.2万观看</text>
+<rect x="250" y="90" width="82" height="30" rx="15" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="291" y="110" font-size="12" fill="#5B34F2" font-weight="600" text-anchor="middle" opacity="1">＋ 关注</text>
+<circle cx="876" cy="105" r="22" fill="#FFFFFF33" stroke="none" stroke-width="1"/>
+<text x="876" y="112" font-size="24" fill="#FFFFFF" font-weight="400" text-anchor="middle" opacity="1">×</text>
+<text x="470" y="280" font-size="56" fill="#FFFFFF22" font-weight="700" text-anchor="middle" opacity="1">LIVE</text>
+<text x="470" y="322" font-size="18" fill="#FFFFFF88" font-weight="500" text-anchor="middle" opacity="1">直播画面预览区</text>
+<text x="42" y="550" font-size="16" fill="#FFFFFF" font-weight="500" text-anchor="start" opacity="1">小安：今天互动菜单有什么？</text>
+<text x="42" y="588" font-size="16" fill="#FFFFFF" font-weight="500" text-anchor="start" opacity="1">Momo：棒棒糖已安排～</text>
+<text x="42" y="626" font-size="16" fill="#FFFFFF" font-weight="500" text-anchor="start" opacity="1">阿柒：主播跳得好可爱</text>
+<rect x="128" y="154" width="685" height="72" rx="36" fill="#111827DD" stroke="#FFFFFF33" stroke-width="1" class="shadow"/>
+<circle cx="170" cy="190" r="20" fill="#12B76A" stroke="none" stroke-width="1"/>
+<text x="170" y="197" font-size="17" fill="#FFFFFF" font-weight="800" text-anchor="middle" opacity="1">✓</text>
+<text x="208" y="184" font-size="15" fill="#FFFFFF" font-weight="600" text-anchor="start" opacity="1">主播已完成你点的「跳1分钟舞蹈」</text>
+<text x="208" y="208" font-size="12" fill="#D0D5DD" font-weight="400" text-anchor="start" opacity="1">本次剩余待完成：1次</text>
+<rect x="0" y="640" width="941" height="1032" rx="30" fill="#F8F7FC" stroke="none" stroke-width="1"/>
+<rect x="414" y="658" width="112" height="6" rx="3" fill="#D0D5DD" stroke="none" stroke-width="1"/>
+<text x="42" y="716" font-size="25" fill="#101828" font-weight="700" text-anchor="start" opacity="1">互动礼物菜单</text>
+<text x="42" y="748" font-size="13" fill="#667085" font-weight="400" text-anchor="start" opacity="1">送出指定礼物即可点单，进度仅自己可见</text>
+<rect x="742" y="694" width="116" height="30" rx="15" fill="#F4F0FF" stroke="none" stroke-width="1"/>
+<text x="800" y="714" font-size="12" fill="#5B34F2" font-weight="600" text-anchor="middle" opacity="1">舞蹈互动</text>
+<rect x="34" y="788" width="873" height="198" rx="18" fill="#FFFFFF" stroke="#C8BFFF" stroke-width="2" class="soft-shadow"/>
+<circle cx="92" cy="846" r="34" fill="#FFB547" stroke="none" stroke-width="1"/>
+<text x="92" y="854" font-size="17" fill="#FFFFFF" font-weight="700" text-anchor="middle" opacity="1">棒</text>
+<text x="144" y="830" font-size="18" fill="#101828" font-weight="700" text-anchor="start" opacity="1">棒棒糖 ×2</text>
+<text x="144" y="864" font-size="15" fill="#344054" font-weight="500" text-anchor="start" opacity="1">跳1分钟舞蹈</text>
+<text x="144" y="896" font-size="12" fill="#667085" font-weight="400" text-anchor="start" opacity="1">🔊 欢呼短音效</text>
+<rect x="650" y="814" width="160" height="30" rx="15" fill="#F4F0FF" stroke="none" stroke-width="1"/>
+<text x="730" y="834" font-size="12" fill="#5B34F2" font-weight="600" text-anchor="middle" opacity="1">当前进度 1/2</text>
+<rect x="144" y="920" width="344" height="10" rx="5" fill="#ECE8FA" stroke="none" stroke-width="1"/>
+<rect x="144" y="920" width="172" height="10" rx="5" fill="#5B34F2" stroke="none" stroke-width="1"/>
+<rect x="612" y="912" width="250" height="50" rx="8" fill="#5B34F2" stroke="#5B34F2" stroke-width="1"/>
+<text x="737" y="942" font-size="14" fill="#FFFFFF" font-weight="600" text-anchor="middle" opacity="1">送2个并点单</text>
+<rect x="34" y="1008" width="873" height="198" rx="18" fill="#FFFFFF" stroke="#E4E7EC" stroke-width="1"/>
+<circle cx="92" cy="1066" r="34" fill="#FFD84D" stroke="none" stroke-width="1"/>
+<text x="92" y="1074" font-size="17" fill="#FFFFFF" font-weight="700" text-anchor="middle" opacity="1">星</text>
+<text x="144" y="1050" font-size="18" fill="#101828" font-weight="700" text-anchor="start" opacity="1">小星星 ×5</text>
+<text x="144" y="1084" font-size="15" fill="#344054" font-weight="500" text-anchor="start" opacity="1">随机舞蹈30秒</text>
+<text x="144" y="1116" font-size="12" fill="#667085" font-weight="400" text-anchor="start" opacity="1">🔊 节奏鼓点</text>
+<rect x="650" y="1034" width="160" height="30" rx="15" fill="#F2F4F7" stroke="none" stroke-width="1"/>
+<text x="730" y="1054" font-size="12" fill="#667085" font-weight="600" text-anchor="middle" opacity="1">当前进度 0/5</text>
+<rect x="144" y="1140" width="344" height="10" rx="5" fill="#ECE8FA" stroke="none" stroke-width="1"/>
+<rect x="612" y="1132" width="250" height="50" rx="8" fill="#FFFFFF" stroke="#C8BFFF" stroke-width="1"/>
+<text x="737" y="1162" font-size="14" fill="#5B34F2" font-weight="600" text-anchor="middle" opacity="1">送5个并点单</text>
+<rect x="34" y="1228" width="873" height="198" rx="18" fill="#FFFFFF" stroke="#E4E7EC" stroke-width="1"/>
+<circle cx="92" cy="1286" r="34" fill="#F670C7" stroke="none" stroke-width="1"/>
+<text x="92" y="1294" font-size="17" fill="#FFFFFF" font-weight="700" text-anchor="middle" opacity="1">花</text>
+<text x="144" y="1270" font-size="18" fill="#101828" font-weight="700" text-anchor="start" opacity="1">玫瑰花 ×10</text>
+<text x="144" y="1304" font-size="15" fill="#344054" font-weight="500" text-anchor="start" opacity="1">指定动作连拍</text>
+<text x="144" y="1336" font-size="12" fill="#667085" font-weight="400" text-anchor="start" opacity="1">🔊 闪亮登场</text>
+<rect x="650" y="1254" width="160" height="30" rx="15" fill="#F2F4F7" stroke="none" stroke-width="1"/>
+<text x="730" y="1274" font-size="12" fill="#667085" font-weight="600" text-anchor="middle" opacity="1">当前进度 3/10</text>
+<rect x="144" y="1360" width="344" height="10" rx="5" fill="#ECE8FA" stroke="none" stroke-width="1"/>
+<rect x="144" y="1360" width="103" height="10" rx="5" fill="#5B34F2" stroke="none" stroke-width="1"/>
+<rect x="612" y="1352" width="250" height="50" rx="8" fill="#FFFFFF" stroke="#C8BFFF" stroke-width="1"/>
+<text x="737" y="1382" font-size="14" fill="#5B34F2" font-weight="600" text-anchor="middle" opacity="1">送10个并点单</text>
+<rect x="34" y="1460" width="873" height="84" rx="14" fill="#EFF6FF" stroke="#B2D4FF" stroke-width="1"/>
+<text x="62" y="1492" font-size="14" fill="#344054" font-weight="600" text-anchor="start" opacity="1">普通礼物面板送出关联礼物也会累计</text>
+<text x="62" y="1522" font-size="12" fill="#667085" font-weight="400" text-anchor="start" opacity="1">一次送4个棒棒糖将成功点单2次，主播只收到一条合并提醒</text>
+<rect x="34" y="1570" width="873" height="74" rx="37" fill="#FFFFFF" stroke="#E4E7EC" stroke-width="1"/>
+<text x="72" y="1616" font-size="15" fill="#98A2B3" font-weight="400" text-anchor="start" opacity="1">说点什么…</text>
+<circle cx="760" cy="1607" r="25" fill="#5B34F2" stroke="none" stroke-width="1"/>
+<text x="760" y="1615" font-size="15" fill="#FFFFFF" font-weight="700" text-anchor="middle" opacity="1">礼</text>
+<circle cx="830" cy="1607" r="25" fill="#F4F0FF" stroke="none" stroke-width="1"/>
+<text x="830" y="1615" font-size="20" fill="#5B34F2" font-weight="700" text-anchor="middle" opacity="1">⋯</text>
+</svg>

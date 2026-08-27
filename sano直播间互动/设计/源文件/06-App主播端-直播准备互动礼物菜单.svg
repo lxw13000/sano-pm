@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="941" height="1672" viewBox="0 0 941 1672">
+<defs>
+      <linearGradient id="liveGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#243B66"/><stop offset="0.55" stop-color="#34205F"/><stop offset="1" stop-color="#101828"/></linearGradient>
+      <linearGradient id="purpleGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient>
+      <linearGradient id="warmGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF7A00"/><stop offset="1" stop-color="#FF3D71"/></linearGradient>
+      <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#101828" flood-opacity="0.14"/></filter>
+      <filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#4F2BEE" flood-opacity="0.16"/></filter>
+    </defs>
+<style>text{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif}.shadow{filter:url(#shadow)}.soft-shadow{filter:url(#softShadow)}</style>
+<rect x="0" y="0" width="941" height="1672" rx="0" fill="#F5F3FF" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="941" height="106" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="42" y="45" font-size="17" fill="#101828" font-weight="700" text-anchor="start" opacity="1">9:41</text>
+<text x="850" y="45" font-size="15" fill="#101828" font-weight="600" text-anchor="middle" opacity="1">▰  5G</text>
+<text x="48" y="82" font-size="40" fill="#101828" font-weight="400" text-anchor="start" opacity="1">‹</text>
+<text x="470" y="80" font-size="25" fill="#101828" font-weight="700" text-anchor="middle" opacity="1">直播准备</text>
+<rect x="34" y="136" width="873" height="330" rx="18" fill="url(#liveGrad)" stroke="none" stroke-width="1"/>
+<circle cx="470" cy="286" r="46" fill="#FFFFFF22" stroke="none" stroke-width="1"/>
+<text x="470" y="300" font-size="34" fill="#FFFFFF" font-weight="600" text-anchor="middle" opacity="1">▶</text>
+<text x="470" y="396" font-size="16" fill="#FFFFFFAA" font-weight="500" text-anchor="middle" opacity="1">摄像头预览</text>
+<text x="44" y="516" font-size="24" fill="#101828" font-weight="700" text-anchor="start" opacity="1">开播设置</text>
+<rect x="34" y="552" width="873" height="78" rx="14" fill="#FFFFFF" stroke="#E7E2FF" stroke-width="1"/>
+<text x="62" y="586" font-size="16" fill="#101828" font-weight="600" text-anchor="start" opacity="1">直播标题</text>
+<text x="812" y="586" font-size="14" fill="#667085" font-weight="400" text-anchor="end" opacity="1">今天跳舞给你看</text>
+<text x="872" y="588" font-size="24" fill="#667085" font-weight="400" text-anchor="middle" opacity="1">›</text>
+<rect x="34" y="646" width="873" height="78" rx="14" fill="#FFFFFF" stroke="#E7E2FF" stroke-width="1"/>
+<text x="62" y="680" font-size="16" fill="#101828" font-weight="600" text-anchor="start" opacity="1">封面与分类</text>
+<text x="812" y="680" font-size="14" fill="#667085" font-weight="400" text-anchor="end" opacity="1">才艺直播</text>
+<text x="872" y="682" font-size="24" fill="#667085" font-weight="400" text-anchor="middle" opacity="1">›</text>
+<rect x="34" y="740" width="873" height="78" rx="14" fill="#FFFFFF" stroke="#E7E2FF" stroke-width="1"/>
+<text x="62" y="774" font-size="16" fill="#101828" font-weight="600" text-anchor="start" opacity="1">美颜与设备</text>
+<text x="812" y="774" font-size="14" fill="#667085" font-weight="400" text-anchor="end" opacity="1">已设置</text>
+<text x="872" y="776" font-size="24" fill="#667085" font-weight="400" text-anchor="middle" opacity="1">›</text>
+<text x="44" y="862" font-size="24" fill="#101828" font-weight="700" text-anchor="start" opacity="1">直播互动</text>
+<rect x="34" y="900" width="873" height="210" rx="18" fill="#FFFFFF" stroke="#D8D0FF" stroke-width="1" class="soft-shadow"/>
+<circle cx="88" cy="956" r="34" fill="#5B34F2" stroke="none" stroke-width="1"/>
+<text x="88" y="968" font-size="21" fill="#FFFFFF" font-weight="700" text-anchor="middle" opacity="1">礼</text>
+<text x="140" y="948" font-size="20" fill="#101828" font-weight="700" text-anchor="start" opacity="1">互动礼物菜单</text>
+<rect x="140" y="968" width="96" height="30" rx="15" fill="#ECFDF3" stroke="none" stroke-width="1"/>
+<text x="188" y="988" font-size="12" fill="#12B76A" font-weight="600" text-anchor="middle" opacity="1">已审核通过</text>
+<rect x="800" y="930" width="68" height="36" rx="18" fill="#5B34F2" stroke="none" stroke-width="1"/>
+<circle cx="850" cy="948" r="14" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="62" y="1036" font-size="17" fill="#344054" font-weight="600" text-anchor="start" opacity="1">舞蹈互动</text>
+<text x="228" y="1036" font-size="14" fill="#667085" font-weight="400" text-anchor="start" opacity="1">共4项</text>
+<text x="812" y="1036" font-size="14" fill="#5B34F2" font-weight="600" text-anchor="end" opacity="1">编辑设置</text>
+<text x="62" y="1074" font-size="13" fill="#667085" font-weight="400" text-anchor="start" opacity="1">开播后只能暂停、恢复、关闭或静音，不能继续编辑</text>
+<rect x="34" y="1144" width="873" height="294" rx="18" fill="#FFFFFF" stroke="#E4E7EC" stroke-width="1"/>
+<text x="62" y="1186" font-size="18" fill="#101828" font-weight="700" text-anchor="start" opacity="1">本场菜单预览</text>
+<circle cx="74" cy="1238" r="20" fill="#FFB547" stroke="none" stroke-width="1"/>
+<text x="108" y="1236" font-size="15" fill="#101828" font-weight="600" text-anchor="start" opacity="1">棒棒糖 ×2</text>
+<text x="330" y="1236" font-size="14" fill="#344054" font-weight="400" text-anchor="start" opacity="1">跳1分钟舞蹈</text>
+<text x="830" y="1236" font-size="13" fill="#667085" font-weight="400" text-anchor="end" opacity="1">🔊 欢呼短音效</text>
+<line x1="62" y1="1266" x2="880" y2="1266" stroke="#F0EDF9" stroke-width="1"/>
+<circle cx="74" cy="1304" r="20" fill="#FFD84D" stroke="none" stroke-width="1"/>
+<text x="108" y="1302" font-size="15" fill="#101828" font-weight="600" text-anchor="start" opacity="1">小星星 ×5</text>
+<text x="330" y="1302" font-size="14" fill="#344054" font-weight="400" text-anchor="start" opacity="1">随机舞蹈30秒</text>
+<text x="830" y="1302" font-size="13" fill="#667085" font-weight="400" text-anchor="end" opacity="1">🔊 节奏鼓点</text>
+<line x1="62" y1="1332" x2="880" y2="1332" stroke="#F0EDF9" stroke-width="1"/>
+<circle cx="74" cy="1370" r="20" fill="#F670C7" stroke="none" stroke-width="1"/>
+<text x="108" y="1368" font-size="15" fill="#101828" font-weight="600" text-anchor="start" opacity="1">玫瑰花 ×10</text>
+<text x="330" y="1368" font-size="14" fill="#344054" font-weight="400" text-anchor="start" opacity="1">指定动作连拍</text>
+<text x="830" y="1368" font-size="13" fill="#667085" font-weight="400" text-anchor="end" opacity="1">🔊 闪亮登场</text>
+<rect x="34" y="1482" width="873" height="86" rx="43" fill="url(#purpleGrad)" stroke="none" stroke-width="0" class="soft-shadow"/>
+<text x="470" y="1536" font-size="23" fill="#FFFFFF" font-weight="700" text-anchor="middle" opacity="1">开始直播</text>
+<text x="470" y="1618" font-size="13" fill="#667085" font-weight="400" text-anchor="middle" opacity="1">互动菜单将在开播时生成本场快照</text>
+</svg>
