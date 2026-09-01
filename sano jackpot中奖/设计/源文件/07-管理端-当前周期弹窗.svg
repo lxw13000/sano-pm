@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941">
+  <defs>
+    <filter id="modalShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <style>
+    text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}
+    .section{font-size:16px;font-weight:600;fill:#262626}
+    .label{font-size:12px;font-weight:400;fill:#8C8C8C}
+    .value{font-size:14px;font-weight:500;fill:#262626}
+    .th{font-size:12px;font-weight:600;fill:#595959}
+    .td{font-size:12px;font-weight:400;fill:#434343}
+    .note{font-size:12px;font-weight:400;fill:#69869C}
+  </style>
+
+  <image href="01-管理端-Jackpot配置列表.svg" x="0" y="0" width="1672" height="941"/>
+  <rect width="1672" height="941" fill="#000000" opacity="0.42"/>
+
+  <rect x="336" y="48" width="1200" height="844" rx="6" fill="#FFFFFF" filter="url(#modalShadow)"/>
+  <text x="368" y="88" font-size="20" font-weight="600" fill="#262626">当前周期 · 幸运礼物</text>
+  <text x="368" y="113" font-size="12" fill="#8C8C8C">只读展示本周期创建时锁定的开奖参数，以及当前奖池与白名单状态</text>
+  <text x="1501" y="88" font-size="24" text-anchor="middle" fill="#8C8C8C">×</text>
+  <line x1="336" y1="130" x2="1536" y2="130" stroke="#E8E8E8"/>
+
+  <text x="368" y="166" class="section">周期概览</text>
+  <rect x="368" y="184" width="1136" height="104" rx="5" fill="#FAFAFA" stroke="#E8E8E8"/>
+  <text x="392" y="211" class="label">周期ID</text>
+  <text x="392" y="237" class="value">JP-20260901-00018</text>
+  <text x="615" y="211" class="label">周期状态</text>
+  <rect x="615" y="220" width="62" height="24" rx="12" fill="#FFF7E6"/>
+  <text x="646" y="237" font-size="12" text-anchor="middle" fill="#D46B08">待开奖</text>
+  <text x="790" y="211" class="label">随机绝对开奖阈值</text>
+  <text x="790" y="237" font-size="16" font-weight="600" fill="#1890FF">2,860,000</text>
+  <text x="1018" y="211" class="label">奖池实际余额</text>
+  <text x="1018" y="237" font-size="16" font-weight="600" fill="#262626">2,430,000</text>
+  <text x="1238" y="211" class="label">距离达到阈值</text>
+  <text x="1238" y="237" font-size="16" font-weight="600" fill="#FA8C16">430,000</text>
+  <text x="392" y="271" class="label">配置阈值范围：2,600,000 ～ 3,200,000</text>
+  <text x="725" y="271" class="label">基础中奖概率：1 / 100,000</text>
+  <text x="980" y="271" class="label">奖金比例：12%</text>
+  <text x="1180" y="271" class="label">创建时间：2026-09-01 09:12:36</text>
+
+  <text x="368" y="326" class="section">本周期消费倍率模板</text>
+  <rect x="368" y="344" width="1136" height="62" rx="5" fill="#E6F7FF" stroke="#91D5FF"/>
+  <text x="392" y="368" class="label">模板名称</text>
+  <text x="392" y="390" class="value">模板1</text>
+  <text x="600" y="368" class="label">抽取权重</text>
+  <text x="600" y="390" class="value">50</text>
+  <text x="760" y="368" class="label">是否默认</text>
+  <text x="760" y="390" class="value">是</text>
+  <text x="920" y="368" class="label">区间数量</text>
+  <text x="920" y="390" class="value">4项</text>
+  <text x="1080" y="368" class="label">倍率范围</text>
+  <text x="1080" y="390" class="value">1～5倍</text>
+  <text x="1250" y="368" class="label">配置版本</text>
+  <text x="1250" y="390" class="value">V20260901.01</text>
+
+  <rect x="368" y="422" width="1136" height="190" rx="4" fill="#FFFFFF" stroke="#E8E8E8"/>
+  <rect x="368" y="422" width="1136" height="42" fill="#FAFAFA"/>
+  <text x="392" y="448" class="th">单次消费价值</text>
+  <text x="615" y="448" class="th">倍率</text>
+  <text x="790" y="448" class="th">中奖比例</text>
+  <text x="1018" y="448" class="th">实际中奖概率</text>
+  <text x="1250" y="448" class="th">奖金计算</text>
+  <line x1="368" y1="464" x2="1504" y2="464" stroke="#E8E8E8"/>
+  <text x="392" y="489" class="td">≤ 5,000</text><text x="615" y="489" class="td">1</text><text x="790" y="489" class="td">10%</text><text x="1018" y="489" class="td">1 / 100,000</text><text x="1250" y="489" class="td">奖池金额 × 10%</text>
+  <line x1="368" y1="502" x2="1504" y2="502" stroke="#F0F0F0"/>
+  <text x="392" y="527" class="td">≤ 10,000</text><text x="615" y="527" class="td">2</text><text x="790" y="527" class="td">12%</text><text x="1018" y="527" class="td">2 / 100,000</text><text x="1250" y="527" class="td">奖池金额 × 12%</text>
+  <line x1="368" y1="540" x2="1504" y2="540" stroke="#F0F0F0"/>
+  <text x="392" y="565" class="td">≤ 15,000</text><text x="615" y="565" class="td">3</text><text x="790" y="565" class="td">15%</text><text x="1018" y="565" class="td">3 / 100,000</text><text x="1250" y="565" class="td">奖池金额 × 15%</text>
+  <line x1="368" y1="578" x2="1504" y2="578" stroke="#F0F0F0"/>
+  <text x="392" y="603" class="td">≤ 20,000</text><text x="615" y="603" class="td">5</text><text x="790" y="603" class="td">20%</text><text x="1018" y="603" class="td">5 / 100,000</text><text x="1250" y="603" class="td">奖池金额 × 20%</text>
+
+  <text x="368" y="652" class="section">本周期白名单</text>
+  <rect x="490" y="635" width="56" height="24" rx="12" fill="#F6FFED" stroke="#B7EB8F"/>
+  <text x="518" y="652" font-size="12" text-anchor="middle" fill="#389E0D">有 · 2人</text>
+  <text x="568" y="652" class="note">名单内用户仍需在本周期产生幸运礼物消费，中奖后从一次性白名单移除</text>
+  <rect x="368" y="670" width="1136" height="102" rx="4" fill="#FFFFFF" stroke="#E8E8E8"/>
+  <rect x="368" y="670" width="1136" height="38" fill="#FAFAFA"/>
+  <text x="392" y="694" class="th">用户ID</text>
+  <text x="615" y="694" class="th">用户昵称</text>
+  <text x="790" y="694" class="th">本周期幸运礼物消费</text>
+  <text x="1060" y="694" class="th">消费状态</text>
+  <text x="1250" y="694" class="th">加入时间</text>
+  <line x1="368" y1="708" x2="1504" y2="708" stroke="#E8E8E8"/>
+  <text x="392" y="733" class="td">10028631</text><text x="615" y="733" class="td">LuckyStar</text><text x="790" y="733" class="td">28,600金币</text><text x="1060" y="733" font-size="12" fill="#389E0D">已有消费</text><text x="1250" y="733" class="td">2026-09-01 10:05</text>
+  <line x1="368" y1="746" x2="1504" y2="746" stroke="#F0F0F0"/>
+  <text x="392" y="765" class="td">10039172</text><text x="615" y="765" class="td">Moonlight</text><text x="790" y="765" class="td">0金币</text><text x="1060" y="765" font-size="12" fill="#8C8C8C">暂无消费</text><text x="1250" y="765" class="td">2026-09-01 11:20</text>
+
+  <rect x="368" y="790" width="1136" height="42" rx="4" fill="#E6F7FF" stroke="#91D5FF"/>
+  <text x="392" y="816" class="note">当前周期参数在创建时已锁定，本弹窗仅供核对；后台配置变更从下一周期开始生效。</text>
+
+  <line x1="336" y1="850" x2="1536" y2="850" stroke="#E8E8E8"/>
+  <rect x="1416" y="862" width="88" height="36" rx="4" fill="#1890FF"/>
+  <text x="1460" y="885" font-size="13" text-anchor="middle" fill="#FFFFFF">关闭</text>
+</svg>

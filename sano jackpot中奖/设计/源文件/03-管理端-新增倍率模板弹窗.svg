@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941">
+  <style>
+    text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}
+    .label{font-size:13px;fill:#595959}
+    .value{font-size:13px;fill:#262626}
+    .help{font-size:12px;fill:#8C8C8C}
+  </style>
+  <image href="02-管理端-Jackpot明细配置.svg" x="0" y="0" width="1672" height="941"/>
+  <rect x="0" y="0" width="1672" height="941" fill="#000000" opacity="0.32"/>
+  <rect x="548" y="205" width="576" height="520" rx="6" fill="#FFFFFF"/>
+  <text x="576" y="247" font-size="18" font-weight="600" fill="#262626">新增倍率模板</text>
+  <text x="1094" y="247" font-size="22" text-anchor="middle" fill="#8C8C8C">×</text>
+  <line x1="548" y1="266" x2="1124" y2="266" stroke="#E8E8E8"/>
+
+  <text x="584" y="306" class="label">模板名称</text>
+  <text x="572" y="306" font-size="13" fill="#FF4D4F">*</text>
+  <rect x="584" y="320" width="504" height="40" rx="4" fill="#FFFFFF" stroke="#40A9FF"/>
+  <text x="600" y="345" class="value">模板4</text>
+  <text x="584" y="380" class="help">名称用于运营识别，不向用户展示，最多30个字符</text>
+
+  <text x="584" y="420" class="label">抽取权重</text>
+  <text x="572" y="420" font-size="13" fill="#FF4D4F">*</text>
+  <rect x="584" y="434" width="240" height="40" rx="4" fill="#FFFFFF" stroke="#D9D9D9"/>
+  <text x="600" y="459" class="value">10</text>
+  <text x="838" y="459" class="help">当前有效模板总权重：110</text>
+  <text x="584" y="494" class="help">创建轮次时按“当前模板权重 ÷ 全部有效模板权重”随机选择</text>
+
+  <text x="584" y="534" class="label">设为默认模板</text>
+  <rect x="584" y="548" width="46" height="24" rx="12" fill="#D9D9D9"/>
+  <circle cx="596" cy="560" r="9" fill="#FFFFFF"/>
+  <text x="644" y="565" class="value">否</text>
+  <text x="584" y="592" class="help">随机模板不可用时使用默认模板；同一Jackpot类型只能有一个默认模板</text>
+
+  <rect x="584" y="620" width="504" height="52" rx="4" fill="#E6F7FF" stroke="#91D5FF"/>
+  <text x="602" y="643" font-size="12" fill="#096DD9">创建后将自动选中该模板，可继续在右侧新增消费价值区间。</text>
+  <text x="602" y="662" font-size="12" fill="#096DD9">模板未配置有效区间前不能参与新轮次随机。</text>
+
+  <line x1="548" y1="686" x2="1124" y2="686" stroke="#E8E8E8"/>
+  <rect x="932" y="699" width="74" height="36" rx="4" fill="#FFFFFF" stroke="#D9D9D9"/>
+  <text x="969" y="722" font-size="13" text-anchor="middle" fill="#595959">取消</text>
+  <rect x="1016" y="699" width="80" height="36" rx="4" fill="#1890FF"/>
+  <text x="1056" y="722" font-size="13" text-anchor="middle" fill="#FFFFFF">创建</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941">
+  <style>
+    text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}
+    .td{font-size:13px;fill:#4B5563}
+    .value{font-size:13px;fill:#262626}
+    .link{font-size:13px;fill:#1890FF}
+  </style>
+  <image href="02-管理端-Jackpot明细配置.svg" x="0" y="0" width="1672" height="941"/>
+
+  <rect x="626" y="618" width="988" height="58" fill="#E6F7FF" stroke="#40A9FF"/>
+  <rect x="642" y="631" width="120" height="32" rx="4" fill="#FFFFFF" stroke="#40A9FF"/>
+  <text x="658" y="652" class="value">10,000</text>
+  <text x="768" y="652" font-size="12" fill="#8C8C8C">上限</text>
+  <rect x="806" y="631" width="76" height="32" rx="4" fill="#FFFFFF" stroke="#40A9FF"/>
+  <text x="844" y="652" class="value" text-anchor="middle">2</text>
+  <rect x="940" y="631" width="88" height="32" rx="4" fill="#FFFFFF" stroke="#40A9FF"/>
+  <text x="984" y="652" class="value" text-anchor="middle">12</text>
+  <text x="1128" y="652" class="td">2 / 100,000</text>
+  <text x="1330" y="652" class="td">奖池金额 × 12%</text>
+  <text x="1514" y="652" class="link">保存</text>
+  <text x="1562" y="652" font-size="13" fill="#595959">取消</text>
+</svg>
