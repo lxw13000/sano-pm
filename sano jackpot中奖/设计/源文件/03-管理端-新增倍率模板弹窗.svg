@@ -1,12 +1,194 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941">
+  <style>#overlay text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}#overlay .label{font-size:13px;fill:#595959}#overlay .value{font-size:13px;fill:#262626}#overlay .help{font-size:12px;fill:#8C8C8C}
+  </style>
+    <!-- Inlined editable base: 02-管理端-Jackpot明细配置.svg -->
+<defs>
+    <filter id="shadow2" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="8" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
   <style>
     text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}
-    .label{font-size:13px;fill:#595959}
-    .value{font-size:13px;fill:#262626}
-    .help{font-size:12px;fill:#8C8C8C}
+    .title{font-size:24px;font-weight:600;fill:#1F2937}
+    .section{font-size:16px;font-weight:600;fill:#262626}
+    .label{font-size:13px;font-weight:400;fill:#595959}
+    .value{font-size:13px;font-weight:400;fill:#262626}
+    .help{font-size:12px;font-weight:400;fill:#8C8C8C}
+    .th{font-size:13px;font-weight:600;fill:#4B5563}
+    .td{font-size:13px;font-weight:400;fill:#4B5563}
+    .link{font-size:13px;font-weight:400;fill:#1890FF}
+    .nav{font-size:14px;font-weight:400;fill:#A8B4C5}
+    .nav-active{font-size:14px;font-weight:500;fill:#FFFFFF}
   </style>
-  <image href="02-管理端-Jackpot明细配置.svg" x="0" y="0" width="1672" height="941"/>
-  <rect x="0" y="0" width="1672" height="941" fill="#000000" opacity="0.32"/>
+
+  <rect width="1672" height="941" fill="#F5F7FA"/>
+  <rect x="0" y="0" width="228" height="941" fill="#001529"/>
+  <rect x="228" y="0" width="1444" height="60" fill="#FFFFFF"/>
+  <line x1="228" y1="60" x2="1672" y2="60" stroke="#E8E8E8"/>
+
+  <text x="24" y="39" font-size="20" font-weight="600" fill="#FFFFFF">SANO 管理后台</text>
+  <rect x="0" y="70" width="228" height="50" fill="#072746"/>
+  <text x="24" y="102" class="nav-active">◇  Jackpot管理</text>
+  <text x="198" y="102" class="nav-active">⌃</text>
+  <rect x="0" y="120" width="228" height="48" fill="#001D33"/>
+  <rect x="0" y="120" width="3" height="48" fill="#1890FF"/>
+  <text x="42" y="150" font-size="14" fill="#1890FF" font-weight="500">Jackpot配置</text>
+  <text x="42" y="202" class="nav">Jackpot记录</text>
+  <text x="42" y="254" class="nav">Jackpot计入记录</text>
+
+  <text x="258" y="37" font-size="13" fill="#8C8C8C">首页</text>
+  <text x="300" y="37" font-size="13" fill="#BFBFBF">/</text>
+  <text x="318" y="37" font-size="13" fill="#8C8C8C">Jackpot配置</text>
+  <text x="403" y="37" font-size="13" fill="#BFBFBF">/</text>
+  <text x="421" y="37" font-size="13" fill="#262626">明细配置</text>
+  <circle cx="1616" cy="30" r="16" fill="#FAFAFA" stroke="#E5E7EB"/>
+  <text x="1616" y="35" font-size="15" text-anchor="middle" fill="#64748B">管</text>
+
+  <text x="254" y="102" class="title">幸运礼物 · 明细配置</text>
+  <text x="254" y="129" class="help">配置每次消费请求的随机阈值范围、消费价值倍率模板和中奖比例</text>
+  <rect x="1464" y="85" width="76" height="36" rx="4" fill="#FFFFFF" stroke="#D9D9D9"/>
+  <text x="1502" y="108" font-size="13" text-anchor="middle" fill="#595959">返回</text>
+  <rect x="1550" y="85" width="96" height="36" rx="4" fill="#1890FF"/>
+  <text x="1598" y="108" font-size="13" text-anchor="middle" fill="#FFFFFF">保存配置</text>
+
+  <rect x="254" y="151" width="1392" height="190" rx="5" fill="#FFFFFF" filter="url(#shadow2)"/>
+  <rect x="254" y="151" width="5" height="48" rx="2" fill="#1890FF"/>
+  <text x="278" y="181" class="section">奖池阈值配置</text>
+  <text x="278" y="206" class="help">每次幸运礼物消费成功入池后，在配置最小值至最大值之间独立生成本次请求随机阈值</text>
+
+  <text x="278" y="247" class="label">Jackpot类型</text>
+  <rect x="278" y="259" width="172" height="36" rx="4" fill="#F5F5F5" stroke="#D9D9D9"/>
+  <text x="294" y="282" class="value">幸运礼物</text>
+
+  <text x="474" y="247" class="label">基础中奖概率</text>
+  <rect x="474" y="259" width="172" height="36" rx="4" fill="#FFFFFF" stroke="#D9D9D9"/>
+  <text x="490" y="282" class="value">1 / 100,000</text>
+
+  <text x="670" y="247" class="label">当前奖池金额</text>
+  <rect x="670" y="259" width="172" height="36" rx="4" fill="#F5F5F5" stroke="#D9D9D9"/>
+  <text x="686" y="282" class="value">2,430,000</text>
+
+  <text x="866" y="247" class="label">随机阈值最小值</text>
+  <rect x="866" y="259" width="172" height="36" rx="4" fill="#FFFFFF" stroke="#40A9FF"/>
+  <text x="882" y="282" class="value">2,600,000</text>
+
+  <text x="1062" y="247" class="label">随机阈值最大值</text>
+  <rect x="1062" y="259" width="172" height="36" rx="4" fill="#FFFFFF" stroke="#40A9FF"/>
+  <text x="1078" y="282" class="value">3,200,000</text>
+
+  <text x="1258" y="247" class="label">单次请求随机范围</text>
+  <rect x="1258" y="259" width="356" height="36" rx="4" fill="#E6F7FF" stroke="#91D5FF"/>
+  <text x="1274" y="282" font-size="13" fill="#096DD9">2,600,000 ～ 3,200,000</text>
+  <text x="278" y="320" class="help">说明：每次消费成功入池后独立生成 T = random（2,600,000，3,200,000）；当前奖池金额只与本次 T 比较，不沿用到后续请求。</text>
+
+  <rect x="254" y="361" width="1392" height="535" rx="5" fill="#FFFFFF" filter="url(#shadow2)"/>
+  <rect x="254" y="361" width="5" height="48" rx="2" fill="#1890FF"/>
+  <text x="278" y="391" class="section">单次消费区间倍率配置</text>
+  <text x="278" y="416" class="help">本次奖池金额 ≥ 随机阈值T时，按权重随机选择一套模板，再按实际消费价值匹配区间参数</text>
+
+  <rect x="278" y="441" width="302" height="421" rx="4" fill="#FAFAFA" stroke="#E8E8E8"/>
+  <text x="298" y="469" font-size="14" font-weight="600" fill="#262626">倍率模板</text>
+  <rect x="480" y="450" width="80" height="30" rx="4" fill="#FFFFFF" stroke="#91CAFF"/>
+  <text x="520" y="470" font-size="12" text-anchor="middle" fill="#1890FF">＋ 新增模板</text>
+
+  <rect x="294" y="496" width="270" height="94" rx="6" fill="#E6F7FF" stroke="#1890FF" stroke-width="1.5"/>
+  <circle cx="312" cy="518" r="5" fill="#1890FF"/>
+  <text x="326" y="523" font-size="14" font-weight="600" fill="#096DD9">模板1</text>
+  <rect x="458" y="507" width="46" height="22" rx="11" fill="#1890FF"/>
+  <text x="481" y="522" font-size="11" text-anchor="middle" fill="#FFFFFF">默认</text>
+  <text x="314" y="552" class="help">抽取权重</text>
+  <text x="382" y="552" font-size="13" fill="#262626">50</text>
+  <text x="444" y="552" class="help">区间</text>
+  <text x="480" y="552" font-size="13" fill="#262626">4项</text>
+  <text x="314" y="576" font-size="12" fill="#1890FF">当前编辑</text>
+  <text x="520" y="576" font-size="12" text-anchor="end" fill="#1890FF">编辑</text>
+
+  <rect x="294" y="602" width="270" height="94" rx="6" fill="#FFFFFF" stroke="#D9D9D9"/>
+  <circle cx="312" cy="624" r="5" fill="#BFBFBF"/>
+  <text x="326" y="629" font-size="14" font-weight="600" fill="#262626">模板2</text>
+  <text x="476" y="629" font-size="12" fill="#1890FF">设为默认</text>
+  <text x="314" y="658" class="help">抽取权重</text>
+  <text x="382" y="658" font-size="13" fill="#262626">30</text>
+  <text x="444" y="658" class="help">区间</text>
+  <text x="480" y="658" font-size="13" fill="#262626">5项</text>
+  <text x="314" y="682" font-size="12" fill="#8C8C8C">点击卡片查看配置</text>
+  <text x="520" y="682" font-size="12" text-anchor="end" fill="#1890FF">编辑</text>
+
+  <rect x="294" y="708" width="270" height="94" rx="6" fill="#FFFFFF" stroke="#D9D9D9"/>
+  <circle cx="312" cy="730" r="5" fill="#BFBFBF"/>
+  <text x="326" y="735" font-size="14" font-weight="600" fill="#262626">模板3</text>
+  <text x="476" y="735" font-size="12" fill="#1890FF">设为默认</text>
+  <text x="314" y="764" class="help">抽取权重</text>
+  <text x="382" y="764" font-size="13" fill="#262626">20</text>
+  <text x="444" y="764" class="help">区间</text>
+  <text x="480" y="764" font-size="13" fill="#262626">4项</text>
+  <text x="314" y="788" font-size="12" fill="#8C8C8C">点击卡片查看配置</text>
+  <text x="520" y="788" font-size="12" text-anchor="end" fill="#1890FF">编辑</text>
+
+  <text x="298" y="830" class="help">默认模板仅在模板随机不可用时兜底；</text>
+  <text x="298" y="850" class="help">每笔通过阈值的请求均按权重重新选择。</text>
+
+  <line x1="602" y1="441" x2="602" y2="862" stroke="#E8E8E8"/>
+  <text x="626" y="470" font-size="15" font-weight="600" fill="#262626">模板1 · 消费区间明细</text>
+  <text x="626" y="494" class="help">基础中奖概率：1 / 100,000　抽取权重：50　默认模板：是</text>
+  <rect x="1392" y="452" width="96" height="32" rx="4" fill="#FFFFFF" stroke="#D9D9D9"/>
+  <text x="1440" y="473" font-size="12" text-anchor="middle" fill="#595959">复制模板</text>
+  <rect x="1498" y="452" width="116" height="32" rx="4" fill="#1890FF"/>
+  <text x="1556" y="473" font-size="12" text-anchor="middle" fill="#FFFFFF">＋ 新增区间</text>
+
+  <rect x="626" y="514" width="988" height="46" fill="#FAFAFA" stroke="#E8E8E8"/>
+  <text x="646" y="543" class="th">单次消费价值</text>
+  <text x="824" y="543" class="th">倍率</text>
+  <text x="958" y="543" class="th">中奖比例（%）</text>
+  <text x="1128" y="543" class="th">实际中奖概率</text>
+  <text x="1330" y="543" class="th">奖金计算说明</text>
+  <text x="1532" y="543" class="th">操作</text>
+
+  <rect x="626" y="560" width="988" height="58" fill="#FFFFFF" stroke="#E8E8E8"/>
+  <text x="646" y="594" class="td">≤ 5,000</text>
+  <rect x="806" y="574" width="76" height="32" rx="4" fill="#FFFFFF" stroke="#D9D9D9"/>
+  <text x="844" y="595" class="value" text-anchor="middle">1</text>
+  <rect x="940" y="574" width="88" height="32" rx="4" fill="#FFFFFF" stroke="#D9D9D9"/>
+  <text x="984" y="595" class="value" text-anchor="middle">10</text>
+  <text x="1128" y="594" class="td">1 / 100,000</text>
+  <text x="1330" y="594" class="td">奖池金额 × 10%</text>
+  <text x="1532" y="594" class="link">修改　删除</text>
+
+  <rect x="626" y="618" width="988" height="58" fill="#FFFFFF" stroke="#E8E8E8"/>
+  <text x="646" y="652" class="td">≤ 10,000</text>
+  <rect x="806" y="632" width="76" height="32" rx="4" fill="#FFFFFF" stroke="#D9D9D9"/>
+  <text x="844" y="653" class="value" text-anchor="middle">2</text>
+  <rect x="940" y="632" width="88" height="32" rx="4" fill="#FFFFFF" stroke="#D9D9D9"/>
+  <text x="984" y="653" class="value" text-anchor="middle">12</text>
+  <text x="1128" y="652" class="td">2 / 100,000</text>
+  <text x="1330" y="652" class="td">奖池金额 × 12%</text>
+  <text x="1532" y="652" class="link">修改　删除</text>
+
+  <rect x="626" y="676" width="988" height="58" fill="#FFFFFF" stroke="#E8E8E8"/>
+  <text x="646" y="710" class="td">≤ 15,000</text>
+  <rect x="806" y="690" width="76" height="32" rx="4" fill="#FFFFFF" stroke="#D9D9D9"/>
+  <text x="844" y="711" class="value" text-anchor="middle">3</text>
+  <rect x="940" y="690" width="88" height="32" rx="4" fill="#FFFFFF" stroke="#D9D9D9"/>
+  <text x="984" y="711" class="value" text-anchor="middle">15</text>
+  <text x="1128" y="710" class="td">3 / 100,000</text>
+  <text x="1330" y="710" class="td">奖池金额 × 15%</text>
+  <text x="1532" y="710" class="link">修改　删除</text>
+
+  <rect x="626" y="734" width="988" height="58" fill="#FFFFFF" stroke="#E8E8E8"/>
+  <text x="646" y="768" class="td">≤ 20,000</text>
+  <rect x="806" y="748" width="76" height="32" rx="4" fill="#FFFFFF" stroke="#D9D9D9"/>
+  <text x="844" y="769" class="value" text-anchor="middle">5</text>
+  <rect x="940" y="748" width="88" height="32" rx="4" fill="#FFFFFF" stroke="#D9D9D9"/>
+  <text x="984" y="769" class="value" text-anchor="middle">20</text>
+  <text x="1128" y="768" class="td">5 / 100,000</text>
+  <text x="1330" y="768" class="td">奖池金额 × 20%</text>
+  <text x="1532" y="768" class="link">修改　删除</text>
+
+  <rect x="626" y="812" width="988" height="50" rx="4" fill="#FFFBE6" stroke="#FFE58F"/>
+  <text x="646" y="834" font-size="12" fill="#8C6D1F">普通用户：实际中奖概率 = 基础中奖概率 × 倍率；白名单：跳过倍率与随机判断，中奖率按100%。</text>
+  <text x="646" y="853" font-size="12" fill="#8C6D1F">中奖金额 = 中奖时奖池金额 × 命中区间中奖比例；每笔消费重新随机阈值，通过后重新随机模板。</text>
+  <g id="overlay">
+<rect x="0" y="0" width="1672" height="941" fill="#000000" opacity="0.32"/>
   <rect x="548" y="205" width="576" height="520" rx="6" fill="#FFFFFF"/>
   <text x="576" y="247" font-size="18" font-weight="600" fill="#262626">新增倍率模板</text>
   <text x="1094" y="247" font-size="22" text-anchor="middle" fill="#8C8C8C">×</text>
@@ -23,7 +205,7 @@
   <rect x="584" y="434" width="240" height="40" rx="4" fill="#FFFFFF" stroke="#D9D9D9"/>
   <text x="600" y="459" class="value">10</text>
   <text x="838" y="459" class="help">当前有效模板总权重：110</text>
-  <text x="584" y="494" class="help">创建轮次时按“当前模板权重 ÷ 全部有效模板权重”随机选择</text>
+  <text x="584" y="494" class="help">消费请求通过随机阈值后，按“当前模板权重 ÷ 全部有效模板权重”随机选择</text>
 
   <text x="584" y="534" class="label">设为默认模板</text>
   <rect x="584" y="548" width="46" height="24" rx="12" fill="#D9D9D9"/>
@@ -33,11 +215,12 @@
 
   <rect x="584" y="620" width="504" height="52" rx="4" fill="#E6F7FF" stroke="#91D5FF"/>
   <text x="602" y="643" font-size="12" fill="#096DD9">创建后将自动选中该模板，可继续在右侧新增消费价值区间。</text>
-  <text x="602" y="662" font-size="12" fill="#096DD9">模板未配置有效区间前不能参与新轮次随机。</text>
+  <text x="602" y="662" font-size="12" fill="#096DD9">模板未配置有效区间前不能参与请求级随机。</text>
 
   <line x1="548" y1="686" x2="1124" y2="686" stroke="#E8E8E8"/>
   <rect x="932" y="699" width="74" height="36" rx="4" fill="#FFFFFF" stroke="#D9D9D9"/>
   <text x="969" y="722" font-size="13" text-anchor="middle" fill="#595959">取消</text>
   <rect x="1016" y="699" width="80" height="36" rx="4" fill="#1890FF"/>
   <text x="1056" y="722" font-size="13" text-anchor="middle" fill="#FFFFFF">创建</text>
+  </g>
 </svg>

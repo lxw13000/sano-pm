@@ -55,19 +55,19 @@
   <rect x="278" y="231" width="16" height="16" rx="2" fill="#FFFFFF" stroke="#D9D9D9"/>
   <text x="326" y="245" class="th">Jackpot类型</text>
   <text x="484" y="245" class="th">累计最大值</text>
-  <text x="610" y="245" class="th">发放比例</text>
+  <text x="610" y="245" class="th">模板数量</text>
   <text x="716" y="245" class="th">抽水比例</text>
   <text x="818" y="245" class="th">发放次数</text>
   <text x="930" y="245" class="th">条件7日流水</text>
   <text x="1068" y="245" class="th">基础发放概率</text>
   <text x="1245" y="245" class="th">排序</text>
   <text x="1320" y="245" class="th">备注</text>
-  <text x="1460" y="245" class="th">操作</text>
+  <text x="1424" y="245" class="th">操作</text>
 
   <rect x="278" y="286" width="16" height="16" rx="2" fill="#FFFFFF" stroke="#D9D9D9"/>
   <text x="326" y="300" class="td">幸运礼物</text>
   <text x="484" y="300" class="td">2,864,279</text>
-  <text x="610" y="300" class="td">10%</text>
+  <text x="610" y="300" class="td">3套</text>
   <text x="716" y="300" class="td">0.005%</text>
   <text x="818" y="300" class="td">1</text>
   <text x="930" y="300" class="td">100,000</text>
@@ -75,17 +75,17 @@
   <text x="1084" y="300" font-size="12" fill="#FF7875">（十万分比：0.00001）</text>
   <text x="1245" y="300" class="td">0</text>
   <text x="1320" y="300" class="td">—</text>
-  <text x="1460" y="300" class="link">修改</text>
+  <text x="1460" y="300" font-size="12" fill="#1890FF">修改</text>
   <line x1="1492" y1="287" x2="1492" y2="303" stroke="#D9D9D9"/>
-  <text x="1502" y="300" class="link">明细配置</text>
+  <text x="1502" y="300" font-size="12" fill="#1890FF">明细配置</text>
   <line x1="1562" y1="287" x2="1562" y2="303" stroke="#D9D9D9"/>
-  <text x="1572" y="300" class="link" font-weight="500">当前周期</text>
+  <text x="1572" y="300" font-size="12" fill="#1890FF" font-weight="500">白名单</text>
   <line x1="254" y1="326" x2="1646" y2="326" stroke="#E8E8E8"/>
 
   <rect x="278" y="347" width="16" height="16" rx="2" fill="#FFFFFF" stroke="#D9D9D9"/>
   <text x="326" y="361" class="td">游戏</text>
   <text x="484" y="361" class="td">3,264,587</text>
-  <text x="610" y="361" class="td">15%</text>
+  <text x="610" y="361" class="td">3套</text>
   <text x="716" y="361" class="td">0.005%</text>
   <text x="818" y="361" class="td">1</text>
   <text x="930" y="361" class="td">100,000</text>
@@ -93,11 +93,11 @@
   <text x="1084" y="361" font-size="12" fill="#FF7875">（十万分比：0.00001）</text>
   <text x="1245" y="361" class="td">0</text>
   <text x="1320" y="361" class="td">—</text>
-  <text x="1460" y="361" class="link">修改</text>
+  <text x="1460" y="361" font-size="12" fill="#1890FF">修改</text>
   <line x1="1492" y1="348" x2="1492" y2="364" stroke="#D9D9D9"/>
-  <text x="1502" y="361" class="link">明细配置</text>
+  <text x="1502" y="361" font-size="12" fill="#1890FF">明细配置</text>
   <line x1="1562" y1="348" x2="1562" y2="364" stroke="#D9D9D9"/>
-  <text x="1572" y="361" class="link" font-weight="500">当前周期</text>
+  <text x="1572" y="361" font-size="12" fill="#1890FF" font-weight="500">白名单</text>
   <line x1="254" y1="387" x2="1646" y2="387" stroke="#E8E8E8"/>
 
   <rect x="254" y="387" width="1392" height="109" fill="#FFFFFF"/>
@@ -112,6 +112,6 @@
   <rect x="254" y="520" width="1392" height="58" rx="4" fill="#E6F7FF" stroke="#91D5FF"/>
   <circle cx="282" cy="549" r="9" fill="#1890FF"/>
   <text x="282" y="553" font-size="12" text-anchor="middle" fill="#FFFFFF">i</text>
-  <text x="304" y="545" font-size="13" fill="#35556F">“修改”维护基础字段；“明细配置”维护后续轮次规则；“当前周期”查看正在使用的完整开奖参数快照。</text>
-  <text x="304" y="566" font-size="12" fill="#69869C">每一行Jackpot类型拥有独立配置，当前周期只读展示，配置修改仅对后续创建的新轮次生效。</text>
+  <text x="304" y="545" font-size="13" fill="#35556F">“修改”维护基础字段；“明细配置”维护请求级随机阈值、消费模板及区间参数；“白名单”管理一次性优先中奖权益。</text>
+  <text x="304" y="566" font-size="12" fill="#69869C">每一行Jackpot类型拥有独立配置；保存后的配置从后续成功消费请求开始使用，不预先锁定开奖参数。</text>
 </svg>
