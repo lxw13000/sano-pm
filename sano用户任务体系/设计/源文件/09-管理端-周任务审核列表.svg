@@ -34,63 +34,63 @@
 <rect x="290" y="240" width="1330" height="44" rx="6" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1"/>
 <text x="302" y="268" font-size="12" fill="#475569" font-weight="600" text-anchor="start">主播</text>
 <text x="492" y="268" font-size="12" fill="#475569" font-weight="600" text-anchor="start">身份类型</text>
-<text x="662" y="268" font-size="12" fill="#475569" font-weight="600" text-anchor="start">任务周期</text>
-<text x="832" y="268" font-size="12" fill="#475569" font-weight="600" text-anchor="start">任务数</text>
-<text x="932" y="268" font-size="12" fill="#475569" font-weight="600" text-anchor="start">已完成</text>
-<text x="1042" y="268" font-size="12" fill="#475569" font-weight="600" text-anchor="start">待主观审核</text>
-<text x="1192" y="268" font-size="12" fill="#475569" font-weight="600" text-anchor="start">预计奖励</text>
-<text x="1322" y="268" font-size="12" fill="#475569" font-weight="600" text-anchor="start">状态</text>
-<text x="1472" y="268" font-size="12" fill="#475569" font-weight="600" text-anchor="start">操作</text>
+<text x="642" y="268" font-size="12" fill="#475569" font-weight="600" text-anchor="start">任务周期</text>
+<text x="802" y="268" font-size="12" fill="#475569" font-weight="600" text-anchor="start">基础门槛</text>
+<text x="942" y="268" font-size="12" fill="#475569" font-weight="600" text-anchor="start">任务数</text>
+<text x="1042" y="268" font-size="12" fill="#475569" font-weight="600" text-anchor="start">已完成</text>
+<text x="1142" y="268" font-size="12" fill="#475569" font-weight="600" text-anchor="start">预计可领取</text>
+<text x="1292" y="268" font-size="12" fill="#475569" font-weight="600" text-anchor="start">状态</text>
+<text x="1442" y="268" font-size="12" fill="#475569" font-weight="600" text-anchor="start">操作</text>
 <rect x="290" y="284" width="1330" height="62" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
 <text x="302" y="317" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Lina_Star / 102938475</text>
 <text x="492" y="317" font-size="12" fill="#334155" font-weight="400" text-anchor="start">黄金优质主播</text>
-<text x="662" y="317" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-17—08-23</text>
-<text x="832" y="317" font-size="12" fill="#334155" font-weight="400" text-anchor="start">7</text>
-<text x="932" y="317" font-size="12" fill="#334155" font-weight="400" text-anchor="start">5</text>
-<text x="1042" y="317" font-size="12" fill="#334155" font-weight="400" text-anchor="start">1</text>
-<text x="1192" y="317" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$24</text>
-<text x="1322" y="317" font-size="12" fill="#334155" font-weight="400" text-anchor="start">待审核</text>
-<text x="1472" y="317" font-size="12" fill="#334155" font-weight="400" text-anchor="start">查看  审核</text>
+<text x="642" y="317" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-17—08-23</text>
+<text x="802" y="317" font-size="12" fill="#334155" font-weight="400" text-anchor="start">未完成</text>
+<text x="942" y="317" font-size="12" fill="#334155" font-weight="400" text-anchor="start">7</text>
+<text x="1042" y="317" font-size="12" fill="#334155" font-weight="400" text-anchor="start">5</text>
+<text x="1142" y="317" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$0</text>
+<text x="1292" y="317" font-size="12" fill="#334155" font-weight="400" text-anchor="start">待审核</text>
+<text x="1442" y="317" font-size="12" fill="#334155" font-weight="400" text-anchor="start">查看  审核</text>
 <rect x="290" y="346" width="1330" height="62" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
 <text x="302" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Mina / 882016</text>
 <text x="492" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">普通优质主播</text>
-<text x="662" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-17—08-23</text>
-<text x="832" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">5</text>
-<text x="932" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">4</text>
-<text x="1042" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">0</text>
-<text x="1192" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$10</text>
-<text x="1322" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">待审核</text>
-<text x="1472" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">查看  审核</text>
+<text x="642" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-17—08-23</text>
+<text x="802" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">已完成</text>
+<text x="942" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">5</text>
+<text x="1042" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">4</text>
+<text x="1142" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$10</text>
+<text x="1292" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">待审核</text>
+<text x="1442" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">查看  审核</text>
 <rect x="290" y="408" width="1330" height="62" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
 <text x="302" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">June / 620418</text>
 <text x="492" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">外部认证主播</text>
-<text x="662" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-17—08-23</text>
-<text x="832" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">6</text>
-<text x="932" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">6</text>
-<text x="1042" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">0</text>
-<text x="1192" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$50</text>
-<text x="1322" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">审核通过</text>
-<text x="1472" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">查看  审核</text>
+<text x="642" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-17—08-23</text>
+<text x="802" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">已完成</text>
+<text x="942" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">6</text>
+<text x="1042" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">6</text>
+<text x="1142" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$50</text>
+<text x="1292" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">审核通过</text>
+<text x="1442" y="441" font-size="12" fill="#334155" font-weight="400" text-anchor="start">查看  审核</text>
 <rect x="290" y="470" width="1330" height="62" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
 <text x="302" y="503" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Ploy / 991205</text>
 <text x="492" y="503" font-size="12" fill="#334155" font-weight="400" text-anchor="start">黄金优质主播</text>
-<text x="662" y="503" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-10—08-16</text>
-<text x="832" y="503" font-size="12" fill="#334155" font-weight="400" text-anchor="start">7</text>
-<text x="932" y="503" font-size="12" fill="#334155" font-weight="400" text-anchor="start">3</text>
-<text x="1042" y="503" font-size="12" fill="#334155" font-weight="400" text-anchor="start">1</text>
-<text x="1192" y="503" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$0</text>
-<text x="1322" y="503" font-size="12" fill="#334155" font-weight="400" text-anchor="start">审核不通过</text>
-<text x="1472" y="503" font-size="12" fill="#334155" font-weight="400" text-anchor="start">查看  审核</text>
+<text x="642" y="503" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-10—08-16</text>
+<text x="802" y="503" font-size="12" fill="#334155" font-weight="400" text-anchor="start">未完成</text>
+<text x="942" y="503" font-size="12" fill="#334155" font-weight="400" text-anchor="start">7</text>
+<text x="1042" y="503" font-size="12" fill="#334155" font-weight="400" text-anchor="start">6</text>
+<text x="1142" y="503" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$0</text>
+<text x="1292" y="503" font-size="12" fill="#334155" font-weight="400" text-anchor="start">门槛未达标</text>
+<text x="1442" y="503" font-size="12" fill="#334155" font-weight="400" text-anchor="start">查看  审核</text>
 <rect x="290" y="532" width="1330" height="62" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
 <text x="302" y="565" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Nana / 762018</text>
 <text x="492" y="565" font-size="12" fill="#334155" font-weight="400" text-anchor="start">签约主播</text>
-<text x="662" y="565" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-10—08-16</text>
-<text x="832" y="565" font-size="12" fill="#334155" font-weight="400" text-anchor="start">8</text>
-<text x="932" y="565" font-size="12" fill="#334155" font-weight="400" text-anchor="start">8</text>
-<text x="1042" y="565" font-size="12" fill="#334155" font-weight="400" text-anchor="start">0</text>
-<text x="1192" y="565" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$100</text>
-<text x="1322" y="565" font-size="12" fill="#334155" font-weight="400" text-anchor="start">已领取</text>
-<text x="1472" y="565" font-size="12" fill="#334155" font-weight="400" text-anchor="start">查看  审核</text>
+<text x="642" y="565" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-10—08-16</text>
+<text x="802" y="565" font-size="12" fill="#334155" font-weight="400" text-anchor="start">已完成</text>
+<text x="942" y="565" font-size="12" fill="#334155" font-weight="400" text-anchor="start">8</text>
+<text x="1042" y="565" font-size="12" fill="#334155" font-weight="400" text-anchor="start">8</text>
+<text x="1142" y="565" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$100</text>
+<text x="1292" y="565" font-size="12" fill="#334155" font-weight="400" text-anchor="start">已领取</text>
+<text x="1442" y="565" font-size="12" fill="#334155" font-weight="400" text-anchor="start">查看  审核</text>
 <rect x="290" y="650" width="1330" height="72" rx="8" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
 <text x="316" y="680" font-size="12" fill="#4F2BEE" font-weight="600" text-anchor="start">查看</text>
 <text x="382" y="680" font-size="12" fill="#475569" font-weight="400" text-anchor="start">打开同一周任务结果页面的只读模式，不显示单项审核、整周通过或不通过操作。</text>

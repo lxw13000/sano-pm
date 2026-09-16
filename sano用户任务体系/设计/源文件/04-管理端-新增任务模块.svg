@@ -18,34 +18,84 @@
 <text x="30" y="414" font-size="18" fill="#FFFFFF" font-weight="400" text-anchor="start">□</text>
 <text x="64" y="414" font-size="15" fill="#FFFFFF" font-weight="500" text-anchor="start">奖励领取记录</text>
 <text x="290" y="64" font-size="31" fill="#111827" font-weight="700" text-anchor="start">任务库 / 新增任务模块</text>
-<text x="292" y="98" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">创建公共任务模块，保存后可关联具体任务项</text>
+<text x="292" y="98" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">配置任务组成、模块角色与三类策略</text>
 <rect x="1420" y="42" width="88" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
 <text x="1464" y="69" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">取消</text>
 <rect x="1524" y="42" width="98" height="42" rx="7" fill="#4F2BEE" stroke="#4F2BEE" stroke-width="1"/>
 <text x="1573" y="69" font-size="14" fill="#FFFFFF" font-weight="500" text-anchor="middle">保存</text>
-<rect x="290" y="142" width="1330" height="650" rx="10" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
-<text x="310" y="176" font-size="17" fill="#111827" font-weight="600" text-anchor="start">基础信息</text>
-<text x="324" y="226" font-size="14" fill="#334155" font-weight="600" text-anchor="start">*  模块图标</text>
-<rect x="520" y="190" width="126" height="126" rx="8" fill="#FAFBFD" stroke="#CBD5E1" stroke-width="1"/>
-<text x="583" y="254" font-size="34" fill="#64748B" font-weight="500" text-anchor="middle">↥</text>
-<rect x="676" y="218" width="120" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
-<text x="736" y="245" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">上传图标</text>
-<text x="676" y="280" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">建议PNG，1:1，≤2MB</text>
-<text x="520" y="340" font-size="13" fill="#334155" font-weight="500" text-anchor="start">*  模块名称</text>
-<rect x="520" y="352" width="1030" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
-<text x="534" y="379" font-size="13" fill="#94A3B8" font-weight="400" text-anchor="start">请输入模块名称</text>
-<text x="520" y="444" font-size="13" fill="#334155" font-weight="500" text-anchor="start">*  模块奖金</text>
-<rect x="520" y="456" width="1030" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
-<text x="534" y="483" font-size="13" fill="#94A3B8" font-weight="400" text-anchor="start">$  请输入奖励金额</text>
-<text x="324" y="580" font-size="14" fill="#334155" font-weight="600" text-anchor="start">是否启用</text>
-<rect x="520" y="554" width="62" height="28" rx="14" fill="#4F2BEE" stroke="none" stroke-width="1"/>
-<text x="551" y="573" font-size="12" fill="#FFFFFF" font-weight="500" text-anchor="middle">启用</text>
-<rect x="610" y="554" width="62" height="28" rx="14" fill="#F1F5F9" stroke="none" stroke-width="1"/>
-<text x="641" y="573" font-size="12" fill="#64748B" font-weight="500" text-anchor="middle">停用</text>
-<text x="324" y="652" font-size="14" fill="#334155" font-weight="600" text-anchor="start">备注</text>
-<rect x="520" y="620" width="1030" height="112" rx="7" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
-<text x="540" y="650" font-size="13" fill="#94A3B8" font-weight="400" text-anchor="start">请输入备注，最多200字</text>
-<text x="1518" y="712" font-size="11" fill="#94A3B8" font-weight="400" text-anchor="end">0/200</text>
-<rect x="290" y="814" width="1330" height="58" rx="7" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
-<text x="314" y="850" font-size="13" fill="#475569" font-weight="400" text-anchor="start">ⓘ 保存模块后，可在任务模块详情中从任务项列表关联任务项。</text>
+<rect x="290" y="130" width="1330" height="760" rx="10" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<text x="310" y="164" font-size="17" fill="#111827" font-weight="600" text-anchor="start">任务模块配置</text>
+<text x="324" y="204" font-size="13" fill="#334155" font-weight="600" text-anchor="start">* 模块图标</text>
+<rect x="324" y="222" width="104" height="104" rx="8" fill="#FAFBFD" stroke="#CBD5E1" stroke-width="1"/>
+<text x="376" y="282" font-size="30" fill="#64748B" font-weight="500" text-anchor="middle">↥</text>
+<rect x="450" y="252" width="112" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="506" y="279" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">上传图标</text>
+<text x="600" y="204" font-size="13" fill="#334155" font-weight="500" text-anchor="start">* 模块名称</text>
+<rect x="600" y="216" width="470" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="614" y="243" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">有效邀请阶梯奖励</text>
+<text x="1090" y="204" font-size="13" fill="#334155" font-weight="500" text-anchor="start">模块编码</text>
+<rect x="1090" y="216" width="260" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="1104" y="243" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">保存后自动生成</text>
+<text x="1380" y="204" font-size="13" fill="#334155" font-weight="600" text-anchor="start">是否启用</text>
+<rect x="1380" y="224" width="62" height="28" rx="14" fill="#4F2BEE" stroke="none" stroke-width="1"/>
+<text x="1411" y="243" font-size="12" fill="#FFFFFF" font-weight="500" text-anchor="middle">启用</text>
+<text x="324" y="374" font-size="16" fill="#111827" font-weight="600" text-anchor="start">1  任务组成</text>
+<text x="520" y="350" font-size="13" fill="#334155" font-weight="500" text-anchor="start">已关联任务项</text>
+<rect x="520" y="362" width="500" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="534" y="389" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">有效邀请用户数   ×</text>
+<rect x="1042" y="362" width="166" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="1125" y="389" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">＋ 添加任务项</text>
+<text x="1236" y="378" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">任务项可复用，不配置奖金</text>
+<text x="324" y="458" font-size="16" fill="#111827" font-weight="600" text-anchor="start">2  模块角色、完成与资格策略</text>
+<text x="520" y="434" font-size="13" fill="#334155" font-weight="500" text-anchor="start">模块角色</text>
+<rect x="520" y="446" width="300" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="534" y="473" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">普通任务模块  ⌄</text>
+<text x="840" y="434" font-size="13" fill="#334155" font-weight="500" text-anchor="start">完成策略</text>
+<rect x="840" y="446" width="330" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="854" y="473" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">全部任务完成  ⌄</text>
+<text x="1190" y="434" font-size="13" fill="#334155" font-weight="500" text-anchor="start">奖励资格策略</text>
+<rect x="1190" y="446" width="360" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="1204" y="473" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">需要基础门槛  ⌄</text>
+<text x="520" y="512" font-size="11" fill="#9A3412" font-weight="500" text-anchor="start">基础门槛模块的奖励资格必须为“无前置条件”，避免自我依赖。</text>
+<text x="324" y="576" font-size="16" fill="#111827" font-weight="600" text-anchor="start">3  奖励计算策略</text>
+<text x="520" y="552" font-size="13" fill="#334155" font-weight="500" text-anchor="start">策略类型</text>
+<rect x="520" y="564" width="350" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="534" y="591" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">按任务指标阶梯奖励  ⌄</text>
+<text x="890" y="552" font-size="13" fill="#334155" font-weight="500" text-anchor="start">计奖依据任务</text>
+<rect x="890" y="564" width="320" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="904" y="591" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">有效邀请用户数  ⌄</text>
+<text x="1230" y="552" font-size="13" fill="#334155" font-weight="500" text-anchor="start">计奖指标</text>
+<rect x="1230" y="564" width="320" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="1244" y="591" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">有效邀请人数（人）  ⌄</text>
+<text x="520" y="628" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">指标名称、类型和单位来自任务结果定义；运营不能手工输入JSON字段路径。</text>
+<text x="520" y="674" font-size="15" fill="#111827" font-weight="600" text-anchor="start">奖励档位</text>
+<rect x="1050" y="650" width="150" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="1125" y="677" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">＋ 添加档位</text>
+<rect x="520" y="696" width="680" height="44" rx="6" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1"/>
+<text x="532" y="724" font-size="12" fill="#475569" font-weight="600" text-anchor="start">达到值</text>
+<text x="742" y="724" font-size="12" fill="#475569" font-weight="600" text-anchor="start">单位</text>
+<text x="862" y="724" font-size="12" fill="#475569" font-weight="600" text-anchor="start">奖励金额</text>
+<text x="1072" y="724" font-size="12" fill="#475569" font-weight="600" text-anchor="start">操作</text>
+<rect x="520" y="740" width="680" height="42" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="532" y="773" font-size="12" fill="#334155" font-weight="400" text-anchor="start">≥ 3</text>
+<text x="742" y="773" font-size="12" fill="#334155" font-weight="400" text-anchor="start">人</text>
+<text x="862" y="773" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$5</text>
+<text x="1072" y="773" font-size="12" fill="#334155" font-weight="400" text-anchor="start">删除</text>
+<rect x="520" y="782" width="680" height="42" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="532" y="815" font-size="12" fill="#334155" font-weight="400" text-anchor="start">≥ 5</text>
+<text x="742" y="815" font-size="12" fill="#334155" font-weight="400" text-anchor="start">人</text>
+<text x="862" y="815" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$10</text>
+<text x="1072" y="815" font-size="12" fill="#334155" font-weight="400" text-anchor="start">删除</text>
+<rect x="520" y="824" width="680" height="42" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="532" y="857" font-size="12" fill="#334155" font-weight="400" text-anchor="start">≥ 10</text>
+<text x="742" y="857" font-size="12" fill="#334155" font-weight="400" text-anchor="start">人</text>
+<text x="862" y="857" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$20</text>
+<text x="1072" y="857" font-size="12" fill="#334155" font-weight="400" text-anchor="start">删除</text>
+<text x="1230" y="674" font-size="13" fill="#334155" font-weight="600" text-anchor="start">策略JSON（系统生成，只读）</text>
+<rect x="1230" y="696" width="320" height="166" rx="7" fill="#111827" stroke="none" stroke-width="1"/>
+<text x="1248" y="724" font-size="11" fill="#C4B5FD" font-weight="500" text-anchor="start">TIER_BY_TASK_METRIC</text>
+<text x="1248" y="750" font-size="10" fill="#E2E8F0" font-weight="400" text-anchor="start">source: EFFECTIVE_INVITE</text>
+<text x="1248" y="774" font-size="10" fill="#A7F3D0" font-weight="400" text-anchor="start">metric: effectiveInviteCount</text>
+<text x="1248" y="810" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="start">取最高已达档，不累加</text>
+<text x="1248" y="836" font-size="10" fill="#94A3B8" font-weight="400" text-anchor="start">保存后冻结到周任务快照</text>
 </svg>

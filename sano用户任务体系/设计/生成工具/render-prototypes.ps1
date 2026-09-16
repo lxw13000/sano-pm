@@ -40,7 +40,8 @@ $ExpectedNames = @(
     '15-H5-外部内容截图上传.svg',
     '16-H5-上周奖励待领取.svg',
     '17-H5-奖励记录.svg',
-    '18-H5-主播身份规则说明.svg'
+    '18-H5-主播身份规则说明.svg',
+    '19-H5-上周门槛未完成.svg'
 )
 
 $Files = if ($Names.Count -gt 0) {
@@ -57,7 +58,7 @@ $Files = if ($Names.Count -gt 0) {
         Get-Item -LiteralPath $Path
     })
 }
-if ($Names.Count -eq 0 -and $Files.Count -ne 18) { throw "Expected 18 SVG files, found $($Files.Count)." }
+if ($Names.Count -eq 0 -and $Files.Count -ne 19) { throw "Expected 19 SVG files, found $($Files.Count)." }
 
 $Rendered = @()
 foreach ($File in $Files) {

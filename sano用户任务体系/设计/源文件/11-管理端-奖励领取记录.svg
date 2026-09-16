@@ -40,8 +40,8 @@
 <rect x="290" y="264" width="1330" height="64" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
 <text x="302" y="297" font-size="12" fill="#334155" font-weight="400" text-anchor="start">Lina_Star</text>
 <text x="502" y="297" font-size="12" fill="#334155" font-weight="400" text-anchor="start">黄金优质主播</text>
-<text x="692" y="297" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-17—08-23</text>
-<text x="872" y="297" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$24</text>
+<text x="692" y="297" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-10—08-16</text>
+<text x="872" y="297" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$37</text>
 <text x="1012" y="297" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-25 11:20</text>
 <text x="1202" y="297" font-size="12" fill="#334155" font-weight="400" text-anchor="start">待领取</text>
 <text x="1352" y="297" font-size="12" fill="#334155" font-weight="400" text-anchor="start">--</text>
@@ -52,7 +52,7 @@
 <text x="692" y="361" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-17—08-23</text>
 <text x="872" y="361" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$0</text>
 <text x="1012" y="361" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-25 11:18</text>
-<text x="1202" y="361" font-size="12" fill="#334155" font-weight="400" text-anchor="start">未达标</text>
+<text x="1202" y="361" font-size="12" fill="#334155" font-weight="400" text-anchor="start">门槛未达标</text>
 <text x="1352" y="361" font-size="12" fill="#334155" font-weight="400" text-anchor="start">--</text>
 <text x="1532" y="361" font-size="12" fill="#334155" font-weight="400" text-anchor="start">查看</text>
 <rect x="290" y="392" width="1330" height="64" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
@@ -65,5 +65,6 @@
 <text x="1352" y="425" font-size="12" fill="#334155" font-weight="400" text-anchor="start">08-18 12:03</text>
 <text x="1532" y="425" font-size="12" fill="#334155" font-weight="400" text-anchor="start">查看</text>
 <rect x="290" y="520" width="1330" height="64" rx="7" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
-<text x="316" y="558" font-size="13" fill="#475569" font-weight="400" text-anchor="start">ⓘ 奖励金额大于0生成“待领取”；主播在App主动领取后更新为“已领取”；金额为0显示“未达标”。</text>
+<text x="316" y="550" font-size="12" fill="#475569" font-weight="400" text-anchor="start">ⓘ 奖励金额大于0生成“待领取”；主播主动领取后更新为“已领取”。</text>
+<text x="316" y="574" font-size="12" fill="#475569" font-weight="400" text-anchor="start">基础门槛未完成导致金额为0时显示“门槛未达标”，其他金额为0场景显示“未达标”。</text>
 </svg>

@@ -45,37 +45,48 @@
 <rect x="1420" y="330" width="188" height="42" rx="7" fill="#4F2BEE" stroke="#4F2BEE" stroke-width="1"/>
 <text x="1514" y="357" font-size="14" fill="#FFFFFF" font-weight="500" text-anchor="middle">＋ 关联任务模块</text>
 <rect x="306" y="390" width="1308" height="44" rx="6" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1"/>
-<text x="318" y="418" font-size="12" fill="#475569" font-weight="600" text-anchor="start">模块配置名称</text>
-<text x="628" y="418" font-size="12" fill="#475569" font-weight="600" text-anchor="start">App展示名称</text>
-<text x="883" y="418" font-size="12" fill="#475569" font-weight="600" text-anchor="start">任务项数量</text>
-<text x="1093" y="418" font-size="12" fill="#475569" font-weight="600" text-anchor="start">模块奖励（来自任务库）</text>
-<text x="1393" y="418" font-size="12" fill="#475569" font-weight="600" text-anchor="start">操作</text>
+<text x="318" y="418" font-size="12" fill="#475569" font-weight="600" text-anchor="start">App顺序</text>
+<text x="413" y="418" font-size="12" fill="#475569" font-weight="600" text-anchor="start">任务模块ID / 名称</text>
+<text x="668" y="418" font-size="12" fill="#475569" font-weight="600" text-anchor="start">模块角色</text>
+<text x="808" y="418" font-size="12" fill="#475569" font-weight="600" text-anchor="start">奖励资格策略</text>
+<text x="993" y="418" font-size="12" fill="#475569" font-weight="600" text-anchor="start">奖励计算策略</text>
+<text x="1183" y="418" font-size="12" fill="#475569" font-weight="600" text-anchor="start">最高奖励</text>
+<text x="1318" y="418" font-size="12" fill="#475569" font-weight="600" text-anchor="start">操作</text>
 <rect x="306" y="434" width="1308" height="66" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
-<text x="318" y="467" font-size="12" fill="#334155" font-weight="400" text-anchor="start">有效直播-黄金档</text>
-<text x="628" y="467" font-size="12" fill="#334155" font-weight="400" text-anchor="start">有效直播</text>
-<text x="883" y="467" font-size="12" fill="#334155" font-weight="400" text-anchor="start">3个任务项</text>
-<text x="1093" y="467" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$15</text>
-<text x="1393" y="467" font-size="12" fill="#334155" font-weight="400" text-anchor="start">查看   移除</text>
+<text x="318" y="467" font-size="12" fill="#334155" font-weight="400" text-anchor="start">1</text>
+<text x="413" y="467" font-size="12" fill="#334155" font-weight="400" text-anchor="start">R001 / 优质主播基础奖励</text>
+<text x="668" y="467" font-size="12" fill="#334155" font-weight="400" text-anchor="start">基础门槛</text>
+<text x="808" y="467" font-size="12" fill="#334155" font-weight="400" text-anchor="start">无前置条件</text>
+<text x="993" y="467" font-size="12" fill="#334155" font-weight="400" text-anchor="start">固定奖励</text>
+<text x="1183" y="467" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$10</text>
+<text x="1318" y="467" font-size="12" fill="#334155" font-weight="400" text-anchor="start">↑  ↓  查看  移除</text>
 <rect x="306" y="500" width="1308" height="66" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
-<text x="318" y="533" font-size="12" fill="#334155" font-weight="400" text-anchor="start">互动质量</text>
-<text x="628" y="533" font-size="12" fill="#334155" font-weight="400" text-anchor="start">互动质量</text>
-<text x="883" y="533" font-size="12" fill="#334155" font-weight="400" text-anchor="start">1个任务项</text>
-<text x="1093" y="533" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$5</text>
-<text x="1393" y="533" font-size="12" fill="#334155" font-weight="400" text-anchor="start">查看   移除</text>
+<text x="318" y="533" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2</text>
+<text x="413" y="533" font-size="12" fill="#334155" font-weight="400" text-anchor="start">R002 / 收入阶梯奖励</text>
+<text x="668" y="533" font-size="12" fill="#334155" font-weight="400" text-anchor="start">普通模块</text>
+<text x="808" y="533" font-size="12" fill="#334155" font-weight="400" text-anchor="start">需要基础门槛</text>
+<text x="993" y="533" font-size="12" fill="#334155" font-weight="400" text-anchor="start">按任务指标阶梯</text>
+<text x="1183" y="533" font-size="12" fill="#334155" font-weight="400" text-anchor="start">最高 $60</text>
+<text x="1318" y="533" font-size="12" fill="#334155" font-weight="400" text-anchor="start">↑  ↓  查看  移除</text>
 <rect x="306" y="566" width="1308" height="66" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
-<text x="318" y="599" font-size="12" fill="#334155" font-weight="400" text-anchor="start">拉新与内容</text>
-<text x="628" y="599" font-size="12" fill="#334155" font-weight="400" text-anchor="start">拉新与内容</text>
-<text x="883" y="599" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2个任务项</text>
-<text x="1093" y="599" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$6</text>
-<text x="1393" y="599" font-size="12" fill="#334155" font-weight="400" text-anchor="start">查看   移除</text>
+<text x="318" y="599" font-size="12" fill="#334155" font-weight="400" text-anchor="start">3</text>
+<text x="413" y="599" font-size="12" fill="#334155" font-weight="400" text-anchor="start">R003 / 时长奖励</text>
+<text x="668" y="599" font-size="12" fill="#334155" font-weight="400" text-anchor="start">普通模块</text>
+<text x="808" y="599" font-size="12" fill="#334155" font-weight="400" text-anchor="start">需要基础门槛</text>
+<text x="993" y="599" font-size="12" fill="#334155" font-weight="400" text-anchor="start">固定奖励</text>
+<text x="1183" y="599" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$3</text>
+<text x="1318" y="599" font-size="12" fill="#334155" font-weight="400" text-anchor="start">↑  ↓  查看  移除</text>
 <rect x="306" y="632" width="1308" height="66" rx="0" fill="#FFFFFF" stroke="#E9EDF3" stroke-width="1"/>
-<text x="318" y="665" font-size="12" fill="#334155" font-weight="400" text-anchor="start">收入与活动</text>
-<text x="628" y="665" font-size="12" fill="#334155" font-weight="400" text-anchor="start">收入与活动</text>
-<text x="883" y="665" font-size="12" fill="#334155" font-weight="400" text-anchor="start">1个任务项</text>
-<text x="1093" y="665" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$4</text>
-<text x="1393" y="665" font-size="12" fill="#334155" font-weight="400" text-anchor="start">查看   移除</text>
+<text x="318" y="665" font-size="12" fill="#334155" font-weight="400" text-anchor="start">4</text>
+<text x="413" y="665" font-size="12" fill="#334155" font-weight="400" text-anchor="start">R004 / 分享奖励</text>
+<text x="668" y="665" font-size="12" fill="#334155" font-weight="400" text-anchor="start">普通模块</text>
+<text x="808" y="665" font-size="12" fill="#334155" font-weight="400" text-anchor="start">需要基础门槛</text>
+<text x="993" y="665" font-size="12" fill="#334155" font-weight="400" text-anchor="start">固定奖励</text>
+<text x="1183" y="665" font-size="12" fill="#334155" font-weight="400" text-anchor="start">$4</text>
+<text x="1318" y="665" font-size="12" fill="#334155" font-weight="400" text-anchor="start">↑  ↓  查看  移除</text>
 <rect x="306" y="720" width="1308" height="110" rx="8" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1"/>
-<text x="332" y="758" font-size="14" fill="#334155" font-weight="600" text-anchor="start">每周最高奖励（自动合计）</text>
-<text x="332" y="804" font-size="28" fill="#4F2BEE" font-weight="700" text-anchor="start">$30</text>
-<text x="700" y="782" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">身份页面只负责选择与排序模块，任务和奖励在公共任务库维护</text>
+<text x="332" y="758" font-size="14" fill="#334155" font-weight="600" text-anchor="start">每周最高奖励（按模块策略上限自动合计）</text>
+<text x="332" y="804" font-size="28" fill="#4F2BEE" font-weight="700" text-anchor="start">$77</text>
+<text x="700" y="770" font-size="13" fill="#334155" font-weight="500" text-anchor="start">本页关联数据仅包含：身份ID、任务模块ID、App展示顺序</text>
+<text x="700" y="802" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">模块角色、三类策略和任务组成均来自公共任务库，只读展示</text>
 </svg>

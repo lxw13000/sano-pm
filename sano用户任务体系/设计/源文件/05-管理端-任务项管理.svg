@@ -47,8 +47,8 @@
 <rect x="642" y="530" width="84" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
 <text x="684" y="549" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="middle">系统统计</text>
 <rect x="292" y="590" width="472" height="66" rx="8" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
-<text x="312" y="617" font-size="13" fill="#111827" font-weight="600" text-anchor="start">有效新用户</text>
-<text x="312" y="641" font-size="10" fill="#64748B" font-weight="400" text-anchor="start">VALID_NEW_USERS</text>
+<text x="312" y="617" font-size="13" fill="#111827" font-weight="600" text-anchor="start">有效邀请用户数</text>
+<text x="312" y="641" font-size="10" fill="#64748B" font-weight="400" text-anchor="start">EFFECTIVE_INVITE</text>
 <rect x="642" y="608" width="84" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
 <text x="684" y="627" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="middle">系统统计</text>
 <rect x="292" y="668" width="472" height="66" rx="8" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
@@ -88,28 +88,35 @@
 <rect x="1430" y="370" width="62" height="28" rx="14" fill="#F1F5F9" stroke="none" stroke-width="1"/>
 <text x="1461" y="389" font-size="12" fill="#64748B" font-weight="500" text-anchor="middle">停用</text>
 <text x="834" y="452" font-size="14" fill="#111827" font-weight="600" text-anchor="start">任务参数 JSON</text>
-<rect x="834" y="470" width="366" height="204" rx="8" fill="#111827" stroke="none" stroke-width="1"/>
+<rect x="834" y="470" width="366" height="184" rx="8" fill="#111827" stroke="none" stroke-width="1"/>
 <text x="852" y="500" font-size="12" fill="#E2E8F0" font-weight="400" text-anchor="start">{</text>
 <text x="870" y="528" font-size="11" fill="#C4B5FD" font-weight="400" text-anchor="start">&quot;requiredDays&quot;: 4,</text>
 <text x="870" y="554" font-size="11" fill="#C4B5FD" font-weight="400" text-anchor="start">&quot;dailyRequiredMinutes&quot;: 120,</text>
 <text x="870" y="580" font-size="11" fill="#C4B5FD" font-weight="400" text-anchor="start">&quot;timeRanges&quot;: [</text>
 <text x="886" y="606" font-size="10" fill="#A7F3D0" font-weight="400" text-anchor="start">&quot;12:00-14:00&quot;, &quot;20:00-24:00&quot;</text>
 <text x="870" y="632" font-size="11" fill="#C4B5FD" font-weight="400" text-anchor="start">]</text>
-<text x="852" y="658" font-size="12" fill="#E2E8F0" font-weight="400" text-anchor="start">}</text>
-<text x="1220" y="452" font-size="14" fill="#111827" font-weight="600" text-anchor="start">展示说明</text>
-<rect x="1220" y="470" width="394" height="84" rx="8" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
-<text x="1238" y="500" font-size="11" fill="#334155" font-weight="400" text-anchor="start">每周至少4天，每天在高峰时段</text>
-<text x="1238" y="526" font-size="11" fill="#334155" font-weight="400" text-anchor="start">累计直播满2小时。</text>
-<text x="1220" y="582" font-size="14" fill="#111827" font-weight="600" text-anchor="start">实现说明</text>
-<rect x="1220" y="600" width="394" height="74" rx="8" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
-<text x="1238" y="630" font-size="11" fill="#334155" font-weight="400" text-anchor="start">按每日全部配置时段累计有效直播分钟数。</text>
-<text x="834" y="714" font-size="14" fill="#111827" font-weight="600" text-anchor="start">统一结果约定与示例</text>
-<rect x="834" y="732" width="780" height="92" rx="8" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1"/>
-<rect x="854" y="750" width="69" height="28" rx="14" fill="#FEE2E2" stroke="none" stroke-width="1"/>
-<text x="888.5" y="769" font-size="12" fill="#DC2626" font-weight="500" text-anchor="middle">未完成</text>
-<text x="978" y="770" font-size="11" fill="#64748B" font-weight="500" text-anchor="start">completed = false</text>
-<text x="1110" y="770" font-size="12" fill="#111827" font-weight="600" text-anchor="start">resultText：本周高峰时段达标3/4天</text>
-<text x="854" y="806" font-size="11" fill="#475569" font-weight="400" text-anchor="start">08-17完成；08-18完成；08-19未完成；08-20完成</text>
-<rect x="834" y="844" width="780" height="36" rx="7" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
-<text x="854" y="868" font-size="10" fill="#475569" font-weight="400" text-anchor="start">点击“新增任务项”后，右侧清空并切换为新增状态；已生成周任务快照不受编辑影响。</text>
+<text x="852" y="650" font-size="12" fill="#E2E8F0" font-weight="400" text-anchor="start">}</text>
+<text x="1220" y="452" font-size="14" fill="#111827" font-weight="600" text-anchor="start">结果定义 JSON</text>
+<rect x="1220" y="470" width="394" height="184" rx="8" fill="#111827" stroke="none" stroke-width="1"/>
+<text x="1238" y="500" font-size="11" fill="#E2E8F0" font-weight="400" text-anchor="start">{ &quot;metrics&quot;: [</text>
+<text x="1254" y="528" font-size="10" fill="#C4B5FD" font-weight="400" text-anchor="start">{ &quot;code&quot;: &quot;completedDays&quot;,</text>
+<text x="1270" y="554" font-size="10" fill="#C4B5FD" font-weight="400" text-anchor="start">&quot;name&quot;: &quot;达标天数&quot;,</text>
+<text x="1270" y="580" font-size="10" fill="#A7F3D0" font-weight="400" text-anchor="start">&quot;type&quot;: &quot;number&quot;, &quot;unit&quot;: &quot;天&quot;,</text>
+<text x="1270" y="606" font-size="10" fill="#A7F3D0" font-weight="400" text-anchor="start">&quot;rewardUsable&quot;: true }</text>
+<text x="1238" y="636" font-size="11" fill="#E2E8F0" font-weight="400" text-anchor="start">] }</text>
+<text x="834" y="690" font-size="13" fill="#334155" font-weight="500" text-anchor="start">展示说明</text>
+<rect x="834" y="702" width="366" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="848" y="729" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">每周至少4天，高峰时段累计直播满2小时。</text>
+<text x="1220" y="690" font-size="13" fill="#334155" font-weight="500" text-anchor="start">实现说明</text>
+<rect x="1220" y="702" width="394" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="1234" y="729" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">按每日全部配置时段累计有效直播分钟数。</text>
+<text x="834" y="770" font-size="14" fill="#111827" font-weight="600" text-anchor="start">统一任务结果示例</text>
+<rect x="834" y="788" width="780" height="76" rx="8" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1"/>
+<rect x="854" y="804" width="69" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="888.5" y="823" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="middle">进行中</text>
+<text x="964" y="824" font-size="11" fill="#64748B" font-weight="500" text-anchor="start">completed=false · status=IN_PROGRESS</text>
+<text x="1236" y="824" font-size="11" fill="#111827" font-weight="600" text-anchor="start">resultText：本周高峰时段达标3/4天</text>
+<text x="854" y="852" font-size="10" fill="#475569" font-weight="400" text-anchor="start">resultData：{ completedDays: 3, requiredDays: 4 }（任务项不配置奖金）</text>
+<rect x="834" y="876" width="780" height="28" rx="7" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+<text x="854" y="895" font-size="10" fill="#475569" font-weight="400" text-anchor="start">新增/编辑共用右侧表单；参数和结果定义由技术维护，运营仅管理关联关系。</text>
 </svg>

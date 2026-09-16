@@ -20,40 +20,41 @@
 <text x="470" y="362" font-size="22" fill="#5B36F2" font-weight="500" text-anchor="middle">08/10—08/16</text>
 <rect x="40" y="392" width="861" height="284" rx="26" fill="url(#purpleGradient)" filter="url(#softShadow)"/>
 <text x="76" y="452" font-size="17" fill="#EDE9FE" font-weight="500" text-anchor="start">黄金优质主播 · 上周结算</text>
-<text x="76" y="526" font-size="56" fill="#FFFFFF" font-weight="700" text-anchor="start">$24</text>
+<text x="76" y="526" font-size="56" fill="#FFFFFF" font-weight="700" text-anchor="start">$37</text>
 <text x="76" y="570" font-size="16" fill="#DDD6FE" font-weight="400" text-anchor="start">可领取奖励</text>
 <rect x="690" y="438" width="69" height="28" rx="14" fill="#FFFFFF" stroke="none" stroke-width="1"/>
 <text x="724.5" y="457" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">待领取</text>
-<text x="690" y="536" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="start">完成 4/4个模块</text>
+<text x="690" y="520" font-size="16" fill="#FFFFFF" font-weight="600" text-anchor="start">基础门槛已完成</text>
+<text x="690" y="552" font-size="14" fill="#EDE9FE" font-weight="500" text-anchor="start">完成 4/4个模块</text>
 <text x="690" y="574" font-size="13" fill="#DDD6FE" font-weight="400" text-anchor="start">审核时间 08/25 11:20</text>
 <text x="40" y="732" font-size="23" fill="#111827" font-weight="700" text-anchor="start">模块结算明细</text>
 <rect x="40" y="768" width="861" height="110" rx="18" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>
 <circle cx="86" cy="823" r="23" fill="#DCFCE7" stroke="none" stroke-width="1"/>
 <text x="86" y="831" font-size="15" fill="#16A34A" font-weight="700" text-anchor="middle">✓</text>
-<text x="130" y="813" font-size="20" fill="#111827" font-weight="700" text-anchor="start">有效直播</text>
-<text x="130" y="844" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">3项任务均完成</text>
-<text x="808" y="834" font-size="27" fill="#5B36F2" font-weight="700" text-anchor="end">$9</text>
+<text x="130" y="813" font-size="20" fill="#111827" font-weight="700" text-anchor="start">优质主播基础奖励</text>
+<text x="130" y="844" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">基础门槛3项任务均完成</text>
+<text x="808" y="834" font-size="27" fill="#5B36F2" font-weight="700" text-anchor="end">$10</text>
 <rect x="40" y="898" width="861" height="110" rx="18" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>
 <circle cx="86" cy="953" r="23" fill="#DCFCE7" stroke="none" stroke-width="1"/>
 <text x="86" y="961" font-size="15" fill="#16A34A" font-weight="700" text-anchor="middle">✓</text>
-<text x="130" y="943" font-size="20" fill="#111827" font-weight="700" text-anchor="start">互动质量</text>
-<text x="130" y="974" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">运营评审通过</text>
-<text x="808" y="964" font-size="27" fill="#5B36F2" font-weight="700" text-anchor="end">$5</text>
+<text x="130" y="943" font-size="20" fill="#111827" font-weight="700" text-anchor="start">收入阶梯奖励</text>
+<text x="130" y="974" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">收入350W，达到300W档</text>
+<text x="808" y="964" font-size="27" fill="#5B36F2" font-weight="700" text-anchor="end">$20</text>
 <rect x="40" y="1028" width="861" height="110" rx="18" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>
 <circle cx="86" cy="1083" r="23" fill="#DCFCE7" stroke="none" stroke-width="1"/>
 <text x="86" y="1091" font-size="15" fill="#16A34A" font-weight="700" text-anchor="middle">✓</text>
-<text x="130" y="1073" font-size="20" fill="#111827" font-weight="700" text-anchor="start">拉新与内容</text>
-<text x="130" y="1104" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">2项任务均完成</text>
-<text x="808" y="1094" font-size="27" fill="#5B36F2" font-weight="700" text-anchor="end">$6</text>
+<text x="130" y="1073" font-size="20" fill="#111827" font-weight="700" text-anchor="start">时长奖励</text>
+<text x="130" y="1104" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">6天12小时任务已完成</text>
+<text x="808" y="1094" font-size="27" fill="#5B36F2" font-weight="700" text-anchor="end">$3</text>
 <rect x="40" y="1158" width="861" height="110" rx="18" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>
 <circle cx="86" cy="1213" r="23" fill="#DCFCE7" stroke="none" stroke-width="1"/>
 <text x="86" y="1221" font-size="15" fill="#16A34A" font-weight="700" text-anchor="middle">✓</text>
-<text x="130" y="1203" font-size="20" fill="#111827" font-weight="700" text-anchor="start">收入与活动</text>
-<text x="130" y="1234" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">任务已完成</text>
+<text x="130" y="1203" font-size="20" fill="#111827" font-weight="700" text-anchor="start">分享奖励</text>
+<text x="130" y="1234" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">每周2条分享任务已完成</text>
 <text x="808" y="1224" font-size="27" fill="#5B36F2" font-weight="700" text-anchor="end">$4</text>
 <rect x="40" y="1304" width="861" height="106" rx="18" fill="#FFF7ED" stroke="none" stroke-width="1"/>
 <text x="76" y="1346" font-size="15" fill="#9A3412" font-weight="500" text-anchor="start">审核结算后生成待领取记录，请在有效期内主动领取。</text>
 <text x="76" y="1380" font-size="14" fill="#C2410C" font-weight="400" text-anchor="start">领取有效期：2026-09-06 23:59:59</text>
 <rect x="40" y="1470" width="861" height="42" rx="7" fill="#4F2BEE" stroke="#4F2BEE" stroke-width="1"/>
-<text x="470.5" y="1497" font-size="14" fill="#FFFFFF" font-weight="500" text-anchor="middle">立即领取  $24</text>
+<text x="470.5" y="1497" font-size="14" fill="#FFFFFF" font-weight="500" text-anchor="middle">立即领取  $37</text>
 </svg>
