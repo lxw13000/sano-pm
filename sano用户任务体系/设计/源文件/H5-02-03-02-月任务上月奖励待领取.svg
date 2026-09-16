@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1900" viewBox="0 0 940 1900">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
+<rect x="0" y="0" width="940" height="1900" rx="0" fill="#F4F0FF" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="940" height="96" rx="0" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="42" y="62" font-size="42" fill="#111827" font-weight="400" text-anchor="start">‹</text>
+<text x="470" y="66" font-size="30" fill="#111827" font-weight="700" text-anchor="middle">用户任务</text>
+<rect x="820" y="28" width="86" height="44" rx="22" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="863" y="57" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">规则</text>
+<rect x="56" y="120" width="828" height="68" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="194" y="162" font-size="18" fill="#64748B" font-weight="500" text-anchor="middle">日任务</text>
+<text x="470" y="162" font-size="18" fill="#64748B" font-weight="500" text-anchor="middle">周任务</text>
+<rect x="630" y="126" width="232" height="56" rx="16" fill="#F1EDFF" stroke="none" stroke-width="1"/>
+<text x="746" y="162" font-size="18" fill="#4F2BEE" font-weight="700" text-anchor="middle">月任务</text>
+<rect x="90" y="210" width="760" height="70" rx="35" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="474" y="214" width="372" height="62" rx="31" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="280" y="256" font-size="22" fill="#6B7280" font-weight="600" text-anchor="middle">本月</text>
+<text x="660" y="256" font-size="22" fill="#4F2BEE" font-weight="600" text-anchor="middle">上月</text>
+<text x="470" y="318" font-size="22" fill="#4F2BEE" font-weight="700" text-anchor="middle">2026年08月</text>
+<rect x="56" y="350" width="828" height="172" rx="24" fill="url(#purpleGradient)" stroke="none" stroke-width="1"/>
+<text x="90" y="398" font-size="16" fill="#DDD6FE" font-weight="400" text-anchor="start">上月已结算</text>
+<text x="90" y="442" font-size="25" fill="#FFF" font-weight="700" text-anchor="start">2个模块均已完成</text>
+<text x="90" y="482" font-size="13" fill="#DDD6FE" font-weight="400" text-anchor="start">仅上月可见；进入10月后未领取即放弃</text>
+<rect x="702" y="378" width="69" height="28" rx="14" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="736.5" y="397" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">待领取</text>
+<rect x="56" y="554" width="828" height="176" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="602" font-size="20" fill="#111827" font-weight="700" text-anchor="start">奖励汇总</text>
+<text x="88" y="654" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">已获得</text>
+<rect x="192" y="636" width="142" height="36" rx="18" fill="#FFF7E6" stroke="none" stroke-width="1"/>
+<circle cx="214" cy="654" r="12" fill="#F5A623" stroke="none" stroke-width="1"/>
+<text x="214" y="659" font-size="10" fill="#FFF" font-weight="700" text-anchor="middle">金</text>
+<text x="236" y="659" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">金币 500</text>
+<rect x="346" y="636" width="154" height="36" rx="18" fill="#F1EEFF" stroke="none" stroke-width="1"/>
+<text x="368" y="660" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="388" y="659" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">钻石 200000</text>
+<text x="512" y="659" font-size="13" fill="#4F2BEE" font-weight="600" text-anchor="start">奖励详情（4项） ›</text>
+<text x="88" y="702" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">经验、热度、头像框与礼物请查看奖励详情。</text>
+<rect x="56" y="766" width="828" height="42" rx="7" fill="#4F2BEE" stroke="#B8A9FF" stroke-width="1"/>
+<text x="470" y="793" font-size="14" fill="#FFFFFF" font-weight="500" text-anchor="middle">领取全部</text>
+<text x="56" y="858" font-size="22" fill="#111827" font-weight="700" text-anchor="start">上月任务模块</text>
+<rect x="56" y="902" width="828" height="226" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="950" font-size="20" fill="#111827" font-weight="700" text-anchor="start">月度成长奖励</text>
+<rect x="720" y="926" width="69" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="754.5" y="945" font-size="12" fill="#16A34A" font-weight="500" text-anchor="middle">已完成</text>
+<text x="88" y="990" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">3/3项任务完成</text>
+<text x="88" y="1034" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="start">钻石80k · 其他3项</text>
+<rect x="690" y="1064" width="158" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="769" y="1091" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看模块</text>
+<rect x="56" y="1162" width="828" height="226" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="1210" font-size="20" fill="#111827" font-weight="700" text-anchor="start">月度邀请奖励</text>
+<rect x="720" y="1186" width="69" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="754.5" y="1205" font-size="12" fill="#16A34A" font-weight="500" text-anchor="middle">已完成</text>
+<text x="88" y="1250" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">1/1项任务完成</text>
+<text x="88" y="1294" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="start">金币500 · 钻石120k</text>
+<rect x="690" y="1324" width="158" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="769" y="1351" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看模块</text>
+<rect x="56" y="1460" width="828" height="122" rx="18" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+<text x="88" y="1504" font-size="13" fill="#9A3412" font-weight="600" text-anchor="start">月周期只保留本月和上月入口。</text>
+<text x="88" y="1538" font-size="13" fill="#9A3412" font-weight="400" text-anchor="start">超过上月仍未领取的奖励，系统标记为已放弃且不再展示。</text>
+</svg>

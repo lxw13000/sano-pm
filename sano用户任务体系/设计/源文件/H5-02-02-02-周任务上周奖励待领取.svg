@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="2460" viewBox="0 0 940 2460">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
+<rect x="0" y="0" width="940" height="2460" rx="0" fill="#F4F0FF" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="940" height="96" rx="0" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="42" y="62" font-size="42" fill="#111827" font-weight="400" text-anchor="start">‹</text>
+<text x="470" y="66" font-size="30" fill="#111827" font-weight="700" text-anchor="middle">用户任务</text>
+<rect x="820" y="28" width="86" height="44" rx="22" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="863" y="57" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">规则</text>
+<rect x="56" y="120" width="828" height="68" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="194" y="162" font-size="18" fill="#64748B" font-weight="500" text-anchor="middle">日任务</text>
+<rect x="354" y="126" width="232" height="56" rx="16" fill="#F1EDFF" stroke="none" stroke-width="1"/>
+<text x="470" y="162" font-size="18" fill="#4F2BEE" font-weight="700" text-anchor="middle">周任务</text>
+<text x="746" y="162" font-size="18" fill="#64748B" font-weight="500" text-anchor="middle">月任务</text>
+<rect x="90" y="210" width="760" height="70" rx="35" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="474" y="214" width="372" height="62" rx="31" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="280" y="256" font-size="22" fill="#6B7280" font-weight="600" text-anchor="middle">本周</text>
+<text x="660" y="256" font-size="22" fill="#4F2BEE" font-weight="600" text-anchor="middle">上周</text>
+<text x="470" y="318" font-size="22" fill="#4F2BEE" font-weight="700" text-anchor="middle">09/07–09/13</text>
+<rect x="56" y="350" width="828" height="172" rx="24" fill="url(#purpleGradient)" stroke="none" stroke-width="1"/>
+<text x="90" y="398" font-size="16" fill="#DDD6FE" font-weight="400" text-anchor="start">周期审核已通过</text>
+<text x="90" y="442" font-size="25" fill="#FFF" font-weight="700" text-anchor="start">3个模块中2个获得奖励</text>
+<text x="90" y="482" font-size="13" fill="#DDD6FE" font-weight="400" text-anchor="start">仅上周可见；进入下周后未领取即放弃</text>
+<rect x="702" y="378" width="69" height="28" rx="14" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="736.5" y="397" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">待领取</text>
+<rect x="56" y="554" width="828" height="176" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="602" font-size="20" fill="#111827" font-weight="700" text-anchor="start">奖励汇总</text>
+<text x="88" y="654" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">已获得</text>
+<rect x="192" y="636" width="142" height="36" rx="18" fill="#FFF7E6" stroke="none" stroke-width="1"/>
+<circle cx="214" cy="654" r="12" fill="#F5A623" stroke="none" stroke-width="1"/>
+<text x="214" y="659" font-size="10" fill="#FFF" font-weight="700" text-anchor="middle">金</text>
+<text x="236" y="659" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">金币 100</text>
+<rect x="346" y="636" width="154" height="36" rx="18" fill="#F1EEFF" stroke="none" stroke-width="1"/>
+<text x="368" y="660" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="388" y="659" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">钻石 70000</text>
+<text x="512" y="659" font-size="13" fill="#4F2BEE" font-weight="600" text-anchor="start">奖励详情（4项） ›</text>
+<text x="88" y="702" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">多资产合并为一条记录，一次领取。</text>
+<rect x="56" y="766" width="828" height="42" rx="7" fill="#4F2BEE" stroke="#B8A9FF" stroke-width="1"/>
+<text x="470" y="793" font-size="14" fill="#FFFFFF" font-weight="500" text-anchor="middle">领取全部</text>
+<text x="56" y="858" font-size="22" fill="#111827" font-weight="700" text-anchor="start">上周任务模块</text>
+<text x="884" y="858" font-size="14" fill="#64748B" font-weight="500" text-anchor="end">2/3个模块完成</text>
+<rect x="56" y="894" width="828" height="302" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="944" font-size="20" fill="#111827" font-weight="700" text-anchor="start">时长达标奖励</text>
+<rect x="720" y="920" width="69" height="28" rx="14" fill="#FEF2F2" stroke="none" stroke-width="1"/>
+<text x="754.5" y="939" font-size="12" fill="#DC2626" font-weight="500" text-anchor="middle">未达标</text>
+<text x="88" y="982" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">2/3项任务完成</text>
+<rect x="88" y="1004" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="88" y="1004" width="509.20000000000005" height="10" rx="5" fill="#F59E0B" stroke="none" stroke-width="1"/>
+<text x="88" y="1050" font-size="14" fill="#475569" font-weight="400" text-anchor="start">模块未达标</text>
+<text x="88" y="1096" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">未获得</text>
+<rect x="192" y="1078" width="154" height="36" rx="18" fill="#F1F5F9" stroke="none" stroke-width="1"/>
+<text x="214" y="1102" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="234" y="1101" font-size="13" fill="#94A3B8" font-weight="700" text-anchor="start">钻石 30000</text>
+<text x="358" y="1101" font-size="13" fill="#94A3B8" font-weight="600" text-anchor="start">奖励详情（1项） ›</text>
+<rect x="690" y="1140" width="158" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="769" y="1167" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看模块</text>
+<rect x="56" y="1228" width="828" height="302" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="1278" font-size="20" fill="#111827" font-weight="700" text-anchor="start">收入阶梯奖励</text>
+<rect x="720" y="1254" width="69" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="754.5" y="1273" font-size="12" fill="#16A34A" font-weight="500" text-anchor="middle">已完成</text>
+<text x="88" y="1316" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">4/4项任务完成</text>
+<rect x="88" y="1338" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="88" y="1338" width="760" height="10" rx="5" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="88" y="1384" font-size="14" fill="#475569" font-weight="400" text-anchor="start">审核通过，奖励已结算</text>
+<text x="88" y="1430" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">已获得</text>
+<rect x="192" y="1412" width="142" height="36" rx="18" fill="#FFF7E6" stroke="none" stroke-width="1"/>
+<circle cx="214" cy="1430" r="12" fill="#F5A623" stroke="none" stroke-width="1"/>
+<text x="214" y="1435" font-size="10" fill="#FFF" font-weight="700" text-anchor="middle">金</text>
+<text x="236" y="1435" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">金币 100</text>
+<rect x="346" y="1412" width="154" height="36" rx="18" fill="#F1EEFF" stroke="none" stroke-width="1"/>
+<text x="368" y="1436" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="388" y="1435" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">钻石 30000</text>
+<text x="512" y="1435" font-size="13" fill="#4F2BEE" font-weight="600" text-anchor="start">奖励详情（2项） ›</text>
+<rect x="690" y="1474" width="158" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="769" y="1501" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看模块</text>
+<rect x="56" y="1562" width="828" height="302" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="1612" font-size="20" fill="#111827" font-weight="700" text-anchor="start">分享奖励</text>
+<rect x="720" y="1588" width="69" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="754.5" y="1607" font-size="12" fill="#16A34A" font-weight="500" text-anchor="middle">已完成</text>
+<text x="88" y="1650" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">1/1项任务完成</text>
+<rect x="88" y="1672" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="88" y="1672" width="760" height="10" rx="5" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="88" y="1718" font-size="14" fill="#475569" font-weight="400" text-anchor="start">审核通过，奖励已结算</text>
+<text x="88" y="1764" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">已获得</text>
+<rect x="192" y="1746" width="154" height="36" rx="18" fill="#F1EEFF" stroke="none" stroke-width="1"/>
+<text x="214" y="1770" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="234" y="1769" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">钻石 40000</text>
+<rect x="690" y="1808" width="158" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="769" y="1835" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看模块</text>
+<rect x="56" y="1950" width="828" height="114" rx="18" fill="#F7F4FF" stroke="none" stroke-width="1"/>
+<text x="88" y="1994" font-size="13" fill="#4F2BEE" font-weight="600" text-anchor="start">历史模块和任务结果已经冻结，只支持逐级查看。</text>
+<text x="88" y="2028" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">H5不提供独立奖励记录页，也不允许进入上上周。</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1640" viewBox="0 0 940 1640">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
+<rect x="0" y="0" width="940" height="1640" rx="0" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="940" height="96" rx="0" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="42" y="62" font-size="42" fill="#111827" font-weight="400" text-anchor="start">‹</text>
+<text x="470" y="66" font-size="30" fill="#111827" font-weight="700" text-anchor="middle">任务模块结算</text>
+<rect x="820" y="28" width="86" height="44" rx="22" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="863" y="57" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">规则</text>
+<rect x="56" y="126" width="828" height="174" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="176" font-size="22" fill="#111827" font-weight="700" text-anchor="start">时长达标奖励</text>
+<rect x="706" y="150" width="69" height="28" rx="14" fill="#FEF2F2" stroke="none" stroke-width="1"/>
+<text x="740.5" y="169" font-size="12" fill="#DC2626" font-weight="500" text-anchor="middle">未达标</text>
+<text x="88" y="216" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">模块内2/3项任务完成</text>
+<text x="88" y="258" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">未获得</text>
+<rect x="192" y="240" width="154" height="36" rx="18" fill="#F1F5F9" stroke="none" stroke-width="1"/>
+<text x="214" y="264" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="234" y="263" font-size="13" fill="#94A3B8" font-weight="700" text-anchor="start">钻石 30000</text>
+<text x="358" y="263" font-size="13" fill="#94A3B8" font-weight="600" text-anchor="start">奖励详情（1项） ›</text>
+<rect x="56" y="332" width="828" height="360" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="380" font-size="19" fill="#111827" font-weight="700" text-anchor="start">未完成原因</text>
+<text x="88" y="432" font-size="14" fill="#111827" font-weight="600" text-anchor="start">每日高峰直播满2小时</text>
+<text x="520" y="432" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">完成6天，连续4/6天</text>
+<text x="834" y="432" font-size="13" fill="#DC2626" font-weight="600" text-anchor="end">未完成</text>
+<text x="88" y="514" font-size="14" fill="#111827" font-weight="600" text-anchor="start">每日有效PK至少2场</text>
+<text x="520" y="514" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">完成5/3天</text>
+<text x="834" y="514" font-size="13" fill="#16A34A" font-weight="600" text-anchor="end">完成</text>
+<text x="88" y="596" font-size="14" fill="#111827" font-weight="600" text-anchor="start">每周有效邀请达标</text>
+<text x="520" y="596" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">有效邀请4人</text>
+<text x="834" y="596" font-size="13" fill="#16A34A" font-weight="600" text-anchor="end">完成</text>
+<rect x="56" y="730" width="828" height="176" rx="20" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+<text x="88" y="778" font-size="18" fill="#9A3412" font-weight="700" text-anchor="start">结算说明</text>
+<text x="88" y="820" font-size="14" fill="#475569" font-weight="400" text-anchor="start">模块内任一要求未完成，整个模块未完成，</text>
+<text x="88" y="854" font-size="14" fill="#475569" font-weight="400" text-anchor="start">该模块奖励为0；其他已完成模块仍正常结算。</text>
+<text x="88" y="888" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">任务真实结果保留，不会被改写。</text>
+</svg>

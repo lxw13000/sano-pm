@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1740" viewBox="0 0 940 1740">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
+<rect x="0" y="0" width="940" height="1740" rx="0" fill="#F4F0FF" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="940" height="96" rx="0" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="42" y="62" font-size="42" fill="#111827" font-weight="400" text-anchor="start">‹</text>
+<text x="470" y="66" font-size="30" fill="#111827" font-weight="700" text-anchor="middle">用户任务</text>
+<rect x="820" y="28" width="86" height="44" rx="22" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="863" y="57" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">规则</text>
+<rect x="56" y="120" width="828" height="68" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<rect x="78" y="126" width="232" height="56" rx="16" fill="#F1EDFF" stroke="none" stroke-width="1"/>
+<text x="194" y="162" font-size="18" fill="#4F2BEE" font-weight="700" text-anchor="middle">日任务</text>
+<text x="470" y="162" font-size="18" fill="#64748B" font-weight="500" text-anchor="middle">周任务</text>
+<text x="746" y="162" font-size="18" fill="#64748B" font-weight="500" text-anchor="middle">月任务</text>
+<rect x="90" y="210" width="760" height="70" rx="20" fill="#FFFFFF" stroke="#D8D0FF" stroke-width="2"/>
+<text x="128" y="240" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">日任务按自然日展示</text>
+<text x="128" y="266" font-size="19" fill="#111827" font-weight="700" text-anchor="start">2026年09月16日 · 今天</text>
+<text x="812" y="254" font-size="15" fill="#4F2BEE" font-weight="600" text-anchor="end">选择日期  ›</text>
+<rect x="56" y="310" width="828" height="164" rx="24" fill="url(#purpleGradient)" stroke="none" stroke-width="1"/>
+<text x="90" y="358" font-size="24" fill="#FFF" font-weight="700" text-anchor="start">黄金优质主播</text>
+<text x="90" y="396" font-size="14" fill="#DDD6FE" font-weight="400" text-anchor="start">日任务 · 今日数据持续更新</text>
+<text x="90" y="438" font-size="16" fill="#FFF" font-weight="600" text-anchor="start">2个奖励模块进行中</text>
+<rect x="700" y="338" width="69" height="28" rx="14" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="734.5" y="357" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">进行中</text>
+<text x="56" y="524" font-size="22" fill="#111827" font-weight="700" text-anchor="start">今日任务模块</text>
+<text x="884" y="524" font-size="14" fill="#64748B" font-weight="500" text-anchor="end">1/2个模块完成</text>
+<rect x="56" y="558" width="828" height="274" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="606" font-size="20" fill="#111827" font-weight="700" text-anchor="start">每日开播奖励</text>
+<rect x="738" y="582" width="62" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="769" y="601" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">日</text>
+<text x="88" y="642" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">1/1项任务完成</text>
+<rect x="88" y="664" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="88" y="664" width="760" height="10" rx="5" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="88" y="710" font-size="14" fill="#475569" font-weight="400" text-anchor="start">今日模块已完成</text>
+<text x="88" y="750" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">完成可得</text>
+<rect x="192" y="732" width="142" height="36" rx="18" fill="#FFF7E6" stroke="none" stroke-width="1"/>
+<circle cx="214" cy="750" r="12" fill="#F5A623" stroke="none" stroke-width="1"/>
+<text x="214" y="755" font-size="10" fill="#FFF" font-weight="700" text-anchor="middle">金</text>
+<text x="236" y="755" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">金币 100</text>
+<rect x="346" y="732" width="154" height="36" rx="18" fill="#F1EEFF" stroke="none" stroke-width="1"/>
+<text x="368" y="756" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="388" y="755" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">钻石 5000</text>
+<text x="512" y="755" font-size="13" fill="#4F2BEE" font-weight="600" text-anchor="start">奖励详情（1项） ›</text>
+<rect x="690" y="778" width="158" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="769" y="805" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看模块</text>
+<rect x="56" y="864" width="828" height="274" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="912" font-size="20" fill="#111827" font-weight="700" text-anchor="start">每日互动奖励</text>
+<rect x="738" y="888" width="62" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="769" y="907" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">日</text>
+<text x="88" y="948" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">1/2项任务完成</text>
+<rect x="88" y="970" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="88" y="970" width="380" height="10" rx="5" fill="#6D45F5" stroke="none" stroke-width="1"/>
+<text x="88" y="1016" font-size="14" fill="#475569" font-weight="400" text-anchor="start">还有1项任务未完成</text>
+<text x="88" y="1056" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">完成可得</text>
+<rect x="192" y="1038" width="154" height="36" rx="18" fill="#F1EEFF" stroke="none" stroke-width="1"/>
+<text x="214" y="1062" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="234" y="1061" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">钻石 3000</text>
+<rect x="690" y="1084" width="158" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="769" y="1111" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看模块</text>
+<rect x="56" y="1212" width="828" height="134" rx="18" fill="#F7F4FF" stroke="none" stroke-width="1"/>
+<text x="88" y="1256" font-size="16" fill="#4F2BEE" font-weight="700" text-anchor="start">日期选择规则</text>
+<text x="88" y="1292" font-size="13" fill="#475569" font-weight="400" text-anchor="start">可选择身份生效后的历史日期；未来日期不可选。</text>
+<text x="88" y="1324" font-size="13" fill="#475569" font-weight="400" text-anchor="start">历史日任务只读，若已结算且待领取，可在该日期直接领取。</text>
+</svg>

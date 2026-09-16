@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1640" viewBox="0 0 940 1640">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
+<rect x="0" y="0" width="940" height="1640" rx="0" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="940" height="96" rx="0" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="42" y="62" font-size="42" fill="#111827" font-weight="400" text-anchor="start">‹</text>
+<text x="470" y="66" font-size="30" fill="#111827" font-weight="700" text-anchor="middle">提交外部内容</text>
+<rect x="820" y="28" width="86" height="44" rx="22" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="863" y="57" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">规则</text>
+<rect x="56" y="126" width="828" height="150" rx="22" fill="#F7F4FF" stroke="none" stroke-width="1"/>
+<text x="88" y="174" font-size="21" fill="#111827" font-weight="700" text-anchor="start">每周发布2条Sano相关外部内容</text>
+<text x="88" y="214" font-size="15" fill="#4F2BEE" font-weight="600" text-anchor="start">已提交1/2条 · 审核通过1条</text>
+<text x="88" y="248" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">当前周期开放提交；历史周期只读。</text>
+<text x="70" y="336" font-size="18" fill="#111827" font-weight="700" text-anchor="start">新增提交</text>
+<text x="70" y="374" font-size="13" fill="#334155" font-weight="500" text-anchor="start">外部平台内标</text>
+<rect x="70" y="386" width="800" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="84" y="413" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">TikTok / @sano.creator</text>
+<rect x="70" y="468" width="800" height="250" rx="18" fill="#FFF" stroke="#DCE3EE" stroke-width="2"/>
+<text x="470" y="570" font-size="46" fill="#8B5CF6" font-weight="400" text-anchor="middle">＋</text>
+<text x="470" y="620" font-size="17" fill="#4F2BEE" font-weight="600" text-anchor="middle">上传发布截图</text>
+<text x="470" y="656" font-size="13" fill="#94A3B8" font-weight="400" text-anchor="middle">支持 JPG / PNG</text>
+<rect x="70" y="754" width="800" height="42" rx="7" fill="#4F2BEE" stroke="#B8A9FF" stroke-width="1"/>
+<text x="470" y="781" font-size="14" fill="#FFFFFF" font-weight="500" text-anchor="middle">提交审核</text>
+<text x="70" y="844" font-size="18" fill="#111827" font-weight="700" text-anchor="start">本周期提交</text>
+<rect x="70" y="876" width="800" height="148" rx="18" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<rect x="92" y="898" width="110" height="104" rx="10" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<text x="147" y="960" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">截图</text>
+<text x="230" y="922" font-size="16" fill="#111827" font-weight="600" text-anchor="start">TikTok / @sano.creator</text>
+<text x="230" y="956" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">提交于 09/16 14:22</text>
+<rect x="710" y="904" width="69" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="744.5" y="923" font-size="12" fill="#16A34A" font-weight="500" text-anchor="middle">已通过</text>
+</svg>

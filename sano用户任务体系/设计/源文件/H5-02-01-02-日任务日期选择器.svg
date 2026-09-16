@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1640" viewBox="0 0 940 1640">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
+<rect x="0" y="0" width="940" height="1640" rx="0" fill="#F4F0FF" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="940" height="96" rx="0" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="42" y="62" font-size="42" fill="#111827" font-weight="400" text-anchor="start">‹</text>
+<text x="470" y="66" font-size="30" fill="#111827" font-weight="700" text-anchor="middle">用户任务</text>
+<rect x="820" y="28" width="86" height="44" rx="22" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="863" y="57" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">规则</text>
+<rect x="56" y="120" width="828" height="68" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<rect x="78" y="126" width="232" height="56" rx="16" fill="#F1EDFF" stroke="none" stroke-width="1"/>
+<text x="194" y="162" font-size="18" fill="#4F2BEE" font-weight="700" text-anchor="middle">日任务</text>
+<text x="470" y="162" font-size="18" fill="#64748B" font-weight="500" text-anchor="middle">周任务</text>
+<text x="746" y="162" font-size="18" fill="#64748B" font-weight="500" text-anchor="middle">月任务</text>
+<rect x="90" y="210" width="760" height="70" rx="20" fill="#FFFFFF" stroke="#D8D0FF" stroke-width="2"/>
+<text x="128" y="240" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">日任务按自然日展示</text>
+<text x="128" y="266" font-size="19" fill="#111827" font-weight="700" text-anchor="start">2026年09月16日 · 今天</text>
+<text x="812" y="254" font-size="15" fill="#4F2BEE" font-weight="600" text-anchor="end">选择日期  ›</text>
+<rect x="56" y="310" width="828" height="164" rx="24" fill="url(#purpleGradient)" stroke="none" stroke-width="1"/>
+<text x="90" y="358" font-size="24" fill="#FFF" font-weight="700" text-anchor="start">黄金优质主播</text>
+<text x="90" y="396" font-size="14" fill="#DDD6FE" font-weight="400" text-anchor="start">日任务 · 今日数据持续更新</text>
+<text x="90" y="438" font-size="16" fill="#FFF" font-weight="600" text-anchor="start">点击日期查看当天任务与奖励</text>
+<rect x="0" y="0" width="940" height="1640" fill="#0F172A" opacity="0.46"/>
+<rect x="44" y="420" width="852" height="780" rx="28" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="84" y="480" font-size="24" fill="#111827" font-weight="700" text-anchor="start">选择日任务日期</text>
+<text x="852" y="480" font-size="28" fill="#64748B" font-weight="400" text-anchor="middle">×</text>
+<text x="84" y="522" font-size="26" fill="#4F2BEE" font-weight="600" text-anchor="start">‹</text>
+<text x="470" y="522" font-size="20" fill="#111827" font-weight="700" text-anchor="middle">2026年9月</text>
+<text x="856" y="522" font-size="26" fill="#CBD5E1" font-weight="600" text-anchor="end">›</text>
+<text x="84" y="564" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">身份生效前和未来日期不可选择</text>
+<text x="112" y="620" font-size="13" fill="#94A3B8" font-weight="600" text-anchor="middle">一</text>
+<text x="230" y="620" font-size="13" fill="#94A3B8" font-weight="600" text-anchor="middle">二</text>
+<text x="348" y="620" font-size="13" fill="#94A3B8" font-weight="600" text-anchor="middle">三</text>
+<text x="466" y="620" font-size="13" fill="#94A3B8" font-weight="600" text-anchor="middle">四</text>
+<text x="584" y="620" font-size="13" fill="#94A3B8" font-weight="600" text-anchor="middle">五</text>
+<text x="702" y="620" font-size="13" fill="#94A3B8" font-weight="600" text-anchor="middle">六</text>
+<text x="820" y="620" font-size="13" fill="#94A3B8" font-weight="600" text-anchor="middle">日</text>
+<text x="112" y="680" font-size="15" fill="#334155" font-weight="500" text-anchor="middle">1</text>
+<circle cx="112" cy="704" r="4" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="230" y="680" font-size="15" fill="#334155" font-weight="500" text-anchor="middle">2</text>
+<circle cx="230" cy="704" r="4" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="348" y="680" font-size="15" fill="#334155" font-weight="500" text-anchor="middle">3</text>
+<circle cx="348" cy="704" r="4" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="466" y="680" font-size="15" fill="#334155" font-weight="500" text-anchor="middle">4</text>
+<circle cx="466" cy="704" r="4" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="584" y="680" font-size="15" fill="#334155" font-weight="500" text-anchor="middle">5</text>
+<circle cx="584" cy="704" r="4" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="702" y="680" font-size="15" fill="#334155" font-weight="500" text-anchor="middle">6</text>
+<circle cx="702" cy="704" r="4" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="820" y="680" font-size="15" fill="#334155" font-weight="500" text-anchor="middle">7</text>
+<circle cx="820" cy="704" r="4" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="112" y="772" font-size="15" fill="#334155" font-weight="500" text-anchor="middle">8</text>
+<circle cx="112" cy="796" r="4" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="230" y="772" font-size="15" fill="#334155" font-weight="500" text-anchor="middle">9</text>
+<circle cx="230" cy="796" r="4" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="348" y="772" font-size="15" fill="#334155" font-weight="500" text-anchor="middle">10</text>
+<circle cx="348" cy="796" r="4" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="466" y="772" font-size="15" fill="#334155" font-weight="500" text-anchor="middle">11</text>
+<circle cx="466" cy="796" r="4" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="584" y="772" font-size="15" fill="#334155" font-weight="500" text-anchor="middle">12</text>
+<circle cx="584" cy="796" r="4" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="702" y="772" font-size="15" fill="#334155" font-weight="500" text-anchor="middle">13</text>
+<circle cx="702" cy="796" r="4" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="820" y="772" font-size="15" fill="#334155" font-weight="500" text-anchor="middle">14</text>
+<circle cx="820" cy="796" r="4" fill="#F59E0B" stroke="none" stroke-width="1"/>
+<text x="112" y="864" font-size="15" fill="#334155" font-weight="500" text-anchor="middle">15</text>
+<circle cx="112" cy="888" r="4" fill="#F59E0B" stroke="none" stroke-width="1"/>
+<circle cx="230" cy="856" r="30" fill="#4F2BEE" stroke="none" stroke-width="1"/>
+<text x="230" y="864" font-size="15" fill="#FFF" font-weight="700" text-anchor="middle">16</text>
+<text x="348" y="864" font-size="15" fill="#CBD5E1" font-weight="500" text-anchor="middle">17</text>
+<text x="466" y="864" font-size="15" fill="#CBD5E1" font-weight="500" text-anchor="middle">18</text>
+<text x="584" y="864" font-size="15" fill="#CBD5E1" font-weight="500" text-anchor="middle">19</text>
+<text x="702" y="864" font-size="15" fill="#CBD5E1" font-weight="500" text-anchor="middle">20</text>
+<text x="820" y="864" font-size="15" fill="#CBD5E1" font-weight="500" text-anchor="middle">21</text>
+<text x="112" y="956" font-size="15" fill="#CBD5E1" font-weight="500" text-anchor="middle">22</text>
+<text x="230" y="956" font-size="15" fill="#CBD5E1" font-weight="500" text-anchor="middle">23</text>
+<text x="348" y="956" font-size="15" fill="#CBD5E1" font-weight="500" text-anchor="middle">24</text>
+<text x="466" y="956" font-size="15" fill="#CBD5E1" font-weight="500" text-anchor="middle">25</text>
+<text x="584" y="956" font-size="15" fill="#CBD5E1" font-weight="500" text-anchor="middle">26</text>
+<text x="702" y="956" font-size="15" fill="#CBD5E1" font-weight="500" text-anchor="middle">27</text>
+<text x="820" y="956" font-size="15" fill="#CBD5E1" font-weight="500" text-anchor="middle">28</text>
+<text x="112" y="1048" font-size="15" fill="#CBD5E1" font-weight="500" text-anchor="middle">29</text>
+<text x="230" y="1048" font-size="15" fill="#CBD5E1" font-weight="500" text-anchor="middle">30</text>
+<rect x="84" y="1110" width="772" height="58" rx="14" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<text x="112" y="1146" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">绿点：已领取　橙点：待领取　无点：未生成奖励</text>
+</svg>

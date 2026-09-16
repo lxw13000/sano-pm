@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1640" viewBox="0 0 940 1640">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
+<rect x="0" y="0" width="940" height="1640" rx="0" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="940" height="96" rx="0" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="42" y="62" font-size="42" fill="#111827" font-weight="400" text-anchor="start">‹</text>
+<text x="470" y="66" font-size="30" fill="#111827" font-weight="700" text-anchor="middle">任务模块详情</text>
+<rect x="820" y="28" width="86" height="44" rx="22" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="863" y="57" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">规则</text>
+<rect x="56" y="126" width="828" height="244" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="174" font-size="24" fill="#111827" font-weight="700" text-anchor="start">分享奖励</text>
+<rect x="730" y="148" width="69" height="28" rx="14" fill="#FFF7ED" stroke="none" stroke-width="1"/>
+<text x="764.5" y="167" font-size="12" fill="#D97706" font-weight="500" text-anchor="middle">进行中</text>
+<text x="88" y="214" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">模块进度</text>
+<text x="220" y="214" font-size="17" fill="#4F2BEE" font-weight="700" text-anchor="start">0/1项任务完成</text>
+<rect x="88" y="240" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="88" y="240" width="0" height="10" rx="5" fill="#6D45F5" stroke="none" stroke-width="1"/>
+<text x="88" y="286" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">完成模块内唯一任务后获得奖励</text>
+<text x="88" y="328" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">完成可得</text>
+<rect x="192" y="310" width="154" height="36" rx="18" fill="#F1EEFF" stroke="none" stroke-width="1"/>
+<text x="214" y="334" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="234" y="333" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">钻石 40000</text>
+<text x="70" y="426" font-size="20" fill="#111827" font-weight="700" text-anchor="start">任务列表</text>
+<text x="850" y="426" font-size="14" fill="#64748B" font-weight="500" text-anchor="end">0/1项完成</text>
+<rect x="56" y="458" width="828" height="260" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="508" font-size="18" fill="#111827" font-weight="700" text-anchor="start">每周发布2条Sano相关外部内容</text>
+<rect x="736" y="484" width="69" height="28" rx="14" fill="#FFF7ED" stroke="none" stroke-width="1"/>
+<text x="770.5" y="503" font-size="12" fill="#D97706" font-weight="500" text-anchor="middle">进行中</text>
+<text x="88" y="550" font-size="15" fill="#4F2BEE" font-weight="600" text-anchor="start">任务进度：0/2条审核通过</text>
+<rect x="88" y="574" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="88" y="574" width="0" height="10" rx="5" fill="#6D45F5" stroke="none" stroke-width="1"/>
+<text x="88" y="622" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">已提交2条：1条审核中，1条未通过</text>
+<rect x="650" y="650" width="198" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="749" y="677" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看任务详情</text>
+<rect x="56" y="760" width="828" height="126" rx="18" fill="#F7F4FF" stroke="none" stroke-width="1"/>
+<text x="88" y="804" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="start">模块进度为0/1；任务自己的业务进度为0/2条。</text>
+<text x="88" y="840" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">二者统计口径不同。</text>
+</svg>

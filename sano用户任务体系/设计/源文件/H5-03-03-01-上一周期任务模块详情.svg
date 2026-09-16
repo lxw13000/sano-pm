@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1640" viewBox="0 0 940 1640">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
+<rect x="0" y="0" width="940" height="1640" rx="0" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="940" height="96" rx="0" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="42" y="62" font-size="42" fill="#111827" font-weight="400" text-anchor="start">‹</text>
+<text x="470" y="66" font-size="30" fill="#111827" font-weight="700" text-anchor="middle">历史任务模块</text>
+<rect x="820" y="28" width="86" height="44" rx="22" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="863" y="57" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">规则</text>
+<rect x="56" y="126" width="828" height="104" rx="20" fill="#F7F4FF" stroke="none" stroke-width="1"/>
+<text x="88" y="170" font-size="19" fill="#4F2BEE" font-weight="700" text-anchor="start">周任务 · 09/07–09/13</text>
+<text x="850" y="170" font-size="14" fill="#16A34A" font-weight="600" text-anchor="end">周期已结算</text>
+<text x="88" y="204" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">历史数据已冻结，仅支持查看</text>
+<rect x="56" y="262" width="828" height="238" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="310" font-size="24" fill="#111827" font-weight="700" text-anchor="start">时长达标奖励</text>
+<rect x="724" y="286" width="69" height="28" rx="14" fill="#FEF2F2" stroke="none" stroke-width="1"/>
+<text x="758.5" y="305" font-size="12" fill="#DC2626" font-weight="500" text-anchor="middle">未达标</text>
+<text x="88" y="350" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">模块进度</text>
+<text x="220" y="350" font-size="17" fill="#DC2626" font-weight="700" text-anchor="start">2/3项任务完成</text>
+<rect x="88" y="374" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="88" y="374" width="509.20000000000005" height="10" rx="5" fill="#F59E0B" stroke="none" stroke-width="1"/>
+<text x="88" y="438" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">未获得</text>
+<rect x="192" y="420" width="154" height="36" rx="18" fill="#F1F5F9" stroke="none" stroke-width="1"/>
+<text x="214" y="444" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="234" y="443" font-size="13" fill="#94A3B8" font-weight="700" text-anchor="start">钻石 30000</text>
+<text x="358" y="443" font-size="13" fill="#94A3B8" font-weight="600" text-anchor="start">奖励详情（1项） ›</text>
+<text x="70" y="556" font-size="20" fill="#111827" font-weight="700" text-anchor="start">任务列表</text>
+<text x="850" y="556" font-size="14" fill="#64748B" font-weight="500" text-anchor="end">最终结果</text>
+<rect x="56" y="588" width="828" height="220" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="636" font-size="18" fill="#111827" font-weight="700" text-anchor="start">每日高峰直播满2小时</text>
+<rect x="730" y="612" width="69" height="28" rx="14" fill="#FEF2F2" stroke="none" stroke-width="1"/>
+<text x="764.5" y="631" font-size="12" fill="#DC2626" font-weight="500" text-anchor="middle">未完成</text>
+<rect x="88" y="670" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="88" y="670" width="509.20000000000005" height="10" rx="5" fill="#F59E0B" stroke="none" stroke-width="1"/>
+<text x="88" y="716" font-size="14" fill="#475569" font-weight="400" text-anchor="start">最终结果：完成6天，最长连续4/6天</text>
+<rect x="650" y="746" width="198" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="749" y="773" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看任务详情</text>
+<rect x="56" y="842" width="828" height="220" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="890" font-size="18" fill="#111827" font-weight="700" text-anchor="start">每日有效PK至少2场</text>
+<rect x="730" y="866" width="69" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="764.5" y="885" font-size="12" fill="#16A34A" font-weight="500" text-anchor="middle">已完成</text>
+<rect x="88" y="924" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="88" y="924" width="760" height="10" rx="5" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="88" y="970" font-size="14" fill="#475569" font-weight="400" text-anchor="start">最终结果：完成5/3天</text>
+<rect x="650" y="1000" width="198" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="749" y="1027" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看任务详情</text>
+<rect x="56" y="1096" width="828" height="220" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="1144" font-size="18" fill="#111827" font-weight="700" text-anchor="start">每周有效邀请达标</text>
+<rect x="730" y="1120" width="69" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="764.5" y="1139" font-size="12" fill="#16A34A" font-weight="500" text-anchor="middle">已完成</text>
+<rect x="88" y="1178" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="88" y="1178" width="760" height="10" rx="5" fill="#10B981" stroke="none" stroke-width="1"/>
+<text x="88" y="1224" font-size="14" fill="#475569" font-weight="400" text-anchor="start">最终结果：有效邀请4人</text>
+<rect x="650" y="1254" width="198" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="749" y="1281" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看任务详情</text>
+</svg>

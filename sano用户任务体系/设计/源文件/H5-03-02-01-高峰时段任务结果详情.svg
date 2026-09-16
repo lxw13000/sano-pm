@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1640" viewBox="0 0 940 1640">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
+<rect x="0" y="0" width="940" height="1640" rx="0" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="940" height="96" rx="0" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="42" y="62" font-size="42" fill="#111827" font-weight="400" text-anchor="start">‹</text>
+<text x="470" y="66" font-size="30" fill="#111827" font-weight="700" text-anchor="middle">任务结果详情</text>
+<rect x="820" y="28" width="86" height="44" rx="22" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="863" y="57" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">规则</text>
+<rect x="56" y="126" width="828" height="178" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="174" font-size="22" fill="#111827" font-weight="700" text-anchor="start">每日高峰直播满2小时</text>
+<rect x="708" y="148" width="69" height="28" rx="14" fill="#FEF2F2" stroke="none" stroke-width="1"/>
+<text x="742.5" y="167" font-size="12" fill="#DC2626" font-weight="500" text-anchor="middle">未完成</text>
+<text x="88" y="214" font-size="15" fill="#475569" font-weight="400" text-anchor="start">模块要求：至少完成6天，且需要连续</text>
+<text x="88" y="252" font-size="15" fill="#DC2626" font-weight="600" text-anchor="start">实际：完成6天｜最长连续4天｜要求连续6天</text>
+<rect x="88" y="276" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="88" y="276" width="509.20000000000005" height="10" rx="5" fill="#F59E0B" stroke="none" stroke-width="1"/>
+<text x="70" y="356" font-size="19" fill="#111827" font-weight="700" text-anchor="start">日结果明细</text>
+<rect x="70" y="382" width="800" height="44" rx="6" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1"/>
+<text x="82" y="410" font-size="12" fill="#475569" font-weight="600" text-anchor="start">日期</text>
+<text x="292" y="410" font-size="12" fill="#475569" font-weight="600" text-anchor="start">高峰直播</text>
+<text x="652" y="410" font-size="12" fill="#475569" font-weight="600" text-anchor="start">结果</text>
+<rect x="70" y="426" width="800" height="74" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="82" y="459" font-size="12" fill="#334155" font-weight="400" text-anchor="start">09/14</text>
+<text x="292" y="459" font-size="12" fill="#334155" font-weight="400" text-anchor="start">132/120分钟</text>
+<text x="652" y="459" font-size="12" fill="#334155" font-weight="400" text-anchor="start">完成</text>
+<rect x="70" y="500" width="800" height="74" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="82" y="533" font-size="12" fill="#334155" font-weight="400" text-anchor="start">09/15</text>
+<text x="292" y="533" font-size="12" fill="#334155" font-weight="400" text-anchor="start">125/120分钟</text>
+<text x="652" y="533" font-size="12" fill="#334155" font-weight="400" text-anchor="start">完成</text>
+<rect x="70" y="574" width="800" height="74" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="82" y="607" font-size="12" fill="#334155" font-weight="400" text-anchor="start">09/16</text>
+<text x="292" y="607" font-size="12" fill="#334155" font-weight="400" text-anchor="start">141/120分钟</text>
+<text x="652" y="607" font-size="12" fill="#334155" font-weight="400" text-anchor="start">完成</text>
+<rect x="70" y="648" width="800" height="74" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="82" y="681" font-size="12" fill="#334155" font-weight="400" text-anchor="start">09/17</text>
+<text x="292" y="681" font-size="12" fill="#334155" font-weight="400" text-anchor="start">60/120分钟</text>
+<text x="652" y="681" font-size="12" fill="#334155" font-weight="400" text-anchor="start">未完成</text>
+<rect x="70" y="722" width="800" height="74" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="82" y="755" font-size="12" fill="#334155" font-weight="400" text-anchor="start">09/18</text>
+<text x="292" y="755" font-size="12" fill="#334155" font-weight="400" text-anchor="start">128/120分钟</text>
+<text x="652" y="755" font-size="12" fill="#334155" font-weight="400" text-anchor="start">完成</text>
+<rect x="70" y="796" width="800" height="74" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="82" y="829" font-size="12" fill="#334155" font-weight="400" text-anchor="start">09/19</text>
+<text x="292" y="829" font-size="12" fill="#334155" font-weight="400" text-anchor="start">130/120分钟</text>
+<text x="652" y="829" font-size="12" fill="#334155" font-weight="400" text-anchor="start">完成</text>
+<rect x="70" y="870" width="800" height="74" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="82" y="903" font-size="12" fill="#334155" font-weight="400" text-anchor="start">09/20</text>
+<text x="292" y="903" font-size="12" fill="#334155" font-weight="400" text-anchor="start">124/120分钟</text>
+<text x="652" y="903" font-size="12" fill="#334155" font-weight="400" text-anchor="start">完成</text>
+<rect x="70" y="982" width="800" height="186" rx="18" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+<text x="100" y="1026" font-size="17" fill="#9A3412" font-weight="700" text-anchor="start">为什么模块仍未完成？</text>
+<text x="100" y="1066" font-size="14" fill="#475569" font-weight="400" text-anchor="start">完成天数达到6天，但最长连续只有4天，</text>
+<text x="100" y="1100" font-size="14" fill="#475569" font-weight="400" text-anchor="start">未达到模块配置的连续6天要求。</text>
+<text x="100" y="1134" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">连续统计不跨当前模块周期。</text>
+</svg>

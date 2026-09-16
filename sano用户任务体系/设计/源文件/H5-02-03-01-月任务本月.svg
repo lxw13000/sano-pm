@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1760" viewBox="0 0 940 1760">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
+<rect x="0" y="0" width="940" height="1760" rx="0" fill="#F4F0FF" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="940" height="96" rx="0" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="42" y="62" font-size="42" fill="#111827" font-weight="400" text-anchor="start">‹</text>
+<text x="470" y="66" font-size="30" fill="#111827" font-weight="700" text-anchor="middle">用户任务</text>
+<rect x="820" y="28" width="86" height="44" rx="22" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="863" y="57" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">规则</text>
+<rect x="56" y="120" width="828" height="68" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="194" y="162" font-size="18" fill="#64748B" font-weight="500" text-anchor="middle">日任务</text>
+<text x="470" y="162" font-size="18" fill="#64748B" font-weight="500" text-anchor="middle">周任务</text>
+<rect x="630" y="126" width="232" height="56" rx="16" fill="#F1EDFF" stroke="none" stroke-width="1"/>
+<text x="746" y="162" font-size="18" fill="#4F2BEE" font-weight="700" text-anchor="middle">月任务</text>
+<rect x="90" y="210" width="760" height="70" rx="35" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="94" y="214" width="372" height="62" rx="31" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="280" y="256" font-size="22" fill="#4F2BEE" font-weight="600" text-anchor="middle">本月</text>
+<text x="660" y="256" font-size="22" fill="#6B7280" font-weight="600" text-anchor="middle">上月</text>
+<text x="470" y="318" font-size="22" fill="#4F2BEE" font-weight="700" text-anchor="middle">2026年09月</text>
+<rect x="56" y="350" width="828" height="164" rx="24" fill="url(#purpleGradient)" stroke="none" stroke-width="1"/>
+<text x="90" y="398" font-size="24" fill="#FFF" font-weight="700" text-anchor="start">黄金优质主播</text>
+<text x="90" y="436" font-size="14" fill="#DDD6FE" font-weight="400" text-anchor="start">月任务 · 次月1日汇总本月结果</text>
+<text x="90" y="478" font-size="16" fill="#FFF" font-weight="600" text-anchor="start">2个奖励模块进行中</text>
+<rect x="700" y="378" width="69" height="28" rx="14" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="734.5" y="397" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">进行中</text>
+<rect x="56" y="560" width="828" height="274" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="608" font-size="20" fill="#111827" font-weight="700" text-anchor="start">月度成长奖励</text>
+<rect x="738" y="584" width="62" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="769" y="603" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">月</text>
+<text x="88" y="644" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">2/3项任务完成</text>
+<rect x="88" y="666" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="88" y="666" width="509.20000000000005" height="10" rx="5" fill="#6D45F5" stroke="none" stroke-width="1"/>
+<text x="88" y="712" font-size="14" fill="#475569" font-weight="400" text-anchor="start">还有1项任务未完成</text>
+<text x="88" y="752" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">完成可得</text>
+<rect x="192" y="734" width="154" height="36" rx="18" fill="#F1EEFF" stroke="none" stroke-width="1"/>
+<text x="214" y="758" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="234" y="757" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">钻石 80000</text>
+<text x="358" y="757" font-size="13" fill="#4F2BEE" font-weight="600" text-anchor="start">奖励详情（3项） ›</text>
+<rect x="690" y="780" width="158" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="769" y="807" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看模块</text>
+<rect x="56" y="866" width="828" height="274" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="914" font-size="20" fill="#111827" font-weight="700" text-anchor="start">月度邀请奖励</text>
+<rect x="738" y="890" width="62" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="769" y="909" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">月</text>
+<text x="88" y="950" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">1/1项任务完成</text>
+<rect x="88" y="972" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="88" y="972" width="760" height="10" rx="5" fill="#6D45F5" stroke="none" stroke-width="1"/>
+<text x="88" y="1018" font-size="14" fill="#475569" font-weight="400" text-anchor="start">模块任务已全部完成</text>
+<text x="88" y="1058" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">当前档位</text>
+<rect x="192" y="1040" width="142" height="36" rx="18" fill="#FFF7E6" stroke="none" stroke-width="1"/>
+<circle cx="214" cy="1058" r="12" fill="#F5A623" stroke="none" stroke-width="1"/>
+<text x="214" y="1063" font-size="10" fill="#FFF" font-weight="700" text-anchor="middle">金</text>
+<text x="236" y="1063" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">金币 500</text>
+<rect x="346" y="1040" width="154" height="36" rx="18" fill="#F1EEFF" stroke="none" stroke-width="1"/>
+<text x="368" y="1064" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="388" y="1063" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">钻石 120000</text>
+<text x="512" y="1063" font-size="13" fill="#4F2BEE" font-weight="600" text-anchor="start">奖励详情（2项） ›</text>
+<rect x="690" y="1086" width="158" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="769" y="1113" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看模块</text>
+<rect x="56" y="1214" width="828" height="114" rx="18" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+<text x="88" y="1258" font-size="13" fill="#9A3412" font-weight="600" text-anchor="start">月任务只允许查看本月和上月；不提供更早月份入口。</text>
+<text x="88" y="1290" font-size="13" fill="#9A3412" font-weight="400" text-anchor="start">进入新月份后，上上月未领取奖励视为主动放弃。</text>
+</svg>
