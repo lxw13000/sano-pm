@@ -9,44 +9,62 @@
 <text x="470" y="138" font-size="24" fill="#4F2BEE" font-weight="700" text-anchor="middle">09/14–09/20</text>
 <rect x="90" y="174" width="760" height="70" rx="35" fill="#E9E2FF" stroke="none" stroke-width="1"/>
 <rect x="94" y="178" width="372" height="62" rx="31" fill="#FFF" stroke="none" stroke-width="1"/>
-<text x="280" y="220" font-size="22" fill="#4F2BEE" font-weight="600" text-anchor="middle">本周期</text>
-<text x="660" y="220" font-size="22" fill="#6B7280" font-weight="600" text-anchor="middle">历史周期</text>
+<text x="280" y="220" font-size="22" fill="#4F2BEE" font-weight="600" text-anchor="middle">本周</text>
+<text x="660" y="220" font-size="22" fill="#6B7280" font-weight="600" text-anchor="middle">上周</text>
 <rect x="56" y="276" width="828" height="170" rx="24" fill="url(#purpleGradient)" stroke="none" stroke-width="1"/>
 <text x="90" y="326" font-size="24" fill="#FFF" font-weight="700" text-anchor="start">黄金优质主播</text>
 <text x="90" y="362" font-size="14" fill="#DDD6FE" font-weight="400" text-anchor="start">周任务 · 结算后需运营审核</text>
-<text x="90" y="408" font-size="16" fill="#FFF" font-weight="600" text-anchor="start">预计奖励  钻石70k · 热度5k</text>
+<text x="90" y="408" font-size="16" fill="#FFF" font-weight="600" text-anchor="start">3个奖励模块进行中</text>
 <rect x="700" y="304" width="69" height="28" rx="14" fill="#FFF" stroke="none" stroke-width="1"/>
 <text x="734.5" y="323" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">进行中</text>
 <rect x="56" y="478" width="828" height="254" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
 <text x="88" y="526" font-size="20" fill="#111827" font-weight="700" text-anchor="start">时长达标奖励</text>
 <rect x="744" y="502" width="62" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
 <text x="775" y="521" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">周</text>
-<text x="88" y="560" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">2/3项要求完成</text>
+<text x="88" y="560" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">2/3项任务完成</text>
 <rect x="88" y="580" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
 <rect x="88" y="580" width="509.20000000000005" height="10" rx="5" fill="#6D45F5" stroke="none" stroke-width="1"/>
-<text x="88" y="628" font-size="14" fill="#475569" font-weight="400" text-anchor="start">高峰直播：完成6天，最长连续4/6天</text>
-<text x="88" y="674" font-size="15" fill="#4F2BEE" font-weight="600" text-anchor="start">当前奖励  固定：钻石30k + 经验500</text>
-<text x="846" y="710" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="end">查看详情 ›</text>
+<text x="88" y="624" font-size="14" fill="#475569" font-weight="400" text-anchor="start">还有1项任务未完成</text>
+<text x="88" y="660" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">完成可得</text>
+<rect x="192" y="642" width="154" height="36" rx="18" fill="#F1EEFF" stroke="none" stroke-width="1"/>
+<text x="214" y="666" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="234" y="665" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">钻石 30000</text>
+<text x="358" y="665" font-size="13" fill="#4F2BEE" font-weight="600" text-anchor="start">奖励详情（1项） ›</text>
+<rect x="690" y="680" width="158" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="769" y="707" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看模块</text>
 <rect x="56" y="764" width="828" height="254" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
 <text x="88" y="812" font-size="20" fill="#111827" font-weight="700" text-anchor="start">收入阶梯奖励</text>
 <rect x="744" y="788" width="62" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
 <text x="775" y="807" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">周</text>
-<text x="88" y="846" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">4/4项要求完成</text>
+<text x="88" y="846" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">4/4项任务完成</text>
 <rect x="88" y="866" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
 <rect x="88" y="866" width="760" height="10" rx="5" fill="#6D45F5" stroke="none" stroke-width="1"/>
-<text x="88" y="914" font-size="14" fill="#475569" font-weight="400" text-anchor="start">幸运礼物收入320万，命中300万档</text>
-<text x="88" y="960" font-size="15" fill="#4F2BEE" font-weight="600" text-anchor="start">当前奖励  钻石30k + 热度5k</text>
-<text x="846" y="996" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="end">查看详情 ›</text>
+<text x="88" y="910" font-size="14" fill="#475569" font-weight="400" text-anchor="start">模块任务已全部完成</text>
+<text x="88" y="946" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">当前档位</text>
+<rect x="192" y="928" width="142" height="36" rx="18" fill="#FFF7E6" stroke="none" stroke-width="1"/>
+<circle cx="214" cy="946" r="12" fill="#F5A623" stroke="none" stroke-width="1"/>
+<text x="214" y="951" font-size="10" fill="#FFF" font-weight="700" text-anchor="middle">金</text>
+<text x="236" y="951" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">金币 100</text>
+<rect x="346" y="928" width="154" height="36" rx="18" fill="#F1EEFF" stroke="none" stroke-width="1"/>
+<text x="368" y="952" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="388" y="951" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">钻石 30000</text>
+<text x="512" y="951" font-size="13" fill="#4F2BEE" font-weight="600" text-anchor="start">奖励详情（2项） ›</text>
+<rect x="690" y="966" width="158" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="769" y="993" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看模块</text>
 <rect x="56" y="1050" width="828" height="254" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
 <text x="88" y="1098" font-size="20" fill="#111827" font-weight="700" text-anchor="start">分享奖励</text>
 <rect x="744" y="1074" width="62" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
 <text x="775" y="1093" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">周</text>
-<text x="88" y="1132" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">3/4项要求完成</text>
+<text x="88" y="1132" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">0/1项任务完成</text>
 <rect x="88" y="1152" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
-<rect x="88" y="1152" width="570" height="10" rx="5" fill="#6D45F5" stroke="none" stroke-width="1"/>
-<text x="88" y="1200" font-size="14" fill="#475569" font-weight="400" text-anchor="start">外部内容审核1/2条</text>
-<text x="88" y="1246" font-size="15" fill="#4F2BEE" font-weight="600" text-anchor="start">当前奖励  固定：钻石40k</text>
-<text x="846" y="1282" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="end">查看详情 ›</text>
+<rect x="88" y="1152" width="0" height="10" rx="5" fill="#6D45F5" stroke="none" stroke-width="1"/>
+<text x="88" y="1196" font-size="14" fill="#475569" font-weight="400" text-anchor="start">任务进行中</text>
+<text x="88" y="1232" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">完成可得</text>
+<rect x="192" y="1214" width="154" height="36" rx="18" fill="#F1EEFF" stroke="none" stroke-width="1"/>
+<text x="214" y="1238" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="234" y="1237" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">钻石 40000</text>
+<rect x="690" y="1252" width="158" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="769" y="1279" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看模块</text>
 <rect x="56" y="1358" width="828" height="96" rx="18" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
 <text x="88" y="1396" font-size="13" fill="#9A3412" font-weight="600" text-anchor="start">模块内任何一项要求未完成，则该模块不产生奖励。</text>
 <text x="88" y="1428" font-size="13" fill="#9A3412" font-weight="400" text-anchor="start">阶梯模块达到最低档即完成，按最高命中档计算奖励。</text>

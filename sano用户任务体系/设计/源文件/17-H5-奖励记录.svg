@@ -15,21 +15,30 @@
 <text x="88" y="298" font-size="18" fill="#111827" font-weight="700" text-anchor="start">09/07–09/13</text>
 <rect x="718" y="276" width="69" height="28" rx="14" fill="#FFF7ED" stroke="none" stroke-width="1"/>
 <text x="752.5" y="295" font-size="12" fill="#D97706" font-weight="500" text-anchor="middle">待领取</text>
-<text x="88" y="344" font-size="15" fill="#4F2BEE" font-weight="600" text-anchor="start">钻石100k · 热度5k · 经验500 · 道具1</text>
-<text x="88" y="386" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">查看资产明细与来源模块</text>
+<text x="88" y="342" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">待领取</text>
+<rect x="192" y="324" width="142" height="36" rx="18" fill="#FFF7E6" stroke="none" stroke-width="1"/>
+<circle cx="214" cy="342" r="12" fill="#F5A623" stroke="none" stroke-width="1"/>
+<text x="214" y="347" font-size="10" fill="#FFF" font-weight="700" text-anchor="middle">金</text>
+<text x="236" y="347" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">金币 100</text>
+<rect x="346" y="324" width="154" height="36" rx="18" fill="#F1EEFF" stroke="none" stroke-width="1"/>
+<text x="368" y="348" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="388" y="347" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">钻石 100</text>
+<text x="512" y="347" font-size="13" fill="#4F2BEE" font-weight="600" text-anchor="start">奖励详情（4项） ›</text>
 <text x="850" y="416" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="end">查看 ›</text>
 <rect x="56" y="482" width="828" height="194" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
 <text x="88" y="528" font-size="18" fill="#111827" font-weight="700" text-anchor="start">08/31–09/06</text>
 <rect x="718" y="506" width="69" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
 <text x="752.5" y="525" font-size="12" fill="#16A34A" font-weight="500" text-anchor="middle">已领取</text>
-<text x="88" y="574" font-size="15" fill="#4F2BEE" font-weight="600" text-anchor="start">钻石70k · 经验500</text>
-<text x="88" y="616" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">查看资产明细与来源模块</text>
+<text x="88" y="572" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">已领取</text>
+<rect x="192" y="554" width="154" height="36" rx="18" fill="#F1EEFF" stroke="none" stroke-width="1"/>
+<text x="214" y="578" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="234" y="577" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">钻石 70000</text>
+<text x="358" y="577" font-size="13" fill="#4F2BEE" font-weight="600" text-anchor="start">奖励详情（1项） ›</text>
 <text x="850" y="646" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="end">查看 ›</text>
 <rect x="56" y="712" width="828" height="194" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
 <text x="88" y="758" font-size="18" fill="#111827" font-weight="700" text-anchor="start">08/24–08/30</text>
 <rect x="718" y="736" width="69" height="28" rx="14" fill="#F1F5F9" stroke="none" stroke-width="1"/>
 <text x="752.5" y="755" font-size="12" fill="#64748B" font-weight="500" text-anchor="middle">未达标</text>
-<text x="88" y="804" font-size="15" fill="#4F2BEE" font-weight="600" text-anchor="start">无奖励</text>
-<text x="88" y="846" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">所有模块未完成，未生成待领取记录</text>
+<text x="88" y="820" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">所有模块未完成，未生成待领取记录</text>
 <text x="850" y="876" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="end">查看 ›</text>
 </svg>

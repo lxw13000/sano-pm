@@ -23,17 +23,27 @@ $Edge = $EdgeCandidates | Where-Object { Test-Path -LiteralPath $_ } | Select-Ob
 if (-not $Edge) { throw 'Microsoft Edge not found.' }
 
 $ExpectedNames = @(
-    '01-管理端-用户身份列表.svg',
-    '02-管理端-用户身份-任务模块.svg',
-    '03-管理端-任务库-任务模块.svg',
-    '04-管理端-新增任务模块.svg',
-    '05-管理端-任务项管理.svg',
-    '06-管理端-用户身份-App规则说明.svg',
-    '07-管理端-用户身份成员.svg',
-    '08-管理端-用户身份审核弹窗.svg',
-    '09-管理端-周期任务审核列表.svg',
-    '10-管理端-周期任务结果审核.svg',
-    '11-管理端-奖励领取记录.svg',
+    '01-管理端-任务项列表与详情.svg',
+    '01A-管理端-编辑任务项状态.svg',
+    '01B-管理端-新增任务项状态.svg',
+    '02-管理端-任务模块列表与详情.svg',
+    '02A-管理端-新增编辑模块基础信息弹窗.svg',
+    '02B-管理端-管理关联任务抽屉.svg',
+    '02C-管理端-选择任务项弹窗.svg',
+    '02D1-管理端-固定奖励配置抽屉.svg',
+    '02D2-管理端-阶梯奖励配置抽屉.svg',
+    '02E-管理端-新增编辑固定奖励明细弹窗.svg',
+    '02F-管理端-新增编辑阶梯档位弹窗.svg',
+    '03-管理端-用户身份列表.svg',
+    '03A-管理端-新增编辑身份弹窗.svg',
+    '03B-管理端-管理身份关联模块抽屉.svg',
+    '03C-管理端-选择任务模块弹窗.svg',
+    '03D-管理端-用户身份-App规则说明.svg',
+    '04-管理端-用户身份成员.svg',
+    '04A-管理端-身份审核弹窗.svg',
+    '05-管理端-周期任务审核列表.svg',
+    '05A-管理端-周期任务查看审核详情.svg',
+    '06-管理端-奖励领取记录.svg',
     '12-H5-用户身份申请状态.svg',
     '13-H5-本周任务.svg',
     '14-H5-高峰时段任务结果详情.svg',
@@ -41,7 +51,13 @@ $ExpectedNames = @(
     '16-H5-上周奖励待领取.svg',
     '17-H5-奖励记录.svg',
     '18-H5-用户身份规则说明.svg',
-    '19-H5-模块未完成无奖励.svg'
+    '19-H5-模块未完成无奖励.svg',
+    '20-H5-任务模块详情.svg',
+    '21-H5-奖励详情弹窗.svg',
+    '22-H5-上周任务模块详情.svg',
+    '23-H5-上周高峰直播任务详情.svg',
+    '24-H5-分享奖励模块详情.svg',
+    '25-H5-分享任务详情.svg'
 )
 
 $Files = if ($Names.Count -gt 0) {
@@ -58,7 +74,7 @@ $Files = if ($Names.Count -gt 0) {
         Get-Item -LiteralPath $Path
     })
 }
-if ($Names.Count -eq 0 -and $Files.Count -ne 19) { throw "Expected 19 SVG files, found $($Files.Count)." }
+if ($Names.Count -eq 0 -and $Files.Count -ne 35) { throw "Expected 35 SVG files, found $($Files.Count)." }
 
 $Rendered = @()
 foreach ($File in $Files) {

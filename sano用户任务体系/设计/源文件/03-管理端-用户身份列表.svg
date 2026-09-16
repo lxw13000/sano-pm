@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
+<rect x="0" y="0" width="1672" height="941" rx="0" fill="#F8FAFD" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="250" height="941" rx="0" fill="#061A33" stroke="none" stroke-width="1"/>
+<text x="28" y="48" font-size="24" fill="#FFF" font-weight="400" text-anchor="start">☰</text>
+<text x="30" y="112" font-size="16" fill="#FFF" font-weight="500" text-anchor="start">▣  用户任务体系配置</text>
+<text x="78" y="158" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">任务库</text>
+<text x="78" y="210" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">任务模块</text>
+<rect x="18" y="230" width="216" height="48" rx="7" fill="#5632EE" stroke="none" stroke-width="1"/>
+<text x="78" y="262" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">用户身份</text>
+<text x="64" y="346" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">用户身份成员</text>
+<text x="64" y="410" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">周期任务审核</text>
+<text x="64" y="474" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">奖励领取记录</text>
+<text x="290" y="64" font-size="31" fill="#111827" font-weight="700" text-anchor="start">用户身份</text>
+<text x="292" y="98" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">身份只定义用户标识；通过关联关系决定可参与的任务模块</text>
+<rect x="1450" y="42" width="170" height="42" rx="7" fill="#4F2BEE" stroke="#B8A9FF" stroke-width="1"/>
+<text x="1535" y="69" font-size="14" fill="#FFFFFF" font-weight="500" text-anchor="middle">＋ 新增身份</text>
+<rect x="290" y="130" width="1330" height="48" rx="7" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1"/>
+<text x="314" y="160" font-size="12" fill="#475569" font-weight="400" text-anchor="start">身份最高奖励按关联模块的策略上限，分资产类型汇总。</text>
+<rect x="290" y="204" width="1330" height="44" rx="6" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1"/>
+<text x="302" y="232" font-size="12" fill="#475569" font-weight="600" text-anchor="start">用户身份</text>
+<text x="492" y="232" font-size="12" fill="#475569" font-weight="600" text-anchor="start">身份编码</text>
+<text x="682" y="232" font-size="12" fill="#475569" font-weight="600" text-anchor="start">资格方式</text>
+<text x="832" y="232" font-size="12" fill="#475569" font-weight="600" text-anchor="start">关联模块</text>
+<text x="952" y="232" font-size="12" fill="#475569" font-weight="600" text-anchor="start">周期最高奖励</text>
+<text x="1212" y="232" font-size="12" fill="#475569" font-weight="600" text-anchor="start">成员</text>
+<text x="1302" y="232" font-size="12" fill="#475569" font-weight="600" text-anchor="start">状态</text>
+<text x="1392" y="232" font-size="12" fill="#475569" font-weight="600" text-anchor="start">操作</text>
+<rect x="290" y="248" width="1330" height="58" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="302" y="281" font-size="12" fill="#334155" font-weight="400" text-anchor="start">普通优质主播</text>
+<text x="492" y="281" font-size="12" fill="#334155" font-weight="400" text-anchor="start">QUALITY_NORMAL</text>
+<text x="682" y="281" font-size="12" fill="#334155" font-weight="400" text-anchor="start">申请审核</text>
+<text x="832" y="281" font-size="12" fill="#334155" font-weight="400" text-anchor="start">3个</text>
+<text x="952" y="281" font-size="12" fill="#334155" font-weight="400" text-anchor="start">钻石50k · 经验500</text>
+<text x="1212" y="281" font-size="12" fill="#334155" font-weight="400" text-anchor="start">128人</text>
+<text x="1302" y="281" font-size="12" fill="#334155" font-weight="400" text-anchor="start">启用</text>
+<text x="1392" y="281" font-size="12" fill="#334155" font-weight="400" text-anchor="start">编辑 关联模块 规则</text>
+<rect x="290" y="306" width="1330" height="58" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="302" y="339" font-size="12" fill="#334155" font-weight="400" text-anchor="start">黄金优质主播</text>
+<text x="492" y="339" font-size="12" fill="#334155" font-weight="400" text-anchor="start">QUALITY_GOLD</text>
+<text x="682" y="339" font-size="12" fill="#334155" font-weight="400" text-anchor="start">升级或审核</text>
+<text x="832" y="339" font-size="12" fill="#334155" font-weight="400" text-anchor="start">5个</text>
+<text x="952" y="339" font-size="12" fill="#334155" font-weight="400" text-anchor="start">钻石120k · 热度15k</text>
+<text x="1212" y="339" font-size="12" fill="#334155" font-weight="400" text-anchor="start">96人</text>
+<text x="1302" y="339" font-size="12" fill="#334155" font-weight="400" text-anchor="start">启用</text>
+<text x="1392" y="339" font-size="12" fill="#334155" font-weight="400" text-anchor="start">编辑 关联模块 规则</text>
+<rect x="290" y="364" width="1330" height="58" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="302" y="397" font-size="12" fill="#334155" font-weight="400" text-anchor="start">超级主播</text>
+<text x="492" y="397" font-size="12" fill="#334155" font-weight="400" text-anchor="start">SUPER_HOST</text>
+<text x="682" y="397" font-size="12" fill="#334155" font-weight="400" text-anchor="start">邀请审核</text>
+<text x="832" y="397" font-size="12" fill="#334155" font-weight="400" text-anchor="start">6个</text>
+<text x="952" y="397" font-size="12" fill="#334155" font-weight="400" text-anchor="start">多资产组合</text>
+<text x="1212" y="397" font-size="12" fill="#334155" font-weight="400" text-anchor="start">18人</text>
+<text x="1302" y="397" font-size="12" fill="#334155" font-weight="400" text-anchor="start">启用</text>
+<text x="1392" y="397" font-size="12" fill="#334155" font-weight="400" text-anchor="start">编辑 关联模块 规则</text>
+<rect x="290" y="422" width="1330" height="58" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="302" y="455" font-size="12" fill="#334155" font-weight="400" text-anchor="start">外部认证主播</text>
+<text x="492" y="455" font-size="12" fill="#334155" font-weight="400" text-anchor="start">EXTERNAL_CERT</text>
+<text x="682" y="455" font-size="12" fill="#334155" font-weight="400" text-anchor="start">认证审核</text>
+<text x="832" y="455" font-size="12" fill="#334155" font-weight="400" text-anchor="start">4个</text>
+<text x="952" y="455" font-size="12" fill="#334155" font-weight="400" text-anchor="start">钻石80k · 道具1件</text>
+<text x="1212" y="455" font-size="12" fill="#334155" font-weight="400" text-anchor="start">26人</text>
+<text x="1302" y="455" font-size="12" fill="#334155" font-weight="400" text-anchor="start">启用</text>
+<text x="1392" y="455" font-size="12" fill="#334155" font-weight="400" text-anchor="start">编辑 关联模块 规则</text>
+<rect x="290" y="480" width="1330" height="58" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="302" y="513" font-size="12" fill="#334155" font-weight="400" text-anchor="start">签约主播</text>
+<text x="492" y="513" font-size="12" fill="#334155" font-weight="400" text-anchor="start">SIGNED_HOST</text>
+<text x="682" y="513" font-size="12" fill="#334155" font-weight="400" text-anchor="start">签约审核</text>
+<text x="832" y="513" font-size="12" fill="#334155" font-weight="400" text-anchor="start">5个</text>
+<text x="952" y="513" font-size="12" fill="#334155" font-weight="400" text-anchor="start">多资产组合</text>
+<text x="1212" y="513" font-size="12" fill="#334155" font-weight="400" text-anchor="start">18人</text>
+<text x="1302" y="513" font-size="12" fill="#334155" font-weight="400" text-anchor="start">启用</text>
+<text x="1392" y="513" font-size="12" fill="#334155" font-weight="400" text-anchor="start">编辑 关联模块 规则</text>
+</svg>
