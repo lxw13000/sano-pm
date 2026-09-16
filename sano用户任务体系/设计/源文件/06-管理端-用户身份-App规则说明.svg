@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
+<rect x="0" y="0" width="1672" height="941" rx="0" fill="#F8FAFD" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="250" height="941" rx="0" fill="#061A33" stroke="none" stroke-width="1"/>
+<text x="28" y="48" font-size="24" fill="#FFF" font-weight="400" text-anchor="start">☰</text>
+<text x="30" y="112" font-size="16" fill="#FFF" font-weight="500" text-anchor="start">▣  用户任务体系配置</text>
+<rect x="18" y="118" width="216" height="48" rx="7" fill="#5632EE" stroke="none" stroke-width="1"/>
+<text x="78" y="150" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">用户身份</text>
+<text x="78" y="202" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">任务库</text>
+<text x="64" y="286" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">用户身份成员</text>
+<text x="64" y="350" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">周期任务审核</text>
+<text x="64" y="414" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">奖励领取记录</text>
+<text x="290" y="64" font-size="31" fill="#111827" font-weight="700" text-anchor="start">用户身份 / 黄金优质主播</text>
+<text x="292" y="98" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">面向App用户展示身份、任务、结算与领奖规则</text>
+<text x="320" y="152" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">基础信息</text>
+<text x="470" y="152" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">任务模块</text>
+<text x="620" y="152" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">升降级规则</text>
+<text x="800" y="152" font-size="15" fill="#4F2BEE" font-weight="600" text-anchor="start">App规则说明</text>
+<rect x="792" y="170" width="112" height="3" rx="2" fill="#4F2BEE" stroke="none" stroke-width="1"/>
+<line x1="250" y1="180" x2="1672" y2="180" stroke="#E5E7EB" stroke-width="1"/>
+<rect x="1450" y="120" width="160" height="42" rx="7" fill="#4F2BEE" stroke="#B8A9FF" stroke-width="1"/>
+<text x="1530" y="147" font-size="14" fill="#FFFFFF" font-weight="500" text-anchor="middle">保存规则</text>
+<rect x="280" y="202" width="500" height="660" rx="10" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<text x="300" y="236" font-size="17" fill="#111827" font-weight="600" text-anchor="start">规则章节</text>
+<text x="300" y="260" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">拖拽调整App顺序</text>
+<rect x="304" y="276" width="452" height="62" rx="8" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="326" y="314" font-size="14" fill="#334155" font-weight="600" text-anchor="start">≡  身份资格</text>
+<rect x="304" y="358" width="452" height="62" rx="8" fill="#F3EFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="326" y="396" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="start">≡  任务周期与完成方式</text>
+<rect x="304" y="440" width="452" height="62" rx="8" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="326" y="478" font-size="14" fill="#334155" font-weight="600" text-anchor="start">≡  模块奖励策略</text>
+<rect x="304" y="522" width="452" height="62" rx="8" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="326" y="560" font-size="14" fill="#334155" font-weight="600" text-anchor="start">≡  周期审核与结算</text>
+<rect x="304" y="604" width="452" height="62" rx="8" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="326" y="642" font-size="14" fill="#334155" font-weight="600" text-anchor="start">≡  主动领取奖励</text>
+<rect x="304" y="686" width="452" height="62" rx="8" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="326" y="724" font-size="14" fill="#334155" font-weight="600" text-anchor="start">≡  升级、降级与失效</text>
+<rect x="806" y="202" width="834" height="660" rx="10" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<text x="826" y="236" font-size="17" fill="#111827" font-weight="600" text-anchor="start">规则内容编辑与预览</text>
+<text x="834" y="276" font-size="13" fill="#334155" font-weight="500" text-anchor="start">章节标题</text>
+<rect x="834" y="288" width="760" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="848" y="315" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">任务周期与完成方式</text>
+<rect x="834" y="346" width="760" height="244" rx="7" fill="#FFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="854" y="382" font-size="14" fill="#334155" font-weight="400" text-anchor="start">1. 每个任务模块有日、周或月周期。</text>
+<text x="854" y="422" font-size="14" fill="#334155" font-weight="400" text-anchor="start">2. 模块内全部任务要求完成后，模块才完成并获得奖励。</text>
+<text x="854" y="462" font-size="14" fill="#334155" font-weight="400" text-anchor="start">3. 小周期任务按至少完成次数、最长连续次数统计。</text>
+<text x="854" y="502" font-size="14" fill="#334155" font-weight="400" text-anchor="start">4. 阶梯模块达到最低档即完成，奖励按最高档发放。</text>
+<text x="854" y="542" font-size="14" fill="#334155" font-weight="400" text-anchor="start">5. 周期审核后生成一条多资产待领取记录。</text>
+<rect x="834" y="628" width="760" height="170" rx="14" fill="#F7F4FF" stroke="none" stroke-width="1"/>
+<text x="1214" y="664" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">App预览</text>
+<text x="870" y="708" font-size="17" fill="#111827" font-weight="700" text-anchor="start">任务周期与完成方式</text>
+<text x="870" y="744" font-size="13" fill="#475569" font-weight="400" text-anchor="start">完成模块内全部任务要求，即可获得该模块对应奖励。</text>
+<text x="870" y="776" font-size="13" fill="#475569" font-weight="400" text-anchor="start">详情展示完成次数、最长连续次数和当前奖励档位。</text>
+</svg>

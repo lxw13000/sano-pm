@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1640" viewBox="0 0 940 1640">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
+<rect x="0" y="0" width="940" height="1640" rx="0" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="940" height="96" rx="0" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="42" y="62" font-size="42" fill="#111827" font-weight="400" text-anchor="start">‹</text>
+<text x="470" y="66" font-size="30" fill="#111827" font-weight="700" text-anchor="middle">规则说明</text>
+<circle cx="884" cy="54" r="19" fill="none" stroke="#111827" stroke-width="2"/>
+<text x="884" y="62" font-size="24" fill="#111827" font-weight="600" text-anchor="middle">?</text>
+<rect x="56" y="126" width="828" height="132" rx="22" fill="#F7F4FF" stroke="none" stroke-width="1"/>
+<text x="88" y="176" font-size="24" fill="#111827" font-weight="700" text-anchor="start">黄金优质主播</text>
+<text x="88" y="216" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">身份、任务、奖励、审核与领取完整说明</text>
+<rect x="56" y="294" width="828" height="150" rx="18" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="102" cy="346" r="24" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<text x="102" y="353" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="middle">01</text>
+<text x="146" y="342" font-size="18" fill="#111827" font-weight="700" text-anchor="start">身份资格</text>
+<text x="146" y="380" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">通过审核并从指定完整周期生效。</text>
+<rect x="56" y="472" width="828" height="150" rx="18" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="102" cy="524" r="24" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<text x="102" y="531" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="middle">02</text>
+<text x="146" y="520" font-size="18" fill="#111827" font-weight="700" text-anchor="start">任务周期</text>
+<text x="146" y="558" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">任务和模块支持日、周、月周期。</text>
+<rect x="56" y="650" width="828" height="150" rx="18" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="102" cy="702" r="24" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<text x="102" y="709" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="middle">03</text>
+<text x="146" y="698" font-size="18" fill="#111827" font-weight="700" text-anchor="start">模块完成</text>
+<text x="146" y="736" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">模块内所有关联任务要求都完成，模块才完成。</text>
+<rect x="56" y="828" width="828" height="150" rx="18" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="102" cy="880" r="24" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<text x="102" y="887" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="middle">04</text>
+<text x="146" y="876" font-size="18" fill="#111827" font-weight="700" text-anchor="start">阶梯奖励</text>
+<text x="146" y="914" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">达到最低档即完成，按最高已达到档位发奖。</text>
+<rect x="56" y="1006" width="828" height="150" rx="18" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="102" cy="1058" r="24" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<text x="102" y="1065" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="middle">05</text>
+<text x="146" y="1054" font-size="18" fill="#111827" font-weight="700" text-anchor="start">审核结算</text>
+<text x="146" y="1092" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">周期结束汇总，运营审核后生成奖励记录。</text>
+<rect x="56" y="1184" width="828" height="150" rx="18" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="102" cy="1236" r="24" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<text x="102" y="1243" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="middle">06</text>
+<text x="146" y="1232" font-size="18" fill="#111827" font-weight="700" text-anchor="start">主动领取</text>
+<text x="146" y="1270" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">多种资产合并一条记录，点击领取全部。</text>
+</svg>

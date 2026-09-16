@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
+<rect x="0" y="0" width="1672" height="941" rx="0" fill="#F8FAFD" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="250" height="941" rx="0" fill="#061A33" stroke="none" stroke-width="1"/>
+<text x="28" y="48" font-size="24" fill="#FFF" font-weight="400" text-anchor="start">☰</text>
+<text x="30" y="112" font-size="16" fill="#FFF" font-weight="500" text-anchor="start">▣  用户任务体系配置</text>
+<rect x="18" y="118" width="216" height="48" rx="7" fill="#5632EE" stroke="none" stroke-width="1"/>
+<text x="78" y="150" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">用户身份</text>
+<text x="78" y="202" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">任务库</text>
+<text x="64" y="286" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">用户身份成员</text>
+<text x="64" y="350" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">周期任务审核</text>
+<text x="64" y="414" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">奖励领取记录</text>
+<text x="290" y="64" font-size="31" fill="#111827" font-weight="700" text-anchor="start">用户身份 / 黄金优质主播</text>
+<text x="292" y="98" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">关系仅保存身份ID、模块ID和App展示顺序</text>
+<text x="320" y="152" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">基础信息</text>
+<text x="470" y="152" font-size="15" fill="#4F2BEE" font-weight="600" text-anchor="start">任务模块</text>
+<rect x="462" y="170" width="112" height="3" rx="2" fill="#4F2BEE" stroke="none" stroke-width="1"/>
+<text x="620" y="152" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">升降级规则</text>
+<text x="800" y="152" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">App规则说明</text>
+<line x1="250" y1="180" x2="1672" y2="180" stroke="#E5E7EB" stroke-width="1"/>
+<rect x="1440" y="120" width="170" height="42" rx="7" fill="#4F2BEE" stroke="#B8A9FF" stroke-width="1"/>
+<text x="1525" y="147" font-size="14" fill="#FFFFFF" font-weight="500" text-anchor="middle">保存关联配置</text>
+<rect x="280" y="202" width="1360" height="116" rx="10" fill="#FFFFFF" stroke="#E3E8F1" stroke-width="1"/>
+<text x="300" y="236" font-size="17" fill="#111827" font-weight="600" text-anchor="start"></text>
+<circle cx="348" cy="260" r="34" fill="#FFF3C4" stroke="none" stroke-width="1"/>
+<text x="348" y="268" font-size="26" fill="#EAB308" font-weight="600" text-anchor="middle">★</text>
+<text x="404" y="248" font-size="22" fill="#111827" font-weight="700" text-anchor="start">黄金优质主播</text>
+<text x="404" y="280" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">QUALITY_GOLD · 启用中</text>
+<text x="1020" y="248" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">关联 5 个任务模块</text>
+<text x="1020" y="280" font-size="13" fill="#4F2BEE" font-weight="600" text-anchor="start">最高：钻石120k · 热度15k · 经验500 · 道具1件</text>
+<text x="300" y="366" font-size="18" fill="#111827" font-weight="600" text-anchor="start">已关联任务模块</text>
+<rect x="1450" y="338" width="160" height="42" rx="7" fill="#4F2BEE" stroke="#B8A9FF" stroke-width="1"/>
+<text x="1530" y="365" font-size="14" fill="#FFFFFF" font-weight="500" text-anchor="middle">＋ 关联模块</text>
+<rect x="300" y="392" width="1320" height="44" rx="6" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1"/>
+<text x="312" y="420" font-size="12" fill="#475569" font-weight="600" text-anchor="start">App顺序</text>
+<text x="412" y="420" font-size="12" fill="#475569" font-weight="600" text-anchor="start">模块ID / 名称</text>
+<text x="672" y="420" font-size="12" fill="#475569" font-weight="600" text-anchor="start">模块周期</text>
+<text x="782" y="420" font-size="12" fill="#475569" font-weight="600" text-anchor="start">任务数</text>
+<text x="872" y="420" font-size="12" fill="#475569" font-weight="600" text-anchor="start">奖励策略</text>
+<text x="1062" y="420" font-size="12" fill="#475569" font-weight="600" text-anchor="start">最高奖励组合</text>
+<text x="1362" y="420" font-size="12" fill="#475569" font-weight="600" text-anchor="start">操作</text>
+<rect x="300" y="436" width="1320" height="58" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="312" y="469" font-size="12" fill="#334155" font-weight="400" text-anchor="start">1</text>
+<text x="412" y="469" font-size="12" fill="#334155" font-weight="400" text-anchor="start">M101 / 时长达标奖励</text>
+<text x="672" y="469" font-size="12" fill="#334155" font-weight="400" text-anchor="start">周</text>
+<text x="782" y="469" font-size="12" fill="#334155" font-weight="400" text-anchor="start">3</text>
+<text x="872" y="469" font-size="12" fill="#334155" font-weight="400" text-anchor="start">固定奖励</text>
+<text x="1062" y="469" font-size="12" fill="#334155" font-weight="400" text-anchor="start">钻石30k · 经验500</text>
+<text x="1362" y="469" font-size="12" fill="#334155" font-weight="400" text-anchor="start">↑ ↓ 查看 移除</text>
+<rect x="300" y="494" width="1320" height="58" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="312" y="527" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2</text>
+<text x="412" y="527" font-size="12" fill="#334155" font-weight="400" text-anchor="start">M102 / 收入阶梯奖励</text>
+<text x="672" y="527" font-size="12" fill="#334155" font-weight="400" text-anchor="start">周</text>
+<text x="782" y="527" font-size="12" fill="#334155" font-weight="400" text-anchor="start">4</text>
+<text x="872" y="527" font-size="12" fill="#334155" font-weight="400" text-anchor="start">按任务指标阶梯</text>
+<text x="1062" y="527" font-size="12" fill="#334155" font-weight="400" text-anchor="start">最高钻石60k · 热度10k</text>
+<text x="1362" y="527" font-size="12" fill="#334155" font-weight="400" text-anchor="start">↑ ↓ 查看 移除</text>
+<rect x="300" y="552" width="1320" height="58" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="312" y="585" font-size="12" fill="#334155" font-weight="400" text-anchor="start">3</text>
+<text x="412" y="585" font-size="12" fill="#334155" font-weight="400" text-anchor="start">M103 / 分享奖励</text>
+<text x="672" y="585" font-size="12" fill="#334155" font-weight="400" text-anchor="start">周</text>
+<text x="782" y="585" font-size="12" fill="#334155" font-weight="400" text-anchor="start">4</text>
+<text x="872" y="585" font-size="12" fill="#334155" font-weight="400" text-anchor="start">固定奖励</text>
+<text x="1062" y="585" font-size="12" fill="#334155" font-weight="400" text-anchor="start">钻石40k</text>
+<text x="1362" y="585" font-size="12" fill="#334155" font-weight="400" text-anchor="start">↑ ↓ 查看 移除</text>
+<rect x="300" y="610" width="1320" height="58" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="312" y="643" font-size="12" fill="#334155" font-weight="400" text-anchor="start">4</text>
+<text x="412" y="643" font-size="12" fill="#334155" font-weight="400" text-anchor="start">M104 / PK奖励</text>
+<text x="672" y="643" font-size="12" fill="#334155" font-weight="400" text-anchor="start">周</text>
+<text x="782" y="643" font-size="12" fill="#334155" font-weight="400" text-anchor="start">3</text>
+<text x="872" y="643" font-size="12" fill="#334155" font-weight="400" text-anchor="start">固定奖励</text>
+<text x="1062" y="643" font-size="12" fill="#334155" font-weight="400" text-anchor="start">钻石10k</text>
+<text x="1362" y="643" font-size="12" fill="#334155" font-weight="400" text-anchor="start">↑ ↓ 查看 移除</text>
+<rect x="300" y="668" width="1320" height="58" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="312" y="701" font-size="12" fill="#334155" font-weight="400" text-anchor="start">5</text>
+<text x="412" y="701" font-size="12" fill="#334155" font-weight="400" text-anchor="start">M105 / 月度成长奖励</text>
+<text x="672" y="701" font-size="12" fill="#334155" font-weight="400" text-anchor="start">月</text>
+<text x="782" y="701" font-size="12" fill="#334155" font-weight="400" text-anchor="start">3</text>
+<text x="872" y="701" font-size="12" fill="#334155" font-weight="400" text-anchor="start">固定奖励</text>
+<text x="1062" y="701" font-size="12" fill="#334155" font-weight="400" text-anchor="start">头像框1件 / 30天</text>
+<text x="1362" y="701" font-size="12" fill="#334155" font-weight="400" text-anchor="start">↑ ↓ 查看 移除</text>
+<rect x="300" y="748" width="1320" height="76" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+<text x="324" y="780" font-size="12" fill="#475569" font-weight="400" text-anchor="start">模块内部定义任务组成、周期要求和奖励策略；身份关联不保存前置条件或资格开关。</text>
+<text x="324" y="805" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">同一公共模块可关联多个用户身份。</text>
+</svg>

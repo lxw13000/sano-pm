@@ -1,856 +1,141 @@
-﻿$ErrorActionPreference = 'Stop'
-
+$ErrorActionPreference = 'Stop'
 $ToolDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $DesignDir = Split-Path -Parent $ToolDir
 $OutputDir = Join-Path $DesignDir '源文件'
-if (-not (Test-Path -LiteralPath $OutputDir -PathType Container)) {
-    New-Item -ItemType Directory -Path $OutputDir | Out-Null
-}
+if (-not (Test-Path -LiteralPath $OutputDir -PathType Container)) { New-Item -ItemType Directory -Path $OutputDir | Out-Null }
 $Utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 $script:Svg = $null
-$script:Width = 0
-$script:Height = 0
 
-function Esc([string]$Value) {
-    return [System.Security.SecurityElement]::Escape($Value)
-}
+function Esc([string]$V) { [System.Security.SecurityElement]::Escape($V) }
+function Add([string]$M) { [void]$script:Svg.AppendLine($M) }
+function Rect($X,$Y,$W,$H,$F='#FFFFFF',$R=10,$S='none',$SW=1) { Add ('<rect x="{0}" y="{1}" width="{2}" height="{3}" rx="{4}" fill="{5}" stroke="{6}" stroke-width="{7}"/>' -f $X,$Y,$W,$H,$R,$F,$S,$SW) }
+function Line($X1,$Y1,$X2,$Y2,$S='#E5E7EB',$SW=1) { Add ('<line x1="{0}" y1="{1}" x2="{2}" y2="{3}" stroke="{4}" stroke-width="{5}"/>' -f $X1,$Y1,$X2,$Y2,$S,$SW) }
+function Text($X,$Y,[string]$V,$Size=14,$F='#334155',$Weight=400,$Anchor='start') { Add ('<text x="{0}" y="{1}" font-size="{2}" fill="{3}" font-weight="{4}" text-anchor="{5}">{6}</text>' -f $X,$Y,$Size,$F,$Weight,$Anchor,(Esc $V)) }
+function Circle($X,$Y,$R,$F,$S='none',$SW=1) { Add ('<circle cx="{0}" cy="{1}" r="{2}" fill="{3}" stroke="{4}" stroke-width="{5}"/>' -f $X,$Y,$R,$F,$S,$SW) }
+function Badge($X,$Y,[string]$V,$F='#EEF2FF',$C='#4F46E5') { $W=[Math]::Max(62,24+$V.Length*15);Rect $X $Y $W 28 $F 14;Text ($X+$W/2) ($Y+19) $V 12 $C 500 'middle' }
+function Button($X,$Y,$W,[string]$V,$Primary=$true) { $F=if($Primary){'#4F2BEE'}else{'#FFFFFF'};$C=if($Primary){'#FFFFFF'}else{'#4F2BEE'};Rect $X $Y $W 42 $F 7 '#B8A9FF';Text ($X+$W/2) ($Y+27) $V 14 $C 500 'middle' }
+function Field($X,$Y,$W,[string]$L,[string]$V) { Text $X $Y $L 13 '#334155' 500;Rect $X ($Y+12) $W 42 '#FFFFFF' 6 '#DCE3EE';Text ($X+14) ($Y+39) $V 13 '#1E293B' }
+function Section($X,$Y,$W,$H,[string]$T,[string]$Sub='') { Rect $X $Y $W $H '#FFFFFF' 10 '#E3E8F1';Text ($X+20) ($Y+34) $T 17 '#111827' 600;if($Sub){Text ($X+20) ($Y+58) $Sub 12 '#64748B'} }
+function BeginSvg($W,$H,$Bg='#F7F8FC') { $script:Svg=New-Object Text.StringBuilder;Add ('<svg xmlns="http://www.w3.org/2000/svg" width="{0}" height="{1}" viewBox="0 0 {0} {1}">' -f $W,$H);Add '<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>';Rect 0 0 $W $H $Bg 0 }
+function EndSvg([string]$N) { Add '</svg>';[IO.File]::WriteAllText((Join-Path $OutputDir $N),$script:Svg.ToString(),$Utf8NoBom) }
+function Sidebar([string]$A) { Rect 0 0 250 941 '#061A33' 0;Text 28 48 '☰' 24 '#FFF';Text 30 112 '▣  用户任务体系配置' 16 '#FFF' 500;foreach($R in @(@('用户身份','identity',150),@('任务库','library',202),@('用户身份成员','members',286),@('周期任务审核','period',350),@('奖励领取记录','rewards',414))){if($A-eq$R[1]){Rect 18 ($R[2]-32) 216 48 '#5632EE' 7};Text $(if($R[1]-in @('identity','library')){78}else{64}) $R[2] $R[0] 15 '#FFF' 500} }
+function BeginAdmin([string]$T,[string]$Sub,[string]$A) { BeginSvg 1672 941 '#F8FAFD';Sidebar $A;Text 290 64 $T 31 '#111827' 700;if($Sub){Text 292 98 $Sub 14 '#64748B'} }
+function Tabs([string]$Kind,[string]$Sel) { $Ts=if($Kind-eq'library'){@(@('任务项列表','items',320),@('任务模块','modules',470))}else{@(@('基础信息','base',320),@('任务模块','modules',470),@('升降级规则','rules',620),@('App规则说明','app',800))};foreach($T in $Ts){$C=if($Sel-eq$T[1]){'#4F2BEE'}else{'#64748B'};Text $T[2] 152 $T[0] 15 $C $(if($Sel-eq$T[1]){600}else{400});if($Sel-eq$T[1]){Rect ($T[2]-8) 170 112 3 '#4F2BEE' 2}};Line 250 180 1672 180 }
+function Table($X,$Y,$W,[string[]]$H,[object[]]$Rows,[int[]]$Widths,$RH=54) { Rect $X $Y $W 44 '#F8FAFC' 6 '#E5E7EB';$CX=$X;for($I=0;$I-lt$H.Count;$I++){Text ($CX+12) ($Y+28) $H[$I] 12 '#475569' 600;$CX+=$Widths[$I]};for($R=0;$R-lt$Rows.Count;$R++){$RY=$Y+44+$R*$RH;Rect $X $RY $W $RH '#FFF' 0 '#E9EDF3';$CX=$X;for($I=0;$I-lt$H.Count;$I++){Text ($CX+12) ($RY+33) ([string]$Rows[$R][$I]) 12 '#334155';$CX+=$Widths[$I]}} }
+function BeginMobile([string]$T,$Purple=$false) { BeginSvg 940 1640 $(if($Purple){'#F4F0FF'}else{'#F8FAFC'});Rect 0 0 940 96 '#FFF' 0;Text 42 62 '‹' 42 '#111827';Text 470 66 $T 30 '#111827' 700 'middle';Circle 884 54 19 'none' '#111827' 2;Text 884 62 '?' 24 '#111827' 600 'middle' }
+function PeriodSwitch([string]$S) { Rect 90 174 760 70 '#E9E2FF' 35;Rect $(if($S-eq'current'){94}else{474}) 178 372 62 '#FFF' 31;Text 280 220 '本周期' 22 $(if($S-eq'current'){'#4F2BEE'}else{'#6B7280'}) 600 'middle';Text 660 220 '历史周期' 22 $(if($S-eq'history'){'#4F2BEE'}else{'#6B7280'}) 600 'middle' }
+function Progress($X,$Y,$W,$P,$C='#6D45F5') { Rect $X $Y $W 10 '#E9E2FF' 5;Rect $X $Y ($W*$P) 10 $C 5 }
 
-function Add([string]$Markup) {
-    [void]$script:Svg.AppendLine($Markup)
-}
+# 01 用户身份列表
+BeginAdmin '用户身份' '身份只定义用户标识；可完成的模块由身份与模块关联决定' 'identity';Button 1450 42 170 '＋ 新建用户身份'
+$Cards=@(@('用户身份','5','#5632EE'),@('启用中','5','#10B981'),@('身份成员','286','#3B82F6'));for($I=0;$I-lt3;$I++){$X=290+$I*448;Section $X 140 418 116 '';Circle ($X+62) 198 31 $Cards[$I][2];Text ($X+112) 183 $Cards[$I][0] 14 '#64748B';Text ($X+112) 220 $Cards[$I][1] 24 '#111827' 700}
+Rect 290 278 1330 50 '#EFF6FF' 7 '#BFDBFE';Text 314 310 'ⓘ  身份最高奖励按关联模块的奖励策略上限，分资产类型汇总。' 13 '#475569'
+Table 290 350 1330 @('用户身份','身份编码','资格方式','关联模块','周期最高奖励','成员','状态','操作') @(@('普通优质主播','QUALITY_NORMAL','申请审核','3个','钻石50k · 经验500','128人','启用','查看配置 ›'),@('黄金优质主播','QUALITY_GOLD','升级或审核','5个','钻石120k · 热度15k','96人','启用','查看配置 ›'),@('超级主播','SUPER_HOST','邀请审核','6个','多资产组合','18人','启用','查看配置 ›'),@('外部认证主播','EXTERNAL_CERT','认证审核','4个','钻石80k · 道具1件','26人','启用','查看配置 ›'),@('签约主播','SIGNED_HOST','签约审核','5个','多资产组合','18人','启用','查看配置 ›')) @(190,190,150,120,270,100,100,210) 58
+EndSvg '01-管理端-用户身份列表.svg'
 
-function Rect($X, $Y, $W, $H, $Fill = '#FFFFFF', $Radius = 10, $Stroke = 'none', $StrokeWidth = 1) {
-    Add ('<rect x="{0}" y="{1}" width="{2}" height="{3}" rx="{4}" fill="{5}" stroke="{6}" stroke-width="{7}"/>' -f $X,$Y,$W,$H,$Radius,$Fill,$Stroke,$StrokeWidth)
-}
+# 02 用户身份关联模块
+BeginAdmin '用户身份 / 黄金优质主播' '关系仅保存身份ID、模块ID和App展示顺序' 'identity';Tabs 'identity' 'modules';Button 1440 120 170 '保存关联配置'
+Section 280 202 1360 116 '';Circle 348 260 34 '#FFF3C4';Text 348 268 '★' 26 '#EAB308' 600 'middle';Text 404 248 '黄金优质主播' 22 '#111827' 700;Text 404 280 'QUALITY_GOLD · 启用中' 13 '#64748B';Text 1020 248 '关联 5 个任务模块' 14 '#64748B';Text 1020 280 '最高：钻石120k · 热度15k · 经验500 · 道具1件' 13 '#4F2BEE' 600
+Text 300 366 '已关联任务模块' 18 '#111827' 600;Button 1450 338 160 '＋ 关联模块'
+Table 300 392 1320 @('App顺序','模块ID / 名称','模块周期','任务数','奖励策略','最高奖励组合','操作') @(@('1','M101 / 时长达标奖励','周','3','固定奖励','钻石30k · 经验500','↑ ↓ 查看 移除'),@('2','M102 / 收入阶梯奖励','周','4','按任务指标阶梯','最高钻石60k · 热度10k','↑ ↓ 查看 移除'),@('3','M103 / 分享奖励','周','4','固定奖励','钻石40k','↑ ↓ 查看 移除'),@('4','M104 / PK奖励','周','3','固定奖励','钻石10k','↑ ↓ 查看 移除'),@('5','M105 / 月度成长奖励','月','3','固定奖励','头像框1件 / 30天','↑ ↓ 查看 移除')) @(100,260,110,90,190,300,270) 58
+Rect 300 748 1320 76 '#F8FAFC' 8 '#E2E8F0';Text 324 780 '模块内部定义任务组成、周期要求和奖励策略；身份关联不保存前置条件或资格开关。' 12 '#475569';Text 324 805 '同一公共模块可关联多个用户身份。' 12 '#64748B'
+EndSvg '02-管理端-用户身份-任务模块.svg'
 
-function Line($X1, $Y1, $X2, $Y2, $Stroke = '#E5E7EB', $StrokeWidth = 1, $Dash = '') {
-    $DashAttr = if ($Dash) { ' stroke-dasharray="' + $Dash + '"' } else { '' }
-    Add ('<line x1="{0}" y1="{1}" x2="{2}" y2="{3}" stroke="{4}" stroke-width="{5}"{6}/>' -f $X1,$Y1,$X2,$Y2,$Stroke,$StrokeWidth,$DashAttr)
-}
-
-function Text($X, $Y, [string]$Value, $Size = 14, $Fill = '#334155', $Weight = 400, $Anchor = 'start') {
-    Add ('<text x="{0}" y="{1}" font-size="{2}" fill="{3}" font-weight="{4}" text-anchor="{5}">{6}</text>' -f $X,$Y,$Size,$Fill,$Weight,$Anchor,(Esc $Value))
-}
-
-function Circle($CX, $CY, $R, $Fill, $Stroke = 'none', $StrokeWidth = 1) {
-    Add ('<circle cx="{0}" cy="{1}" r="{2}" fill="{3}" stroke="{4}" stroke-width="{5}"/>' -f $CX,$CY,$R,$Fill,$Stroke,$StrokeWidth)
-}
-
-function Badge($X, $Y, [string]$Value, $Fill = '#EEF2FF', $Color = '#4F46E5') {
-    $W = [Math]::Max(62, 24 + $Value.Length * 15)
-    Rect $X $Y $W 28 $Fill 14
-    Text ($X + $W / 2) ($Y + 19) $Value 12 $Color 500 'middle'
-    return $W
-}
-
-function Button($X, $Y, $W, [string]$Value, $Primary = $true) {
-    $Fill = if ($Primary) { '#4F2BEE' } else { '#FFFFFF' }
-    $Color = if ($Primary) { '#FFFFFF' } else { '#4F2BEE' }
-    $Stroke = if ($Primary) { '#4F2BEE' } else { '#B8A9FF' }
-    Rect $X $Y $W 42 $Fill 7 $Stroke 1
-    Text ($X + $W / 2) ($Y + 27) $Value 14 $Color 500 'middle'
-}
-
-function Field($X, $Y, $W, [string]$Label, [string]$Value = '', [string]$Placeholder = '') {
-    Text $X $Y $Label 13 '#334155' 500
-    Rect $X ($Y + 12) $W 42 '#FFFFFF' 6 '#DCE3EE' 1
-    $Display = if ($Value) { $Value } else { $Placeholder }
-    $Color = if ($Value) { '#1E293B' } else { '#94A3B8' }
-    Text ($X + 14) ($Y + 39) $Display 13 $Color 400
-}
-
-function Section($X, $Y, $W, $H, [string]$Title, [string]$Sub = '') {
-    Rect $X $Y $W $H '#FFFFFF' 10 '#E3E8F1' 1
-    Text ($X + 20) ($Y + 34) $Title 17 '#111827' 600
-    if ($Sub) { Text ($X + 20) ($Y + 58) $Sub 12 '#64748B' 400 }
-}
-
-function BeginSvg($Width, $Height, $Background = '#F7F8FC') {
-    $script:Width = $Width
-    $script:Height = $Height
-    $script:Svg = New-Object System.Text.StringBuilder
-    Add ('<svg xmlns="http://www.w3.org/2000/svg" width="{0}" height="{1}" viewBox="0 0 {0} {1}">' -f $Width,$Height)
-    Add '<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient><linearGradient id="softPurple" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F5F1FF"/><stop offset="1" stop-color="#E9E2FF"/></linearGradient><filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#4C1D95" flood-opacity="0.12"/></filter></defs>'
-    Add '<style>text{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif}.shadow{filter:url(#softShadow)}</style>'
-    Rect 0 0 $Width $Height $Background 0
-}
-
-function EndSvg([string]$FileName) {
-    Add '</svg>'
-    [System.IO.File]::WriteAllText((Join-Path $OutputDir $FileName), $script:Svg.ToString(), $Utf8NoBom)
-}
-
-function AdminSidebar([string]$Active) {
-    Rect 0 0 250 941 '#061A33' 0
-    Text 28 48 '☰' 24 '#FFFFFF' 400
-    Text 30 112 '▣  主播体系配置' 16 '#FFFFFF' 500
-    Text 220 112 '⌄' 18 '#FFFFFF' 400
-    $Children = @(@('主播身份','identity',150),@('任务库','library',202))
-    foreach ($Child in $Children) {
-        if ($Active -eq $Child[1]) { Rect 26 ($Child[2]-30) 206 46 '#5632EE' 7 }
-        Circle 58 ($Child[2]-7) 4 $(if ($Active -eq $Child[1]) { '#FFFFFF' } else { '#94A3B8' })
-        Text 78 $Child[2] $Child[0] 15 $(if ($Active -eq $Child[1]) { '#FFFFFF' } else { '#E2E8F0' }) 500
-    }
-    $Roots = @(
-        @('主播身份成员','members',286),
-        @('周任务审核','weekly',350),
-        @('奖励领取记录','rewards',414)
-    )
-    foreach ($Root in $Roots) {
-        if ($Active -eq $Root[1]) { Rect 18 ($Root[2]-32) 216 48 '#5632EE' 7 }
-        Text 30 $Root[2] '□' 18 '#FFFFFF' 400
-        Text 64 $Root[2] $Root[0] 15 '#FFFFFF' 500
-    }
-}
-
-function BeginAdmin([string]$Title, [string]$Subtitle, [string]$Active) {
-    BeginSvg 1672 941 '#F8FAFD'
-    AdminSidebar $Active
-    Text 290 64 $Title 31 '#111827' 700
-    if ($Subtitle) { Text 292 98 $Subtitle 14 '#64748B' 400 }
-}
-
-function LibraryTabs([string]$Selected) {
-    $Tabs = @(@('任务项列表','items',320),@('任务模块','modules',470))
-    foreach ($Tab in $Tabs) {
-        $Color = if ($Selected -eq $Tab[1]) { '#4F2BEE' } else { '#64748B' }
-        Text $Tab[2] 152 $Tab[0] 15 $Color $(if ($Selected -eq $Tab[1]) { 600 } else { 400 })
-        if ($Selected -eq $Tab[1]) { Rect ($Tab[2]-8) 170 112 3 '#4F2BEE' 2 }
-    }
-    Line 250 180 1672 180 '#E5E7EB'
-}
-
-function IdentityTabs([string]$Selected) {
-    $Tabs = @(@('基础信息','base',320),@('任务模块','modules',470),@('升降级规则','rules',620),@('App规则说明','app',800))
-    foreach ($Tab in $Tabs) {
-        $Color = if ($Selected -eq $Tab[1]) { '#4F2BEE' } else { '#475569' }
-        Text $Tab[2] 112 $Tab[0] 15 $Color $(if ($Selected -eq $Tab[1]) { 600 } else { 400 })
-        if ($Selected -eq $Tab[1]) { Rect ($Tab[2]-10) 132 116 3 '#4F2BEE' 2 }
-    }
-    Line 250 140 1672 140 '#E5E7EB'
-}
-
-function SimpleTable($X, $Y, $W, [string[]]$Headers, [object[]]$Rows, [int[]]$Widths, $RowHeight = 54) {
-    Rect $X $Y $W 44 '#F8FAFC' 6 '#E5E7EB' 1
-    $CX = $X
-    for ($I = 0; $I -lt $Headers.Count; $I++) {
-        Text ($CX + 12) ($Y + 28) $Headers[$I] 12 '#475569' 600
-        $CX += $Widths[$I]
-    }
-    for ($R = 0; $R -lt $Rows.Count; $R++) {
-        $RY = $Y + 44 + $R * $RowHeight
-        Rect $X $RY $W $RowHeight '#FFFFFF' 0 '#E9EDF3' 1
-        $CX = $X
-        for ($I = 0; $I -lt $Headers.Count; $I++) {
-            Text ($CX + 12) ($RY + 33) ([string]$Rows[$R][$I]) 12 '#334155' 400
-            $CX += $Widths[$I]
-        }
-    }
-}
-
-# 01 主播身份列表
-BeginAdmin '主播身份' '管理主播身份、资格、任务功能与奖励' 'identity'
-Button 1450 42 170 '＋ 新建主播身份'
-$Cards = @(@('主播身份','5','#5632EE'),@('启用中','5','#10B981'),@('身份成员','286','#3B82F6'))
-for ($I=0; $I -lt 3; $I++) {
-    $X = 290 + $I * 448
-    Section $X 140 418 116 ''
-    Circle ($X+62) 198 31 $Cards[$I][2]
-    Text ($X+112) 183 $Cards[$I][0] 14 '#64748B' 400
-    Text ($X+112) 220 $Cards[$I][1] 24 '#111827' 700
-}
-Rect 290 278 1330 50 '#EFF6FF' 7 '#BFDBFE' 1
-Text 314 310 'ⓘ  以下为策略配置演示数据；每个身份独立配置资格和规则，最高奖励由关联模块策略上限自动合计。' 13 '#475569' 400
-SimpleTable 290 350 1330 @('主播身份','身份编码','资格方式','关联任务模块','每周最高奖励','当前成员','状态','操作') @(
-    @('普通优质主播','QUALITY_NORMAL','申请审核','3个模块','$15','128人','启用','查看配置  ›'),
-    @('黄金优质主播','QUALITY_GOLD','升级或审核','4个模块','$77','96人','启用','查看配置  ›'),
-    @('超级主播','SUPER_HOST','升级或邀请','5个模块','$50','18人','启用','查看配置  ›'),
-    @('外部认证主播','EXTERNAL_CERT','外部认证审核','3个模块','$50','26人','启用','查看配置  ›'),
-    @('签约主播','SIGNED_HOST','签约审核','4个模块','$100','18人','启用','查看配置  ›')
-) @(180,195,165,170,170,140,110,170) 58
-EndSvg '01-管理端-主播身份列表.svg'
-
-# 02 身份关联任务模块
-BeginAdmin '主播体系配置 / 主播身份 / 黄金优质主播' '' 'identity'
-Button 1350 30 128 '保存配置' $false
-Button 1490 30 140 '返回身份列表' $false
-IdentityTabs 'modules'
-Section 280 158 1360 132 ''
-Circle 350 224 38 '#FFF3C4'
-Text 350 232 '★' 28 '#EAB308' 600 'middle'
-Text 430 206 '黄金优质主播' 21 '#111827' 700
-Text 430 240 'QUALITY_GOLD' 13 '#475569' 500
-Badge 590 214 '启用' '#DCFCE7' '#16A34A' | Out-Null
-Text 820 205 '资格条件' 13 '#475569' 500
-Text 820 238 '连续2周达标或运营审核' 14 '#334155' 500
-Text 1310 205 '当前成员' 13 '#475569' 500
-Text 1310 244 '96 人' 24 '#111827' 700
-Section 280 312 1360 562 '关联任务模块'
-Button 1420 330 188 '＋ 关联任务模块'
-SimpleTable 306 390 1308 @('App顺序','任务模块ID / 名称','模块角色','奖励资格策略','奖励计算策略','最高奖励','操作') @(
-    @('1','R001 / 优质主播基础奖励','基础门槛','无前置条件','固定奖励','$10','↑  ↓  查看  移除'),
-    @('2','R002 / 收入阶梯奖励','普通模块','需要基础门槛','按任务指标阶梯','最高 $60','↑  ↓  查看  移除'),
-    @('3','R003 / 时长奖励','普通模块','需要基础门槛','固定奖励','$3','↑  ↓  查看  移除'),
-    @('4','R004 / 分享奖励','普通模块','需要基础门槛','固定奖励','$4','↑  ↓  查看  移除')
-) @(95,255,140,185,190,135,308) 66
-Rect 306 720 1308 110 '#F5F3FF' 8 '#C4B5FD' 1
-Text 332 758 '每周最高奖励（按模块策略上限自动合计）' 14 '#334155' 600
-Text 332 804 '$77' 28 '#4F2BEE' 700
-Text 700 770 '本页关联数据仅包含：身份ID、任务模块ID、App展示顺序' 13 '#334155' 500
-Text 700 802 '模块角色、三类策略和任务组成均来自公共任务库，只读展示' 12 '#64748B' 400
-EndSvg '02-管理端-主播身份-任务模块.svg'
-
-# 03 任务模块详情
-BeginAdmin '任务库' '公共任务项与任务模块管理' 'library'
-LibraryTabs 'modules'
-Section 270 200 480 700 '任务模块'
-Field 294 262 262 '' '' '搜索任务模块名称'
-Button 576 274 150 '＋ 新建任务模块'
-$Modules = @(
-    @('优质主播基础奖励','固定 $10','3个任务项 · 基础门槛','#4F2BEE'),
-    @('收入阶梯奖励','最高 $60','1个任务项 · 依赖门槛','#F59E0B'),
-    @('时长奖励','固定 $3','1个任务项 · 依赖门槛','#3B82F6'),
-    @('分享奖励','固定 $4','1个任务项 · 依赖门槛','#10B981')
-)
-for ($I=0; $I -lt $Modules.Count; $I++) {
-    $Y = 350 + $I * 106
-    $Fill = if ($I -eq 0) { '#FAF8FF' } else { '#FFFFFF' }
-    $Stroke = if ($I -eq 0) { '#5B36F2' } else { '#E3E8F1' }
-    Rect 292 $Y 436 88 $Fill 8 $Stroke 1
-    Circle 344 ($Y+44) 25 $Modules[$I][3]
-    Text 344 ($Y+51) $(if ($I -eq 0) {'▣'} elseif ($I -eq 1) {'···'} elseif ($I -eq 2) {'＋'} else {'$'}) 18 '#FFFFFF' 600 'middle'
-    Text 394 ($Y+38) $Modules[$I][0] 15 '#111827' 600
-    Text 394 ($Y+64) $Modules[$I][2] 12 '#64748B' 400
-    Text 650 ($Y+40) $Modules[$I][1] 16 '#4F2BEE' 600
-}
-Section 772 200 868 700 '任务模块详情'
-Button 1506 218 108 '保存配置'
-Text 800 288 '模块图标' 13 '#334155' 600
-Circle 838 340 30 '#4F2BEE'
-Text 838 347 '▣' 19 '#FFFFFF' 600 'middle'
-Text 800 396 '↥ 重新上传' 12 '#4F2BEE' 500
-Field 930 288 260 '模块名称' '优质主播基础奖励'
-Field 1210 288 166 '模块编码' 'R001'
-Text 1410 288 '是否启用' 13 '#334155' 600
-Badge 1410 308 '启用' '#4F2BEE' '#FFFFFF' | Out-Null
-Text 930 390 '模块角色与三类策略' 14 '#111827' 600
-Text 930 428 '模块角色' 12 '#475569' 500
-Badge 1030 408 '基础门槛' '#DCFCE7' '#16A34A' | Out-Null
-Text 1190 428 '完成策略' 12 '#475569' 500
-Badge 1290 408 '全部任务完成' '#EEF2FF' '#4F46E5' | Out-Null
-Text 930 474 '奖励资格策略' 12 '#475569' 500
-Badge 1060 454 '无前置条件' '#F1F5F9' '#64748B' | Out-Null
-Text 1190 474 '奖励计算策略' 12 '#475569' 500
-Badge 1310 454 '固定奖励' '#4F2BEE' '#FFFFFF' | Out-Null
-Field 1450 454 138 '金额' '$10'
-Text 930 520 '配置保存为策略编码与JSON；运营使用结构化表单，不直接编辑JSON。' 11 '#64748B' 400
-Text 800 566 '关联任务项' 17 '#111827' 600
-Button 1430 542 184 '＋ 从任务项列表添加' $false
-SimpleTable 800 594 814 @('任务项名称','任务类型','执行器状态','操作') @(
-    @('周累计直播时长','系统统计','已启用','查看   移除'),
-    @('每日高峰时段','系统统计','已启用','查看   移除'),
-    @('每日有效PK场次','系统统计','已启用','查看   移除')
-) @(300,180,150,184) 48
-Field 800 786 520 '备注' '基础任务全部完成后获得$10，并为依赖模块提供奖励资格。'
-Rect 1340 786 274 68 '#EFF6FF' 7 '#BFDBFE' 1
-Text 1356 813 '校验：基础门槛的资格策略' 10 '#475569' 500
-Text 1356 838 '必须为“无前置条件”。' 10 '#475569' 400
+# 03 任务模块固定奖励详情
+BeginAdmin '任务库' '公共任务项与任务模块统一维护，可被多个用户身份复用' 'library';Tabs 'library' 'modules';Button 1450 120 170 '＋ 新建任务模块'
+Section 280 202 330 682 '任务模块列表' '选择模块，在右侧编辑详情';$Ms=@(@('时长达标奖励','周 · 固定奖励','#4F2BEE'),@('收入阶梯奖励','周 · 阶梯奖励','#FFF'),@('分享奖励','周 · 固定奖励','#FFF'),@('月度成长奖励','月 · 固定奖励','#FFF'));for($I=0;$I-lt4;$I++){$Y=280+$I*108;Rect 300 $Y 290 86 $Ms[$I][2] 8 '#D9D2FF';Text 320 ($Y+33) $Ms[$I][0] 15 $(if($I-eq0){'#FFF'}else{'#111827'}) 600;Text 320 ($Y+61) $Ms[$I][1] 12 $(if($I-eq0){'#EDE9FE'}else{'#64748B'})}
+Section 632 202 1008 682 '任务模块详情' '所关联的全部任务要求均完成，模块才完成'
+Field 660 284 300 '模块名称' '时长达标奖励';Field 980 284 200 '模块编码' 'M101';Field 1200 284 180 '模块周期' '周';Field 1400 284 170 '状态' '启用'
+Text 660 374 '关联任务与周期要求' 15 '#111827' 600
+Table 660 394 950 @('任务项','任务周期','模块内完成要求','连续要求','顺序','操作') @(@('每日高峰直播满2小时','日','至少完成6天','最长连续≥6天','1','编辑 移除'),@('每日有效PK至少2场','日','至少完成3天','不要求连续','2','编辑 移除'),@('每周有效邀请达标','周','本周结果完成','—','3','编辑 移除')) @(260,110,200,190,80,110) 54
+Text 660 622 '奖励策略：固定奖励' 15 '#111827' 600;Button 1450 594 150 '＋ 添加奖励项' $false
+Table 660 646 950 @('资产类型','资源/道具','数量','有效期','发放体系','操作') @(@('钻石','—','30,000','—','钱包资产','编辑 删除'),@('经验','—','500','—','等级体系','编辑 删除'),@('穿戴道具','黄金头像框','1','7天','道具体系','编辑 删除')) @(150,230,120,110,200,140) 48
+Text 660 854 '可组合：金币、钻石、经验、热度、穿戴道具、直播间礼物。' 11 '#64748B'
 EndSvg '03-管理端-任务库-任务模块.svg'
 
-# 04 新增任务模块
-BeginAdmin '任务库 / 新增任务模块' '配置任务组成、模块角色与三类策略' 'library'
-Button 1420 42 88 '取消' $false
-Button 1524 42 98 '保存'
-Section 290 130 1330 760 '任务模块配置'
-Text 324 204 '* 模块图标' 13 '#334155' 600
-Rect 324 222 104 104 '#FAFBFD' 8 '#CBD5E1' 1
-Text 376 282 '↥' 30 '#64748B' 500 'middle'
-Button 450 252 112 '上传图标' $false
-Field 600 204 470 '* 模块名称' '有效邀请阶梯奖励'
-Field 1090 204 260 '模块编码' '保存后自动生成'
-Text 1380 204 '是否启用' 13 '#334155' 600
-Badge 1380 224 '启用' '#4F2BEE' '#FFFFFF' | Out-Null
-Text 324 374 '1  任务组成' 16 '#111827' 600
-Field 520 350 500 '已关联任务项' '有效邀请用户数   ×'
-Button 1042 362 166 '＋ 添加任务项' $false
-Text 1236 378 '任务项可复用，不配置奖金' 11 '#64748B' 400
-Text 324 458 '2  模块角色、完成与资格策略' 16 '#111827' 600
-Field 520 434 300 '模块角色' '普通任务模块  ⌄'
-Field 840 434 330 '完成策略' '全部任务完成  ⌄'
-Field 1190 434 360 '奖励资格策略' '需要基础门槛  ⌄'
-Text 520 512 '基础门槛模块的奖励资格必须为“无前置条件”，避免自我依赖。' 11 '#9A3412' 500
-Text 324 576 '3  奖励计算策略' 16 '#111827' 600
-Field 520 552 350 '策略类型' '按任务指标阶梯奖励  ⌄'
-Field 890 552 320 '计奖依据任务' '有效邀请用户数  ⌄'
-Field 1230 552 320 '计奖指标' '有效邀请人数（人）  ⌄'
-Text 520 628 '指标名称、类型和单位来自任务结果定义；运营不能手工输入JSON字段路径。' 11 '#64748B' 400
-Text 520 674 '奖励档位' 15 '#111827' 600
-Button 1050 650 150 '＋ 添加档位' $false
-SimpleTable 520 696 680 @('达到值','单位','奖励金额','操作') @(
-    @('≥ 3','人','$5','删除'),
-    @('≥ 5','人','$10','删除'),
-    @('≥ 10','人','$20','删除')
-) @(210,120,210,140) 42
-Text 1230 674 '策略JSON（系统生成，只读）' 13 '#334155' 600
-Rect 1230 696 320 166 '#111827' 7
-Text 1248 724 'TIER_BY_TASK_METRIC' 11 '#C4B5FD' 500
-Text 1248 750 'source: EFFECTIVE_INVITE' 10 '#E2E8F0' 400
-Text 1248 774 'metric: effectiveInviteCount' 10 '#A7F3D0' 400
-Text 1248 810 '取最高已达档，不累加' 10 '#94A3B8' 400
-Text 1248 836 '保存后冻结到周任务快照' 10 '#94A3B8' 400
+# 04 新增阶梯模块
+BeginAdmin '任务库 / 新增任务模块' '阶梯来源任务达到最低档即完成，高档只改变奖励' 'library';Button 1390 42 100 '取消' $false;Button 1510 42 120 '保存模块';Section 280 126 1360 755 '新增任务模块'
+Field 310 200 300 '模块名称' '收入阶梯奖励';Field 630 200 220 '模块编码' 'M102';Field 870 200 180 '模块周期' '周';Field 1070 200 240 '奖励策略' '按任务指标阶梯';Field 1330 200 250 '状态 / 备注' '启用 / 收入激励'
+Text 310 296 '1  关联任务与完成要求' 16 '#111827' 600;Button 1440 270 160 '＋ 选择任务项' $false
+Table 310 320 1290 @('任务项','周期','周期关系','最少完成周期数','是否连续','顺序','操作') @(@('每日高峰直播满2小时','日','周包含日','3天','否','1','编辑 移除'),@('每日有效PK至少2场','日','周包含日','3天','否','2','编辑 移除'),@('每周有效邀请达标','周','同周期','固定一次结果','—','3','移除'),@('每周幸运礼物收入','周','阶梯来源','达到最低档','—','4','移除')) @(255,90,165,210,130,80,180) 47
+Text 310 570 '2  阶梯奖励策略' 16 '#111827' 600;Field 310 594 300 '来源任务' '每周幸运礼物收入';Field 630 594 250 '来源指标' 'luckyGiftIncome';Field 900 594 250 '命中规则' '最高已达到档位';Field 1170 594 350 '策略JSON' '结构化表单生成（只读）'
+Table 310 670 1290 @('档位','指标下限','奖励组合','任务完成含义','操作') @(@('1','≥100万','钻石10k','达到最低档，阶梯任务完成','编辑 删除'),@('2','≥200万','钻石20k · 经验200','只改变奖励，不重复完成','编辑 删除'),@('3','≥300万','钻石30k · 热度5k','命中最高档，不累计低档','编辑 删除'),@('4','≥600万','钻石60k · 热度10k · 礼物1','命中最高档，不累计低档','编辑 删除')) @(90,160,330,420,160) 42
 EndSvg '04-管理端-新增任务模块.svg'
 
 # 05 任务项管理
-BeginAdmin '任务库' '公共任务项与任务模块管理' 'library'
-LibraryTabs 'items'
-Section 270 200 520 700 '任务项列表' '选择任务项后在右侧查看和编辑'
-Field 294 270 286 '' '' '搜索任务名称或编码'
-Button 600 282 164 '＋ 新增任务项'
-$Items = @(
-    @('有效直播总时长','LIVE_TOTAL_MINUTES','系统统计'),
-    @('有效直播天数','LIVE_VALID_DAYS','系统统计'),
-    @('黄金时段达标天数','GOLDEN_PEAK_DAYS','系统统计'),
-    @('有效邀请用户数','EFFECTIVE_INVITE','系统统计'),
-    @('发布Sano相关外部内容','SANO_EXTERNAL_CONTENT','材料审核'),
-    @('互动质量评审','INTERACTION_REVIEW','运营评审')
-)
-for ($I=0; $I -lt $Items.Count; $I++) {
-    $Y=356+$I*78
-    $Selected=$I-eq 2
-    Rect 292 $Y 472 66 $(if($Selected){'#FAF8FF'}else{'#FFFFFF'}) 8 $(if($Selected){'#5B36F2'}else{'#E3E8F1'}) 1
-    Text 312 ($Y+27) $Items[$I][0] 13 '#111827' 600
-    Text 312 ($Y+51) $Items[$I][1] 10 '#64748B' 400
-    $TypeFill=if($Items[$I][2]-eq '材料审核'){'#FFF7ED'}elseif($Items[$I][2]-eq '运营评审'){'#FDF2F8'}else{'#EEF2FF'}
-    $TypeColor=if($Items[$I][2]-eq '材料审核'){'#C2410C'}elseif($Items[$I][2]-eq '运营评审'){'#BE185D'}else{'#4F46E5'}
-    Badge 642 ($Y+18) $Items[$I][2] $TypeFill $TypeColor | Out-Null
-}
-Rect 292 842 472 38 '#FFF7ED' 7 '#FED7AA' 1
-Text 312 867 '技术维护任务定义；运营仅管理关联关系。' 11 '#9A3412' 500
-
-Section 810 200 830 700 '任务项详情' '新增与编辑共用右侧表单'
-Badge 1080 214 '编辑任务项' '#EEF2FF' '#4F46E5' | Out-Null
-Button 1488 218 126 '保存修改'
-Text 834 274 '任务名称' 11 '#64748B' 500
-Rect 834 288 238 42 '#FFFFFF' 6 '#DCE3EE' 1
-Text 848 315 '黄金时段达标天数' 12 '#111827' 500
-Text 1088 274 '任务编码' 11 '#64748B' 500
-Rect 1088 288 236 42 '#FFFFFF' 6 '#DCE3EE' 1
-Text 1102 315 'GOLDEN_PEAK_DAYS' 11 '#334155' 500
-Text 1340 274 '任务类型' 11 '#64748B' 500
-Rect 1340 288 250 42 '#FFFFFF' 6 '#DCE3EE' 1
-Text 1354 315 '系统统计  ⌄' 12 '#334155' 500
-Text 834 356 '执行器标识' 11 '#64748B' 500
-Rect 834 370 490 42 '#FFFFFF' 6 '#DCE3EE' 1
-Text 848 397 'GoldenPeakDaysHandler' 12 '#334155' 500
-Text 1340 356 '是否启用' 11 '#64748B' 500
-Badge 1340 370 '启用' '#4F2BEE' '#FFFFFF' | Out-Null
-Badge 1430 370 '停用' '#F1F5F9' '#64748B' | Out-Null
-Text 834 452 '任务参数 JSON' 14 '#111827' 600
-Rect 834 470 366 184 '#111827' 8
-Text 852 500 '{' 12 '#E2E8F0' 400
-Text 870 528 '"requiredDays": 4,' 11 '#C4B5FD' 400
-Text 870 554 '"dailyRequiredMinutes": 120,' 11 '#C4B5FD' 400
-Text 870 580 '"timeRanges": [' 11 '#C4B5FD' 400
-Text 886 606 '"12:00-14:00", "20:00-24:00"' 10 '#A7F3D0' 400
-Text 870 632 ']' 11 '#C4B5FD' 400
-Text 852 650 '}' 12 '#E2E8F0' 400
-Text 1220 452 '结果定义 JSON' 14 '#111827' 600
-Rect 1220 470 394 184 '#111827' 8
-Text 1238 500 '{ "metrics": [' 11 '#E2E8F0' 400
-Text 1254 528 '{ "code": "completedDays",' 10 '#C4B5FD' 400
-Text 1270 554 '"name": "达标天数",' 10 '#C4B5FD' 400
-Text 1270 580 '"type": "number", "unit": "天",' 10 '#A7F3D0' 400
-Text 1270 606 '"rewardUsable": true }' 10 '#A7F3D0' 400
-Text 1238 636 '] }' 11 '#E2E8F0' 400
-Field 834 690 366 '展示说明' '每周至少4天，高峰时段累计直播满2小时。'
-Field 1220 690 394 '实现说明' '按每日全部配置时段累计有效直播分钟数。'
-Text 834 770 '统一任务结果示例' 14 '#111827' 600
-Rect 834 788 780 76 '#F5F3FF' 8 '#DDD6FE' 1
-Badge 854 804 '进行中' '#EEF2FF' '#4F46E5' | Out-Null
-Text 964 824 'completed=false · status=IN_PROGRESS' 11 '#64748B' 500
-Text 1236 824 'resultText：本周高峰时段达标3/4天' 11 '#111827' 600
-Text 854 852 'resultData：{ completedDays: 3, requiredDays: 4 }（任务项不配置奖金）' 10 '#475569' 400
-Rect 834 876 780 28 '#EFF6FF' 7 '#BFDBFE' 1
-Text 854 895 '新增/编辑共用右侧表单；参数和结果定义由技术维护，运营仅管理关联关系。' 10 '#475569' 400
+BeginAdmin '任务库' '任务项由技术维护；运营只选择和关联' 'library';Tabs 'library' 'items';Button 1450 120 170 '＋ 新增任务项';Section 280 202 430 682 '任务项列表' '新增、编辑与列表在同一页';Field 300 270 390 '搜索' '高峰直播'
+$Ts=@(@('每日高峰直播满2小时','TASK_PEAK_LIVE_DAY · 日','#4F2BEE'),@('每日有效PK至少2场','TASK_VALID_PK_DAY · 日','#FFF'),@('每周有效邀请达标','TASK_INVITE_WEEK · 周','#FFF'),@('外部内容审核','TASK_CONTENT_WEEK · 周','#FFF'));for($I=0;$I-lt4;$I++){$Y=338+$I*100;Rect 300 $Y 390 78 $Ts[$I][2] 8 '#DED8FF';Text 320 ($Y+31) $Ts[$I][0] 14 $(if($I-eq0){'#FFF'}else{'#111827'}) 600;Text 320 ($Y+57) $Ts[$I][1] 11 $(if($I-eq0){'#EDE9FE'}else{'#64748B'})}
+Section 730 202 910 682 '任务项详情' '执行器计算一个任务周期，输出统一状态和结果文本';Field 760 274 320 '任务名称' '每日高峰直播满2小时';Field 1100 274 250 '任务标识' 'TASK_PEAK_LIVE_DAY';Field 1370 274 220 '任务周期' '日';Field 760 350 260 '任务类型' '程序自动计算';Field 1040 350 300 '执行器编码' 'peakLiveDurationExecutor';Field 1360 350 230 '状态' '启用'
+Text 760 446 '任务参数JSON（技术维护）' 14 '#111827' 600;Rect 760 464 400 134 '#111827' 7;Text 782 492 '{ "requiredMinutes":120,' 12 '#E2E8F0';Text 782 520 '  "timeRanges":["19:00-22:00"],' 12 '#E2E8F0';Text 782 548 '  "timezone":"user_region" }' 12 '#E2E8F0';Text 1190 446 '统一结果示例（单日）' 14 '#111827' 600;Rect 1190 464 400 134 '#F8FAFC' 7 '#DCE3EE';Text 1210 492 'completed: true' 12 '#16A34A' 600;Text 1210 520 'resultText: 高峰直播132/120分钟' 12 '#334155';Text 1210 548 'metrics.peakLiveMinutes: 132' 12 '#334155';Text 1210 576 'period: 2026-09-15' 12 '#64748B'
+Text 760 636 '运营/用户说明' 14 '#111827' 600;Rect 760 654 830 82 '#FFF' 6 '#DCE3EE';Text 778 686 '每天在配置的高峰时段内累计有效直播满2小时。' 13 '#334155';Text 778 712 '模块可进一步要求至少完成N天或最长连续N天。' 12 '#64748B';Rect 760 764 830 74 '#FFF7ED' 7 '#FED7AA';Text 780 794 '日模块仅选日任务；周模块选日/周；月模块选日/周/月。' 11 '#9A3412';Text 780 820 '相同周期固定使用一次结果，不显示数量和连续配置。' 11 '#9A3412'
 EndSvg '05-管理端-任务项管理.svg'
 
-# 06 App规则说明配置
-BeginAdmin '主播体系配置 / 主播身份 / 黄金优质主播' '' 'identity'
-Button 1370 30 112 '保存规则'
-Button 1500 30 132 '预览App规则' $false
-IdentityTabs 'app'
-Section 270 160 938 750 '黄金优质主播 · App规则说明' '按主播理解顺序维护身份规则内容'
-$Rules = @('身份资格','任务功能与模块奖励','申请审核与生效周期','周任务审核与结算','奖励记录与主动领取','升级、降级与失效')
-for ($I=0; $I -lt $Rules.Count; $I++) {
-    $Y = 252 + $I * 96
-    Rect 292 $Y 892 76 '#FFFFFF' 8 '#E3E8F1' 1
-    Circle 336 ($Y+38) 18 '#EEF2FF'
-    Text 336 ($Y+44) ([string]($I+1)) 13 '#4F2BEE' 600 'middle'
-    Text 376 ($Y+45) $Rules[$I] 15 '#111827' 600
-    Badge 1000 ($Y+24) '已配置' '#DCFCE7' '#16A34A' | Out-Null
-    Text 1140 ($Y+46) '编辑 ⌄' 13 '#475569' 500
-}
-Section 1230 160 410 750 'App身份规则预览'
-Rect 1284 222 302 610 '#FAFBFF' 34 '#DCE3EE' 5
-Text 1435 268 '黄金优质主播身份规则' 15 '#111827' 700 'middle'
-Rect 1308 300 254 88 '#FFFFFF' 10 '#E3E8F1' 1
-Text 1330 334 '黄金优质主播' 15 '#111827' 700
-Badge 1330 348 '身份有效' '#DCFCE7' '#16A34A' | Out-Null
-$Preview = @('身份资格','任务与奖励','领取规则')
-for ($I=0; $I -lt 3; $I++) {
-    $Y=416+$I*112
-    Rect 1308 $Y 254 92 '#FFFFFF' 10 '#E3E8F1' 1
-    Text 1332 ($Y+34) $Preview[$I] 14 '#111827' 600
-    Text 1332 ($Y+62) '查看详细规则与说明 ⌄' 11 '#64748B' 400
-}
-EndSvg '06-管理端-主播身份-App规则说明.svg'
+# 06 App规则说明
+BeginAdmin '用户身份 / 黄金优质主播' '面向App用户展示身份、任务、结算与领奖规则' 'identity';Tabs 'identity' 'app';Button 1450 120 160 '保存规则';Section 280 202 500 660 '规则章节' '拖拽调整App顺序'
+$Rs=@('身份资格','任务周期与完成方式','模块奖励策略','周期审核与结算','主动领取奖励','升级、降级与失效');for($I=0;$I-lt6;$I++){$Y=276+$I*82;Rect 304 $Y 452 62 $(if($I-eq1){'#F3EFFF'}else{'#FFF'}) 8 '#E5E7EB';Text 326 ($Y+38) ('≡  '+$Rs[$I]) 14 $(if($I-eq1){'#4F2BEE'}else{'#334155'}) 600}
+Section 806 202 834 660 '规则内容编辑与预览';Field 834 276 760 '章节标题' '任务周期与完成方式';Rect 834 346 760 244 '#FFF' 7 '#DCE3EE';$Lines=@('1. 每个任务模块有日、周或月周期。','2. 模块内全部任务要求完成后，模块才完成并获得奖励。','3. 小周期任务按至少完成次数、最长连续次数统计。','4. 阶梯模块达到最低档即完成，奖励按最高档发放。','5. 周期审核后生成一条多资产待领取记录。');for($I=0;$I-lt5;$I++){Text 854 (382+$I*40) $Lines[$I] 14 '#334155'};Rect 834 628 760 170 '#F7F4FF' 14;Text 1214 664 'App预览' 14 '#4F2BEE' 600 'middle';Text 870 708 '任务周期与完成方式' 17 '#111827' 700;Text 870 744 '完成模块内全部任务要求，即可获得该模块对应奖励。' 13 '#475569';Text 870 776 '详情展示完成次数、最长连续次数和当前奖励档位。' 13 '#475569'
+EndSvg '06-管理端-用户身份-App规则说明.svg'
 
-# 07 主播身份成员
-function IdentityMembersContent() {
-    BeginAdmin '主播身份成员' '统一管理申请审核、已生效身份、失效与周期任务' 'members'
-    Field 290 132 270 '' '' '搜索主播ID/昵称'
-    Field 580 132 210 '' '全部身份类型'
-    Field 810 132 190 '' '全部状态'
-    SimpleTable 290 220 1330 @('主播','申请/当前身份','生效起始周期','当前周期','状态','操作') @(
-        @('Lina_Star / 102938475','黄金优质主播','--','--','待审核','审核   删除'),
-        @('Mina / 882016','普通优质主播','08-24—08-30','08-24—08-30','审核通过','审核  身份调整  失效结算  周期任务'),
-        @('June / 620418','外部认证主播','08-17—08-23','--','已失效·剩5天','审核  重置失效  删除  周期任务'),
-        @('Ploy / 991205','黄金优质主播','08-10—08-16','--','已禁止','审核  删除  周期任务')
-    ) @(230,210,200,190,170,330) 62
-    Section 290 540 1330 330 '功能操作说明' '根据当前身份状态展示可用操作'
-    $Ops=@(
-        @('审核','只要身份数据存在即可操作；通过、失效、禁止三种结论。'),
-        @('身份调整','仅审核通过可用；选择新身份并设置生效起始周期。'),
-        @('重置失效','清除“7天后可重新提交”的限制，使主播可以立即再次提交。'),
-        @('失效结算','填写结算金额及用户可见备注；立即失效，金额>0生成待领取。'),
-        @('删除','删除当前身份数据；涉及已结算奖励时不可直接删除。'),
-        @('周期任务','加载该主播当前身份、当前周期的任务快照与具体任务数据。')
-    )
-    for($I=0;$I-lt $Ops.Count;$I++){
-        $Col=$I%2; $Row=[Math]::Floor($I/2); $X=314+$Col*640; $Y=620+$Row*72
-        Rect $X $Y 610 56 '#F8FAFC' 8 '#E3E8F1' 1
-        Text ($X+18) ($Y+24) $Ops[$I][0] 13 '#4F2BEE' 600
-        Text ($X+112) ($Y+24) $Ops[$I][1] 11 '#475569' 400
-    }
-}
-IdentityMembersContent
-EndSvg '07-管理端-主播身份成员.svg'
+# 07 用户身份成员
+BeginAdmin '用户身份成员' '统一处理申请审核、身份调整、失效和周期任务' 'members';Field 290 142 220 '用户ID' '请输入';Field 530 142 220 '用户身份' '全部身份';Field 770 142 220 '审核状态' '全部状态';Field 1010 142 260 '生效周期' '全部周期';Button 1300 154 90 '查询';Button 1405 154 90 '重置' $false
+Table 290 236 1330 @('用户','申请身份','状态','生效起始周期','当前周期','提交时间','操作') @(@('820031 / Luna','黄金优质主播','待审核','—','—','09-14 10:20','审核 删除'),@('820108 / Mia','普通优质主播','审核通过','2026-09-21','周 09-21~09-27','09-10 16:35','审核 身份调整 周期任务'),@('820239 / Ana','外部认证主播','失效','—','—','09-08 12:10','审核 重置失效 删除'),@('820411 / Ray','签约主播','审核通过','2026-10-01','月 10-01~10-31','09-06 09:21','审核 身份调整 失效结算')) @(170,180,140,180,200,150,310) 66
+Rect 290 590 1330 150 '#F8FAFC' 8 '#E2E8F0';Text 316 624 '操作规则' 15 '#111827' 600;Text 316 654 '审核：数据存在即显示；通过需设置生效起始周期，失效后7天可重提，禁止后不能再提交。' 12 '#475569';Text 316 682 '重置失效：清除7天限制。失效结算：立即失效，金额或资产>0则生成一条待领取记录。' 12 '#475569';Text 316 710 '身份调整仅审核通过可操作。周期任务加载该用户当前周期数据。' 12 '#475569'
+EndSvg '07-管理端-用户身份成员.svg'
 
-# 08 主播身份审核弹窗
-IdentityMembersContent
-Add '<rect x="250" y="0" width="1422" height="941" fill="#0F172A" opacity="0.42"/>'
-Add '<rect x="500" y="94" width="930" height="760" rx="16" fill="#FFFFFF" filter="url(#softShadow)"/>'
-Text 540 144 '主播身份审核' 23 '#111827' 700
-Text 1388 144 '×' 24 '#64748B' 400 'middle'
-Text 540 188 '主播' 12 '#64748B' 500
-Text 688 188 'Lina_Star / 102938475' 14 '#111827' 600
-Text 980 188 '申请身份' 12 '#64748B' 500
-Text 1100 188 '黄金优质主播' 14 '#111827' 600
-Text 540 242 '审核结果' 13 '#334155' 600
-Rect 540 260 250 90 '#F0FDF4' 10 '#22C55E' 2
-Text 566 294 '通过' 16 '#16A34A' 700
-Text 566 324 '设置生效起始周期' 11 '#475569' 400
-Rect 810 260 250 90 '#FFF7ED' 10 '#FED7AA' 1
-Text 836 294 '失效' 16 '#C2410C' 700
-Text 836 324 '7天后允许再次提交' 11 '#475569' 400
-Rect 1080 260 250 90 '#FEF2F2' 10 '#FECACA' 1
-Text 1106 294 '禁止' 16 '#DC2626' 700
-Text 1106 324 '永久禁止再次提交' 11 '#475569' 400
-Field 540 404 790 '* 生效起始周期' '2026-08-31—09-06'
-Text 540 500 '审核备注（用户可见）' 13 '#334155' 600
-Rect 540 518 790 126 '#FFFFFF' 8 '#DCE3EE' 1
-Text 560 552 '审核通过，身份将从所选完整自然周开始生效。' 12 '#334155' 400
-Rect 540 680 790 76 '#EFF6FF' 8 '#BFDBFE' 1
-Text 562 710 '通过：必须设置生效周期；失效：7天后可重新提交；禁止：不可再次提交。' 11 '#475569' 400
-Text 562 736 '三种结果均保存用户可见备注。' 11 '#475569' 400
-Button 1090 790 106 '取消' $false
-Button 1214 790 116 '确认审核'
-EndSvg '08-管理端-主播身份审核弹窗.svg'
+# 08 审核弹窗
+BeginAdmin '用户身份成员' '审核操作示意' 'members';Add '<rect x="250" y="0" width="1422" height="941" fill="#0F172A" opacity="0.45"/>';Rect 500 110 920 720 '#FFF' 14;Text 540 158 '用户身份审核' 23 '#111827' 700;Text 1370 158 '×' 24 '#64748B';Section 540 190 840 112 '申请信息';Text 566 246 '用户：Sano ID 820031' 13 '#334155';Text 920 246 '申请身份：黄金优质主播' 13 '#334155';Text 566 276 '提交时间：2026-09-14 10:20' 13 '#64748B';Text 540 340 '审核结果' 14 '#334155' 600
+foreach($O in @(@('通过',560,$true),@('失效',720,$false),@('禁止',880,$false))){Circle $O[1] 378 10 '#FFF' $(if($O[2]){'#4F2BEE'}else{'#CBD5E1'}) 2;if($O[2]){Circle $O[1] 378 5 '#4F2BEE'};Text ($O[1]+20) 384 $O[0] 14 '#334155'}
+Field 540 426 390 '生效起始周期（通过必填）' '2026-09-21 ～ 2026-09-27';Text 950 426 '审核备注（用户可见）' 13 '#334155' 500;Rect 950 438 430 122 '#FFF' 6 '#DCE3EE';Text 968 472 '请输入备注' 13 '#94A3B8';Rect 540 590 840 74 '#EFF6FF' 7 '#BFDBFE';Text 562 620 '通过：按完整周期生效；失效：7天后可重提；禁止：不允许再次提交。' 12 '#475569';Text 562 644 '每周周一审核新人，从下一完整自然周生成任务快照。' 12 '#475569';Button 1100 734 120 '取消' $false;Button 1240 734 140 '确认审核'
+EndSvg '08-管理端-用户身份审核弹窗.svg'
 
-# 09 周任务审核列表
-BeginAdmin '周任务审核' '按周期查询全部主播周任务记录；详情在独立页面打开' 'weekly'
-Field 290 132 220 '任务周期' '08-17—08-23'
-Field 530 132 210 '身份类型' '全部身份'
-Field 760 132 250 '主播ID' '' '请输入主播ID'
-Field 1030 132 190 '状态' '全部状态'
-SimpleTable 290 240 1330 @('主播','身份类型','任务周期','基础门槛','任务数','已完成','预计可领取','状态','操作') @(
-    @('Lina_Star / 102938475','黄金优质主播','08-17—08-23','未完成','7','5','$0','待审核','查看  审核'),
-    @('Mina / 882016','普通优质主播','08-17—08-23','已完成','5','4','$10','待审核','查看  审核'),
-    @('June / 620418','外部认证主播','08-17—08-23','已完成','6','6','$50','审核通过','查看  审核'),
-    @('Ploy / 991205','黄金优质主播','08-10—08-16','未完成','7','6','$0','门槛未达标','查看  审核'),
-    @('Nana / 762018','签约主播','08-10—08-16','已完成','8','8','$100','已领取','查看  审核')
-) @(190,150,160,140,100,100,150,150,190) 62
-Rect 290 650 1330 72 '#EFF6FF' 8 '#BFDBFE' 1
-Text 316 680 '查看' 12 '#4F2BEE' 600
-Text 382 680 '打开同一周任务结果页面的只读模式，不显示单项审核、整周通过或不通过操作。' 12 '#475569' 400
-Text 316 708 '审核' 12 '#4F2BEE' 600
-Text 382 708 '打开可操作模式；审核历史状态不限制再次进入，最终提交时记录本次审核结果。' 12 '#475569' 400
-EndSvg '09-管理端-周任务审核列表.svg'
+# 09 周期任务审核列表
+BeginAdmin '周期任务审核' '按模块周期查看全部用户记录；详情在独立页面打开' 'period';Field 290 136 210 '模块周期' '日 / 周 / 月';Field 520 136 260 '任务周期' '2026-09-14 ～ 09-20';Field 800 136 220 '用户身份' '全部身份';Field 1040 136 210 '用户ID' '请输入';Field 1270 136 190 '状态' '全部状态';Button 1480 148 100 '查询'
+Table 290 232 1330 @('用户','用户身份','模块周期','周期范围','模块完成','预计奖励组合','状态','操作') @(@('820031 / Luna','黄金优质主播','周','09-14～09-20','4/5','钻石100k · 热度5k','待审核','查看 审核'),@('820108 / Mia','普通优质主播','周','09-14～09-20','3/3','钻石50k · 经验500','审核通过','查看'),@('820239 / Ana','外部认证主播','月','09-01～09-30','2/4','钻石40k','计算中','查看'),@('820411 / Ray','签约主播','日','09-15','1/1','热度2k','审核不通过','查看 审核')) @(170,180,120,170,130,280,140,140) 64
+Rect 290 560 1330 140 '#F8FAFC' 8 '#E2E8F0';Text 316 594 '列表只负责筛选与进入，不在底部加载用户任务数据。' 13 '#111827' 600;Text 316 624 '查看进入只读详情；审核进入可操作详情。运营主观任务可逐项审核，系统任务只读。' 12 '#475569';Text 316 650 '模块内任何要求未完成，则该模块奖励为0；其他完成模块仍正常结算。' 12 '#475569'
+EndSvg '09-管理端-周期任务审核列表.svg'
 
-# 10 周任务结果审核
-BeginAdmin '周任务审核 / 周任务结果' '查看入口为只读模式；审核入口显示以下操作控件' 'weekly'
-Badge 1270 46 '审核模式' '#FFF7ED' '#C2410C' | Out-Null
-Button 1480 42 140 '返回列表' $false
-Section 290 126 1330 100 'Lina_Star / 102938475' '黄金优质主播 · 任务周期 08-17—08-23'
-Badge 1180 148 '待审核' '#FFF7ED' '#C2410C' | Out-Null
-Text 1320 160 '模块计算奖励 $24' 14 '#64748B' 600
-Text 1320 190 '预计可领取 $0' 17 '#DC2626' 700
-SimpleTable 290 250 1330 @('模块','任务项','任务类型','是否完成','结果文本','审核结果','操作') @(
-    @('基础奖励','周累计直播时长','系统统计','是','本周直播16/14小时','自动结果','--'),
-    @('基础奖励','每日高峰时段','系统统计','否','高峰时段达标5/7天','自动结果','--'),
-    @('基础奖励','每日有效PK','系统统计','是','有效PK达标7/7天','自动结果','--'),
-    @('收入阶梯','周期幸运礼物收入','系统统计','是','收入350W，达到300W档','自动结果','--'),
-    @('分享奖励','外部内容分享','材料审核','是','已提交2条，审核通过2条','材料已审','--'),
-    @('互动质量','互动质量评审','运营评审','--','等待运营提交主观评审结论','待审核','审核')
-) @(130,190,130,110,430,160,180) 48
-Rect 290 596 1330 58 '#FFF7ED' 7 '#FED7AA' 1
-Text 314 620 '策略结果：基础奖励=全部任务完成 / 无前置；收入阶梯=按任务指标阶梯 / 需要基础门槛。' 10 '#9A3412' 600
-Text 314 642 '基础门槛未完成：收入与分享模块保留完成结果和计算奖励，但预计可领取为$0。' 10 '#9A3412' 500
-Section 290 666 1330 224 '整周审核快捷操作'
-Text 318 716 '所有任务结果确认后统一提交；审核理由对主播可见。' 11 '#64748B' 400
-Text 318 748 '审核结果' 12 '#334155' 600
-Badge 420 728 '通过' '#DCFCE7' '#16A34A' | Out-Null
-Badge 500 728 '不通过' '#FEE2E2' '#DC2626' | Out-Null
-Text 318 800 '审核理由' 12 '#334155' 600
-Rect 420 766 650 70 '#FFFFFF' 8 '#DCE3EE' 1
-Text 440 796 '基础门槛未完成，本周依赖模块奖励不可领取。（用户可见）' 11 '#475569' 400
-Text 440 820 '通过与不通过均可填写审核理由。' 11 '#94A3B8' 400
-Button 1110 782 160 '审核不通过' $false
-Button 1290 782 286 '审核通过并生成待领取记录'
-Rect 420 848 1156 28 '#F5F3FF' 7 '#DDD6FE' 1
-Text 438 867 '本次通过后最终金额为$0，不生成待领取记录；查看模式隐藏本区域和主观任务“审核”操作。' 10 '#4F2BEE' 500
-EndSvg '10-管理端-周任务结果审核.svg'
+# 10 周期任务结果审核
+BeginAdmin '周期任务审核 / 周期任务结果' '审核模式；查看模式复用本页并隐藏操作' 'period';Button 1360 42 120 '返回列表' $false;Button 1500 42 130 '通过并结算';Rect 290 122 1330 104 '#FFF' 9 '#E3E8F1';Text 314 158 '用户：820031 / Luna' 14 '#111827' 600;Text 590 158 '身份：黄金优质主播' 13 '#475569';Text 860 158 '周期：周 09-14～09-20' 13 '#475569';Text 314 194 '状态：待审核' 13 '#D97706' 600;Text 590 194 '完成模块：4/5' 13 '#475569';Text 860 194 '预计：钻石100k · 热度5k · 经验500' 13 '#4F2BEE' 600
+Text 300 266 '周期任务数据' 17 '#111827' 600;Table 300 286 1310 @('模块 / 任务','任务周期','要求','实际结果','最长连续','完成','操作') @(@('时长 / 每日高峰直播','日','至少6天且连续','完成6天','4天','未完成','查看明细'),@('时长 / 每日有效PK','日','至少3天','完成5天','3天','完成','查看明细'),@('时长 / 每周有效邀请','周','本周完成','有效邀请4人','—','完成','—'),@('收入 / 幸运礼物收入','周','最低100万','结果320万','—','完成','命中300万档'),@('分享 / 外部内容审核','周','2条通过','2/2条通过','—','完成','审核')) @(280,100,190,240,130,100,170) 48
+Text 300 600 '模块结算摘要' 16 '#111827' 600;Table 300 620 1310 @('任务模块','周期','任务要求结果','奖励策略结果','模块状态','可结算奖励') @(@('时长达标奖励','周','连续4/6，其他完成','固定奖励','未完成','0'),@('收入阶梯奖励','周','全部完成','命中300万档','完成','钻石30k · 热度5k'),@('分享奖励','周','全部完成','固定奖励','完成','钻石40k')) @(240,120,300,230,140,280) 46
+Field 300 820 850 '审核理由（通过/不通过均可填，用户可见）' '已核验系统结果与外部内容材料';Button 1190 832 160 '审核不通过' $false;Button 1370 832 220 '通过并生成待领取记录'
+EndSvg '10-管理端-周期任务结果审核.svg'
 
-# 11 奖励记录
-BeginAdmin '奖励领取记录' '查询周任务结算后生成的主播主动领取记录' 'rewards'
-Field 290 132 250 '' '' '搜索主播ID/昵称'
-Field 560 132 210 '' '全部主播身份'
-Field 790 132 190 '' '全部状态'
-SimpleTable 290 220 1330 @('主播','主播身份','任务周期','奖励金额','生成时间','领取状态','领取时间','操作') @(
-    @('Lina_Star','黄金优质主播','08-10—08-16','$37','08-25 11:20','待领取','--','查看'),
-    @('Mina','普通优质主播','08-17—08-23','$0','08-25 11:18','门槛未达标','--','查看'),
-    @('June','外部认证主播','08-10—08-16','$50','08-18 10:30','已领取','08-18 12:03','查看')
-) @(200,190,180,140,190,150,180,100) 64
-Rect 290 520 1330 64 '#EFF6FF' 7 '#BFDBFE' 1
-Text 316 550 'ⓘ 奖励金额大于0生成“待领取”；主播主动领取后更新为“已领取”。' 12 '#475569' 400
-Text 316 574 '基础门槛未完成导致金额为0时显示“门槛未达标”，其他金额为0场景显示“未达标”。' 12 '#475569' 400
+# 11 奖励领取记录
+BeginAdmin '奖励领取记录' '一个用户周期一条记录，包含多个资产明细并一次领取' 'rewards';Field 290 136 210 '用户ID' '请输入';Field 520 136 220 '用户身份' '全部身份';Field 760 136 240 '周期范围' '全部周期';Field 1020 136 210 '领取状态' '全部状态';Button 1260 148 100 '查询'
+Table 290 232 1330 @('记录号','用户','身份 / 周期','奖励组合','来源模块','状态','生成/领取','操作') @(@('RW20260921001','820031 / Luna','黄金 / 周','钻石100k · 热度5k · 经验500 · 道具1','4个模块','待领取','09-21 / —','查看明细'),@('RW20260914018','820108 / Mia','普通 / 周','钻石50k · 经验500','2个模块','已领取','09-14 / 09-15','查看明细'),@('RW20260901009','820411 / Ray','签约 / 月','头像框1件(30天) · 礼物2','月度成长','部分失败','09-01 / 重试中','查看 重试'),@('—','820239 / Ana','外部 / 周','—','全部未完成','未达标','09-14 / —','查看结果')) @(150,150,170,340,160,130,180,150) 70
+Rect 290 574 1330 210 '#FFF' 9 '#E3E8F1';Text 316 610 '记录明细：RW20260921001' 16 '#111827' 600;Text 316 642 '汇总：钻石100,000｜热度5,000｜经验500｜黄金头像框×1（7天）' 13 '#4F2BEE' 600;Text 316 674 '保留模块来源明细；相同数值资产可汇总展示。' 12 '#475569';Text 316 706 '整体状态：待领取、处理中、已领取、部分失败、失败。失败重试仅处理失败明细。' 12 '#475569';Text 316 738 '调用成熟资产体系发放，并使用幂等键防止重复发放。' 12 '#475569'
 EndSvg '11-管理端-奖励领取记录.svg'
 
-function GradientRect($X, $Y, $W, $H, $Radius = 20) {
-    Add ('<rect x="{0}" y="{1}" width="{2}" height="{3}" rx="{4}" fill="url(#purpleGradient)" filter="url(#softShadow)"/>' -f $X,$Y,$W,$H,$Radius)
-}
+# 12 身份申请状态
+BeginMobile '用户身份';Rect 56 132 828 164 '#FFF' 22 '#E5E7EB';Text 90 178 '当前申请' 16 '#64748B';Text 90 220 '黄金优质主播' 28 '#111827' 700;Badge 672 166 '待审核' '#FFF7ED' '#D97706';Text 90 264 '审核通过后，从下一完整周期开始生成任务。' 14 '#64748B';Rect 56 326 828 238 '#FFF' 22 '#E5E7EB';Text 90 372 '生效规则' 20 '#111827' 700;Text 90 414 '• 每周周一完成新人审核。' 15 '#475569';Text 90 450 '• 通过时设置生效起始周期。' 15 '#475569';Text 90 486 '• 不生成不完整周期任务。' 15 '#475569';Text 90 522 '• 失效后7天可重提；禁止后不可再申请。' 15 '#475569';Rect 56 598 828 252 '#F7F4FF' 22;Text 90 646 '黄金优质主播可获得' 18 '#4F2BEE' 700;Text 90 692 '✓ 周期任务与分模块奖励' 16 '#334155';Text 90 730 '✓ 钻石、经验、热度、道具等组合奖励' 16 '#334155';Text 90 768 '✓ 完成模块全部要求即可获得模块奖励' 16 '#334155';Button 90 792 760 '查看完整规则' $false;Text 470 1540 '申请审核中' 17 '#64748B' 600 'middle';EndSvg '12-H5-用户身份申请状态.svg'
 
-function ProgressBar($X, $Y, $W, $Percent, $Color = '#6D45F5') {
-    Rect $X $Y $W 10 '#E9E5F7' 5
-    Rect $X $Y ($W * $Percent) 10 $Color 5
-}
+# 13 本周期任务
+BeginMobile '用户任务' $true;Text 470 138 '09/14–09/20' 24 '#4F2BEE' 700 'middle';PeriodSwitch 'current';Rect 56 276 828 170 'url(#purpleGradient)' 24;Text 90 326 '黄金优质主播' 24 '#FFF' 700;Text 90 362 '周任务 · 结算后需运营审核' 14 '#DDD6FE';Text 90 408 '预计奖励  钻石70k · 热度5k' 16 '#FFF' 600;Badge 700 304 '进行中' '#FFF' '#4F2BEE'
+$Cards=@(@('时长达标奖励','2/3项要求完成','高峰直播：完成6天，最长连续4/6天','固定：钻石30k + 经验500',0.67),@('收入阶梯奖励','4/4项要求完成','幸运礼物收入320万，命中300万档','钻石30k + 热度5k',1.0),@('分享奖励','3/4项要求完成','外部内容审核1/2条','固定：钻石40k',0.75));for($I=0;$I-lt3;$I++){$Y=478+$I*286;Rect 56 $Y 828 254 '#FFF' 22 '#E5E7EB';Text 88 ($Y+48) $Cards[$I][0] 20 '#111827' 700;Badge 744 ($Y+24) '周' '#EEF2FF' '#4F2BEE';Text 88 ($Y+82) $Cards[$I][1] 14 '#64748B';Progress 88 ($Y+102) 760 $Cards[$I][4];Text 88 ($Y+150) $Cards[$I][2] 14 '#475569';Text 88 ($Y+196) ('当前奖励  '+$Cards[$I][3]) 15 '#4F2BEE' 600;Text 846 ($Y+232) '查看详情 ›' 14 '#4F2BEE' 600 'end'}
+Rect 56 1358 828 96 '#FFF7ED' 18 '#FED7AA';Text 88 1396 '模块内任何一项要求未完成，则该模块不产生奖励。' 13 '#9A3412' 600;Text 88 1428 '阶梯模块达到最低档即完成，按最高命中档计算奖励。' 13 '#9A3412';EndSvg '13-H5-本周任务.svg'
 
-function BeginMobile([string]$Title, $Purple = $true) {
-    BeginSvg 941 1672 $(if ($Purple) {'#F5F2FF'} else {'#F7F8FC'})
-    Rect 0 0 941 108 '#FFFFFF' 0
-    Circle 56 55 26 '#F5F3FF'
-    Text 56 65 '‹' 38 '#111827' 500 'middle'
-    Text 470 66 $Title 30 '#111827' 700 'middle'
-}
-
-function MobileRulesEntry() {
-    Add '<rect x="40" y="132" width="861" height="90" rx="22" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>'
-    Circle 94 177 27 '#5B36F2'
-    Text 94 186 '?' 25 '#FFFFFF' 600 'middle'
-    Text 144 187 '身份资格、任务与奖励规则' 21 '#111827' 600
-    Badge 686 157 '规则说明' '#F5F3FF' '#4F2BEE' | Out-Null
-    Text 858 188 '›' 30 '#64748B' 400 'middle'
-}
-
-function WeekSwitch([string]$Selected) {
-    Add '<rect x="108" y="250" width="725" height="78" rx="39" fill="url(#purpleGradient)"/>'
-    if ($Selected -eq 'current') { Rect 112 254 360 70 '#FFFFFF' 35 } else { Rect 469 254 360 70 '#FFFFFF' 35 }
-    Text 292 300 '本周任务' 22 $(if ($Selected -eq 'current') {'#4F2BEE'} else {'#FFFFFF'}) 600 'middle'
-    Text 650 300 '上周奖励' 22 $(if ($Selected -eq 'last') {'#4F2BEE'} else {'#FFFFFF'}) 600 'middle'
-}
-
-# 12 申请状态
-BeginMobile '主播身份'
-MobileRulesEntry
-GradientRect 40 258 861 184 24
-Badge 72 286 '申请已通过' '#FFFFFF' '#4F2BEE' | Out-Null
-Text 72 356 '普通优质主播' 34 '#FFFFFF' 700
-Text 72 402 '将在下周一按完整自然周生效' 17 '#EDE9FE' 400
-$Steps = @('提交申请','资格核验','运营审核','等待生效')
-for ($I=0; $I -lt 4; $I++) {
-    $X=122+$I*230
-    if($I-lt 3){Line ($X+25) 520 ($X+205) 520 '#C4B5FD' 4}
-    Circle $X 520 24 $(if ($I -lt 3) {'#16A34A'} else {'#5B36F2'})
-    Text $X 528 $(if ($I -lt 3) {'✓'} else {'4'}) 14 '#FFFFFF' 700 'middle'
-    Text $X 572 $Steps[$I] 14 '#475569' 500 'middle'
-}
-Add '<rect x="40" y="622" width="861" height="330" rx="24" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>'
-Text 78 682 '生效信息' 23 '#111827' 700
-Badge 718 650 '待生效' '#F5F3FF' '#4F2BEE' | Out-Null
-Text 78 748 '生效日期' 15 '#64748B' 400
-Text 304 748 '2026-08-31（下周一）' 19 '#111827' 600
-Line 78 780 860 780 '#EEF0F5'
-Text 78 830 '首个完整周期' 15 '#64748B' 400
-Text 304 830 '08/31—09/06' 19 '#111827' 600
-Line 78 862 860 862 '#EEF0F5'
-Text 78 914 '每周最高奖励' 15 '#64748B' 400
-Text 304 914 '$15' 28 '#5B36F2' 700
-Text 40 1014 '身份生效后可使用' 23 '#111827' 700
-$Features=@('查看每项任务的实时结果说明','上传材料并查看审核进度','查看上周模块奖励','主动领取待领取奖励')
-for($I=0;$I-lt 4;$I++){
-    $Y=1050+$I*96
-    Rect 40 $Y 861 76 '#FFFFFF' 18 '#E3DDFD' 1
-    Circle 82 ($Y+38) 18 '#EDE9FE'
-    Text 82 ($Y+44) '✓' 13 '#5B36F2' 700 'middle'
-    Text 120 ($Y+46) $Features[$I] 17 '#334155' 500
-}
-Rect 40 1450 861 92 '#EEF2FF' 18
-Text 76 1492 '审核通过后从下一个周一生效，任务按完整周期生成。' 15 '#4F2BEE' 500
-Text 76 1522 '当前周不补发、不按剩余天数折算。' 14 '#64748B' 400
-EndSvg '12-H5-主播身份申请状态.svg'
-
-# 13 本周任务
-BeginMobile '主播身份' $true
-MobileRulesEntry
-WeekSwitch 'current'
-Text 470 374 '08/17—08/23' 20 '#5B36F2' 500 'middle'
-GradientRect 40 406 861 248 26
-Circle 112 478 38 '#FFFFFF'
-Text 112 490 '★' 27 '#F59E0B' 700 'middle'
-Text 174 472 '黄金优质主播' 31 '#FFFFFF' 700
-Text 174 512 '本周任务进行中 · 每日更新结果' 15 '#EDE9FE' 400
-Text 78 576 '最高奖励' 14 '#DDD6FE' 400
-Text 78 622 '$77' 34 '#FFFFFF' 700
-Text 350 576 '已达奖励（待解锁）' 14 '#DDD6FE' 400
-Text 350 622 '$23' 34 '#FFFFFF' 700
-Text 650 576 '基础门槛' 14 '#DDD6FE' 400
-Text 650 622 '2/3项' 25 '#FFFFFF' 700
-Text 40 712 '本周任务模块' 24 '#111827' 700
-Text 866 712 '4个模块' 14 '#64748B' 400 'end'
-$TaskCards=@(
-    @('优质主播基础奖励','2/3项完成 · 完成后解锁其他奖励','$10','基础门槛','#5B36F2','0.67'),
-    @('收入阶梯奖励','收入350W · 已达到300W奖励档','$20','待解锁','#F59E0B','1.0'),
-    @('时长奖励','6天12小时已完成 · 等待门槛解锁','$3','待解锁','#3B82F6','1.0'),
-    @('分享奖励','本周已提交1/2条外部内容','$4','进行中','#10B981','0.50')
-)
-for($I=0;$I-lt 4;$I++){
-    $Y=746+$I*174
-    Add ('<rect x="40" y="{0}" width="861" height="152" rx="22" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>' -f $Y)
-    Circle 92 ($Y+54) 28 $TaskCards[$I][4]
-    Text 92 ($Y+62) ([string]($I+1)) 16 '#FFFFFF' 700 'middle'
-    Text 138 ($Y+48) $TaskCards[$I][0] 22 '#111827' 700
-    Text 138 ($Y+80) $TaskCards[$I][1] 14 '#64748B' 400
-    ProgressBar 138 ($Y+108) 450 ([double]$TaskCards[$I][5]) $TaskCards[$I][4]
-    Text 760 ($Y+48) $TaskCards[$I][2] 25 '#5B36F2' 700 'middle'
-    Badge 704 ($Y+78) $TaskCards[$I][3] $(if($TaskCards[$I][3]-eq '已完成'){'#DCFCE7'}elseif($TaskCards[$I][3]-eq '审核中'){'#FDF2F8'}else{'#EEF2FF'}) $(if($TaskCards[$I][3]-eq '已完成'){'#16A34A'}elseif($TaskCards[$I][3]-eq '审核中'){'#BE185D'}else{'#4F2BEE'}) | Out-Null
-    Text 864 ($Y+92) '›' 26 '#94A3B8' 500 'middle'
-}
-Rect 40 1450 861 88 '#FFFFFF' 18 '#E3DDFD' 1
-Text 76 1482 '当前奖励资格' 14 '#64748B' 400
-Text 76 1512 '尚未获得' 20 '#DC2626' 700
-Text 860 1482 '已达奖励 $23，完成基础门槛后解锁' 14 '#4F2BEE' 600 'end'
-Text 860 1514 '所有任务仍正常统计，最终以运营审核为准' 12 '#64748B' 400 'end'
-EndSvg '13-H5-本周任务.svg'
-
-# 14 任务结果详情
-BeginMobile '高峰时段达标天数' $true
-GradientRect 40 132 861 248 26
-Badge 72 164 '系统统计' '#FFFFFF' '#4F2BEE' | Out-Null
-Text 72 232 '本周已达标 3/4天' 34 '#FFFFFF' 700
-Text 72 276 '还差1天完成任务' 17 '#EDE9FE' 400
-ProgressBar 72 316 620 0.75 '#FBBF24'
-Badge 730 292 '进行中' '#F5F3FF' '#4F2BEE' | Out-Null
-Text 40 438 '任务要求' 23 '#111827' 700
-Add '<rect x="40" y="470" width="861" height="184" rx="22" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>'
-Text 78 526 '每周至少4天达到高峰直播要求' 20 '#111827' 700
-Text 78 570 '每日高峰时段累计直播 ≥ 120分钟' 16 '#475569' 500
-Badge 78 598 '12:00—14:00' '#F5F3FF' '#4F2BEE' | Out-Null
-Badge 238 598 '20:00—24:00' '#F5F3FF' '#4F2BEE' | Out-Null
-Text 40 714 '每日结果' 23 '#111827' 700
-Text 866 714 '08/17—08/23' 15 '#64748B' 400 'end'
-$DayResults=@(
-    @('08/17 周一','132分钟','完成','#16A34A','#DCFCE7'),
-    @('08/18 周二','148分钟','完成','#16A34A','#DCFCE7'),
-    @('08/19 周三','86分钟','未完成','#DC2626','#FEE2E2'),
-    @('08/20 周四','125分钟','完成','#16A34A','#DCFCE7'),
-    @('08/21 周五','64分钟','进行中','#4F2BEE','#EEF2FF'),
-    @('08/22 周六','--','待统计','#64748B','#F1F5F9'),
-    @('08/23 周日','--','待统计','#64748B','#F1F5F9')
-)
-for($I=0;$I-lt $DayResults.Count;$I++){
-    $Y=744+$I*92
-    Rect 40 $Y 861 76 '#FFFFFF' 17 '#E3DDFD' 1
-    Circle 82 ($Y+38) 17 $DayResults[$I][4]
-    Text 82 ($Y+44) $(if($DayResults[$I][2]-eq '完成'){'✓'}elseif($DayResults[$I][2]-eq '未完成'){'!'}else{'·'}) 13 $DayResults[$I][3] 700 'middle'
-    Text 116 ($Y+45) $DayResults[$I][0] 17 '#111827' 600
-    Text 610 ($Y+45) $DayResults[$I][1] 16 '#64748B' 400 'end'
-    Text 848 ($Y+45) $DayResults[$I][2] 16 $DayResults[$I][3] 600 'end'
-}
-Rect 40 1420 861 110 '#F5F3FF' 20
-Text 76 1460 '当前结果' 14 '#64748B' 400
-Text 76 1494 '本周高峰时段达标3/4天' 20 '#4F2BEE' 700
-Text 860 1494 '数据每日更新' 14 '#64748B' 400 'end'
-EndSvg '14-H5-高峰时段任务结果详情.svg'
+# 14 小周期结果详情
+BeginMobile '任务结果详情';Rect 56 126 828 178 '#FFF' 22 '#E5E7EB';Text 88 174 '每日高峰直播满2小时' 22 '#111827' 700;Badge 708 148 '未完成' '#FEF2F2' '#DC2626';Text 88 214 '模块要求：至少完成6天，且需要连续' 15 '#475569';Text 88 252 '实际：完成6天｜最长连续4天｜要求连续6天' 15 '#DC2626' 600;Progress 88 276 760 0.67 '#F59E0B';Text 70 356 '日结果明细' 19 '#111827' 700
+Table 70 382 800 @('日期','高峰直播','结果') @(@('09/14','132/120分钟','完成'),@('09/15','125/120分钟','完成'),@('09/16','141/120分钟','完成'),@('09/17','60/120分钟','未完成'),@('09/18','128/120分钟','完成'),@('09/19','130/120分钟','完成'),@('09/20','124/120分钟','完成')) @(210,360,230) 74
+Rect 70 982 800 186 '#FFF7ED' 18 '#FED7AA';Text 100 1026 '为什么模块仍未完成？' 17 '#9A3412' 700;Text 100 1066 '完成天数达到6天，但最长连续只有4天，' 14 '#475569';Text 100 1100 '未达到模块配置的连续6天要求。' 14 '#475569';Text 100 1134 '连续统计不跨当前模块周期。' 14 '#64748B';Rect 70 1200 800 130 '#F7F4FF' 18;Text 100 1244 '同一组日结果可被多个模块复用；' 16 '#4F2BEE' 700;Text 100 1280 '各模块可配置不同的最少完成天数和连续要求。' 14 '#475569';EndSvg '14-H5-高峰时段任务结果详情.svg'
 
 # 15 外部内容上传
-BeginMobile '提交外部内容' $true
-GradientRect 40 132 861 202 24
-Badge 72 162 '材料审核' '#FFFFFF' '#4F2BEE' | Out-Null
-Text 72 232 '每周发布2条Sano相关外部内容' 27 '#FFFFFF' 700
-Text 72 280 '已提交 1/2条 · 审核通过 1条' 16 '#EDE9FE' 400
-ProgressBar 610 268 220 0.5 '#FBBF24'
-Text 40 392 '本周已提交' 23 '#111827' 700
-Add '<rect x="40" y="424" width="861" height="180" rx="22" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>'
-Rect 70 452 142 124 '#EEEAFD' 16
-Text 141 514 '截图' 20 '#5B36F2' 700 'middle'
-Text 244 470 'Instagram · 08/19 16:20' 16 '#64748B' 400
-Text 244 514 'Sano直播精彩片段' 20 '#111827' 700
-Badge 244 542 '审核通过' '#DCFCE7' '#16A34A' | Out-Null
-Text 40 670 '新增内容' 23 '#111827' 700
-Text 40 718 '外部平台' 16 '#334155' 600
-Rect 40 738 861 82 '#FFFFFF' 16 '#D8DDE8' 1
-Circle 84 779 22 '#5B36F2'
-Text 122 786 '选择平台' 17 '#475569' 500
-Text 852 788 '⌄' 20 '#64748B' 400 'middle'
-Text 40 878 '内容截图' 16 '#334155' 600
-Add '<rect x="40" y="900" width="861" height="330" rx="22" fill="#FFFFFF" stroke="#CFC6FA" stroke-width="2" stroke-dasharray="10 8"/>'
-Circle 470 1000 48 '#F1EDFF'
-Text 470 1017 '＋' 40 '#5B36F2' 400 'middle'
-Text 470 1086 '上传内容截图' 23 '#4F2BEE' 700 'middle'
-Text 470 1126 '支持JPG/PNG，最多9张' 15 '#94A3B8' 400 'middle'
-Text 40 1282 '内容说明' 16 '#334155' 600
-Rect 40 1304 861 114 '#FFFFFF' 16 '#D8DDE8' 1
-Text 72 1354 '补充外部内容标题或说明（选填）' 16 '#94A3B8' 400
-Button 40 1480 861 '提交审核'
-EndSvg '15-H5-外部内容截图上传.svg'
+BeginMobile '提交外部内容';Rect 56 126 828 150 '#F7F4FF' 22;Text 88 174 '每周发布2条Sano相关外部内容' 21 '#111827' 700;Text 88 214 '已提交1/2条 · 审核通过1条' 15 '#4F2BEE' 600;Text 88 248 '仅在关联模块包含该任务时展示上传入口。' 13 '#64748B';Text 70 336 '新增提交' 18 '#111827' 700;Field 70 374 800 '外部平台内标' 'TikTok / @sano.creator';Rect 70 468 800 250 '#FFF' 18 '#DCE3EE' 2;Text 470 570 '＋' 46 '#8B5CF6' 400 'middle';Text 470 620 '上传发布截图' 17 '#4F2BEE' 600 'middle';Text 470 656 '支持 JPG / PNG' 13 '#94A3B8' 400 'middle';Button 70 754 800 '提交审核';Text 70 844 '历史提交' 18 '#111827' 700;Rect 70 876 800 148 '#FFF' 18 '#E5E7EB';Rect 92 898 110 104 '#E9E2FF' 10;Text 147 960 '截图' 14 '#4F2BEE' 600 'middle';Text 230 922 'TikTok / @sano.creator' 16 '#111827' 600;Text 230 956 '提交于 09/16 14:22' 13 '#64748B';Badge 710 904 '已通过' '#ECFDF5' '#16A34A';EndSvg '15-H5-外部内容截图上传.svg'
 
-# 16 上周奖励
-BeginMobile '主播身份' $true
-MobileRulesEntry
-WeekSwitch 'last'
-Text 470 362 '08/10—08/16' 22 '#5B36F2' 500 'middle'
-GradientRect 40 392 861 284 26
-Text 76 452 '黄金优质主播 · 上周结算' 17 '#EDE9FE' 500
-Text 76 526 '$37' 56 '#FFFFFF' 700
-Text 76 570 '可领取奖励' 16 '#DDD6FE' 400
-Badge 690 438 '待领取' '#FFFFFF' '#4F2BEE' | Out-Null
-Text 690 520 '基础门槛已完成' 16 '#FFFFFF' 600
-Text 690 552 '完成 4/4个模块' 14 '#EDE9FE' 500
-Text 690 574 '审核时间 08/25 11:20' 13 '#DDD6FE' 400
-Text 40 732 '模块结算明细' 23 '#111827' 700
-$Modules=@(
-    @('优质主播基础奖励','$10','基础门槛3项任务均完成'),
-    @('收入阶梯奖励','$20','收入350W，达到300W档'),
-    @('时长奖励','$3','6天12小时任务已完成'),
-    @('分享奖励','$4','每周2条分享任务已完成')
-)
-for($I=0;$I-lt 4;$I++){
-    $Y=768+$I*130
-    Add ('<rect x="40" y="{0}" width="861" height="110" rx="18" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>' -f $Y)
-    Circle 86 ($Y+55) 23 '#DCFCE7'
-    Text 86 ($Y+63) '✓' 15 '#16A34A' 700 'middle'
-    Text 130 ($Y+45) $Modules[$I][0] 20 '#111827' 700
-    Text 130 ($Y+76) $Modules[$I][2] 14 '#64748B' 400
-    Text 808 ($Y+66) $Modules[$I][1] 27 '#5B36F2' 700 'end'
-}
-Rect 40 1304 861 106 '#FFF7ED' 18
-Text 76 1346 '审核结算后生成待领取记录，请在有效期内主动领取。' 15 '#9A3412' 500
-Text 76 1380 '领取有效期：2026-09-06 23:59:59' 14 '#C2410C' 400
-Button 40 1470 861 '立即领取  $37'
-EndSvg '16-H5-上周奖励待领取.svg'
+# 16 待领取
+BeginMobile '用户任务' $true;Text 470 138 '09/07–09/13' 24 '#4F2BEE' 700 'middle';PeriodSwitch 'history';Rect 56 276 828 180 'url(#purpleGradient)' 24;Text 90 326 '周期审核已通过' 16 '#DDD6FE';Text 90 370 '4个模块已获得奖励' 25 '#FFF' 700;Text 90 414 '一条记录 · 多资产明细 · 一次领取' 14 '#DDD6FE';Badge 702 304 '待领取' '#FFF' '#4F2BEE';Rect 56 486 828 316 '#FFF' 22 '#E5E7EB';Text 88 534 '奖励汇总' 20 '#111827' 700
+Table 88 560 764 @('资产','数量 / 有效期','来源模块') @(@('钻石','100,000','收入、分享、PK'),@('热度','5,000','收入阶梯'),@('经验','500','时长奖励'),@('黄金头像框','1件 / 7天','成长奖励')) @(180,250,334) 54
+Rect 56 836 828 326 '#FFF' 22 '#E5E7EB';Text 88 884 '模块结算' 20 '#111827' 700;$Mods=@(@('收入阶梯奖励','命中300万档','钻石30k + 热度5k'),@('分享奖励','全部要求完成','钻石40k'),@('PK奖励','全部要求完成','钻石10k'),@('其他模块','全部要求完成','钻石20k + 经验500 + 道具'));for($I=0;$I-lt4;$I++){$Y=926+$I*56;Text 88 $Y $Mods[$I][0] 14 '#111827' 600;Text 340 $Y $Mods[$I][1] 13 '#64748B';Text 830 $Y $Mods[$I][2] 13 '#4F2BEE' 600 'end'};Button 56 1222 828 '领取全部';Text 470 1298 '各资产由对应成熟资产体系发放' 13 '#64748B' 400 'middle';EndSvg '16-H5-上周奖励待领取.svg'
 
 # 17 奖励记录
-BeginMobile '奖励记录' $true
-MobileRulesEntry
-$StatusTabs=@('全部','待领取','已领取','未达标')
-for($I=0;$I-lt 4;$I++){
-    $X=40+$I*220
-    Text ($X+90) 280 $StatusTabs[$I] 18 $(if($I-eq 0){'#4F2BEE'}else{'#64748B'}) $(if($I-eq 0){600}else{400}) 'middle'
-    if($I-eq 0){Rect ($X+34) 298 112 3 '#4F2BEE' 2}
-}
-$Records=@(
-    @('08/17—08/23','黄金优质主播','$24','待领取','4/4个模块完成','有效期至09/06'),
-    @('08/10—08/16','黄金优质主播','$24','已领取','4/4个模块完成','08/18 12:03已领取'),
-    @('08/03—08/09','普通优质主播','$0','未达标','2/3个模块完成','周结算已结束')
-)
-for($I=0;$I-lt 3;$I++){
-    $Y=342+$I*274
-    Add ('<rect x="40" y="{0}" width="861" height="246" rx="22" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>' -f $Y)
-    Text 76 ($Y+50) $Records[$I][0] 16 '#64748B' 500
-    Badge 696 ($Y+26) $Records[$I][3] $(if($Records[$I][3]-eq '待领取'){'#5B36F2'}elseif($Records[$I][3]-eq '已领取'){'#DCFCE7'}else{'#F1F5F9'}) $(if($Records[$I][3]-eq '待领取'){'#FFFFFF'}elseif($Records[$I][3]-eq '已领取'){'#16A34A'}else{'#64748B'}) | Out-Null
-    Text 76 ($Y+98) $Records[$I][1] 22 '#111827' 700
-    Text 76 ($Y+166) $Records[$I][2] 38 $(if($Records[$I][2]-eq '$0'){'#64748B'}else{'#5B36F2'}) 700
-    Text 220 ($Y+150) $Records[$I][4] 15 '#475569' 500
-    Text 220 ($Y+182) $Records[$I][5] 14 '#94A3B8' 400
-    Line 76 ($Y+205) 860 ($Y+205) '#EEF0F5'
-    Text 820 ($Y+232) '查看结算明细  ›' 14 '#4F2BEE' 600 'end'
-}
-EndSvg '17-H5-奖励记录.svg'
+BeginMobile '奖励记录';Rect 56 128 828 88 '#FFF' 20 '#E5E7EB';Text 90 182 '全部状态' 16 '#4F2BEE' 600;Text 285 182 '待领取' 16 '#64748B';Text 480 182 '已领取' 16 '#64748B';Text 675 182 '未达标' 16 '#64748B';$Logs=@(@('09/07–09/13','钻石100k · 热度5k · 经验500 · 道具1','待领取'),@('08/31–09/06','钻石70k · 经验500','已领取'),@('08/24–08/30','无奖励','未达标'));for($I=0;$I-lt3;$I++){$Y=252+$I*230;Rect 56 $Y 828 194 '#FFF' 20 '#E5E7EB';Text 88 ($Y+46) $Logs[$I][0] 18 '#111827' 700;Badge 718 ($Y+24) $Logs[$I][2] $(if($I-eq0){'#FFF7ED'}elseif($I-eq1){'#ECFDF5'}else{'#F1F5F9'}) $(if($I-eq0){'#D97706'}elseif($I-eq1){'#16A34A'}else{'#64748B'});Text 88 ($Y+92) $Logs[$I][1] 15 '#4F2BEE' 600;Text 88 ($Y+134) $(if($I-eq2){'所有模块未完成，未生成待领取记录'}else{'查看资产明细与来源模块'}) 13 '#64748B';Text 850 ($Y+164) '查看 ›' 14 '#4F2BEE' 600 'end'};EndSvg '17-H5-奖励记录.svg'
 
-# 18 规则说明
-BeginMobile '身份规则说明' $true
-GradientRect 40 132 861 220 26
-Badge 72 164 '当前身份' '#FFFFFF' '#4F2BEE' | Out-Null
-Text 72 238 '黄金优质主播' 36 '#FFFFFF' 700
-Text 72 286 '资格、功能、任务奖励，一页看懂' 17 '#EDE9FE' 400
-Text 710 266 '每周最高' 14 '#DDD6FE' 400
-Text 710 310 '$77' 34 '#FFFFFF' 700
-Text 40 408 '身份规则' 23 '#111827' 700
-$RuleItems=@(
-    @('身份资格','完成申请与资格审核后，按审核结果获得主播身份。','01'),
-    @('可用功能','查看任务、提交审核材料、查询结算和领取奖励。','02'),
-    @('任务与模块','任务项输出结果；模块配置完成、资格与奖励三类策略。','03'),
-    @('分项奖励','策略读取任务指标，支持固定奖励及通用数值阶梯。','04'),
-    @('申请与生效','每周一完成审核，下一个周一按完整自然周生效。','05'),
-    @('审核与结算','系统统计或人工评审；周一汇总，最迟周二统一结算。','06'),
-    @('领取与身份变更','结算后主动领取；升降级或失效以下一周期为主。','07')
-)
-for($I=0;$I-lt $RuleItems.Count;$I++){
-    $Y=440+$I*152
-    Add ('<rect x="40" y="{0}" width="861" height="132" rx="20" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>' -f $Y)
-    Rect 70 ($Y+28) 64 64 '#F1EDFF' 18
-    Text 102 ($Y+69) $RuleItems[$I][2] 16 '#5B36F2' 700 'middle'
-    Text 164 ($Y+48) $RuleItems[$I][0] 21 '#111827' 700
-    Text 164 ($Y+84) $RuleItems[$I][1] 14 '#64748B' 400
-    Text 850 ($Y+70) '⌄' 20 '#475569' 400 'middle'
-}
-EndSvg '18-H5-主播身份规则说明.svg'
+# 18 规则
+BeginMobile '规则说明';Rect 56 126 828 132 '#F7F4FF' 22;Text 88 176 '黄金优质主播' 24 '#111827' 700;Text 88 216 '身份、任务、奖励、审核与领取完整说明' 14 '#64748B';$Rules=@(@('01','身份资格','通过审核并从指定完整周期生效。'),@('02','任务周期','任务和模块支持日、周、月周期。'),@('03','模块完成','模块内所有关联任务要求都完成，模块才完成。'),@('04','阶梯奖励','达到最低档即完成，按最高已达到档位发奖。'),@('05','审核结算','周期结束汇总，运营审核后生成奖励记录。'),@('06','主动领取','多种资产合并一条记录，点击领取全部。'));for($I=0;$I-lt6;$I++){$Y=294+$I*178;Rect 56 $Y 828 150 '#FFF' 18 '#E5E7EB';Circle 102 ($Y+52) 24 '#E9E2FF';Text 102 ($Y+59) $Rules[$I][0] 13 '#4F2BEE' 700 'middle';Text 146 ($Y+48) $Rules[$I][1] 18 '#111827' 700;Text 146 ($Y+86) $Rules[$I][2] 14 '#64748B'};EndSvg '18-H5-用户身份规则说明.svg'
 
-# 19 上周基础门槛未完成
-BeginMobile '主播身份' $true
-MobileRulesEntry
-WeekSwitch 'last'
-Text 470 362 '08/10—08/16' 22 '#5B36F2' 500 'middle'
-Rect 40 392 861 284 '#FFFFFF' 26 '#FCA5A5' 1
-Badge 74 426 '门槛未达标' '#FEE2E2' '#DC2626' | Out-Null
-Text 74 506 '$0' 54 '#111827' 700
-Text 74 550 '本周期可领取奖励' 16 '#64748B' 400
-Text 560 462 '已完成3个有奖模块' 16 '#111827' 600
-Text 560 500 '计算奖励 $27' 15 '#4F2BEE' 600
-Text 560 536 '可领取奖励 $0' 15 '#DC2626' 600
-Rect 74 586 790 58 '#FFF7ED' 12 '#FED7AA' 1
-Text 96 620 '基础任务未完成，依赖基础门槛的奖励均不可领取。' 14 '#9A3412' 600
-Text 40 732 '模块结算明细' 23 '#111827' 700
-$LockedModules=@(
-    @('优质主播基础奖励','未完成','计算 $0  ·  可领取 $0','#DC2626','#FEE2E2'),
-    @('收入阶梯奖励','已完成','计算 $20  ·  可领取 $0','#D97706','#FFF7ED'),
-    @('时长奖励','已完成','计算 $3  ·  可领取 $0','#D97706','#FFF7ED'),
-    @('分享奖励','已完成','计算 $4  ·  可领取 $0','#D97706','#FFF7ED')
-)
-for($I=0;$I-lt 4;$I++){
-    $Y=768+$I*132
-    Add ('<rect x="40" y="{0}" width="861" height="112" rx="18" fill="#FFFFFF" stroke="#E3DDFD" filter="url(#softShadow)"/>' -f $Y)
-    Circle 86 ($Y+56) 23 $LockedModules[$I][4]
-    Text 86 ($Y+63) $(if($I-eq 0){'!'}else{'✓'}) 15 $LockedModules[$I][3] 700 'middle'
-    Text 130 ($Y+43) $LockedModules[$I][0] 20 '#111827' 700
-    Text 130 ($Y+76) $LockedModules[$I][2] 14 '#64748B' 400
-    Badge 730 ($Y+38) $LockedModules[$I][1] $LockedModules[$I][4] $LockedModules[$I][3] | Out-Null
-}
-Rect 40 1320 861 116 '#FFF7ED' 18
-Text 76 1362 '你完成的有奖任务结果已保留，但本周期没有奖励领取资格。' 14 '#9A3412' 500
-Text 76 1398 '未完成门槛：每天高峰时间段累计直播 ≥ 2小时。' 13 '#C2410C' 400
-Rect 40 1490 861 54 '#E5E7EB' 12
-Text 470 1524 '基础门槛未完成，无可领取奖励' 15 '#64748B' 600 'middle'
-EndSvg '19-H5-上周门槛未完成.svg'
+# 19 模块未完成无奖励
+BeginMobile '用户任务' $true;Text 470 138 '09/07–09/13' 24 '#4F2BEE' 700 'middle';PeriodSwitch 'history';Rect 56 276 828 174 '#FFF' 22 '#E5E7EB';Text 88 326 '时长达标奖励' 22 '#111827' 700;Badge 706 304 '未达标' '#FEF2F2' '#DC2626';Text 88 366 '模块内2/3项要求完成' 15 '#64748B';Text 88 404 '未获得固定奖励：钻石30k + 经验500' 14 '#DC2626' 600
+Rect 56 482 828 360 '#FFF' 22 '#E5E7EB';Text 88 530 '未完成原因' 19 '#111827' 700;$Why=@(@('每日高峰直播满2小时','完成6天，连续4/6天','未完成'),@('每日有效PK至少2场','完成5/3天','完成'),@('每周有效邀请达标','有效邀请4人','完成'));for($I=0;$I-lt3;$I++){$Y=582+$I*82;Text 88 $Y $Why[$I][0] 14 '#111827' 600;Text 520 $Y $Why[$I][1] 13 '#64748B';Text 834 $Y $Why[$I][2] 13 $(if($I-eq0){'#DC2626'}else{'#16A34A'}) 600 'end'};Rect 56 880 828 176 '#FFF7ED' 20 '#FED7AA';Text 88 928 '结算说明' 18 '#9A3412' 700;Text 88 970 '模块内任一要求未完成，整个模块未完成，' 14 '#475569';Text 88 1004 '该模块奖励为0；其他已完成模块仍正常结算。' 14 '#475569';Text 88 1038 '任务真实结果保留，不会被改写。' 14 '#64748B';Rect 56 1094 828 124 '#F8FAFC' 18 '#E2E8F0';Text 88 1140 '本周期其他模块奖励' 16 '#111827' 600;Text 850 1140 '钻石70k · 热度5k' 16 '#4F2BEE' 700 'end';Text 88 1180 '审核通过后仍会生成一条待领取记录。' 13 '#64748B';EndSvg '19-H5-模块未完成无奖励.svg'
 
-Write-Output 'Generated 19 editable SVG prototypes.'
+Write-Host "Generated 19 SVG prototypes in $OutputDir"

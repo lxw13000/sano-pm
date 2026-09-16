@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
+<rect x="0" y="0" width="1672" height="941" rx="0" fill="#F8FAFD" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="250" height="941" rx="0" fill="#061A33" stroke="none" stroke-width="1"/>
+<text x="28" y="48" font-size="24" fill="#FFF" font-weight="400" text-anchor="start">☰</text>
+<text x="30" y="112" font-size="16" fill="#FFF" font-weight="500" text-anchor="start">▣  用户任务体系配置</text>
+<text x="78" y="150" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">用户身份</text>
+<text x="78" y="202" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">任务库</text>
+<rect x="18" y="254" width="216" height="48" rx="7" fill="#5632EE" stroke="none" stroke-width="1"/>
+<text x="64" y="286" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">用户身份成员</text>
+<text x="64" y="350" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">周期任务审核</text>
+<text x="64" y="414" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">奖励领取记录</text>
+<text x="290" y="64" font-size="31" fill="#111827" font-weight="700" text-anchor="start">用户身份成员</text>
+<text x="292" y="98" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">统一处理申请审核、身份调整、失效和周期任务</text>
+<text x="290" y="142" font-size="13" fill="#334155" font-weight="500" text-anchor="start">用户ID</text>
+<rect x="290" y="154" width="220" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="304" y="181" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">请输入</text>
+<text x="530" y="142" font-size="13" fill="#334155" font-weight="500" text-anchor="start">用户身份</text>
+<rect x="530" y="154" width="220" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="544" y="181" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">全部身份</text>
+<text x="770" y="142" font-size="13" fill="#334155" font-weight="500" text-anchor="start">审核状态</text>
+<rect x="770" y="154" width="220" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="784" y="181" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">全部状态</text>
+<text x="1010" y="142" font-size="13" fill="#334155" font-weight="500" text-anchor="start">生效周期</text>
+<rect x="1010" y="154" width="260" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="1024" y="181" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">全部周期</text>
+<rect x="1300" y="154" width="90" height="42" rx="7" fill="#4F2BEE" stroke="#B8A9FF" stroke-width="1"/>
+<text x="1345" y="181" font-size="14" fill="#FFFFFF" font-weight="500" text-anchor="middle">查询</text>
+<rect x="1405" y="154" width="90" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="1450" y="181" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">重置</text>
+<rect x="290" y="236" width="1330" height="44" rx="6" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="1"/>
+<text x="302" y="264" font-size="12" fill="#475569" font-weight="600" text-anchor="start">用户</text>
+<text x="472" y="264" font-size="12" fill="#475569" font-weight="600" text-anchor="start">申请身份</text>
+<text x="652" y="264" font-size="12" fill="#475569" font-weight="600" text-anchor="start">状态</text>
+<text x="792" y="264" font-size="12" fill="#475569" font-weight="600" text-anchor="start">生效起始周期</text>
+<text x="972" y="264" font-size="12" fill="#475569" font-weight="600" text-anchor="start">当前周期</text>
+<text x="1172" y="264" font-size="12" fill="#475569" font-weight="600" text-anchor="start">提交时间</text>
+<text x="1322" y="264" font-size="12" fill="#475569" font-weight="600" text-anchor="start">操作</text>
+<rect x="290" y="280" width="1330" height="66" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="302" y="313" font-size="12" fill="#334155" font-weight="400" text-anchor="start">820031 / Luna</text>
+<text x="472" y="313" font-size="12" fill="#334155" font-weight="400" text-anchor="start">黄金优质主播</text>
+<text x="652" y="313" font-size="12" fill="#334155" font-weight="400" text-anchor="start">待审核</text>
+<text x="792" y="313" font-size="12" fill="#334155" font-weight="400" text-anchor="start">—</text>
+<text x="972" y="313" font-size="12" fill="#334155" font-weight="400" text-anchor="start">—</text>
+<text x="1172" y="313" font-size="12" fill="#334155" font-weight="400" text-anchor="start">09-14 10:20</text>
+<text x="1322" y="313" font-size="12" fill="#334155" font-weight="400" text-anchor="start">审核 删除</text>
+<rect x="290" y="346" width="1330" height="66" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="302" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">820108 / Mia</text>
+<text x="472" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">普通优质主播</text>
+<text x="652" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">审核通过</text>
+<text x="792" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2026-09-21</text>
+<text x="972" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">周 09-21~09-27</text>
+<text x="1172" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">09-10 16:35</text>
+<text x="1322" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">审核 身份调整 周期任务</text>
+<rect x="290" y="412" width="1330" height="66" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="302" y="445" font-size="12" fill="#334155" font-weight="400" text-anchor="start">820239 / Ana</text>
+<text x="472" y="445" font-size="12" fill="#334155" font-weight="400" text-anchor="start">外部认证主播</text>
+<text x="652" y="445" font-size="12" fill="#334155" font-weight="400" text-anchor="start">失效</text>
+<text x="792" y="445" font-size="12" fill="#334155" font-weight="400" text-anchor="start">—</text>
+<text x="972" y="445" font-size="12" fill="#334155" font-weight="400" text-anchor="start">—</text>
+<text x="1172" y="445" font-size="12" fill="#334155" font-weight="400" text-anchor="start">09-08 12:10</text>
+<text x="1322" y="445" font-size="12" fill="#334155" font-weight="400" text-anchor="start">审核 重置失效 删除</text>
+<rect x="290" y="478" width="1330" height="66" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="302" y="511" font-size="12" fill="#334155" font-weight="400" text-anchor="start">820411 / Ray</text>
+<text x="472" y="511" font-size="12" fill="#334155" font-weight="400" text-anchor="start">签约主播</text>
+<text x="652" y="511" font-size="12" fill="#334155" font-weight="400" text-anchor="start">审核通过</text>
+<text x="792" y="511" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2026-10-01</text>
+<text x="972" y="511" font-size="12" fill="#334155" font-weight="400" text-anchor="start">月 10-01~10-31</text>
+<text x="1172" y="511" font-size="12" fill="#334155" font-weight="400" text-anchor="start">09-06 09:21</text>
+<text x="1322" y="511" font-size="12" fill="#334155" font-weight="400" text-anchor="start">审核 身份调整 失效结算</text>
+<rect x="290" y="590" width="1330" height="150" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+<text x="316" y="624" font-size="15" fill="#111827" font-weight="600" text-anchor="start">操作规则</text>
+<text x="316" y="654" font-size="12" fill="#475569" font-weight="400" text-anchor="start">审核：数据存在即显示；通过需设置生效起始周期，失效后7天可重提，禁止后不能再提交。</text>
+<text x="316" y="682" font-size="12" fill="#475569" font-weight="400" text-anchor="start">重置失效：清除7天限制。失效结算：立即失效，金额或资产&gt;0则生成一条待领取记录。</text>
+<text x="316" y="710" font-size="12" fill="#475569" font-weight="400" text-anchor="start">身份调整仅审核通过可操作。周期任务加载该用户当前周期数据。</text>
+</svg>
