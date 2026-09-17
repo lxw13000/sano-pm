@@ -4,13 +4,13 @@
 <rect x="0" y="0" width="250" height="941" rx="0" fill="#061A33" stroke="none" stroke-width="1"/>
 <text x="28" y="48" font-size="24" fill="#FFF" font-weight="400" text-anchor="start">☰</text>
 <text x="30" y="112" font-size="16" fill="#FFF" font-weight="500" text-anchor="start">▣  用户任务体系配置</text>
-<text x="78" y="158" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">任务库</text>
+<text x="78" y="158" font-size="14" fill="#FFF" font-weight="500" text-anchor="start">任务库</text>
 <rect x="18" y="178" width="216" height="48" rx="7" fill="#5632EE" stroke="none" stroke-width="1"/>
-<text x="78" y="210" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">任务模块</text>
-<text x="78" y="262" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">用户身份</text>
-<text x="64" y="346" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">用户身份成员</text>
-<text x="64" y="410" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">周期任务审核</text>
-<text x="64" y="474" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">奖励领取记录</text>
+<text x="78" y="210" font-size="14" fill="#FFF" font-weight="500" text-anchor="start">任务模块</text>
+<text x="78" y="262" font-size="14" fill="#FFF" font-weight="500" text-anchor="start">用户身份</text>
+<text x="52" y="346" font-size="14" fill="#FFF" font-weight="500" text-anchor="start">用户身份成员</text>
+<text x="52" y="410" font-size="14" fill="#FFF" font-weight="500" text-anchor="start">周期任务审核</text>
+<text x="52" y="474" font-size="14" fill="#FFF" font-weight="500" text-anchor="start">周期奖励结算记录</text>
 <text x="290" y="64" font-size="31" fill="#111827" font-weight="700" text-anchor="start">任务模块</text>
 <text x="292" y="98" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">左侧选择模块，右侧完整展示基础信息、关联任务和奖励配置</text>
 <rect x="1438" y="42" width="182" height="42" rx="7" fill="#4F2BEE" stroke="#B8A9FF" stroke-width="1"/>
@@ -107,24 +107,23 @@
 <rect x="250" y="0" width="350" height="941" fill="#0F172A" opacity="0.28"/>
 <rect x="600" y="0" width="1072" height="941" rx="0" fill="#FFF" stroke="#DCE3EE" stroke-width="1"/>
 <text x="634" y="52" font-size="23" fill="#111827" font-weight="700" text-anchor="start">管理奖励配置</text>
-<text x="634" y="82" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">时长达标奖励 · 修改奖励策略与明细</text>
+<text x="634" y="82" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">奖励类型由模块基础信息决定，本抽屉只维护当前类型的奖励明细</text>
 <text x="1634" y="52" font-size="26" fill="#64748B" font-weight="400" text-anchor="middle">×</text>
 <line x1="600" y1="102" x2="1672" y2="102" stroke="#E5E7EB" stroke-width="1"/>
-<text x="634" y="126" font-size="13" fill="#334155" font-weight="500" text-anchor="start">奖励策略</text>
-<rect x="634" y="138" width="300" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
-<text x="648" y="165" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">按任务指标阶梯</text>
-<text x="634" y="214" font-size="15" fill="#111827" font-weight="600" text-anchor="start">阶梯奖励配置</text>
-<text x="634" y="238" font-size="13" fill="#334155" font-weight="500" text-anchor="start">来源任务</text>
-<rect x="634" y="250" width="290" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
-<text x="648" y="277" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">每周幸运礼物收入</text>
-<text x="944" y="238" font-size="13" fill="#334155" font-weight="500" text-anchor="start">来源指标</text>
-<rect x="944" y="250" width="260" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
-<text x="958" y="277" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">luckyGiftIncome</text>
-<text x="1224" y="238" font-size="13" fill="#334155" font-weight="500" text-anchor="start">命中规则</text>
-<rect x="1224" y="250" width="250" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
-<text x="1238" y="277" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">最高已达到档位</text>
-<rect x="1474" y="250" width="164" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
-<text x="1556" y="277" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">＋ 添加档位</text>
+<text x="634" y="142" font-size="13" fill="#334155" font-weight="600" text-anchor="start">当前奖励类型</text>
+<rect x="750" y="122" width="129" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="814.5" y="141" font-size="12" fill="#4F46E5" font-weight="500" text-anchor="middle">按任务指标阶梯</text>
+<text x="634" y="190" font-size="11" fill="#64748B" font-weight="400" text-anchor="start">如需切换奖励类型，请返回模块基础信息修改。</text>
+<text x="634" y="224" font-size="15" fill="#111827" font-weight="600" text-anchor="start">阶梯奖励配置</text>
+<text x="634" y="248" font-size="13" fill="#334155" font-weight="500" text-anchor="start">来源任务</text>
+<rect x="634" y="260" width="290" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="648" y="287" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">每周幸运礼物收入</text>
+<text x="944" y="248" font-size="13" fill="#334155" font-weight="500" text-anchor="start">来源指标</text>
+<rect x="944" y="260" width="260" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="958" y="287" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">luckyGiftIncome</text>
+<text x="1224" y="248" font-size="13" fill="#334155" font-weight="500" text-anchor="start">命中规则</text>
+<rect x="1224" y="260" width="250" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="1238" y="287" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">最高已达到档位</text>
 <text x="634" y="342" font-size="13" fill="#334155" font-weight="600" text-anchor="start">任务来源JSON</text>
 <rect x="634" y="358" width="1004" height="92" rx="7" fill="#111827" stroke="none" stroke-width="1"/>
 <text x="656" y="388" font-size="11" fill="#E2E8F0" font-weight="400" text-anchor="start">{ &quot;taskCode&quot;:&quot;TASK_LUCKY_GIFT_INCOME_WEEK&quot;,</text>

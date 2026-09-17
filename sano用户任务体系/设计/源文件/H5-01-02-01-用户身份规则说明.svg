@@ -33,7 +33,7 @@
 <circle cx="102" cy="1058" r="24" fill="#E9E2FF" stroke="none" stroke-width="1"/>
 <text x="102" y="1065" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="middle">05</text>
 <text x="146" y="1054" font-size="18" fill="#111827" font-weight="700" text-anchor="start">审核结算</text>
-<text x="146" y="1092" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">周期结束汇总，运营审核后生成待领取奖励。</text>
+<text x="146" y="1092" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">周期结束后生成结算结果，达标奖励进入待领取。</text>
 <rect x="56" y="1184" width="828" height="150" rx="18" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
 <circle cx="102" cy="1236" r="24" fill="#E9E2FF" stroke="none" stroke-width="1"/>
 <text x="102" y="1243" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="middle">06</text>

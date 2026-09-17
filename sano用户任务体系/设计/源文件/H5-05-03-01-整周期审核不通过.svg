@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1900" viewBox="0 0 940 1900">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
+<rect x="0" y="0" width="940" height="1900" rx="0" fill="#F4F0FF" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="940" height="96" rx="0" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="42" y="62" font-size="42" fill="#111827" font-weight="400" text-anchor="start">‹</text>
+<text x="470" y="66" font-size="30" fill="#111827" font-weight="700" text-anchor="middle">用户任务</text>
+<rect x="820" y="28" width="86" height="44" rx="22" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="863" y="57" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">规则</text>
+<rect x="56" y="120" width="828" height="68" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="194" y="162" font-size="18" fill="#64748B" font-weight="500" text-anchor="middle">日任务</text>
+<rect x="354" y="126" width="232" height="56" rx="16" fill="#F1EDFF" stroke="none" stroke-width="1"/>
+<text x="470" y="162" font-size="18" fill="#4F2BEE" font-weight="700" text-anchor="middle">周任务</text>
+<text x="746" y="162" font-size="18" fill="#64748B" font-weight="500" text-anchor="middle">月任务</text>
+<rect x="90" y="210" width="760" height="70" rx="35" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="474" y="214" width="372" height="62" rx="31" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="280" y="256" font-size="22" fill="#6B7280" font-weight="600" text-anchor="middle">本周</text>
+<text x="660" y="256" font-size="22" fill="#4F2BEE" font-weight="600" text-anchor="middle">上周</text>
+<text x="470" y="318" font-size="22" fill="#4F2BEE" font-weight="700" text-anchor="middle">09/07–09/13</text>
+<rect x="56" y="350" width="828" height="186" rx="24" fill="#7C2D3A" stroke="none" stroke-width="1"/>
+<text x="90" y="398" font-size="17" fill="#FCE7F3" font-weight="400" text-anchor="start">黄金优质主播</text>
+<text x="90" y="444" font-size="26" fill="#FFF" font-weight="700" text-anchor="start">整周期审核不通过</text>
+<text x="90" y="484" font-size="14" fill="#FCE7F3" font-weight="400" text-anchor="start">本周期不生成可领取奖励</text>
+<rect x="690" y="378" width="99" height="28" rx="14" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="739.5" y="397" font-size="12" fill="#BE123C" font-weight="500" text-anchor="middle">审核不通过</text>
+<rect x="56" y="568" width="828" height="196" rx="22" fill="#FFF" stroke="#FBCFE8" stroke-width="1"/>
+<text x="88" y="614" font-size="20" fill="#9F1239" font-weight="700" text-anchor="start">审核说明</text>
+<text x="88" y="658" font-size="15" fill="#475569" font-weight="400" text-anchor="start">外部内容材料与Sano主题关联不足，</text>
+<text x="88" y="694" font-size="15" fill="#475569" font-weight="400" text-anchor="start">且部分材料无法确认发布时间，请下周期重新提交。</text>
+<text x="88" y="734" font-size="13" fill="#64748B" font-weight="400" text-anchor="start">审核时间：2026-09-14 16:30</text>
+<rect x="56" y="798" width="828" height="122" rx="18" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+<text x="88" y="842" font-size="17" fill="#9A3412" font-weight="700" text-anchor="start">结算结果</text>
+<text x="88" y="878" font-size="14" fill="#475569" font-weight="400" text-anchor="start">审核不通过不生成待领取奖励，但任务真实结果仍保留。</text>
+<text x="56" y="978" font-size="22" fill="#111827" font-weight="700" text-anchor="start">上周任务模块</text>
+<text x="884" y="978" font-size="14" fill="#64748B" font-weight="500" text-anchor="end">只读查看</text>
+<rect x="56" y="1014" width="828" height="194" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="1060" font-size="19" fill="#111827" font-weight="700" text-anchor="start">时长达标奖励</text>
+<rect x="706" y="1038" width="99" height="28" rx="14" fill="#FEF2F2" stroke="none" stroke-width="1"/>
+<text x="755.5" y="1057" font-size="12" fill="#DC2626" font-weight="500" text-anchor="middle">审核不通过</text>
+<text x="88" y="1098" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">2/3项任务完成</text>
+<text x="88" y="1136" font-size="14" fill="#475569" font-weight="400" text-anchor="start">模块任务未全部完成</text>
+<rect x="690" y="1146" width="158" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="769" y="1173" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看模块</text>
+<rect x="56" y="1240" width="828" height="194" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="1286" font-size="19" fill="#111827" font-weight="700" text-anchor="start">收入阶梯奖励</text>
+<rect x="706" y="1264" width="99" height="28" rx="14" fill="#FEF2F2" stroke="none" stroke-width="1"/>
+<text x="755.5" y="1283" font-size="12" fill="#DC2626" font-weight="500" text-anchor="middle">审核不通过</text>
+<text x="88" y="1324" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">4/4项任务完成</text>
+<text x="88" y="1362" font-size="14" fill="#475569" font-weight="400" text-anchor="start">任务完成，但整周期审核不通过</text>
+<rect x="690" y="1372" width="158" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="769" y="1399" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看模块</text>
+<rect x="56" y="1466" width="828" height="194" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="1512" font-size="19" fill="#111827" font-weight="700" text-anchor="start">分享奖励</text>
+<rect x="706" y="1490" width="99" height="28" rx="14" fill="#FEF2F2" stroke="none" stroke-width="1"/>
+<text x="755.5" y="1509" font-size="12" fill="#DC2626" font-weight="500" text-anchor="middle">审核不通过</text>
+<text x="88" y="1550" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">0/1项任务完成</text>
+<text x="88" y="1588" font-size="14" fill="#475569" font-weight="400" text-anchor="start">材料审核不通过</text>
+<rect x="690" y="1598" width="158" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="769" y="1625" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看模块</text>
+</svg>

@@ -4,13 +4,13 @@
 <rect x="0" y="0" width="250" height="941" rx="0" fill="#061A33" stroke="none" stroke-width="1"/>
 <text x="28" y="48" font-size="24" fill="#FFF" font-weight="400" text-anchor="start">☰</text>
 <text x="30" y="112" font-size="16" fill="#FFF" font-weight="500" text-anchor="start">▣  用户任务体系配置</text>
-<text x="78" y="158" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">任务库</text>
+<text x="78" y="158" font-size="14" fill="#FFF" font-weight="500" text-anchor="start">任务库</text>
 <rect x="18" y="178" width="216" height="48" rx="7" fill="#5632EE" stroke="none" stroke-width="1"/>
-<text x="78" y="210" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">任务模块</text>
-<text x="78" y="262" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">用户身份</text>
-<text x="64" y="346" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">用户身份成员</text>
-<text x="64" y="410" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">周期任务审核</text>
-<text x="64" y="474" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">奖励领取记录</text>
+<text x="78" y="210" font-size="14" fill="#FFF" font-weight="500" text-anchor="start">任务模块</text>
+<text x="78" y="262" font-size="14" fill="#FFF" font-weight="500" text-anchor="start">用户身份</text>
+<text x="52" y="346" font-size="14" fill="#FFF" font-weight="500" text-anchor="start">用户身份成员</text>
+<text x="52" y="410" font-size="14" fill="#FFF" font-weight="500" text-anchor="start">周期任务审核</text>
+<text x="52" y="474" font-size="14" fill="#FFF" font-weight="500" text-anchor="start">周期奖励结算记录</text>
 <text x="290" y="64" font-size="31" fill="#111827" font-weight="700" text-anchor="start">任务模块</text>
 <text x="292" y="98" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">左侧选择模块，右侧完整展示基础信息、关联任务和奖励配置</text>
 <rect x="1438" y="42" width="182" height="42" rx="7" fill="#4F2BEE" stroke="#B8A9FF" stroke-width="1"/>

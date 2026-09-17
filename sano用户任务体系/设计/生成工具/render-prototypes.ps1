@@ -43,7 +43,9 @@ $ExpectedNames = @(
     'admin-02-01-02-身份审核弹窗.svg',
     'admin-03-01-01-周期任务审核列表.svg',
     'admin-03-01-02-周期任务查看审核详情.svg',
-    'admin-04-01-01-奖励领取记录.svg',
+    'admin-03-01-03-材料审核弹窗.svg',
+    'admin-04-01-01-周期奖励结算记录.svg',
+    'admin-04-01-02-周期奖励结算详情抽屉.svg',
     'H5-01-01-01-用户身份申请状态.svg',
     'H5-01-02-01-用户身份规则说明.svg',
     'H5-02-01-01-日任务当前日期.svg',
@@ -61,7 +63,8 @@ $ExpectedNames = @(
     'H5-04-01-02-分享任务详情.svg',
     'H5-04-01-03-外部内容截图上传.svg',
     'H5-05-01-01-奖励详情弹窗.svg',
-    'H5-05-02-01-模块未完成无奖励.svg'
+    'H5-05-02-01-模块未完成无奖励.svg',
+    'H5-05-03-01-整周期审核不通过.svg'
 )
 
 $Files = if ($Names.Count -gt 0) {
@@ -78,7 +81,7 @@ $Files = if ($Names.Count -gt 0) {
         Get-Item -LiteralPath $Path
     })
 }
-if ($Names.Count -eq 0 -and $Files.Count -ne 39) { throw "Expected 39 SVG files, found $($Files.Count)." }
+if ($Names.Count -eq 0 -and $Files.Count -ne 42) { throw "Expected 42 SVG files, found $($Files.Count)." }
 
 $Rendered = @()
 foreach ($File in $Files) {
