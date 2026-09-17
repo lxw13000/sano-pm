@@ -12,7 +12,7 @@
 <rect x="18" y="442" width="216" height="48" rx="7" fill="#5632EE" stroke="none" stroke-width="1"/>
 <text x="64" y="474" font-size="15" fill="#FFF" font-weight="500" text-anchor="start">奖励领取记录</text>
 <text x="290" y="64" font-size="31" fill="#111827" font-weight="700" text-anchor="start">奖励领取记录</text>
-<text x="292" y="98" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">一个用户周期一条记录，包含多个资产明细并一次领取</text>
+<text x="292" y="98" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">一个用户身份周期一条记录，包含多个资产明细并一次领取</text>
 <text x="290" y="136" font-size="13" fill="#334155" font-weight="500" text-anchor="start">用户ID</text>
 <rect x="290" y="148" width="210" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
 <text x="304" y="175" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">请输入</text>
@@ -78,4 +78,7 @@
 <text x="316" y="674" font-size="12" fill="#475569" font-weight="400" text-anchor="start">保留模块来源明细；相同数值资产可汇总展示。</text>
 <text x="316" y="706" font-size="12" fill="#475569" font-weight="400" text-anchor="start">整体状态：待领取、处理中、已领取、部分失败、失败。失败重试仅处理失败明细。</text>
 <text x="316" y="738" font-size="12" fill="#475569" font-weight="400" text-anchor="start">调用成熟资产体系发放，并使用幂等键防止重复发放。</text>
+<rect x="290" y="808" width="1330" height="86" rx="8" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+<text x="316" y="840" font-size="12" fill="#9A3412" font-weight="600" text-anchor="start">身份取消、失效或禁止后：已生成的奖励记录仍可领取；没有奖励记录则不可根据历史任务结果补领。</text>
+<text x="316" y="870" font-size="12" fill="#475569" font-weight="400" text-anchor="start">同一用户拥有多个身份时，每个“用户 + 身份 + 周期”分别生成奖励记录。</text>
 </svg>

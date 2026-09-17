@@ -74,4 +74,7 @@
 <text x="316" y="654" font-size="12" fill="#475569" font-weight="400" text-anchor="start">审核：数据存在即显示；通过需设置生效起始周期，失效后7天可重提，禁止后不能再提交。</text>
 <text x="316" y="682" font-size="12" fill="#475569" font-weight="400" text-anchor="start">重置失效：清除7天限制。失效结算：立即失效，金额或资产&gt;0则生成一条待领取记录。</text>
 <text x="316" y="710" font-size="12" fill="#475569" font-weight="400" text-anchor="start">身份调整仅审核通过可操作。周期任务加载该用户当前周期数据。</text>
+<rect x="290" y="766" width="1330" height="92" rx="8" fill="#F7F4FF" stroke="#D8D0FF" stroke-width="1"/>
+<text x="316" y="800" font-size="14" fill="#4F2BEE" font-weight="700" text-anchor="start">多身份规则</text>
+<text x="316" y="828" font-size="12" fill="#475569" font-weight="400" text-anchor="start">同一用户可以拥有多个身份；列表每行代表一条“用户 + 身份”记录，各身份周期任务、审核和奖励独立，不跨身份复用。</text>
 </svg>
