@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SANO Time 原型导航</title>
+  <style>
+    :root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;color:#282334;background:#efedf4}
+    *{box-sizing:border-box}body{margin:0}.wrap{max-width:1220px;margin:0 auto;padding:42px 28px 60px}
+    header{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:28px}
+    h1{margin:0;font-size:30px;letter-spacing:-.5px}.sub{margin:8px 0 0;color:#766f80;font-size:14px}
+    .rule{font-size:13px;color:#6f3cf6;background:#f4efff;border:1px solid #ded3ff;border-radius:999px;padding:9px 14px;white-space:nowrap}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.card{background:#fff;border-radius:22px;padding:14px;box-shadow:0 12px 30px rgba(55,35,91,.09)}
+    .meta{height:42px;display:flex;align-items:center;gap:10px}.meta span{font:700 12px ui-monospace,monospace;color:#6f3cf6}.meta strong{font-size:15px}
+    .preview{display:block;background:#e8e4ef;border-radius:15px;overflow:hidden}.preview img{display:block;width:100%;height:auto}
+    .actions{display:flex;gap:10px;padding-top:12px}.actions a{flex:1;text-align:center;text-decoration:none;color:#5930d8;background:#f4f0ff;border-radius:10px;padding:9px;font-size:13px;font-weight:700}
+    @media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:620px){.wrap{padding:28px 16px 44px}header{display:block}.rule{display:inline-block;margin-top:16px}.grid{grid-template-columns:1fr}.card{max-width:430px;margin:0 auto}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div><h1>SANO Time 原型</h1><p class="sub">个人中心官方时间 · 默认态、说明弹层与同步异常态</p></div>
+      <div class="rule">Official time · UTC+8 · No local conversion</div>
+    </header>
+    <section class="grid">
+  <article class="card">
+    <div class="meta"><span>01</span><strong>个人中心 · SANO时间</strong></div>
+    <a class="preview" href="原型图/01-个人中心-SANO时间.png" target="_blank" rel="noreferrer">
+      <img src="原型图/01-个人中心-SANO时间.png" alt="个人中心 · SANO时间">
+    </a>
+    <div class="actions">
+      <a href="原型图/01-个人中心-SANO时间.png" target="_blank" rel="noreferrer">PNG</a>
+      <a href="源文件/01-个人中心-SANO时间.svg" target="_blank" rel="noreferrer">SVG</a>
+    </div>
+  </article>
+  <article class="card">
+    <div class="meta"><span>02</span><strong>SANO时间说明弹层</strong></div>
+    <a class="preview" href="原型图/02-SANO时间说明弹层.png" target="_blank" rel="noreferrer">
+      <img src="原型图/02-SANO时间说明弹层.png" alt="SANO时间说明弹层">
+    </a>
+    <div class="actions">
+      <a href="原型图/02-SANO时间说明弹层.png" target="_blank" rel="noreferrer">PNG</a>
+      <a href="源文件/02-SANO时间说明弹层.svg" target="_blank" rel="noreferrer">SVG</a>
+    </div>
+  </article>
+  <article class="card">
+    <div class="meta"><span>03</span><strong>SANO时间同步异常</strong></div>
+    <a class="preview" href="原型图/03-SANO时间同步异常.png" target="_blank" rel="noreferrer">
+      <img src="原型图/03-SANO时间同步异常.png" alt="SANO时间同步异常">
+    </a>
+    <div class="actions">
+      <a href="原型图/03-SANO时间同步异常.png" target="_blank" rel="noreferrer">PNG</a>
+      <a href="源文件/03-SANO时间同步异常.svg" target="_blank" rel="noreferrer">SVG</a>
+    </div>
+  </article></section>
+  </main>
+</body>
+</html>
