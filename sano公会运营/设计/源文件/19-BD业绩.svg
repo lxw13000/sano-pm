@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941"><style>text{font-family:"Microsoft YaHei","Segoe UI",sans-serif}a{cursor:pointer}</style>
+<rect x="0" y="0" width="1672" height="941" rx="0" fill="#F7F8FC" stroke="none"/>
+<rect x="0" y="0" width="240" height="941" rx="0" fill="#061A33" stroke="none"/>
+<text x="28" y="43" font-size="27" fill="white" font-weight="700">SANO</text>
+<text x="28" y="68" font-size="12" fill="#9DAFC7" font-weight="400">公会运营管理</text>
+<a href="01-经营总览.svg">
+<circle cx="35" cy="118" r="3" fill="#7690AB"/>
+<text x="51" y="123" font-size="15" fill="#C2CFDF" font-weight="400">经营总览</text>
+</a>
+<a href="02-公会列表.svg">
+<circle cx="35" cy="176" r="3" fill="#7690AB"/>
+<text x="51" y="181" font-size="15" fill="#C2CFDF" font-weight="400">公会管理</text>
+</a>
+<a href="10-正式周期评估.svg">
+<circle cx="35" cy="234" r="3" fill="#7690AB"/>
+<text x="51" y="239" font-size="15" fill="#C2CFDF" font-weight="400">评估中心</text>
+</a>
+<a href="13-风险审核列表.svg">
+<circle cx="35" cy="292" r="3" fill="#7690AB"/>
+<text x="51" y="297" font-size="15" fill="#C2CFDF" font-weight="400">风险审核</text>
+</a>
+<a href="15-运营与BD业绩.svg">
+<rect x="16" y="329" width="208" height="43" rx="7" fill="#5530EE" stroke="none"/>
+<circle cx="35" cy="350" r="3" fill="white"/>
+<text x="51" y="355" font-size="15" fill="white" font-weight="600">运营与BD业绩</text>
+</a>
+<text x="27" y="790" font-size="11" fill="#8EA4BC" font-weight="400">当前权限</text>
+<text x="27" y="818" font-size="14" fill="white" font-weight="400">公会运营总监</text>
+<text x="27" y="887" font-size="12" fill="#8EA4BC" font-weight="400">SANO / 需求评审</text>
+<rect x="240" y="0" width="1432" height="54" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="280" y="34" font-size="13" fill="#718096" font-weight="400">公会运营  /  BD业绩</text>
+<rect x="1324" y="13" width="100" height="26" rx="13" fill="#FFF7E6" stroke="none"/>
+<text x="1335" y="31" font-size="12" fill="#B77912" font-weight="500">原型示例数据</text>
+<text x="1480" y="34" font-size="12" fill="#718096" font-weight="400">UTC+8   ·   USD</text>
+<text x="280" y="101" font-size="27" fill="#152238" font-weight="650">运营与BD业绩</text>
+<text x="280" y="129" font-size="13" fill="#718096" font-weight="400">BD是业务归属角色，不作为公会树的组织层级。</text>
+<line x1="280" y1="910" x2="1632" y2="910" stroke="#E3E8F1" />
+<text x="280" y="930" font-size="11" fill="#718096" font-weight="400">静态示例 · 金额USD · 评分非规则计算结果 · 跳转以目标页标注口径为准，生产下钻须保留评估上下文</text>
+<text x="1450" y="930" font-size="11" fill="#718096" font-weight="400">19 / 25  ·  评审稿</text>
+<rect x="280" y="158" width="1352" height="48" rx="9" fill="white" stroke="#E3E8F1"/>
+<a href="15-运营与BD业绩.svg">
+<text x="300" y="187" font-size="14" fill="#718096" font-weight="400">公会运营业绩</text>
+</a>
+<a href="19-BD业绩.svg">
+<text x="956" y="187" font-size="14" fill="#5530EE" font-weight="600">BD业绩</text>
+<rect x="956" y="203" width="56" height="3" rx="1" fill="#5530EE" stroke="none"/>
+</a>
+<text x="280" y="244" font-size="12" fill="#718096" font-weight="400">统计周期</text>
+<rect x="280" y="254" width="248" height="36" rx="6" fill="white" stroke="#E3E8F1"/>
+<text x="292" y="278" font-size="13" fill="#152238" font-weight="400">上周完整自然周</text>
+<text x="506" y="278" font-size="14" fill="#718096" font-weight="400">⌄</text>
+<text x="550" y="244" font-size="12" fill="#718096" font-weight="400">国家 / 地区</text>
+<rect x="550" y="254" width="225" height="36" rx="6" fill="white" stroke="#E3E8F1"/>
+<text x="562" y="278" font-size="13" fill="#152238" font-weight="400">全部</text>
+<text x="753" y="278" font-size="14" fill="#718096" font-weight="400">⌄</text>
+<text x="797" y="244" font-size="12" fill="#718096" font-weight="400">BD负责人</text>
+<rect x="797" y="254" width="260" height="36" rx="6" fill="white" stroke="#E3E8F1"/>
+<text x="809" y="278" font-size="13" fill="#152238" font-weight="400">全部</text>
+<text x="1035" y="278" font-size="14" fill="#718096" font-weight="400">⌄</text>
+<rect x="1454" y="254" width="178" height="38" rx="6" fill="#5530EE" stroke="#5530EE"/>
+<text x="1468" y="279" font-size="14" fill="white" font-weight="500">查询</text>
+<rect x="280" y="327" width="326" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="300" y="354" font-size="13" fill="#718096" font-weight="400">BD负责人</text>
+<text x="300" y="392" font-size="28" fill="#152238" font-weight="600">12</text>
+<text x="300" y="417" font-size="12" fill="#718096" font-weight="400">按当期归属统计</text>
+<rect x="622" y="327" width="326" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="642" y="354" font-size="13" fill="#718096" font-weight="400">本周新增公会</text>
+<text x="642" y="392" font-size="28" fill="#152238" font-weight="600">8</text>
+<text x="642" y="417" font-size="12" fill="#718096" font-weight="400">新增公会去重</text>
+<rect x="964" y="327" width="326" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="984" y="354" font-size="13" fill="#718096" font-weight="400">成员新增邀请</text>
+<text x="984" y="392" font-size="28" fill="#152238" font-weight="600">3,280</text>
+<text x="984" y="417" font-size="12" fill="#718096" font-weight="400">邀请关系来源</text>
+<rect x="1306" y="327" width="326" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="1326" y="354" font-size="13" fill="#718096" font-weight="400">独立用户消费</text>
+<text x="1326" y="392" font-size="28" fill="#152238" font-weight="600">$412,620.00</text>
+<text x="1326" y="417" font-size="12" fill="#718096" font-weight="400">归属公会消费汇总</text>
+<rect x="280" y="453" width="1352" height="427" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="302" y="485" font-size="17" fill="#152238" font-weight="600">BD业务表现</text>
+<text x="302" y="509" font-size="12" fill="#718096" font-weight="400">按开发归属观察公会增长与经营质量</text>
+<rect x="300" y="531" width="1312" height="40" rx="5" fill="#F5F7FB" stroke="#E3E8F1"/>
+<text x="313" y="557" font-size="12" fill="#55647C" font-weight="600">BD负责人</text>
+<text x="549.16" y="557" font-size="12" fill="#55647C" font-weight="600">归属公会</text>
+<text x="719.72" y="557" font-size="12" fill="#55647C" font-weight="600">新增公会</text>
+<text x="890.28" y="557" font-size="12" fill="#55647C" font-weight="600">有效主播</text>
+<text x="1087.08" y="557" font-size="12" fill="#55647C" font-weight="600">消费</text>
+<text x="1323.24" y="557" font-size="12" fill="#55647C" font-weight="600">高风险公会</text>
+<text x="1493.8" y="557" font-size="12" fill="#55647C" font-weight="600">操作</text>
+<rect x="300" y="571" width="1312" height="64" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="313" y="601" font-size="13" fill="#152238" font-weight="400">Leo</text>
+<text x="549.16" y="601" font-size="13" fill="#152238" font-weight="400">18</text>
+<text x="719.72" y="601" font-size="13" fill="#152238" font-weight="400">2</text>
+<text x="890.28" y="601" font-size="13" fill="#152238" font-weight="400">226</text>
+<text x="1087.08" y="601" font-size="13" fill="#152238" font-weight="400">$118,460.00</text>
+<text x="1323.24" y="601" font-size="13" fill="#152238" font-weight="400">3</text>
+<a href="02-公会列表.svg">
+<text x="1493.8" y="601" font-size="13" fill="#5530EE" font-weight="400">公会明细 →</text>
+</a>
+<rect x="300" y="635" width="1312" height="64" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="313" y="665" font-size="13" fill="#152238" font-weight="400">Chen</text>
+<text x="549.16" y="665" font-size="13" fill="#152238" font-weight="400">26</text>
+<text x="719.72" y="665" font-size="13" fill="#152238" font-weight="400">3</text>
+<text x="890.28" y="665" font-size="13" fill="#152238" font-weight="400">318</text>
+<text x="1087.08" y="665" font-size="13" fill="#152238" font-weight="400">$182,310.00</text>
+<text x="1323.24" y="665" font-size="13" fill="#152238" font-weight="400">2</text>
+<a href="02-公会列表.svg">
+<text x="1493.8" y="665" font-size="13" fill="#5530EE" font-weight="400">公会明细 →</text>
+</a>
+<rect x="300" y="699" width="1312" height="64" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="313" y="729" font-size="13" fill="#152238" font-weight="400">Ravi</text>
+<text x="549.16" y="729" font-size="13" fill="#152238" font-weight="400">16</text>
+<text x="719.72" y="729" font-size="13" fill="#152238" font-weight="400">1</text>
+<text x="890.28" y="729" font-size="13" fill="#152238" font-weight="400">204</text>
+<text x="1087.08" y="729" font-size="13" fill="#152238" font-weight="400">$92,640.00</text>
+<text x="1323.24" y="729" font-size="13" fill="#152238" font-weight="400">4</text>
+<a href="02-公会列表.svg">
+<text x="1493.8" y="729" font-size="13" fill="#5530EE" font-weight="400">公会明细 →</text>
+</a>
+<text x="303" y="840" font-size="13" fill="#718096" font-weight="400">历史责任归属和公会关系分别保留；跨负责人汇总按底层业务去重。</text>
+</svg>

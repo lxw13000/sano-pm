@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941"><style>text{font-family:"Microsoft YaHei","Segoe UI",sans-serif}a{cursor:pointer}</style>
+<rect x="0" y="0" width="1672" height="941" rx="0" fill="#F7F8FC" stroke="none"/>
+<rect x="0" y="0" width="240" height="941" rx="0" fill="#061A33" stroke="none"/>
+<text x="28" y="43" font-size="27" fill="white" font-weight="700">SANO</text>
+<text x="28" y="68" font-size="12" fill="#9DAFC7" font-weight="400">公会运营管理</text>
+
+<circle cx="35" cy="118" r="3" fill="#7690AB"/>
+<text x="51" y="123" font-size="15" fill="#C2CFDF" font-weight="400">经营总览</text>
+
+
+<rect x="16" y="155" width="208" height="43" rx="7" fill="#5530EE" stroke="none"/>
+<circle cx="35" cy="176" r="3" fill="white"/>
+<text x="51" y="181" font-size="15" fill="white" font-weight="600">公会管理</text>
+
+
+<circle cx="35" cy="234" r="3" fill="#7690AB"/>
+<text x="51" y="239" font-size="15" fill="#C2CFDF" font-weight="400">评估中心</text>
+
+
+<circle cx="35" cy="292" r="3" fill="#7690AB"/>
+<text x="51" y="297" font-size="15" fill="#C2CFDF" font-weight="400">风险审核</text>
+
+
+<circle cx="35" cy="350" r="3" fill="#7690AB"/>
+<text x="51" y="355" font-size="15" fill="#C2CFDF" font-weight="400">运营与BD业绩</text>
+
+<text x="27" y="790" font-size="11" fill="#8EA4BC" font-weight="400">当前权限</text>
+<text x="27" y="818" font-size="14" fill="white" font-weight="400">公会运营总监</text>
+<text x="27" y="887" font-size="12" fill="#8EA4BC" font-weight="400">SANO / 需求评审</text>
+<rect x="240" y="0" width="1432" height="54" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="280" y="34" font-size="13" fill="#718096" font-weight="400">公会运营  /  分层与奖励</text>
+<rect x="1324" y="13" width="100" height="26" rx="13" fill="#FFF7E6" stroke="none"/>
+<text x="1335" y="31" font-size="12" fill="#B77912" font-weight="500">原型示例数据</text>
+<text x="1480" y="34" font-size="12" fill="#718096" font-weight="400">UTC+8   ·   USD</text>
+<text x="280" y="101" font-size="27" fill="#152238" font-weight="650">星河公会  /  G1024</text>
+<text x="280" y="129" font-size="13" fill="#718096" font-weight="400">公会长 Maya · U1001    ｜    泰国    ｜    运营 Nina    ｜    BD Leo    ｜    分层比例 20%</text>
+<line x1="280" y1="910" x2="1632" y2="910" stroke="#E3E8F1" />
+<text x="280" y="930" font-size="11" fill="#718096" font-weight="400">静态示例 · 金额USD · 评分非规则计算结果 · 跳转以目标页标注口径为准，生产下钻须保留评估上下文</text>
+<text x="1450" y="930" font-size="11" fill="#718096" font-weight="400">07 / 25  ·  评审稿</text>
+
+<rect x="1440" y="76" width="192" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="1454" y="101" font-size="14" fill="#5530EE" font-weight="500">手动重新评估</text>
+
+<rect x="280" y="154" width="1352" height="64" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="298" y="181" font-size="15" fill="#152238" font-weight="600">正式周评估 · W36 / V1</text>
+<text x="298" y="202" font-size="12" fill="#718096" font-weight="400">截止 2026-09-06 23:59:59   ·   每周一生成</text>
+
+<rect x="803" y="167" width="148" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="817" y="192" font-size="14" fill="#5530EE" font-weight="500">直属口径 ▾</text>
+
+<text x="980" y="181" font-size="12" fill="#718096" font-weight="400">经营：08-08 至 09-06（30天）</text>
+<text x="980" y="202" font-size="12" fill="#718096" font-weight="400">风险：07-09 至 09-06（60天）</text>
+
+<text x="1425" y="192" font-size="14" fill="#5530EE" font-weight="400">查看历史版本 →</text>
+
+<rect x="280" y="234" width="1352" height="48" rx="9" fill="white" stroke="#E3E8F1"/>
+
+<text x="300" y="263" font-size="14" fill="#718096" font-weight="400">画像概览</text>
+
+
+<text x="487.42857142857144" y="263" font-size="14" fill="#718096" font-weight="400">组织与归属</text>
+
+
+<text x="674.8571428571429" y="263" font-size="14" fill="#718096" font-weight="400">主播经营</text>
+
+
+<text x="862.2857142857143" y="263" font-size="14" fill="#718096" font-weight="400">消费与收入总览</text>
+
+
+<text x="1049.7142857142858" y="263" font-size="14" fill="#5530EE" font-weight="600">分层与奖励</text>
+<rect x="1049.7142857142858" y="279" width="70" height="3" rx="1" fill="#5530EE" stroke="none"/>
+
+
+<text x="1237.142857142857" y="263" font-size="14" fill="#718096" font-weight="400">资金流向</text>
+
+
+<text x="1424.5714285714287" y="263" font-size="14" fill="#718096" font-weight="400">套利风险与证据</text>
+
+<rect x="280" y="300" width="326" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="300" y="327" font-size="13" fill="#718096" font-weight="400">直属主播分层</text>
+<text x="300" y="365" font-size="28" fill="#152238" font-weight="600">$1,500.00</text>
+<text x="300" y="390" font-size="12" fill="#718096" font-weight="400">主播直接收入×20%</text>
+<rect x="622" y="300" width="326" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="642" y="327" font-size="13" fill="#718096" font-weight="400">直属子公会贡献</text>
+<text x="642" y="365" font-size="28" fill="#152238" font-weight="600">$240.00</text>
+<text x="642" y="390" font-size="12" fill="#718096" font-weight="400">只计算一层比例差</text>
+<rect x="964" y="300" width="326" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="984" y="327" font-size="13" fill="#718096" font-weight="400">主播及公会奖励</text>
+<text x="984" y="365" font-size="28" fill="#152238" font-weight="600">$1,760.00</text>
+<text x="984" y="390" font-size="12" fill="#718096" font-weight="400">主播 $1,160 / 公会 $600</text>
+<rect x="1306" y="300" width="326" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="1326" y="327" font-size="13" fill="#718096" font-weight="400">关联账号奖励归属</text>
+<text x="1326" y="365" font-size="28" fill="#152238" font-weight="600">$400.00</text>
+<text x="1326" y="390" font-size="12" fill="#718096" font-weight="400">账号获奖总额 $800.00 · 单列</text>
+<rect x="280" y="426" width="1352" height="228" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="302" y="458" font-size="17" fill="#152238" font-weight="600">公会分层明细</text>
+<text x="302" y="482" font-size="12" fill="#718096" font-weight="400">近30日汇总行 · 可追溯到逐笔主播收入、消费者和原始订单</text>
+<rect x="300" y="492" width="1312" height="40" rx="5" fill="#F5F7FB" stroke="#E3E8F1"/>
+<text x="313" y="518" font-size="12" fill="#55647C" font-weight="600">来源 / 贡献者</text>
+<text x="693.48" y="518" font-size="12" fill="#55647C" font-weight="600">主播收入基数</text>
+<text x="929.64" y="518" font-size="12" fill="#55647C" font-weight="600">分层比例 / 差额</text>
+<text x="1244.52" y="518" font-size="12" fill="#55647C" font-weight="600">分层收入</text>
+<text x="1415.08" y="518" font-size="12" fill="#55647C" font-weight="600">依据</text>
+<rect x="300" y="532" width="1312" height="38" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="313" y="562" font-size="13" fill="#152238" font-weight="400">直属主播 / Lina等</text>
+<text x="693.48" y="562" font-size="13" fill="#152238" font-weight="400">$7,500.00</text>
+<text x="929.64" y="562" font-size="13" fill="#152238" font-weight="400">20%</text>
+<text x="1244.52" y="562" font-size="13" fill="#152238" font-weight="400">$1,500.00</text>
+<text x="1415.08" y="562" font-size="13" fill="#152238" font-weight="400">直属主播收入记录</text>
+<rect x="300" y="570" width="1312" height="38" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="313" y="600" font-size="13" fill="#152238" font-weight="400">子公会辰星 / 所属主播</text>
+<text x="693.48" y="600" font-size="13" fill="#152238" font-weight="400">$4,000.00</text>
+<text x="929.64" y="600" font-size="13" fill="#152238" font-weight="400">20% − 16% = 4%</text>
+<text x="1244.52" y="600" font-size="13" fill="#152238" font-weight="400">$160.00</text>
+<text x="1415.08" y="600" font-size="13" fill="#152238" font-weight="400">子代理贡献记录</text>
+<rect x="300" y="608" width="1312" height="38" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="313" y="638" font-size="13" fill="#152238" font-weight="400">其他直属子公会 / 所属主播</text>
+<text x="693.48" y="638" font-size="13" fill="#152238" font-weight="400">$1,000.00</text>
+<text x="929.64" y="638" font-size="13" fill="#152238" font-weight="400">20% − 12% = 8%</text>
+<text x="1244.52" y="638" font-size="13" fill="#152238" font-weight="400">$80.00</text>
+<text x="1415.08" y="638" font-size="13" fill="#152238" font-weight="400">子代理贡献记录</text>
+<rect x="280" y="672" width="440" height="162" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="302" y="704" font-size="17" fill="#152238" font-weight="600">超级主播奖励</text>
+<text x="302" y="747" font-size="25" fill="#5530EE" font-weight="600">$600.00</text>
+<text x="302" y="778" font-size="13" fill="#718096" font-weight="400">2名获奖主播 · 主播本人周奖励</text>
+
+<text x="302" y="815" font-size="13" fill="#5530EE" font-weight="400">查看每笔奖励与达标依据 →</text>
+
+<rect x="736" y="672" width="440" height="162" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="758" y="704" font-size="17" fill="#152238" font-weight="600">优质主播奖励</text>
+<text x="758" y="747" font-size="25" fill="#5530EE" font-weight="600">$320.00</text>
+<text x="758" y="778" font-size="13" fill="#718096" font-weight="400">2名获奖主播 · 主播本人周奖励</text>
+
+<text x="758" y="815" font-size="13" fill="#5530EE" font-weight="400">查看每笔奖励与达标依据 →</text>
+
+<rect x="1192" y="672" width="440" height="162" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="1214" y="704" font-size="17" fill="#152238" font-weight="600">主播等级直播时长奖励</text>
+<text x="1214" y="747" font-size="25" fill="#5530EE" font-weight="600">$240.00</text>
+<text x="1214" y="778" font-size="13" fill="#718096" font-weight="400">3名获奖主播 · 常规2人 / 优质1人</text>
+
+<text x="1214" y="815" font-size="13" fill="#5530EE" font-weight="400">查看每笔奖励与达标依据 →</text>
+
+<rect x="280" y="846" width="1352" height="40" rx="6" fill="#F0ECFF" stroke="none"/>
+<text x="296" y="872" font-size="13" fill="#5530EE" font-weight="400">主播奖励去重获奖6人，分类人数不能相加；其他主播奖励本例为$0。</text>
+
+<text x="1150" y="872" font-size="13" fill="#5530EE" font-weight="400">公会与关联账号奖励明细 →</text>
+
+<a href="07-分层与奖励.svg">
+<rect x="0" y="0" width="1672" height="941" fill="#14213D" fill-opacity="0.46"/>
+</a>
+<rect x="536" y="0" width="1136" height="941" rx="0" fill="#14213D" stroke="none"/>
+<rect x="548" y="0" width="1124" height="941" rx="0" fill="white" stroke="none"/>
+<text x="576" y="44" font-size="24" fill="#152238" font-weight="600">奖励明细</text>
+<text x="710" y="43" font-size="12" fill="#718096" font-weight="400">07 · 分层与奖励 / 抽屉</text>
+<a href="07-分层与奖励.svg">
+<rect x="1534" y="18" width="110" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="1548" y="43" font-size="14" fill="#5530EE" font-weight="500">关闭 ×</text>
+</a>
+<text x="576" y="77" font-size="12" fill="#718096" font-weight="400">星河公会 G1024 · 直属 · 正式W36 / V1 · 截止2026-09-06 · 发放窗口08-08至09-06 · USD</text>
+<rect x="576" y="103" width="1068" height="49" rx="6" fill="#F7F8FC" stroke="none"/>
+<a href="22-超级主播奖励明细.svg">
+<text x="592" y="133" font-size="14" fill="#5530EE" font-weight="600">超级主播奖励</text>
+<rect x="592" y="149" width="84" height="3" rx="1" fill="#5530EE" stroke="none"/>
+</a>
+<a href="23-优质主播奖励明细.svg">
+<text x="855" y="133" font-size="14" fill="#718096" font-weight="400">优质主播奖励</text>
+</a>
+<a href="24-主播等级直播时长奖励明细.svg">
+<text x="1118" y="133" font-size="14" fill="#718096" font-weight="400">等级直播时长奖励</text>
+</a>
+<a href="25-公会与关联账号奖励明细.svg">
+<text x="1381" y="133" font-size="14" fill="#718096" font-weight="400">公会与关联账号奖励</text>
+</a>
+<rect x="576" y="171" width="1068" height="94" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="598" y="203" font-size="17" fill="#152238" font-weight="600">超级主播奖励</text>
+<text x="598" y="227" font-size="12" fill="#718096" font-weight="400">按净有效奖励统计；奖励所属周与发放窗口分别保留。</text>
+<text x="1240" y="210" font-size="23" fill="#5530EE" font-weight="600">$600.00 / 2人</text>
+<text x="576" y="296" font-size="12" fill="#718096" font-weight="400">主播 / 接收方</text>
+<rect x="576" y="306" width="232" height="36" rx="6" fill="white" stroke="#E3E8F1"/>
+<text x="588" y="330" font-size="13" fill="#152238" font-weight="400">全部</text>
+<text x="786" y="330" font-size="14" fill="#718096" font-weight="400">⌄</text>
+<text x="832" y="296" font-size="12" fill="#718096" font-weight="400">奖励所属周</text>
+<rect x="832" y="306" width="224" height="36" rx="6" fill="white" stroke="#E3E8F1"/>
+<text x="844" y="330" font-size="13" fill="#152238" font-weight="400">2026-W35</text>
+<text x="1034" y="330" font-size="14" fill="#718096" font-weight="400">⌄</text>
+<text x="1080" y="296" font-size="12" fill="#718096" font-weight="400">发放状态</text>
+<rect x="1080" y="306" width="218" height="36" rx="6" fill="white" stroke="#E3E8F1"/>
+<text x="1092" y="330" font-size="13" fill="#152238" font-weight="400">全部</text>
+<text x="1276" y="330" font-size="14" fill="#718096" font-weight="400">⌄</text>
+<rect x="1412" y="306" width="100" height="38" rx="6" fill="#5530EE" stroke="#5530EE"/>
+<text x="1426" y="331" font-size="14" fill="white" font-weight="500">查询</text>
+<rect x="1528" y="306" width="116" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="1542" y="331" font-size="14" fill="#5530EE" font-weight="500">重置</text>
+<line x1="576" y1="884" x2="1644" y2="884" stroke="#E3E8F1" />
+<text x="576" y="912" font-size="12" fill="#718096" font-weight="400">关闭后回到07并保留评估与页面状态；仅抽屉内容切换，不跳转独立页面。</text>
+<text x="1460" y="912" font-size="11" fill="#718096" font-weight="400">22 / 25 · 抽屉示例</text>
+<rect x="576" y="368" width="1068" height="40" rx="5" fill="#F5F7FB" stroke="#E3E8F1"/>
+<text x="589" y="394" font-size="12" fill="#55647C" font-weight="600">获奖主播</text>
+<text x="781.24" y="394" font-size="12" fill="#55647C" font-weight="600">适用身份</text>
+<text x="888.04" y="394" font-size="12" fill="#55647C" font-weight="600">奖励周 / 记录ID</text>
+<text x="1090.96" y="394" font-size="12" fill="#55647C" font-weight="600">净有效金额</text>
+<text x="1240.48" y="394" font-size="12" fill="#55647C" font-weight="600">状态</text>
+<text x="1347.28" y="394" font-size="12" fill="#55647C" font-weight="600">达标依据</text>
+<rect x="576" y="408" width="1068" height="48" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="589" y="438" font-size="13" fill="#152238" font-weight="400">Lina U2001</text>
+<text x="781.24" y="438" font-size="13" fill="#152238" font-weight="400">超级</text>
+<text x="888.04" y="438" font-size="13" fill="#152238" font-weight="400">W35 / S-001</text>
+<text x="1090.96" y="438" font-size="13" fill="#152238" font-weight="400">$360.00</text>
+<text x="1240.48" y="438" font-size="13" fill="#152238" font-weight="400">成功</text>
+<text x="1347.28" y="438" font-size="13" fill="#152238" font-weight="400">单人/多人达标 · 规则快照</text>
+<rect x="576" y="456" width="1068" height="48" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="589" y="486" font-size="13" fill="#152238" font-weight="400">Sam U2004</text>
+<text x="781.24" y="486" font-size="13" fill="#152238" font-weight="400">超级</text>
+<text x="888.04" y="486" font-size="13" fill="#152238" font-weight="400">W35 / S-002</text>
+<text x="1090.96" y="486" font-size="13" fill="#152238" font-weight="400">$240.00</text>
+<text x="1240.48" y="486" font-size="13" fill="#152238" font-weight="400">成功</text>
+<text x="1347.28" y="486" font-size="13" fill="#152238" font-weight="400">单人/多人达标 · 规则快照</text>
+<text x="590" y="577" font-size="12" fill="#718096" font-weight="400">共 2 条 · 示例均于09-01发放 · 点击记录查看下方凭证</text>
+<rect x="576" y="600" width="1068" height="259" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="598" y="632" font-size="17" fill="#152238" font-weight="600">选中奖励记录 · Lina U2001</text>
+<text x="598" y="656" font-size="12" fill="#718096" font-weight="400">当前展示首行凭证；真实产品在抽屉内选中记录，不离开07页面。</text>
+<text x="600" y="689" font-size="14" fill="#152238" font-weight="400">记录 W35 / S-001 · 发放 2026-09-01 09:00 · 批次 PAY-0901-21</text>
+<text x="600" y="726" font-size="14" fill="#152238" font-weight="400">原发放 $360.00 − 追回 $0.00 = 净有效 $360.00 · 适用身份 超级 · 公会 G1024</text>
+<text x="600" y="765" font-size="13" fill="#152238" font-weight="400">达标依据：资格记录 QF-21-001（已达标）· W35规则快照；可查看原始指标及身份生效历史。</text>
+<text x="600" y="804" font-size="12" fill="#718096" font-weight="400">原发放与反向流水可追溯；本分类人数按净有效金额&gt;0去重，全部获奖主播跨类型取并集。</text>
+<text x="600" y="838" font-size="12" fill="#718096" font-weight="400">静态原型：筛选、分页、选中记录和凭证查询仅为示意，不执行真实业务。</text>
+</svg>

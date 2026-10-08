@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941"><style>text{font-family:"Microsoft YaHei","Segoe UI",sans-serif}a{cursor:pointer}</style>
+<rect x="0" y="0" width="1672" height="941" rx="0" fill="#F7F8FC" stroke="none"/>
+<rect x="0" y="0" width="240" height="941" rx="0" fill="#061A33" stroke="none"/>
+<text x="28" y="43" font-size="27" fill="white" font-weight="700">SANO</text>
+<text x="28" y="68" font-size="12" fill="#9DAFC7" font-weight="400">公会运营管理</text>
+<a href="01-经营总览.svg">
+<circle cx="35" cy="118" r="3" fill="#7690AB"/>
+<text x="51" y="123" font-size="15" fill="#C2CFDF" font-weight="400">经营总览</text>
+</a>
+<a href="02-公会列表.svg">
+<circle cx="35" cy="176" r="3" fill="#7690AB"/>
+<text x="51" y="181" font-size="15" fill="#C2CFDF" font-weight="400">公会管理</text>
+</a>
+<a href="10-正式周期评估.svg">
+<circle cx="35" cy="234" r="3" fill="#7690AB"/>
+<text x="51" y="239" font-size="15" fill="#C2CFDF" font-weight="400">评估中心</text>
+</a>
+<a href="13-风险审核列表.svg">
+<rect x="16" y="271" width="208" height="43" rx="7" fill="#5530EE" stroke="none"/>
+<circle cx="35" cy="292" r="3" fill="white"/>
+<text x="51" y="297" font-size="15" fill="white" font-weight="600">风险审核</text>
+</a>
+<a href="15-运营与BD业绩.svg">
+<circle cx="35" cy="350" r="3" fill="#7690AB"/>
+<text x="51" y="355" font-size="15" fill="#C2CFDF" font-weight="400">运营与BD业绩</text>
+</a>
+<text x="27" y="790" font-size="11" fill="#8EA4BC" font-weight="400">当前权限</text>
+<text x="27" y="818" font-size="14" fill="white" font-weight="400">公会运营总监</text>
+<text x="27" y="887" font-size="12" fill="#8EA4BC" font-weight="400">SANO / 需求评审</text>
+<rect x="240" y="0" width="1432" height="54" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="280" y="34" font-size="13" fill="#718096" font-weight="400">公会运营  /  人工审核详情</text>
+<rect x="1324" y="13" width="100" height="26" rx="13" fill="#FFF7E6" stroke="none"/>
+<text x="1335" y="31" font-size="12" fill="#B77912" font-weight="500">原型示例数据</text>
+<text x="1480" y="34" font-size="12" fill="#718096" font-weight="400">UTC+8   ·   USD</text>
+<text x="280" y="101" font-size="27" fill="#152238" font-weight="650">审核事项 A-036-014</text>
+<text x="280" y="129" font-size="13" fill="#718096" font-weight="400">星河公会 G1024 · 来源：正式周评估 W36 / V1 · 系统高风险</text>
+<line x1="280" y1="910" x2="1632" y2="910" stroke="#E3E8F1" />
+<text x="280" y="930" font-size="11" fill="#718096" font-weight="400">静态示例 · 金额USD · 评分非规则计算结果 · 跳转以目标页标注口径为准，生产下钻须保留评估上下文</text>
+<text x="1450" y="930" font-size="11" fill="#718096" font-weight="400">14 / 25  ·  评审稿</text>
+<rect x="1460" y="83" width="61" height="26" rx="13" fill="#FFF7E6" stroke="none"/>
+<text x="1471" y="101" font-size="12" fill="#B77912" font-weight="500">审核中</text>
+<rect x="280" y="155" width="798" height="727" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="302" y="187" font-size="17" fill="#152238" font-weight="600">风险事实与证据</text>
+<text x="302" y="211" font-size="12" fill="#718096" font-weight="400">审核人 Nina · 审核时间在提交后记录</text>
+<rect x="300" y="236" width="758" height="40" rx="5" fill="#F5F7FB" stroke="#E3E8F1"/>
+<text x="313" y="262" font-size="12" fill="#55647C" font-weight="600">证据</text>
+<text x="457.02" y="262" font-size="12" fill="#55647C" font-weight="600">事实摘要</text>
+<text x="805.7" y="262" font-size="12" fill="#55647C" font-weight="600">可信程度</text>
+<text x="957.3000000000001" y="262" font-size="12" fill="#55647C" font-weight="600">操作</text>
+<rect x="300" y="276" width="758" height="65" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="313" y="306" font-size="13" fill="#152238" font-weight="400">E-014-01</text>
+<text x="457.02" y="306" font-size="13" fill="#152238" font-weight="400">U1001向U3001转账 $100.00</text>
+<text x="805.7" y="306" font-size="13" fill="#152238" font-weight="400">直接追溯</text>
+<a href="08-资金流向.svg">
+<text x="957.3000000000001" y="306" font-size="13" fill="#5530EE" font-weight="400">查看 →</text>
+</a>
+<rect x="300" y="341" width="758" height="65" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="313" y="371" font-size="13" fill="#152238" font-weight="400">E-014-02</text>
+<text x="457.02" y="371" font-size="13" fill="#152238" font-weight="400">U3001在公会内消费 $100.00</text>
+<text x="805.7" y="371" font-size="13" fill="#152238" font-weight="400">订单关联</text>
+<a href="06-消费与收入.svg">
+<text x="957.3000000000001" y="371" font-size="13" fill="#5530EE" font-weight="400">查看 →</text>
+</a>
+<rect x="300" y="406" width="758" height="65" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="313" y="436" font-size="13" fill="#152238" font-weight="400">E-014-03</text>
+<text x="457.02" y="436" font-size="13" fill="#152238" font-weight="400">收入后的兑换及后续流向</text>
+<text x="805.7" y="436" font-size="13" fill="#152238" font-weight="400">需人工核验</text>
+<a href="08-资金流向.svg">
+<text x="957.3000000000001" y="436" font-size="13" fill="#5530EE" font-weight="400">查看 →</text>
+</a>
+<text x="303" y="507" font-size="16" fill="#152238" font-weight="600">审核关注点</text>
+<text x="303" y="552" font-size="14" fill="#152238" font-weight="400">1. 关联账号由谁控制，转账是否为正常用途？</text>
+<text x="303" y="590" font-size="14" fill="#152238" font-weight="400">2. 获奖金额是否与本公会消费存在可追溯关系？</text>
+<text x="303" y="628" font-size="14" fill="#152238" font-weight="400">3. 资金是否实际回到起点，是否存在推定链路？</text>
+<rect x="301" y="688" width="756" height="40" rx="6" fill="#FFF9EB" stroke="none"/>
+<text x="317" y="714" font-size="13" fill="#B77912" font-weight="400">当前证据不能直接替代人工结论。</text>
+<a href="18-重评版本对比.svg">
+<text x="303" y="786" font-size="14" fill="#5530EE" font-weight="400">查看历史评估及重评差异 →</text>
+</a>
+<rect x="1096" y="155" width="536" height="727" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="1118" y="187" font-size="17" fill="#152238" font-weight="600">提交人工结论</text>
+<text x="1118" y="211" font-size="12" fill="#718096" font-weight="400">需具备独立审核权限</text>
+<text x="1120" y="240" font-size="12" fill="#718096" font-weight="400">审核结论 *</text>
+<rect x="1120" y="250" width="488" height="36" rx="6" fill="white" stroke="#E3E8F1"/>
+<text x="1132" y="274" font-size="13" fill="#152238" font-weight="400">确认高风险</text>
+<text x="1586" y="274" font-size="14" fill="#718096" font-weight="400">⌄</text>
+<text x="1120" y="315" font-size="12" fill="#718096" font-weight="400">可选：排除套利 / 确认高风险 / 已确认套利</text>
+<text x="1120" y="367" font-size="13" fill="#718096" font-weight="400">审核说明 *</text>
+<rect x="1120" y="385" width="488" height="154" rx="6" fill="white" stroke="#E3E8F1"/>
+<text x="1136" y="417" font-size="14" fill="#152238" font-weight="400">已核对转账和消费记录，仍需核验后续</text>
+<text x="1136" y="444" font-size="14" fill="#152238" font-weight="400">资金回流。现阶段确认高风险，保留</text>
+<text x="1136" y="471" font-size="14" fill="#152238" font-weight="400">人工复核依据。</text>
+<text x="1120" y="586" font-size="13" fill="#152238" font-weight="400">引用证据：E-014-01、E-014-02</text>
+<text x="1120" y="625" font-size="13" fill="#5530EE" font-weight="400">附件：业务核验记录.pdf（示例）</text>
+<text x="1120" y="690" font-size="12" fill="#718096" font-weight="400">提交仅记录结论；具体处置由运营自行处理。</text>
+<rect x="1120" y="785" width="142" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="1134" y="810" font-size="14" fill="#5530EE" font-weight="500">保存草稿</text>
+<rect x="1278" y="785" width="330" height="38" rx="6" fill="#5530EE" stroke="#5530EE"/>
+<text x="1292" y="810" font-size="14" fill="white" font-weight="500">提交审核结论</text>
+</svg>
