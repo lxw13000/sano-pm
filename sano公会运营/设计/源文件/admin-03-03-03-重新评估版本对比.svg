@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941"><style>text{font-family:"Microsoft YaHei","Segoe UI",sans-serif}a{cursor:pointer}</style>
+<rect x="0" y="0" width="1672" height="941" rx="0" fill="#F7F8FC" stroke="none"/>
+<rect x="0" y="0" width="240" height="941" rx="0" fill="#061A33" stroke="none"/>
+<text x="28" y="43" font-size="27" fill="white" font-weight="700">SANO</text>
+<text x="28" y="68" font-size="12" fill="#9DAFC7" font-weight="400">公会运营管理</text>
+<a href="admin-01-01-01-公会经营总览.svg">
+<circle cx="35" cy="118" r="3" fill="#7690AB"/>
+<text x="51" y="123" font-size="15" fill="#C2CFDF" font-weight="400">经营总览</text>
+</a>
+<a href="admin-02-01-01-公会列表.svg">
+<circle cx="35" cy="176" r="3" fill="#7690AB"/>
+<text x="51" y="181" font-size="15" fill="#C2CFDF" font-weight="400">公会管理</text>
+</a>
+<a href="admin-03-02-01-正式周期评估记录.svg">
+<rect x="16" y="213" width="208" height="43" rx="7" fill="#5530EE" stroke="none"/>
+<circle cx="35" cy="234" r="3" fill="white"/>
+<text x="51" y="239" font-size="15" fill="white" font-weight="600">评估中心</text>
+</a>
+<a href="admin-04-01-01-风险审核列表.svg">
+<circle cx="35" cy="292" r="3" fill="#7690AB"/>
+<text x="51" y="297" font-size="15" fill="#C2CFDF" font-weight="400">风险审核</text>
+</a>
+<a href="admin-05-01-01-公会运营业绩.svg">
+<circle cx="35" cy="350" r="3" fill="#7690AB"/>
+<text x="51" y="355" font-size="15" fill="#C2CFDF" font-weight="400">运营与BD业绩</text>
+</a>
+<text x="27" y="790" font-size="11" fill="#8EA4BC" font-weight="400">当前权限</text>
+<text x="27" y="818" font-size="14" fill="white" font-weight="400">公会运营总监</text>
+<text x="27" y="887" font-size="12" fill="#8EA4BC" font-weight="400">SANO / 需求评审</text>
+<rect x="240" y="0" width="1432" height="54" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="280" y="34" font-size="13" fill="#718096" font-weight="400">公会运营  /  重新评估版本对比</text>
+<rect x="1324" y="13" width="100" height="26" rx="13" fill="#FFF7E6" stroke="none"/>
+<text x="1335" y="31" font-size="12" fill="#B77912" font-weight="500">原型示例数据</text>
+<text x="1480" y="34" font-size="12" fill="#718096" font-weight="400">UTC+8   ·   USD</text>
+<text x="280" y="101" font-size="27" fill="#152238" font-weight="650">重评版本对比</text>
+<text x="280" y="129" font-size="13" fill="#718096" font-weight="400">星河公会 G1024 · 同一截止日 2026-09-06 · 原因：关系补录</text>
+<line x1="280" y1="910" x2="1632" y2="910" stroke="#E3E8F1" />
+<text x="280" y="930" font-size="11" fill="#718096" font-weight="400">静态示例 · 金额USD · 评分非规则计算结果 · 跳转以目标页标注口径为准，生产下钻须保留评估上下文</text>
+<text x="1450" y="930" font-size="11" fill="#718096" font-weight="400">admin-03-03-03 · 评审稿</text>
+<rect x="280" y="154" width="1352" height="40" rx="6" fill="#F0ECFF" stroke="none"/>
+<text x="296" y="180" font-size="13" fill="#5530EE" font-weight="400">手动重评 V2 已完成。原正式主快照 V1 与人工结论保留，V2作为独立评估版本查看。</text>
+<rect x="280" y="212" width="660" height="198" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="302" y="244" font-size="17" fill="#152238" font-weight="600">原正式周评估 V1</text>
+<text x="302" y="268" font-size="12" fill="#718096" font-weight="400">生成于 09-07 08:30</text>
+<text x="305" y="311" font-size="28" fill="#152238" font-weight="600">经营 72     风险 76 / 高风险</text>
+<text x="305" y="368" font-size="14" fill="#718096" font-weight="400">审核进度：待审核 · 人工结论：暂无</text>
+<rect x="958" y="212" width="674" height="198" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="980" y="244" font-size="17" fill="#152238" font-weight="600">手动重新评估 V2</text>
+<text x="980" y="268" font-size="12" fill="#718096" font-weight="400">发起人 Nina · 生成于 09-09 11:20</text>
+<text x="980" y="311" font-size="28" fill="#5530EE" font-weight="600">经营 70     风险 79 / 高风险</text>
+<text x="980" y="368" font-size="14" fill="#718096" font-weight="400">系统结论更新；原审核与人工结论历史独立保留。</text>
+<rect x="280" y="428" width="1352" height="333" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="302" y="460" font-size="17" fill="#152238" font-weight="600">指标与证据差异</text>
+<text x="302" y="484" font-size="12" fill="#718096" font-weight="400">金额 USD · 展示变化原因</text>
+<rect x="300" y="505" width="1312" height="40" rx="5" fill="#F5F7FB" stroke="#E3E8F1"/>
+<text x="313" y="531" font-size="12" fill="#55647C" font-weight="600">变化项</text>
+<text x="732.84" y="531" font-size="12" fill="#55647C" font-weight="600">V1</text>
+<text x="1008.36" y="531" font-size="12" fill="#55647C" font-weight="600">V2</text>
+<text x="1283.88" y="531" font-size="12" fill="#55647C" font-weight="600">原因</text>
+<rect x="300" y="545" width="1312" height="46" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="313" y="575" font-size="13" fill="#152238" font-weight="400">独立用户消费 / 近30日</text>
+<text x="732.84" y="575" font-size="13" fill="#152238" font-weight="400">$20,000.00</text>
+<text x="1008.36" y="575" font-size="13" fill="#152238" font-weight="400">$18,000.00</text>
+<text x="1283.88" y="575" font-size="13" fill="#152238" font-weight="400">补录账号关联，消费重新分类</text>
+<rect x="300" y="591" width="1312" height="46" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="313" y="621" font-size="13" fill="#152238" font-weight="400">公会关联账号消费 / 近30日</text>
+<text x="732.84" y="621" font-size="13" fill="#152238" font-weight="400">$12,000.00</text>
+<text x="1008.36" y="621" font-size="13" fill="#152238" font-weight="400">$14,000.00</text>
+<text x="1283.88" y="621" font-size="13" fill="#152238" font-weight="400">同一金额由独立用户转入关联账号</text>
+<rect x="300" y="637" width="1312" height="46" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="313" y="667" font-size="13" fill="#152238" font-weight="400">关联账号奖励归属 / 近30日</text>
+<text x="732.84" y="667" font-size="13" fill="#152238" font-weight="400">$400.00</text>
+<text x="1008.36" y="667" font-size="13" fill="#152238" font-weight="400">$500.00</text>
+<text x="1283.88" y="667" font-size="13" fill="#152238" font-weight="400">新增可追溯奖励分配</text>
+<rect x="300" y="683" width="1312" height="46" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="313" y="713" font-size="13" fill="#152238" font-weight="400">证据记录</text>
+<text x="732.84" y="713" font-size="13" fill="#152238" font-weight="400">E-014-01 / 02</text>
+<text x="1008.36" y="713" font-size="13" fill="#152238" font-weight="400">新增 E-014-04</text>
+<text x="1283.88" y="713" font-size="13" fill="#152238" font-weight="400">人工核验资料补录</text>
+<text x="303" y="806" font-size="14" fill="#718096" font-weight="400">直属总消费仍为 $50,000.00；分类调整不改变原始交易金额。评分变化为展示示例。</text>
+<a href="admin-02-08-01-套利风险与证据.svg">
+<rect x="303" y="845" width="180" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="317" y="870" font-size="14" fill="#5530EE" font-weight="500">查看新增证据</text>
+</a>
+<a href="admin-04-01-02-风险审核详情.svg">
+<rect x="500" y="845" width="180" height="38" rx="6" fill="#5530EE" stroke="#5530EE"/>
+<text x="514" y="870" font-size="14" fill="white" font-weight="500">进入人工复核</text>
+</a>
+</svg>

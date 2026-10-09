@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941"><style>text{font-family:"Microsoft YaHei","Segoe UI",sans-serif}a{cursor:pointer}</style>
+<rect x="0" y="0" width="1672" height="941" rx="0" fill="#F7F8FC" stroke="none"/>
+<rect x="0" y="0" width="240" height="941" rx="0" fill="#061A33" stroke="none"/>
+<text x="28" y="43" font-size="27" fill="white" font-weight="700">SANO</text>
+<text x="28" y="68" font-size="12" fill="#9DAFC7" font-weight="400">公会运营管理</text>
+<a href="admin-01-01-01-公会经营总览.svg">
+<circle cx="35" cy="118" r="3" fill="#7690AB"/>
+<text x="51" y="123" font-size="15" fill="#C2CFDF" font-weight="400">经营总览</text>
+</a>
+<a href="admin-02-01-01-公会列表.svg">
+<circle cx="35" cy="176" r="3" fill="#7690AB"/>
+<text x="51" y="181" font-size="15" fill="#C2CFDF" font-weight="400">公会管理</text>
+</a>
+<a href="admin-03-02-01-正式周期评估记录.svg">
+<rect x="16" y="213" width="208" height="43" rx="7" fill="#5530EE" stroke="none"/>
+<circle cx="35" cy="234" r="3" fill="white"/>
+<text x="51" y="239" font-size="15" fill="white" font-weight="600">评估中心</text>
+</a>
+<a href="admin-04-01-01-风险审核列表.svg">
+<circle cx="35" cy="292" r="3" fill="#7690AB"/>
+<text x="51" y="297" font-size="15" fill="#C2CFDF" font-weight="400">风险审核</text>
+</a>
+<a href="admin-05-01-01-公会运营业绩.svg">
+<circle cx="35" cy="350" r="3" fill="#7690AB"/>
+<text x="51" y="355" font-size="15" fill="#C2CFDF" font-weight="400">运营与BD业绩</text>
+</a>
+<text x="27" y="790" font-size="11" fill="#8EA4BC" font-weight="400">当前权限</text>
+<text x="27" y="818" font-size="14" fill="white" font-weight="400">公会运营总监</text>
+<text x="27" y="887" font-size="12" fill="#8EA4BC" font-weight="400">SANO / 需求评审</text>
+<rect x="240" y="0" width="1432" height="54" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="280" y="34" font-size="13" fill="#718096" font-weight="400">公会运营  /  公会画像数据积累与异常状态示例</text>
+<rect x="1324" y="13" width="100" height="26" rx="13" fill="#FFF7E6" stroke="none"/>
+<text x="1335" y="31" font-size="12" fill="#B77912" font-weight="500">原型示例数据</text>
+<text x="1480" y="34" font-size="12" fill="#718096" font-weight="400">UTC+8   ·   USD</text>
+<text x="280" y="101" font-size="27" fill="#152238" font-weight="650">画像状态示例集合</text>
+<text x="280" y="129" font-size="13" fill="#718096" font-weight="400">三个公会用于展示不同状态，不是同一公会的三个板块或独立业务页面</text>
+<line x1="280" y1="910" x2="1632" y2="910" stroke="#E3E8F1" />
+<text x="280" y="930" font-size="11" fill="#718096" font-weight="400">静态示例 · 金额USD · 评分非规则计算结果 · 跳转以目标页标注口径为准，生产下钻须保留评估上下文</text>
+<text x="1450" y="930" font-size="11" fill="#718096" font-weight="400">admin-02-02-04 · 评审稿</text>
+<rect x="280" y="158" width="660" height="330" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="302" y="190" font-size="17" fill="#152238" font-weight="600">新叶公会 G4102</text>
+<text x="302" y="214" font-size="12" fill="#718096" font-weight="400">可用完整数据4天</text>
+<rect x="305" y="235" width="87" height="26" rx="13" fill="#FFF7E6" stroke="none"/>
+<text x="316" y="253" font-size="12" fill="#B77912" font-weight="500">数据积累中</text>
+<text x="305" y="316" font-size="28" fill="#152238" font-weight="600">经营指数  --       风险指数  --</text>
+<text x="305" y="364" font-size="15" fill="#152238" font-weight="400">已有数据可查看，暂不输出正式综合结论。</text>
+<text x="305" y="401" font-size="13" fill="#718096" font-weight="400">注册日期 09-03 · 本次截止 09-06</text>
+<rect x="305" y="434" width="176" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="319" y="459" font-size="14" fill="#5530EE" font-weight="500">查看已到齐数据</text>
+<rect x="958" y="158" width="674" height="330" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="980" y="190" font-size="17" fill="#152238" font-weight="600">新芽公会 G4103</text>
+<text x="980" y="214" font-size="12" fill="#718096" font-weight="400">可用完整数据18天</text>
+<rect x="980" y="235" width="87" height="26" rx="13" fill="#F0ECFF" stroke="none"/>
+<text x="991" y="253" font-size="12" fill="#5530EE" font-weight="500">观察期评估</text>
+<text x="980" y="316" font-size="27" fill="#5530EE" font-weight="600">经营表现观察中</text>
+<text x="980" y="364" font-size="15" fill="#152238" font-weight="400">显示实际数据覆盖，不进入正式经营等级排名。</text>
+<text x="980" y="401" font-size="13" fill="#718096" font-weight="400">经营与风险窗口均注明实际可用18天。</text>
+<rect x="980" y="434" width="180" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="994" y="459" font-size="14" fill="#5530EE" font-weight="500">查看观察结果</text>
+<rect x="280" y="506" width="1352" height="375" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="302" y="538" font-size="17" fill="#152238" font-weight="600">海风公会 G4190 · 等待数据</text>
+<text x="302" y="562" font-size="12" fill="#718096" font-weight="400">正式评估截止09-06保持不变，任务就绪后重试</text>
+<rect x="305" y="587" width="113" height="26" rx="13" fill="#FFF7E6" stroke="none"/>
+<text x="316" y="605" font-size="12" fill="#B77912" font-weight="500">本次结果未生成</text>
+<text x="305" y="660" font-size="17" fill="#152238" font-weight="400">缺失：09-06钱包数据未完成。不能将缺失解释为0或无风险。</text>
+<text x="305" y="705" font-size="15" fill="#718096" font-weight="400">上次成功结果：W35 / 截止08-30 / 高风险。仅作为历史参考展示。</text>
+<text x="305" y="750" font-size="14" fill="#718096" font-weight="400">若重试失败，显示失败原因与最近尝试时间；具备权限的人员可发起重新评估。</text>
+<rect x="305" y="811" width="172" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="319" y="836" font-size="14" fill="#5530EE" font-weight="500">查看历史快照</text>
+<rect x="493" y="811" width="180" height="38" rx="6" fill="#5530EE" stroke="#5530EE"/>
+<text x="507" y="836" font-size="14" fill="white" font-weight="500">手动重新评估</text>
+</svg>

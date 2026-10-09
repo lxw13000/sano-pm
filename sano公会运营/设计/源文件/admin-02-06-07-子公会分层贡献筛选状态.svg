@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941"><style>text{font-family:"Microsoft YaHei","Segoe UI",sans-serif}a{cursor:pointer}</style>
+<rect x="0" y="0" width="1672" height="941" rx="0" fill="#F7F8FC" stroke="none"/>
+<rect x="0" y="0" width="240" height="941" rx="0" fill="#061A33" stroke="none"/>
+<text x="28" y="43" font-size="27" fill="white" font-weight="700">SANO</text>
+<text x="28" y="68" font-size="12" fill="#9DAFC7" font-weight="400">公会运营管理</text>
+<a href="admin-01-01-01-公会经营总览.svg">
+<circle cx="35" cy="118" r="3" fill="#7690AB"/>
+<text x="51" y="123" font-size="15" fill="#C2CFDF" font-weight="400">经营总览</text>
+</a>
+<a href="admin-02-01-01-公会列表.svg">
+<rect x="16" y="155" width="208" height="43" rx="7" fill="#5530EE" stroke="none"/>
+<circle cx="35" cy="176" r="3" fill="white"/>
+<text x="51" y="181" font-size="15" fill="white" font-weight="600">公会管理</text>
+</a>
+<a href="admin-03-02-01-正式周期评估记录.svg">
+<circle cx="35" cy="234" r="3" fill="#7690AB"/>
+<text x="51" y="239" font-size="15" fill="#C2CFDF" font-weight="400">评估中心</text>
+</a>
+<a href="admin-04-01-01-风险审核列表.svg">
+<circle cx="35" cy="292" r="3" fill="#7690AB"/>
+<text x="51" y="297" font-size="15" fill="#C2CFDF" font-weight="400">风险审核</text>
+</a>
+<a href="admin-05-01-01-公会运营业绩.svg">
+<circle cx="35" cy="350" r="3" fill="#7690AB"/>
+<text x="51" y="355" font-size="15" fill="#C2CFDF" font-weight="400">运营与BD业绩</text>
+</a>
+<text x="27" y="790" font-size="11" fill="#8EA4BC" font-weight="400">当前权限</text>
+<text x="27" y="818" font-size="14" fill="white" font-weight="400">公会运营总监</text>
+<text x="27" y="887" font-size="12" fill="#8EA4BC" font-weight="400">SANO / 需求评审</text>
+<rect x="240" y="0" width="1432" height="54" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="280" y="34" font-size="13" fill="#718096" font-weight="400">公会运营  /  子公会分层贡献筛选状态</text>
+<rect x="1324" y="13" width="100" height="26" rx="13" fill="#FFF7E6" stroke="none"/>
+<text x="1335" y="31" font-size="12" fill="#B77912" font-weight="500">原型示例数据</text>
+<text x="1480" y="34" font-size="12" fill="#718096" font-weight="400">UTC+8   ·   USD</text>
+<text x="280" y="101" font-size="27" fill="#152238" font-weight="650">星河公会  /  G1024</text>
+<text x="280" y="129" font-size="13" fill="#718096" font-weight="400">公会长 Maya · U1001    ｜    泰国    ｜    运营 Nina    ｜    BD Leo    ｜    分层比例 20%</text>
+<line x1="280" y1="910" x2="1632" y2="910" stroke="#E3E8F1" />
+<text x="280" y="930" font-size="11" fill="#718096" font-weight="400">静态示例 · 金额USD · 评分非规则计算结果 · 跳转以目标页标注口径为准，生产下钻须保留评估上下文</text>
+<text x="1450" y="930" font-size="11" fill="#718096" font-weight="400">admin-02-06-07 · 评审稿</text>
+<a href="admin-03-03-02-手动重新评估弹窗.svg">
+<rect x="1440" y="76" width="192" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="1454" y="101" font-size="14" fill="#5530EE" font-weight="500">手动重新评估</text>
+</a>
+<rect x="280" y="154" width="1352" height="64" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="298" y="181" font-size="15" fill="#152238" font-weight="600">正式周评估 · W36 / V1</text>
+<text x="298" y="202" font-size="12" fill="#718096" font-weight="400">截止 2026-09-06 23:59:59   ·   每周一生成</text>
+<a href="admin-02-02-03-公会画像全树统计状态.svg">
+<rect x="803" y="167" width="148" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="817" y="192" font-size="14" fill="#5530EE" font-weight="500">直属口径 ▾</text>
+</a>
+<text x="980" y="181" font-size="12" fill="#718096" font-weight="400">经营：08-08 至 09-06（30天）</text>
+<text x="980" y="202" font-size="12" fill="#718096" font-weight="400">风险：07-09 至 09-06（60天）</text>
+<a href="admin-02-02-02-公会画像历史评估状态.svg">
+<text x="1425" y="192" font-size="14" fill="#5530EE" font-weight="400">查看历史版本 →</text>
+</a>
+<rect x="280" y="234" width="1352" height="48" rx="9" fill="white" stroke="#E3E8F1"/>
+<a href="admin-02-02-01-公会画像概览.svg">
+<text x="300" y="263" font-size="14" fill="#718096" font-weight="400">画像概览</text>
+</a>
+<a href="admin-02-03-01-组织与归属.svg">
+<text x="487.42857142857144" y="263" font-size="14" fill="#718096" font-weight="400">组织与归属</text>
+</a>
+<a href="admin-02-04-01-主播经营.svg">
+<text x="674.8571428571429" y="263" font-size="14" fill="#718096" font-weight="400">主播经营</text>
+</a>
+<a href="admin-02-05-01-消费与收入总览.svg">
+<text x="862.2857142857143" y="263" font-size="14" fill="#718096" font-weight="400">消费与收入总览</text>
+</a>
+<a href="admin-02-06-01-分层与奖励.svg">
+<text x="1049.7142857142858" y="263" font-size="14" fill="#5530EE" font-weight="600">分层与奖励</text>
+<rect x="1049.7142857142858" y="279" width="70" height="3" rx="1" fill="#5530EE" stroke="none"/>
+</a>
+<a href="admin-02-07-01-资金流向.svg">
+<text x="1237.142857142857" y="263" font-size="14" fill="#718096" font-weight="400">资金流向</text>
+</a>
+<a href="admin-02-08-01-套利风险与证据.svg">
+<text x="1424.5714285714287" y="263" font-size="14" fill="#718096" font-weight="400">套利风险与证据</text>
+</a>
+<rect x="280" y="300" width="1352" height="40" rx="6" fill="#F0ECFF" stroke="none"/>
+<text x="296" y="326" font-size="13" fill="#5530EE" font-weight="400">当前公会星河G1024 · 选中直属子公会辰星G1101 · 同正式W36/V1近30日；子自身收益与贡献给星河分开</text>
+<rect x="280" y="356" width="326" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="300" y="383" font-size="13" fill="#718096" font-weight="400">子直属主播直接收入</text>
+<text x="300" y="421" font-size="28" fill="#152238" font-weight="600">$4,000.00</text>
+<text x="300" y="446" font-size="12" fill="#718096" font-weight="400">贡献给星河的计算基数</text>
+<rect x="622" y="356" width="326" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="642" y="383" font-size="13" fill="#718096" font-weight="400">子公会自身分层</text>
+<text x="642" y="421" font-size="28" fill="#152238" font-weight="600">$760.00</text>
+<text x="642" y="446" font-size="12" fill="#718096" font-weight="400">直属主播640 + 下级贡献120</text>
+<rect x="964" y="356" width="326" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="984" y="383" font-size="13" fill="#718096" font-weight="400">子公会自身奖励</text>
+<text x="984" y="421" font-size="28" fill="#152238" font-weight="600">$100.00</text>
+<text x="984" y="446" font-size="12" fill="#718096" font-weight="400">公会周榜100 / 其余0</text>
+<rect x="1306" y="356" width="326" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="1326" y="383" font-size="13" fill="#718096" font-weight="400">子公会自身收益</text>
+<text x="1326" y="421" font-size="28" fill="#152238" font-weight="600">$860.00</text>
+<text x="1326" y="446" font-size="12" fill="#718096" font-weight="400">分层760 + 公会奖励100</text>
+<rect x="280" y="480" width="1352" height="172" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="302" y="512" font-size="17" fill="#152238" font-weight="600">辰星G1101贡献给星河G1024：$160.00</text>
+<text x="302" y="536" font-size="12" fill="#718096" font-weight="400">仅辰星直属主播的直接收入参与本笔上级差额，不包含任何奖励，也不以辰星自身收益为基数。</text>
+<rect x="300" y="548" width="1312" height="40" rx="5" fill="#F5F7FB" stroke="#E3E8F1"/>
+<text x="313" y="574" font-size="12" fill="#55647C" font-weight="600">主播直接收入基数</text>
+<text x="614.76" y="574" font-size="12" fill="#55647C" font-weight="600">星河比例</text>
+<text x="785.3199999999999" y="574" font-size="12" fill="#55647C" font-weight="600">辰星比例</text>
+<text x="955.8799999999999" y="574" font-size="12" fill="#55647C" font-weight="600">一层比例差</text>
+<text x="1152.6799999999998" y="574" font-size="12" fill="#55647C" font-weight="600">给星河的贡献</text>
+<text x="1349.4799999999998" y="574" font-size="12" fill="#55647C" font-weight="600">明细入口</text>
+<rect x="300" y="588" width="1312" height="42" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="313" y="618" font-size="13" fill="#152238" font-weight="400">$4,000.00</text>
+<text x="614.76" y="618" font-size="13" fill="#152238" font-weight="400">20%</text>
+<text x="785.3199999999999" y="618" font-size="13" fill="#152238" font-weight="400">16%</text>
+<text x="955.8799999999999" y="618" font-size="13" fill="#152238" font-weight="400">4%</text>
+<text x="1152.6799999999998" y="618" font-size="13" fill="#152238" font-weight="400">$160.00</text>
+<text x="1349.4799999999998" y="618" font-size="13" fill="#152238" font-weight="400">逐笔主播收入 / 分层</text>
+<rect x="280" y="670" width="1352" height="174" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="302" y="702" font-size="17" fill="#152238" font-weight="600">收益与贡献边界</text>
+<text x="302" y="726" font-size="12" fill="#718096" font-weight="400">辰星自身分层包含其直属主播贡献640、直属下级差额120；平台周榜奖励100单列。</text>
+<text x="304" y="758" font-size="15" fill="#152238" font-weight="400">辰星的下级贡献 $120 不再向星河进行二次分层；辰星公会奖励 $100 也不向星河分层。</text>
+<text x="304" y="800" font-size="14" fill="#718096" font-weight="400">例如孙子公会比例12%、主播收入$100：孙子公会得$12，辰星得$4，星河得$0。</text>
+<a href="admin-02-03-01-组织与归属.svg">
+<rect x="304" y="856" width="206" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="318" y="881" font-size="14" fill="#5530EE" font-weight="500">返回组织选中节点</text>
+</a>
+<a href="admin-02-06-08-直属子公会贡献汇总状态.svg">
+<rect x="530" y="856" width="240" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="544" y="881" font-size="14" fill="#5530EE" font-weight="500">返回直属子公会汇总</text>
+</a>
+</svg>

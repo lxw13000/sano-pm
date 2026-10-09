@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941"><style>text{font-family:"Microsoft YaHei","Segoe UI",sans-serif}a{cursor:pointer}</style>
+<rect x="0" y="0" width="1672" height="941" rx="0" fill="#F7F8FC" stroke="none"/>
+<rect x="0" y="0" width="240" height="941" rx="0" fill="#061A33" stroke="none"/>
+<text x="28" y="43" font-size="27" fill="white" font-weight="700">SANO</text>
+<text x="28" y="68" font-size="12" fill="#9DAFC7" font-weight="400">公会运营管理</text>
+<a href="admin-01-01-01-公会经营总览.svg">
+<circle cx="35" cy="118" r="3" fill="#7690AB"/>
+<text x="51" y="123" font-size="15" fill="#C2CFDF" font-weight="400">经营总览</text>
+</a>
+<a href="admin-02-01-01-公会列表.svg">
+<rect x="16" y="155" width="208" height="43" rx="7" fill="#5530EE" stroke="none"/>
+<circle cx="35" cy="176" r="3" fill="white"/>
+<text x="51" y="181" font-size="15" fill="white" font-weight="600">公会管理</text>
+</a>
+<a href="admin-03-02-01-正式周期评估记录.svg">
+<circle cx="35" cy="234" r="3" fill="#7690AB"/>
+<text x="51" y="239" font-size="15" fill="#C2CFDF" font-weight="400">评估中心</text>
+</a>
+<a href="admin-04-01-01-风险审核列表.svg">
+<circle cx="35" cy="292" r="3" fill="#7690AB"/>
+<text x="51" y="297" font-size="15" fill="#C2CFDF" font-weight="400">风险审核</text>
+</a>
+<a href="admin-05-01-01-公会运营业绩.svg">
+<circle cx="35" cy="350" r="3" fill="#7690AB"/>
+<text x="51" y="355" font-size="15" fill="#C2CFDF" font-weight="400">运营与BD业绩</text>
+</a>
+<text x="27" y="790" font-size="11" fill="#8EA4BC" font-weight="400">当前权限</text>
+<text x="27" y="818" font-size="14" fill="white" font-weight="400">公会运营总监</text>
+<text x="27" y="887" font-size="12" fill="#8EA4BC" font-weight="400">SANO / 需求评审</text>
+<rect x="240" y="0" width="1432" height="54" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="280" y="34" font-size="13" fill="#718096" font-weight="400">公会运营  /  套利风险与证据</text>
+<rect x="1324" y="13" width="100" height="26" rx="13" fill="#FFF7E6" stroke="none"/>
+<text x="1335" y="31" font-size="12" fill="#B77912" font-weight="500">原型示例数据</text>
+<text x="1480" y="34" font-size="12" fill="#718096" font-weight="400">UTC+8   ·   USD</text>
+<text x="280" y="101" font-size="27" fill="#152238" font-weight="650">星河公会  /  G1024</text>
+<text x="280" y="129" font-size="13" fill="#718096" font-weight="400">公会长 Maya · U1001    ｜    泰国    ｜    运营 Nina    ｜    BD Leo    ｜    分层比例 20%</text>
+<line x1="280" y1="910" x2="1632" y2="910" stroke="#E3E8F1" />
+<text x="280" y="930" font-size="11" fill="#718096" font-weight="400">静态示例 · 金额USD · 评分非规则计算结果 · 跳转以目标页标注口径为准，生产下钻须保留评估上下文</text>
+<text x="1450" y="930" font-size="11" fill="#718096" font-weight="400">admin-02-08-01 · 评审稿</text>
+<a href="admin-03-03-02-手动重新评估弹窗.svg">
+<rect x="1440" y="76" width="192" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="1454" y="101" font-size="14" fill="#5530EE" font-weight="500">手动重新评估</text>
+</a>
+<rect x="280" y="154" width="1352" height="64" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="298" y="181" font-size="15" fill="#152238" font-weight="600">正式周评估 · W36 / V1</text>
+<text x="298" y="202" font-size="12" fill="#718096" font-weight="400">截止 2026-09-06 23:59:59   ·   每周一生成</text>
+<a href="admin-02-02-03-公会画像全树统计状态.svg">
+<rect x="803" y="167" width="148" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="817" y="192" font-size="14" fill="#5530EE" font-weight="500">直属口径 ▾</text>
+</a>
+<text x="980" y="181" font-size="12" fill="#718096" font-weight="400">经营：08-08 至 09-06（30天）</text>
+<text x="980" y="202" font-size="12" fill="#718096" font-weight="400">风险：07-09 至 09-06（60天）</text>
+<a href="admin-02-02-02-公会画像历史评估状态.svg">
+<text x="1425" y="192" font-size="14" fill="#5530EE" font-weight="400">查看历史版本 →</text>
+</a>
+<rect x="280" y="234" width="1352" height="48" rx="9" fill="white" stroke="#E3E8F1"/>
+<a href="admin-02-02-01-公会画像概览.svg">
+<text x="300" y="263" font-size="14" fill="#718096" font-weight="400">画像概览</text>
+</a>
+<a href="admin-02-03-01-组织与归属.svg">
+<text x="487.42857142857144" y="263" font-size="14" fill="#718096" font-weight="400">组织与归属</text>
+</a>
+<a href="admin-02-04-01-主播经营.svg">
+<text x="674.8571428571429" y="263" font-size="14" fill="#718096" font-weight="400">主播经营</text>
+</a>
+<a href="admin-02-05-01-消费与收入总览.svg">
+<text x="862.2857142857143" y="263" font-size="14" fill="#718096" font-weight="400">消费与收入总览</text>
+</a>
+<a href="admin-02-06-01-分层与奖励.svg">
+<text x="1049.7142857142858" y="263" font-size="14" fill="#718096" font-weight="400">分层与奖励</text>
+</a>
+<a href="admin-02-07-01-资金流向.svg">
+<text x="1237.142857142857" y="263" font-size="14" fill="#718096" font-weight="400">资金流向</text>
+</a>
+<a href="admin-02-08-01-套利风险与证据.svg">
+<text x="1424.5714285714287" y="263" font-size="14" fill="#5530EE" font-weight="600">套利风险与证据</text>
+<rect x="1424.5714285714287" y="279" width="98" height="3" rx="1" fill="#5530EE" stroke="none"/>
+</a>
+<rect x="280" y="300" width="1352" height="112" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="302" y="332" font-size="17" fill="#152238" font-weight="600">系统结论：高风险 · 尚未确认套利</text>
+<text x="304" y="364" font-size="18" fill="#D64B59" font-weight="600">消费来源集中，并存在转账支持消费及获奖线索；实际资金回流仍待核验。</text>
+<text x="304" y="396" font-size="13" fill="#718096" font-weight="400">近60日 · 风险评分76（展示示例）· 审核进度：待审核 · 人工结论：暂无 · 不自动执行处置</text>
+<rect x="280" y="430" width="1352" height="244" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="302" y="462" font-size="17" fill="#152238" font-weight="600">风险依据 · 点击规则展开计算说明</text>
+<text x="302" y="486" font-size="12" fill="#718096" font-weight="400">引用原始消费/资金/奖励记录，不维护另一份业务全表。当前展开成员及关联消费分项。</text>
+<rect x="300" y="494" width="1312" height="40" rx="5" fill="#F5F7FB" stroke="#E3E8F1"/>
+<text x="313" y="520" font-size="12" fill="#55647C" font-weight="600">规则 / 实际指标</text>
+<text x="680.36" y="520" font-size="12" fill="#55647C" font-weight="600">为何需关注</text>
+<text x="1034.6" y="520" font-size="12" fill="#55647C" font-weight="600">涉及对象 / 证据</text>
+<text x="1375.72" y="520" font-size="12" fill="#55647C" font-weight="600">待核验 / 来源</text>
+<rect x="300" y="534" width="1312" height="45" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="313" y="564" font-size="13" fill="#152238" font-weight="400">R01/R03 · 成员及关联消费62%</text>
+<text x="680.36" y="564" font-size="13" fill="#152238" font-weight="400">消费来源集中于成员及关联账号</text>
+<text x="1034.6" y="564" font-size="13" fill="#152238" font-weight="400">10账号 / 订单与分类记录</text>
+<a href="admin-02-05-01-消费与收入总览.svg">
+<text x="1375.72" y="564" font-size="13" fill="#5530EE" font-weight="400">消费独立性待核验 →</text>
+</a>
+<rect x="300" y="579" width="1312" height="45" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="313" y="609" font-size="13" fill="#152238" font-weight="400">R04 · 转账支持消费 $100.00</text>
+<text x="680.36" y="609" font-size="13" fill="#152238" font-weight="400">转入资金随后用于成员主播消费</text>
+<text x="1034.6" y="609" font-size="13" fill="#152238" font-weight="400">3账号 / E-036-014直接订单链</text>
+<a href="admin-02-07-01-资金流向.svg">
+<text x="1375.72" y="609" font-size="13" fill="#5530EE" font-weight="400">实际回流尚未证实 →</text>
+</a>
+<rect x="300" y="624" width="1312" height="45" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="313" y="654" font-size="13" fill="#152238" font-weight="400">R09 · 关联奖励归属 $700.00</text>
+<text x="680.36" y="654" font-size="13" fill="#152238" font-weight="400">需核验获奖依据与资金支持关系</text>
+<text x="1034.6" y="654" font-size="13" fill="#152238" font-weight="400">4账号 / 奖励批次可追溯</text>
+<a href="admin-02-06-01-分层与奖励.svg">
+<text x="1375.72" y="654" font-size="13" fill="#5530EE" font-weight="400">奖励分配明细 →</text>
+</a>
+<rect x="280" y="692" width="1352" height="143" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="302" y="724" font-size="17" fill="#152238" font-weight="600">已展开：R01/R03 · 消费来源风险分项（试运行R1）</text>
+<text x="304" y="755" font-size="14" fill="#152238" font-weight="400">实际：成员34% / 关联28%；低/高阈值：成员10%/50%，关联5%/30%。</text>
+<text x="304" y="786" font-size="13" fill="#5530EE" font-weight="400">计算示例：25×[60%×S(34%,10%,50%)+40%×S(28%,5%,30%)] = 18.20 / 25分。</text>
+<text x="304" y="817" font-size="12" fill="#718096" font-weight="400">证据：订单直接追溯＋关联依据；待核验：关联控制与真实消费用途。其他分项同样展开，不推定已确认套利。</text>
+<a href="admin-04-01-02-风险审核详情.svg">
+<rect x="304" y="854" width="204" height="38" rx="6" fill="#5530EE" stroke="#5530EE"/>
+<text x="318" y="879" font-size="14" fill="white" font-weight="500">进入人工审核</text>
+</a>
+<a href="admin-03-03-03-重新评估版本对比.svg">
+<rect x="527" y="854" width="204" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="541" y="879" font-size="14" fill="#5530EE" font-weight="500">查看重评版本差异</text>
+</a>
+<text x="770" y="879" font-size="12" fill="#718096" font-weight="400">展示总分不由本原型计算；单项示例不能代替完整规则引擎。</text>
+</svg>

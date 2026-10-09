@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941"><style>text{font-family:"Microsoft YaHei","Segoe UI",sans-serif}a{cursor:pointer}</style>
+<rect x="0" y="0" width="1672" height="941" rx="0" fill="#F7F8FC" stroke="none"/>
+<rect x="0" y="0" width="240" height="941" rx="0" fill="#061A33" stroke="none"/>
+<text x="28" y="43" font-size="27" fill="white" font-weight="700">SANO</text>
+<text x="28" y="68" font-size="12" fill="#9DAFC7" font-weight="400">公会运营管理</text>
+<a href="admin-01-01-01-公会经营总览.svg">
+<circle cx="35" cy="118" r="3" fill="#7690AB"/>
+<text x="51" y="123" font-size="15" fill="#C2CFDF" font-weight="400">经营总览</text>
+</a>
+<a href="admin-02-01-01-公会列表.svg">
+<circle cx="35" cy="176" r="3" fill="#7690AB"/>
+<text x="51" y="181" font-size="15" fill="#C2CFDF" font-weight="400">公会管理</text>
+</a>
+<a href="admin-03-02-01-正式周期评估记录.svg">
+<circle cx="35" cy="234" r="3" fill="#7690AB"/>
+<text x="51" y="239" font-size="15" fill="#C2CFDF" font-weight="400">评估中心</text>
+</a>
+<a href="admin-04-01-01-风险审核列表.svg">
+<rect x="16" y="271" width="208" height="43" rx="7" fill="#5530EE" stroke="none"/>
+<circle cx="35" cy="292" r="3" fill="white"/>
+<text x="51" y="297" font-size="15" fill="white" font-weight="600">风险审核</text>
+</a>
+<a href="admin-05-01-01-公会运营业绩.svg">
+<circle cx="35" cy="350" r="3" fill="#7690AB"/>
+<text x="51" y="355" font-size="15" fill="#C2CFDF" font-weight="400">运营与BD业绩</text>
+</a>
+<text x="27" y="790" font-size="11" fill="#8EA4BC" font-weight="400">当前权限</text>
+<text x="27" y="818" font-size="14" fill="white" font-weight="400">公会运营总监</text>
+<text x="27" y="887" font-size="12" fill="#8EA4BC" font-weight="400">SANO / 需求评审</text>
+<rect x="240" y="0" width="1432" height="54" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="280" y="34" font-size="13" fill="#718096" font-weight="400">公会运营  /  风险审核列表</text>
+<rect x="1324" y="13" width="100" height="26" rx="13" fill="#FFF7E6" stroke="none"/>
+<text x="1335" y="31" font-size="12" fill="#B77912" font-weight="500">原型示例数据</text>
+<text x="1480" y="34" font-size="12" fill="#718096" font-weight="400">UTC+8   ·   USD</text>
+<text x="280" y="101" font-size="27" fill="#152238" font-weight="650">风险审核</text>
+<text x="280" y="129" font-size="13" fill="#718096" font-weight="400">查看系统结论及新增证据；审核只形成结论，处置由运营自行执行。</text>
+<line x1="280" y1="910" x2="1632" y2="910" stroke="#E3E8F1" />
+<text x="280" y="930" font-size="11" fill="#718096" font-weight="400">静态示例 · 金额USD · 评分非规则计算结果 · 跳转以目标页标注口径为准，生产下钻须保留评估上下文</text>
+<text x="1450" y="930" font-size="11" fill="#718096" font-weight="400">admin-04-01-01 · 评审稿</text>
+<rect x="280" y="156" width="326" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="300" y="183" font-size="13" fill="#718096" font-weight="400">待审核</text>
+<text x="300" y="221" font-size="28" fill="#152238" font-weight="600">8</text>
+<text x="300" y="246" font-size="12" fill="#718096" font-weight="400">首次高风险或新增证据</text>
+<rect x="622" y="156" width="326" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="642" y="183" font-size="13" fill="#718096" font-weight="400">审核中</text>
+<text x="642" y="221" font-size="28" fill="#152238" font-weight="600">4</text>
+<text x="642" y="246" font-size="12" fill="#718096" font-weight="400">已领取审核事项</text>
+<rect x="964" y="156" width="326" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="984" y="183" font-size="13" fill="#718096" font-weight="400">本周完成</text>
+<text x="984" y="221" font-size="28" fill="#152238" font-weight="600">12</text>
+<text x="984" y="246" font-size="12" fill="#718096" font-weight="400">保留审核人与依据</text>
+<rect x="1306" y="156" width="326" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="1326" y="183" font-size="13" fill="#718096" font-weight="400">新增证据</text>
+<text x="1326" y="221" font-size="28" fill="#152238" font-weight="600">3</text>
+<text x="1326" y="246" font-size="12" fill="#718096" font-weight="400">不重复创建相同事项</text>
+<text x="280" y="320" font-size="12" fill="#718096" font-weight="400">公会 / 事项ID</text>
+<rect x="280" y="330" width="255" height="36" rx="6" fill="white" stroke="#E3E8F1"/>
+<text x="292" y="354" font-size="13" fill="#152238" font-weight="400">输入公会或事项</text>
+<text x="513" y="354" font-size="14" fill="#718096" font-weight="400">⌄</text>
+<text x="557" y="320" font-size="12" fill="#718096" font-weight="400">审核进度</text>
+<rect x="557" y="330" width="205" height="36" rx="6" fill="white" stroke="#E3E8F1"/>
+<text x="569" y="354" font-size="13" fill="#152238" font-weight="400">待审核</text>
+<text x="740" y="354" font-size="14" fill="#718096" font-weight="400">⌄</text>
+<text x="784" y="320" font-size="12" fill="#718096" font-weight="400">人工结论</text>
+<rect x="784" y="330" width="230" height="36" rx="6" fill="white" stroke="#E3E8F1"/>
+<text x="796" y="354" font-size="13" fill="#152238" font-weight="400">全部</text>
+<text x="992" y="354" font-size="14" fill="#718096" font-weight="400">⌄</text>
+<text x="1036" y="320" font-size="12" fill="#718096" font-weight="400">来源评估 / 审核人</text>
+<rect x="1036" y="330" width="225" height="36" rx="6" fill="white" stroke="#E3E8F1"/>
+<text x="1048" y="354" font-size="13" fill="#152238" font-weight="400">全部</text>
+<text x="1239" y="354" font-size="14" fill="#718096" font-weight="400">⌄</text>
+<rect x="1470" y="330" width="162" height="38" rx="6" fill="#5530EE" stroke="#5530EE"/>
+<text x="1484" y="355" font-size="14" fill="white" font-weight="500">查询</text>
+<rect x="280" y="402" width="1352" height="40" rx="5" fill="#F5F7FB" stroke="#E3E8F1"/>
+<text x="293" y="428" font-size="12" fill="#55647C" font-weight="600">事项 / 公会</text>
+<text x="549.88" y="428" font-size="12" fill="#55647C" font-weight="600">来源 / 版本</text>
+<text x="779.72" y="428" font-size="12" fill="#55647C" font-weight="600">系统结论</text>
+<text x="914.9200000000001" y="428" font-size="12" fill="#55647C" font-weight="600">变化原因</text>
+<text x="1171.8000000000002" y="428" font-size="12" fill="#55647C" font-weight="600">审核进度</text>
+<text x="1307.0000000000002" y="428" font-size="12" fill="#55647C" font-weight="600">人工结论</text>
+<text x="1523.3200000000002" y="428" font-size="12" fill="#55647C" font-weight="600">操作</text>
+<rect x="280" y="442" width="1352" height="66" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="293" y="462" font-size="13" fill="#152238" font-weight="400">A-036-014</text>
+<text x="293" y="480" font-size="11" fill="#718096" font-weight="400">星河 G1024</text>
+<text x="549.88" y="472" font-size="13" fill="#152238" font-weight="400">正式W36 / V1</text>
+<text x="779.72" y="472" font-size="13" fill="#152238" font-weight="400">高风险</text>
+<text x="914.9200000000001" y="472" font-size="13" fill="#152238" font-weight="400">新关联转账证据</text>
+<text x="1171.8000000000002" y="472" font-size="13" fill="#152238" font-weight="400">待审核</text>
+<text x="1307.0000000000002" y="472" font-size="13" fill="#152238" font-weight="400">暂无</text>
+<a href="admin-04-01-02-风险审核详情.svg">
+<text x="1523.3200000000002" y="472" font-size="13" fill="#5530EE" font-weight="400">开始审核 →</text>
+</a>
+<rect x="280" y="508" width="1352" height="66" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="293" y="528" font-size="13" fill="#152238" font-weight="400">A-036-015</text>
+<text x="293" y="546" font-size="11" fill="#718096" font-weight="400">远航 G2088</text>
+<text x="549.88" y="538" font-size="13" fill="#152238" font-weight="400">日常09-08 / D1</text>
+<text x="779.72" y="538" font-size="13" fill="#152238" font-weight="400">疑似套利</text>
+<text x="914.9200000000001" y="538" font-size="13" fill="#152238" font-weight="400">风险等级上升</text>
+<text x="1171.8000000000002" y="538" font-size="13" fill="#152238" font-weight="400">审核中</text>
+<text x="1307.0000000000002" y="538" font-size="13" fill="#152238" font-weight="400">暂无</text>
+<text x="1523.3200000000002" y="538" font-size="13" fill="#152238" font-weight="400">继续审核</text>
+<rect x="280" y="574" width="1352" height="66" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="293" y="594" font-size="13" fill="#152238" font-weight="400">A-035-021</text>
+<text x="293" y="612" font-size="11" fill="#718096" font-weight="400">蓝湾 G1160</text>
+<text x="549.88" y="604" font-size="13" fill="#152238" font-weight="400">正式W35 / V1</text>
+<text x="779.72" y="604" font-size="13" fill="#152238" font-weight="400">高风险</text>
+<text x="914.9200000000001" y="604" font-size="13" fill="#152238" font-weight="400">历史事项</text>
+<text x="1171.8000000000002" y="604" font-size="13" fill="#152238" font-weight="400">完成</text>
+<text x="1307.0000000000002" y="604" font-size="13" fill="#152238" font-weight="400">排除套利</text>
+<text x="1523.3200000000002" y="604" font-size="13" fill="#152238" font-weight="400">查看记录</text>
+<rect x="280" y="640" width="1352" height="66" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="293" y="660" font-size="13" fill="#152238" font-weight="400">A-036-022</text>
+<text x="293" y="678" font-size="11" fill="#718096" font-weight="400">蓝湾 G1160</text>
+<text x="549.88" y="670" font-size="13" fill="#152238" font-weight="400">日常09-08 / D1</text>
+<text x="779.72" y="670" font-size="13" fill="#152238" font-weight="400">高风险</text>
+<text x="914.9200000000001" y="670" font-size="13" fill="#152238" font-weight="400">新增证据待复核</text>
+<text x="1171.8000000000002" y="670" font-size="13" fill="#152238" font-weight="400">待复核</text>
+<text x="1307.0000000000002" y="670" font-size="13" fill="#152238" font-weight="400">旧结论：排除套利</text>
+<text x="1523.3200000000002" y="670" font-size="13" fill="#152238" font-weight="400">查看差异</text>
+<text x="298" y="766" font-size="12" fill="#718096" font-weight="400">共24条审核事项</text>
+<text x="1400" y="766" font-size="13" fill="#718096" font-weight="400">‹    1    2    3    ›    20条 / 页</text>
+<rect x="280" y="810" width="1352" height="40" rx="6" fill="#F0ECFF" stroke="none"/>
+<text x="296" y="836" font-size="13" fill="#5530EE" font-weight="400">人工结论绑定版本、证据与时间；新证据触发待复核，历史“排除套利”不能屏蔽新风险。</text>
+</svg>
