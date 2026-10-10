@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941"><style>text{font-family:"Microsoft YaHei","Segoe UI",sans-serif}a{cursor:pointer}</style>
+<rect x="0" y="0" width="1672" height="941" rx="0" fill="#F7F8FC" stroke="none"/>
+<rect x="0" y="0" width="240" height="941" rx="0" fill="#061A33" stroke="none"/>
+<text x="28" y="43" font-size="27" fill="white" font-weight="700">SANO</text>
+<text x="28" y="68" font-size="12" fill="#9DAFC7" font-weight="400">公会运营管理</text>
+<a href="admin-01-01-02-我的经营工作台状态.svg">
+<circle cx="35" cy="118" r="3" fill="#7690AB"/>
+<text x="51" y="123" font-size="15" fill="#C2CFDF" font-weight="400">经营工作台</text>
+</a>
+<a href="admin-02-01-02-我的公会列表状态.svg">
+<rect x="16" y="155" width="208" height="43" rx="7" fill="#5530EE" stroke="none"/>
+<circle cx="35" cy="176" r="3" fill="white"/>
+<text x="51" y="181" font-size="15" fill="white" font-weight="600">我的公会</text>
+</a>
+<text x="27" y="790" font-size="11" fill="#8EA4BC" font-weight="400">当前权限</text>
+<text x="27" y="818" font-size="14" fill="white" font-weight="400">公会运营 Nina</text>
+<text x="27" y="887" font-size="12" fill="#8EA4BC" font-weight="400">SANO / 需求评审</text>
+<rect x="240" y="0" width="1432" height="54" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="280" y="34" font-size="13" fill="#718096" font-weight="400">公会运营  /  我的公会列表</text>
+<rect x="1324" y="13" width="100" height="26" rx="13" fill="#FFF7E6" stroke="none"/>
+<text x="1335" y="31" font-size="12" fill="#B77912" font-weight="500">原型示例数据</text>
+<text x="1480" y="34" font-size="12" fill="#718096" font-weight="400">UTC+8   ·   USD</text>
+<text x="280" y="101" font-size="27" fill="#152238" font-weight="650">我的公会</text>
+<text x="280" y="129" font-size="13" fill="#718096" font-weight="400">当前登录：运营 Nina · 仅我负责的18个公会 · 所有筛选、数量及下钻沿用该范围</text>
+<line x1="280" y1="910" x2="1632" y2="910" stroke="#E3E8F1" />
+<text x="280" y="930" font-size="11" fill="#718096" font-weight="400">静态示例 · 金额USD · 评分非规则计算结果 · 跳转以目标页标注口径为准，生产下钻须保留评估上下文</text>
+<text x="1450" y="930" font-size="11" fill="#718096" font-weight="400">admin-02-01-02 · 评审稿</text>
+<a href="admin-01-01-02-我的经营工作台状态.svg">
+<rect x="1440" y="76" width="192" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="1454" y="101" font-size="14" fill="#5530EE" font-weight="500">返回经营工作台</text>
+</a>
+<text x="280" y="161" font-size="12" fill="#718096" font-weight="400">公会名称 / ID / 公会长</text>
+<rect x="280" y="171" width="255" height="36" rx="6" fill="white" stroke="#E3E8F1"/>
+<text x="292" y="195" font-size="13" fill="#152238" font-weight="400">输入名称或ID</text>
+<text x="513" y="195" font-size="14" fill="#718096" font-weight="400">⌄</text>
+<text x="557" y="161" font-size="12" fill="#718096" font-weight="400">发展趋势</text>
+<rect x="557" y="171" width="190" height="36" rx="6" fill="white" stroke="#E3E8F1"/>
+<text x="569" y="195" font-size="13" fill="#152238" font-weight="400">全部</text>
+<text x="725" y="195" font-size="14" fill="#718096" font-weight="400">⌄</text>
+<text x="769" y="161" font-size="12" fill="#718096" font-weight="400">风险等级</text>
+<rect x="769" y="171" width="190" height="36" rx="6" fill="white" stroke="#E3E8F1"/>
+<text x="781" y="195" font-size="13" fill="#152238" font-weight="400">全部</text>
+<text x="937" y="195" font-size="14" fill="#718096" font-weight="400">⌄</text>
+<text x="981" y="161" font-size="12" fill="#718096" font-weight="400">国家 / 地区</text>
+<rect x="981" y="171" width="190" height="36" rx="6" fill="white" stroke="#E3E8F1"/>
+<text x="993" y="195" font-size="13" fill="#152238" font-weight="400">全部</text>
+<text x="1149" y="195" font-size="14" fill="#718096" font-weight="400">⌄</text>
+<text x="1193" y="161" font-size="12" fill="#718096" font-weight="400">责任范围（固定）</text>
+<rect x="1193" y="171" width="190" height="36" rx="6" fill="white" stroke="#E3E8F1"/>
+<text x="1205" y="195" font-size="13" fill="#152238" font-weight="400">我负责 / Nina</text>
+<text x="1361" y="195" font-size="14" fill="#718096" font-weight="400">⌄</text>
+<rect x="1410" y="171" width="100" height="38" rx="6" fill="#5530EE" stroke="#5530EE"/>
+<text x="1424" y="196" font-size="14" fill="white" font-weight="500">查询</text>
+<rect x="1524" y="171" width="108" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="1538" y="196" font-size="14" fill="#5530EE" font-weight="500">重置</text>
+<rect x="280" y="230" width="1352" height="40" rx="6" fill="#F0ECFF" stroke="none"/>
+<text x="296" y="256" font-size="13" fill="#5530EE" font-weight="400">我的18个公会 · 金额W36完整周 / 组织及身份截止09-06 · 性质30日 / 风险60日 · 正式W36；范围由服务端授权</text>
+<rect x="280" y="288" width="1352" height="40" rx="5" fill="#F5F7FB" stroke="#E3E8F1"/>
+<text x="293" y="314" font-size="12" fill="#55647C" font-weight="600">公会 / 公会长</text>
+<text x="522.84" y="314" font-size="12" fill="#55647C" font-weight="600">发展 / 经营性质</text>
+<text x="833.8000000000001" y="314" font-size="12" fill="#55647C" font-weight="600">主播 / 超级 / 优质</text>
+<text x="1023.0800000000002" y="314" font-size="12" fill="#55647C" font-weight="600">消费 / 公会收益</text>
+<text x="1266.44" y="314" font-size="12" fill="#55647C" font-weight="600">平台贡献</text>
+<text x="1428.68" y="314" font-size="12" fill="#55647C" font-weight="600">风险 / 人工结论</text>
+<text x="1577.4" y="314" font-size="12" fill="#55647C" font-weight="600">操作</text>
+<rect x="280" y="328" width="1352" height="74" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="293" y="358" font-size="13" fill="#152238" font-weight="400">星河 G1024 / Maya</text>
+<text x="522.84" y="348" font-size="13" fill="#152238" font-weight="400">正向发展</text>
+<text x="522.84" y="366" font-size="11" fill="#718096" font-weight="400">有真实经营，存在较高风险</text>
+<text x="833.8000000000001" y="348" font-size="13" fill="#152238" font-weight="400">24 / 2 / 4</text>
+<text x="833.8000000000001" y="366" font-size="11" fill="#718096" font-weight="400">有效开播20</text>
+<text x="1023.0800000000002" y="348" font-size="13" fill="#152238" font-weight="400">$35,000 / $1,200</text>
+<text x="1023.0800000000002" y="366" font-size="11" fill="#718096" font-weight="400">独立消费 +12%</text>
+<text x="1266.44" y="348" font-size="13" fill="#152238" font-weight="400">$1,600</text>
+<text x="1266.44" y="366" font-size="11" fill="#718096" font-weight="400">按消费金额计算</text>
+<text x="1428.68" y="348" font-size="13" fill="#152238" font-weight="400">高风险</text>
+<text x="1428.68" y="366" font-size="11" fill="#718096" font-weight="400">待审核 / 暂无</text>
+<a href="admin-02-02-05-运营者查看公会状态.svg">
+<text x="1577.4" y="358" font-size="13" fill="#5530EE" font-weight="400">详情 →</text>
+</a>
+<rect x="280" y="402" width="1352" height="74" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="293" y="432" font-size="13" fill="#152238" font-weight="400">银月 G2100 / Lila</text>
+<text x="522.84" y="422" font-size="13" fill="#152238" font-weight="400">正向发展</text>
+<text x="522.84" y="440" font-size="11" fill="#718096" font-weight="400">以真实经营为主</text>
+<text x="833.8000000000001" y="422" font-size="13" fill="#152238" font-weight="400">40 / 2 / 5</text>
+<text x="833.8000000000001" y="440" font-size="11" fill="#718096" font-weight="400">有效开播35</text>
+<text x="1023.0800000000002" y="422" font-size="13" fill="#152238" font-weight="400">$22,000 / $800</text>
+<text x="1023.0800000000002" y="440" font-size="11" fill="#718096" font-weight="400">独立消费 +18%</text>
+<text x="1266.44" y="422" font-size="13" fill="#152238" font-weight="400">$850</text>
+<text x="1266.44" y="440" font-size="11" fill="#718096" font-weight="400">按消费金额计算</text>
+<text x="1428.68" y="422" font-size="13" fill="#152238" font-weight="400">低</text>
+<text x="1428.68" y="440" font-size="11" fill="#718096" font-weight="400">未进入审核</text>
+<text x="1577.4" y="432" font-size="13" fill="#152238" font-weight="400">详情</text>
+<rect x="280" y="476" width="1352" height="74" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="293" y="506" font-size="13" fill="#152238" font-weight="400">晨风 G1103 / Ari</text>
+<text x="522.84" y="496" font-size="13" fill="#152238" font-weight="400">正向发展</text>
+<text x="522.84" y="514" font-size="11" fill="#718096" font-weight="400">以真实经营为主</text>
+<text x="833.8000000000001" y="496" font-size="13" fill="#152238" font-weight="400">31 / 1 / 4</text>
+<text x="833.8000000000001" y="514" font-size="11" fill="#718096" font-weight="400">有效开播27</text>
+<text x="1023.0800000000002" y="496" font-size="13" fill="#152238" font-weight="400">$18,000 / $650</text>
+<text x="1023.0800000000002" y="514" font-size="11" fill="#718096" font-weight="400">独立消费 +15%</text>
+<text x="1266.44" y="496" font-size="13" fill="#152238" font-weight="400">$600</text>
+<text x="1266.44" y="514" font-size="11" fill="#718096" font-weight="400">按消费金额计算</text>
+<text x="1428.68" y="496" font-size="13" fill="#152238" font-weight="400">低</text>
+<text x="1428.68" y="514" font-size="11" fill="#718096" font-weight="400">未进入审核</text>
+<text x="1577.4" y="506" font-size="13" fill="#152238" font-weight="400">详情</text>
+<rect x="280" y="550" width="1352" height="74" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="293" y="580" font-size="13" fill="#152238" font-weight="400">远航 G2088 / Ravi</text>
+<text x="522.84" y="570" font-size="13" fill="#152238" font-weight="400">经营回落</text>
+<text x="522.84" y="588" font-size="11" fill="#718096" font-weight="400">经营薄弱且疑似套利</text>
+<text x="833.8000000000001" y="570" font-size="13" fill="#152238" font-weight="400">18 / 0 / 1</text>
+<text x="833.8000000000001" y="588" font-size="11" fill="#718096" font-weight="400">有效开播4</text>
+<text x="1023.0800000000002" y="570" font-size="13" fill="#152238" font-weight="400">$6,000 / $200</text>
+<text x="1023.0800000000002" y="588" font-size="11" fill="#718096" font-weight="400">独立消费 −24%</text>
+<text x="1266.44" y="570" font-size="13" fill="#152238" font-weight="400">−$680</text>
+<text x="1266.44" y="588" font-size="11" fill="#718096" font-weight="400">查看奖励成本</text>
+<text x="1428.68" y="570" font-size="13" fill="#152238" font-weight="400">疑似套利</text>
+<text x="1428.68" y="588" font-size="11" fill="#718096" font-weight="400">审核中 / 暂无</text>
+<text x="1577.4" y="580" font-size="13" fill="#152238" font-weight="400">详情</text>
+<rect x="280" y="624" width="1352" height="74" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="293" y="654" font-size="13" fill="#152238" font-weight="400">桥光 G2189 / Mila</text>
+<text x="522.84" y="644" font-size="13" fill="#152238" font-weight="400">混合变动</text>
+<text x="522.84" y="662" font-size="11" fill="#718096" font-weight="400">经营薄弱，存在较高风险</text>
+<text x="833.8000000000001" y="644" font-size="13" fill="#152238" font-weight="400">16 / 0 / 1</text>
+<text x="833.8000000000001" y="662" font-size="11" fill="#718096" font-weight="400">有效开播5</text>
+<text x="1023.0800000000002" y="644" font-size="13" fill="#152238" font-weight="400">$3,600 / $120</text>
+<text x="1023.0800000000002" y="662" font-size="11" fill="#718096" font-weight="400">开播降，独立消费升</text>
+<text x="1266.44" y="644" font-size="13" fill="#152238" font-weight="400">−$320</text>
+<text x="1266.44" y="662" font-size="11" fill="#718096" font-weight="400">查看奖励成本</text>
+<text x="1428.68" y="644" font-size="13" fill="#152238" font-weight="400">高风险</text>
+<text x="1428.68" y="662" font-size="11" fill="#718096" font-weight="400">待审核 / 暂无</text>
+<text x="1577.4" y="654" font-size="13" fill="#152238" font-weight="400">详情</text>
+<rect x="280" y="698" width="1352" height="74" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="293" y="728" font-size="13" fill="#152238" font-weight="400">新芽 G4103 / June</text>
+<text x="522.84" y="718" font-size="13" fill="#152238" font-weight="400">待判</text>
+<text x="522.84" y="736" font-size="11" fill="#718096" font-weight="400">观察期评估</text>
+<text x="833.8000000000001" y="718" font-size="13" fill="#152238" font-weight="400">6 / 0 / 0</text>
+<text x="833.8000000000001" y="736" font-size="11" fill="#718096" font-weight="400">有效开播2</text>
+<text x="1023.0800000000002" y="718" font-size="13" fill="#152238" font-weight="400">$800 / $90</text>
+<text x="1023.0800000000002" y="736" font-size="11" fill="#718096" font-weight="400">无完整可比前周</text>
+<text x="1266.44" y="718" font-size="13" fill="#152238" font-weight="400">$30</text>
+<text x="1266.44" y="736" font-size="11" fill="#718096" font-weight="400">仅展示已有金额</text>
+<text x="1428.68" y="718" font-size="13" fill="#152238" font-weight="400">待评</text>
+<text x="1428.68" y="736" font-size="11" fill="#718096" font-weight="400">不推断低风险</text>
+<a href="admin-02-02-04-公会画像数据积累与异常状态示例.svg">
+<text x="1577.4" y="728" font-size="13" fill="#5530EE" font-weight="400">查看状态 →</text>
+</a>
+<text x="298" y="823" font-size="12" fill="#718096" font-weight="400">共18个我负责的公会</text>
+<text x="1400" y="823" font-size="13" fill="#718096" font-weight="400">‹    1    2    3    ›    20条 / 页</text>
+<rect x="280" y="851" width="1352" height="40" rx="6" fill="#F0ECFF" stroke="none"/>
+<text x="296" y="877" font-size="13" fill="#5530EE" font-weight="400">可展开：经营/风险依据、分层与奖励、身份结构、环比明细及责任归属。评分不作为默认阅读门槛。</text>
+</svg>

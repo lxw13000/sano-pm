@@ -35,7 +35,13 @@ const files=[
   "admin-02-06-05-奖励明细抽屉-公会与关联账号奖励",
   "admin-02-06-06-奖励明细抽屉-其他主播奖励",
   "admin-02-06-07-子公会分层贡献筛选状态",
-  "admin-02-06-08-直属子公会贡献汇总状态"
+  "admin-02-06-08-直属子公会贡献汇总状态",
+  "admin-01-01-02-我的经营工作台状态",
+  "admin-02-01-02-我的公会列表状态",
+  // Historical slots 30/31 are reserved; retired tab diagrams are archived, not generated.
+  "admin-01-01-03-公会收益Top10状态",
+  "admin-01-01-04-经营增长Top10状态",
+  "admin-02-02-05-运营者查看公会状态"
 ];
 // Stable business-level identifiers; numerical review order is not a route/module ID.
 Object.assign(names,{3:'组织与归属',5:'消费与收入总览',8:'套利风险与证据',9:'评估中心 · 正式周期评估',10:'历史画像 · W36 / V1',15:'评估中心 · 日常风险扫描',20:'评估中心 · 手动重评记录'});
@@ -45,7 +51,8 @@ names.push('超级主播奖励明细','优质主播奖励明细','主播等级�
 names.push('公会与关联账号奖励明细','其他主播奖励明细','子公会分层贡献筛选状态');
 Object.assign(names,{0:'公会经营总览',2:'公会画像概览',10:'公会画像历史评估状态',11:'手动重新评估弹窗',13:'风险审核详情',14:'公会运营业绩',16:'公会画像数据积累与异常状态示例',17:'重新评估版本对比',19:'公会画像全树统计状态'});
 for(let id=21;id<=25;id++)names[id]+='（分层与奖励页抽屉）';
-names.push('直属子公会贡献汇总状态');
+names.push('直属子公会贡献汇总状态','我的经营工作台','我的公会列表','公会收益Top10','经营增长Top10','运营者查看公会');
+names[0]='公会经营工作台';
 const pages=[];let b=[],links=[];
 const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 function rect(x,y,w,h,fill='white',r=9,stroke=C.line){b.push(`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${r}" fill="${fill}" stroke="${stroke}"/>`);}
@@ -65,20 +72,24 @@ function table(x,y,width,headers,rows,widths,targets={},rowH=49){
  headers.forEach((h,i)=>{text(cx+13,y+26,h,12,'#55647C',600);cx+=widthsPx[i];});
  rows.forEach((row,r)=>{const top=y+40+r*rowH;rect(x,top,width,rowH,'white',0);let cx=x;
   row.forEach((cell,i)=>{const lines=String(cell).split('\n');const headline=headers[i].includes('公会性质');const action=i===row.length-1&&/[→]/.test(String(cell));
-   link(i===row.length-1?targets[r]:undefined,()=>lines.forEach((v,j)=>{const color=j?C.muted:headline?(/暂不|积累/.test(v)?C.muted:/关注线索/.test(v)?C.amber:/套利|风险|线索/.test(v)?C.red:C.green):action?C.p:C.ink;text(cx+13,top+(lines.length>1?20:Math.min(30,rowH-8))+j*18,v,j?11:headline?14:13,color,headline&&!j?600:400);}));cx+=widthsPx[i];
+   link(i===row.length-1?targets[r]:undefined,()=>lines.forEach((v,j)=>{const color=j?C.muted:headline?(/暂不|积累/.test(v)?C.muted:/关注线索/.test(v)?C.amber:/套利|风险|线索/.test(v)?C.red:C.green):action?C.p:C.ink;text(cx+13,top+(lines.length>1?20:Math.min(30,rowH-8))+j*18,v,j?11:headline?14:rowH<25?12:13,color,headline&&!j?600:400);}));cx+=widthsPx[i];
   });
  });
 }
 function pager(y,count='共 24 条'){text(X+18,y+24,count,12,C.muted);text(1400,y+24,'‹    1    2    3    ›    20条 / 页',13,C.muted);}
-function shell(id,title,sub,nav='公会管理'){
+function shell(id,title,sub,nav='公会管理',viewer='公会运营总监'){
+ const mine=viewer==='公会运营 Nina';
  b=[];links=[];b.push(`<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><style>text{font-family:"Microsoft YaHei","Segoe UI",sans-serif}a{cursor:pointer}</style>`);rect(0,0,W,H,C.bg,0,'none');rect(0,0,240,H,C.nav,0,'none');text(28,43,'SANO',27,'white',700);text(28,68,'公会运营管理',12,'#9DAFC7');
- const menu=[['经营总览',0],['公会管理',1],['评估中心',9],['风险审核',12],['运营与BD业绩',14]];
+ const menu=mine?[['经营工作台',28],['我的公会',29]]:[['经营工作台',0],['公会管理',1],['评估中心',9],['风险审核',12],['运营与BD业绩',14]];
+ if(mine&&nav==='公会管理')nav='我的公会';
+ if(nav==='经营总览')nav='经营工作台';
  if(['正式周期评估','日常风险扫描'].includes(nav))nav='评估中心';
- menu.forEach(([s,t],i)=>{let y=123+i*58;link(t,()=>{if(s===nav)rect(16,y-26,208,43,C.p,7,'none');circle(35,y-5,3,s===nav?'white':'#7690AB');text(51,y,s,15,s===nav?'white':'#C2CFDF',s===nav?600:400);});});text(27,790,'当前权限',11,'#8EA4BC');text(27,818,'公会运营总监',14,'white');text(27,887,'SANO / 需求评审',12,'#8EA4BC');
+ menu.forEach(([s,t],i)=>{let y=123+i*58;link(t,()=>{if(s===nav)rect(16,y-26,208,43,C.p,7,'none');circle(35,y-5,3,s===nav?'white':'#7690AB');text(51,y,s,15,s===nav?'white':'#C2CFDF',s===nav?600:400);});});text(27,790,'当前权限',11,'#8EA4BC');text(27,818,viewer,14,'white');text(27,887,'SANO / 需求评审',12,'#8EA4BC');
  rect(240,0,1432,54,'white',0);text(X,34,'公会运营  /  '+names[id],13,C.muted);pill(1324,13,'原型示例数据','amber');text(1480,34,'UTC+8   ·   USD',12,C.muted);
  text(X,101,title,27,C.ink,650);text(X,129,sub,13,C.muted);line(X,910,1632,910);text(X,930,'静态示例 · 金额USD · 评分非规则计算结果 · 跳转以目标页标注口径为准，生产下钻须保留评估上下文',11,C.muted);text(1450,930,`${files[id].split('-').slice(0,4).join('-')} · 评审稿`,11,C.muted);
 }
-function profile(id,active){shell(id,'星河公会  /  G1024','公会长 Maya · U1001    ｜    泰国    ｜    运营 Nina    ｜    BD Leo    ｜    分层比例 20%');btn(1440,76,192,'手动重新评估',false,11);card(X,154,CW,64);text(X+18,181,id===10?'历史画像 · 正式周评估 W36 / V1':'正式周评估 · W36 / V1',15,C.ink,600);text(X+18,202,'截止 2026-09-06 23:59:59   ·   每周一生成',12,C.muted);btn(803,167,148,id===19?'全树口径 ▾':'直属口径 ▾',false,id===19?2:19);text(980,181,'经营：08-08 至 09-06（30天）',12,C.muted);text(980,202,'风险：07-09 至 09-06（60天）',12,C.muted);link(id===10?9:10,()=>text(1425,192,id===10?'返回评估中心 →':'查看历史版本 →',14,C.p));tabs(234,['画像概览','组织与归属','主播经营','消费与收入总览','分层与奖励','资金流向','套利风险与证据'],active,[id===19?19:id===10?10:2,3,4,5,6,7,8]);}
+function profile(id,active,viewer='公会运营总监'){shell(id,'星河公会  /  G1024','公会长 Maya · U1001    ｜    泰国    ｜    运营 Nina    ｜    BD Leo    ｜    分层比例 20%', '公会管理',viewer);
+ if(id===32)link(29,()=>text(1220,129,'我的18个公会 / 返回列表 →',13,C.p));btn(1440,76,192,'手动重新评估',false,11);card(X,154,CW,64);text(X+18,181,id===10?'历史画像 · 正式周评估 W36 / V1':'正式周评估 · W36 / V1',15,C.ink,600);text(X+18,202,'截止 2026-09-06 23:59:59   ·   每周一生成',12,C.muted);btn(803,167,148,id===19?'全树口径 ▾':'直属口径 ▾',false,id===19?2:19);text(980,181,'经营：08-08 至 09-06（30天）',12,C.muted);text(980,202,'风险：07-09 至 09-06（60天）',12,C.muted);link(id===10?9:10,()=>text(1425,192,id===10?'返回评估中心 →':'查看历史版本 →',14,C.p));tabs(234,['画像概览','组织与归属','主播经营','消费与收入总览','分层与奖励','资金流向','套利风险与证据'],active,[id===32?32:id===19?19:id===10?10:2,3,4,5,6,7,8]);}
 function portraitSummary(id){
  const tree=id===19;
  card(X,300,CW,166);pill(304,316,'公会性质', 'gray');text(304,380,tree?'有真实经营，但存在疑似套利行为':'有真实经营，但存在较高套利风险',29,tree?C.red:C.ink,650);
@@ -98,33 +109,116 @@ function portraitSummary(id){
  link(8,()=>text(980,710,'套利风险与证据 →',14,C.p));link(7,()=>text(1220,710,'资金流向 →',14,C.p));
  card(X,752,CW,132,id===10?'历史版本与变化':tree?'统计范围与结论边界':'结果版本与近期变化');
  text(304,817,id===10?'W36 / V1 · 09-07 08:30生成 · 规则示例R1 · 历史主快照保留，不被手动重评覆盖。':tree?'本页包含所有后代。直属口径为“有真实经营，但存在较高套利风险”，不能混用两种结论。':'正式结论截止09-06；09-08最新观察新增获奖证据，仍为高风险，不覆盖本页正式结论。',14,C.muted);
- link(id===19?3:17,()=>text(304,856,id===19?'按层查看组织与归属 →':'查看同截止日重评差异 →',14,C.p));link(id===19?2:15,()=>text(660,856,id===19?'切回直属画像 →':'到评估中心查看最新观察 →',14,C.p));
+ link(id===19?3:17,()=>text(304,856,id===19?'按层查看组织与归属 →':'查看同截止日重评差异 →',14,C.p));link(id===32?undefined:id===19?2:15,()=>text(660,856,id===32?'本范围评估记录（按授权开放）':id===19?'切回直属画像 →':'到评估中心查看最新观察 →',14,C.p));
 }
-function save(id){b.push('</svg>');const svg=b.join('\n');fs.writeFileSync(path.join(source,files[id]+'.svg'),svg,'utf8');pages.push({id,name:names[id],file:files[id],...([21,22,23,24,25].includes(id)?{kind:'drawer',parentId:6}:id===11?{kind:'modal',parentId:10}:id===10||id===19?{kind:'state',parentId:2,template:'portrait'}:id===16?{kind:'stateCollection',template:'portrait'}:[26,27].includes(id)?{kind:'state',parentId:6,template:'commission'}:{kind:'page'}),links:[...new Set(links)]});}
+function save(id){b.push('</svg>');const svg=b.join('\n');fs.writeFileSync(path.join(source,files[id]+'.svg'),svg,'utf8');pages.push({id,name:names[id],file:files[id],...([21,22,23,24,25].includes(id)?{kind:'drawer',parentId:6}:id===11?{kind:'modal',parentId:10}:id===10||id===19?{kind:'state',parentId:2,template:'portrait'}:id===16?{kind:'stateCollection',template:'portrait'}:[26,27].includes(id)?{kind:'state',parentId:6,template:'commission'}:id===28?{kind:'state',parentId:0,template:'workbench'}:id===29?{kind:'state',parentId:1,template:'guildList'}:id===32?{kind:'state',parentId:2,template:'portrait'}:{kind:'page'}),links:[...new Set(links)]});}
 function bars(x,y,w,vals,labels,max=100,col=C.p){vals.forEach((v,i)=>{let yy=y+i*42;text(x,yy+17,labels[i],13,C.muted);rect(x+132,yy+3,w-218,16,'#F0F2F7',5,'none');rect(x+132,yy+3,(w-218)*v/max,16,col,5,'none');text(x+w-72,yy+17,String(v)+(max===100?'%':''),13,C.ink,500);});}
 function trend(x,y,w,h,vals,labels,col=C.p,max=100,suffix=''){for(let i=0;i<4;i++){let yy=y+h-i*h/3;line(x+40,yy,x+w-10,yy,C.line,'4 4');text(x,yy+4,String(Math.round(max*i/3))+suffix,11,C.muted);}const pts=vals.map((v,i)=>[x+50+i*(w-75)/(vals.length-1),y+h-v/max*h]);b.push(`<polyline points="${pts.map(p=>p.join(',')).join(' ')}" fill="none" stroke="${col}" stroke-width="3"/>`);pts.forEach(([a,c],i)=>{circle(a,c,4,col);text(a-16,y+h+25,labels[i],11,C.muted);});}
 
-// 01 / Dashboard
-shell(0,'经营总览','上周完整自然周  2026-08-31 — 2026-09-06  ·  截止上周日，不含本周一数据','经营总览');
-field(X,160,230,'统计周期','上周完整自然周');field(532,160,200,'国家 / 地区','全部');field(754,160,220,'运营负责人','全部');field(996,160,220,'BD负责人','全部');btn(1450,170,182,'查看周评估',true,9);
-kpis(232,[['以真实经营为主','68','风险低/关注 · 详情查看依据',C.green],['存在中/高风险','19','未达疑似套利 · 经营另行判断',C.amber],['疑似套利公会','5','系统提示 · 待人工定性',C.red],['低活跃 / 暂不判定','24 / 4','合计120个公会']]);
-card(X,358,CW,316,'优先看公会性质，再看关键依据','正式评估 W36 · 经营近30日 / 风险近60日 · 实际数值与证据可下钻');
-table(300,432,1312,['公会','公会性质＋一句话结论','关键依据（注明窗口）','操作'],[['星河公会 G1024','有真实经营，但存在较高套利风险\n持续开播，但成员及关联消费依赖明显','30日：20名有效主播 / 620h\n60日：成员及关联消费62%，回流待核验','画像 →'],['远航公会 G2088','经营薄弱且疑似套利\n开播薄弱，关联消费及奖励线索需核验','30日：4名有效主播 / 18名绑定\n60日：关联消费84%，已命中风险证据','审核 →']],[.17,.38,.35,.10],{0:2,1:12},83);
-card(X,692,824,192,'平台经营规模 · 辅助信息');text(304,769,'有效主播 1,284    消费 $682,400.00',21,C.ink,600);text(304,813,'平台贡献净收益 $24,186.40 · 按消费金额口径计算',15,C.muted);text(304,853,'本卡金额按上方完整自然周统计，与画像30 / 60日窗口区分。',12,C.muted);
-card(1120,692,512,192,'运营待办');text(1144,769,'W36直属：12个高风险 · 含5个疑似套利',18,C.red,600);text(1144,813,'同批次120个公会；审核进度、人工结论单列。',13,C.muted);link(12,()=>text(1144,853,'进入风险审核 →',14,C.p));save(0);
-
-// 02 / guild list
-shell(1,'公会列表','以正式周评估查看经营表现与风险；全部金额 USD。');btn(1440,76,192,'正式周期评估',true,9);
-field(X,160,255,'公会名称 / ID / 公会长','输入名称或ID');field(557,160,190,'国家 / 地区','全部');field(769,160,190,'经营类型','全部');field(981,160,190,'风险等级','全部');field(1193,160,190,'负责人 / BD','全部');btn(1410,170,100,'查询',true);btn(1524,170,108,'重置');
-note(228,'正式周评估 W36 · 直属 · 截止09-06 · 经营30日/风险60日 · 可显式切换最新观察；审核进度、人工结论分开筛选');
-table(X,288,CW,['公会 / 公会长','公会性质＋一句话结论','关键依据','辅助指数 / 审核进度','操作'],[
- ['星河公会 · G1024\nMaya · 泰国','有真实经营，但存在较高套利风险\n持续开播，但消费依赖成员及关联账号','30日：有效主播20/24，独立消费40%\n60日：成员及关联消费62%，回流待核验','经营72 / 风险76\n待审核 · 暂无人工结论','查看 →'],
- ['晨光公会 · G1086\nAnna · 泰国','以真实经营为主\n独立消费支撑，主播持续开播','30日：有效主播30/32，独立消费82%\n60日：未发现明显套利证据','经营86 / 风险18\n未进入审核 · 暂无人工结论','查看 →'],
- ['远航公会 · G2088\nRavi · 印度','经营薄弱且疑似套利\n经营弱，关联消费及奖励线索集中','30日：有效主播4/18\n60日：关联消费84%，风险证据待复核','经营38 / 风险88\n审核中 · 暂无人工结论','查看 →'],
- ['海蓝公会 · G3120\nLina · 越南','有真实经营，存在需关注线索\n经营持续，少量异常线索待核验','30日：有效主播12/15\n60日：关注级线索，未确认套利','经营68 / 风险26\n未进入审核 · 暂无人工结论','查看 →'],
- ['桥光公会 · G2189\nMila · 越南','经营薄弱，存在较高套利风险\n未达到疑似套利，仍须核验异常消费','30日：有效主播5/16\n60日：风险76，尚未证明资金回流','经营38 / 风险76\n待审核 · 暂无人工结论','查看'],
- ['新叶公会 · G4102\nJune · 泰国','暂不判定公会性质\n处于数据积累阶段','实际覆盖4天\n仅展示已获得事实，不推断无风险','经营-- / 风险--\n数据积累中','查看 →']
-],[.17,.32,.29,.15,.07],{0:2,5:16},65);pager(753,'共120个公会');note(821,'默认直属口径。金额、规模、分层及奖励在对应详情页展开；本列表优先支持识别性质与判断依据。');save(1);
+// Role-scoped operating workbench. Fixture periods are deliberate, not today's data.
+const rankedGuilds=[
+ ['晨光 G1086',3200,6800,'4 / 10',24,'正向发展','低',''],
+ ['蓝湾 G1160',2600,5200,'3 / 8',20,'正向发展','关注',''],
+ ['星河 G1024',1200,1600,'2 / 4',12,'正向发展','高','详情 →'],
+ ['海蓝 G3120',2200,2400,'2 / 6',10,'平稳','关注',''],
+ ['银月 G2100',800,850,'2 / 5',18,'正向发展','低',''],
+ ['晨风 G1103',650,600,'1 / 4',15,'正向发展','低',''],
+ ['月光 G1102',300,380,'1 / 3',8,'平稳','低',''],
+ ['青山 G2200',960,820,'1 / 3',14,'正向发展','中',''],
+ ['远山 G3100',820,610,'1 / 2',6,'平稳','低',''],
+ ['星芒 G1201',220,260,'1 / 2',5,'正向发展','关注',''],
+ ['春芽 G4108',160,400,'0 / 1',4,'正向发展','低',''],
+ ['柳岸 G4110',140,330,'0 / 1',3,'平稳','低',''],
+ ['清风 G4112',130,280,'0 / 1',2,'平稳','低',''],
+ ['青禾 G4114',120,250,'0 / 1',1,'平稳','低',''],
+ ['新芽 G4103',90,30,'0 / 0',0,'待判','待评','']
+];
+const usd=n=>'$'+n.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+function workbench(id,mine=false){
+ const viewer=mine?'公会运营 Nina':'公会运营总监',list=mine?29:1;
+ shell(id,mine?'我的公会经营工作台':'公会经营工作台',mine?'当前登录：运营 Nina · 只展示我负责的18个公会，不含其他运营数据':'当前登录：管理者 · 全部授权公会 · 先看整体，再定位具体公会','经营工作台',viewer);
+ card(X,154,CW,63);
+ text(300,179,mine?'数据范围：我的公会（18个）':'数据范围：全部授权公会（120个）',14,C.p,600);
+ text(300,202,'经营：W36 08-31至09-06 · 对比W35 · 组织/身份截至09-06 · 风险：正式W36 / 60日',12,C.muted);
+ btn(1056,165,168,'周期：完整周 ▾');btn(1238,165,162,'国家：全部 ▾');
+ btn(1418,165,194,mine?'查看我的公会 →':'查看公会列表 →',true,list);
+ kpis(232,mine?[
+ ['我的公会','18','已评16 / 待评2'],['正向发展','7','回落4 / 其他5 / 待判2',C.green],['高风险公会','3','其中疑似套利1个',C.red],
+ ['有效开播主播','226','公会主播280人'],['超级主播','18','仅我负责公会 · 截止日身份'],['优质主播','56','仅我负责公会 · 截止日身份']
+ ]:[
+ ['公会总数','120','已评116 / 待评4'],['正向发展','44','回落18 / 其他50 / 待判8',C.green],['高风险公会','12','其中疑似套利5个',C.red],
+ ['有效开播主播','1,284','公会主播1,640人'],['平台超级主播','110','公会内96 / 未归属14'],['平台优质主播','320','公会内284 / 未归属36']
+ ]);
+ kpis(354,mine?[
+ ['房间消费','$118,460.00','本人负责公会 · 底层订单去重'],['主播收益','$22,140.00','直接16,540 + 奖励5,600'],
+ ['公会自身收益','$4,260.00','分层3,260 + 公会奖励1,000'],['平台贡献净收益','$4,126.20','按消费金额计算',C.green],['平台奖励成本','$7,786.86','含关联账号归属1,186.86']
+ ]:[
+ ['房间消费','$682,400.00','普通 / 幸运 / 游戏消费'],['主播收益','$124,980.00','直接89,410 + 奖励35,570'],
+ ['公会自身收益','$22,520.00','分层15,020 + 公会奖励7,500'],['平台贡献净收益','$24,186.40','按消费金额计算',C.green],['平台奖励成本','$44,270.00','含关联账号归属1,200']
+ ]);
+ card(X,478,438,90,'主播供给价值');
+ text(300,532,mine?'超级18 / 优质56 / 常规206':'公会主播1,640 / 平台主播1,900',14);
+ text(300,554,mine?'280名主播中226人有效开播':'公会内超级96 / 优质284 / 常规1,260',12,C.muted);
+ card(734,478,438,90,'用户经营价值');
+ text(754,532,mine?'独立用户消费 $71,800 · 环比 +12%':'独立用户消费 $412,620 · 环比 +8.2%',14);
+ text(754,554,mine?'独立付费620人 · 独立复购32%':'独立付费5,300人 · 独立复购35%',12,C.muted);
+ card(1188,478,444,90,'经济价值与发展');
+ text(1208,532,mine?'平台净收益11,913.06 − 奖励7,786.86':'平台净收益68,456.40 − 奖励44,270',13);
+ text(1208,554,'发展看周变化；经营性质与风险单列，不互相替代',12,C.muted);
+ // Operating attention stays outside the pure indicator rankings.
+ link(list,()=>{rect(X,576,CW,28,C.pale,6,'none');text(300,595,mine?'经营关注：回落4个 · 平台贡献为负2个 · 数据未就绪2个':'经营关注：回落18个 · 平台贡献为负8个 · 数据未就绪4个',12,C.p);text(1460,595,'查看关注公会 →',12,C.p);});
+ let pool=rankedGuilds.map(r=>r.slice());
+ if(mine){const ids=['G1024','G2100','G1103','G1102','G1201','G4108','G4110','G4112','G4114','G4103'];pool=pool.filter(r=>ids.some(g=>r[0].includes(g)));}
+ const definitions=[
+  {key:'value',title:'平台贡献Top10',column:'净收益 (USD)',caption:'08-31至09-06 · 按消费净收益减奖励成本',index:2},
+  {key:'income',title:'公会收益Top10',column:'自身收益 (USD)',caption:'08-31至09-06 · 公会分层＋公会奖励',index:1},
+  {key:'growth',title:'经营增长Top10',column:'独立消费环比',caption:'08-31至09-06 对比 08-24至08-30',index:4}
+ ];
+ definitions.forEach((def,k)=>{
+  const xx=X+k*454,ww=k===2?444:438;
+  b.push('<g id="ranking-'+def.key+'" data-business-period="2026-W36">');
+  card(xx,614,ww,280,def.title);text(xx+20,663,def.caption,11,C.muted);
+  rect(xx+12,675,ww-24,27,'#F5F7FB',4);
+  text(xx+19,693,'排名',11,C.muted,600);text(xx+64,693,'公会',11,C.muted,600);
+  text(xx+234,693,def.column,11,C.muted,600);text(xx+378,693,'操作',11,C.muted,600);
+  let rows=pool.slice();
+  if(def.key==='growth')rows=rows.filter(r=>r[5]!=='待判');
+  rows.sort((u,v)=>v[def.index]-u[def.index]);rows=rows.slice(0,10);
+  rows.forEach((r,i)=>{
+   const yy=702+i*18.4;
+   rect(xx+12,yy,ww-24,18.4,'white',0);
+   text(xx+23,yy+13,i+1,12,C.muted);
+   text(xx+64,yy+13,r[0],12);
+   text(xx+234,yy+13,def.key==='growth'?'+'+r[4]+'%':usd(r[def.index]),12,C.ink,500);
+   // Each production action resolves the row's guild ID, never a generic example ID.
+   link(r[0].includes('G1024')?(mine?32:2):undefined,()=>text(xx+377,yy+13,'详情',12,C.p));
+  });
+  if(rows.length<10)text(xx+22,879,'可比公会仅'+rows.length+'家，按实际展示',11,C.muted);
+  b.push('</g>');
+ });
+ save(id);
+}
+function guildList(id,mine=false){
+ shell(id,mine?'我的公会':'公会经营列表',mine?'当前登录：运营 Nina · 仅我负责的18个公会 · 所有筛选、数量及下钻沿用该范围':'全部授权公会 · 先横向比较经营与价值，再进入具体公会', '公会管理',mine?'公会运营 Nina':'公会运营总监');
+ btn(1440,76,192,'返回经营工作台',false,mine?28:0);
+ field(X,161,255,'公会名称 / ID / 公会长','输入名称或ID');
+ field(557,161,190,'发展趋势','全部');field(769,161,190,'风险等级','全部');
+ field(981,161,190,'国家 / 地区','全部');field(1193,161,190,mine?'责任范围（固定）':'运营负责人',mine?'我负责 / Nina':'全部');btn(1410,171,100,'查询',true);btn(1524,171,108,'重置');
+ note(230,(mine?'我的18个公会':'全部120个授权公会')+' · 金额W36完整周 / 组织及身份截止09-06 · 性质30日 / 风险60日 · 正式W36；范围由服务端授权');
+ table(X,288,CW,['公会 / 公会长','发展 / 经营性质','主播 / 超级 / 优质','消费 / 公会收益','平台贡献','风险 / 人工结论','操作'],[
+ ['星河 G1024 / Maya','正向发展\n有真实经营，存在较高风险','24 / 2 / 4\n有效开播20','$35,000 / $1,200\n独立消费 +12%','$1,600\n按消费金额计算','高风险\n待审核 / 暂无','详情 →'],
+ ['银月 G2100 / Lila','正向发展\n以真实经营为主','40 / 2 / 5\n有效开播35','$22,000 / $800\n独立消费 +18%','$850\n按消费金额计算','低\n未进入审核','详情'],
+ ['晨风 G1103 / Ari','正向发展\n以真实经营为主','31 / 1 / 4\n有效开播27','$18,000 / $650\n独立消费 +15%','$600\n按消费金额计算','低\n未进入审核','详情'],
+ ['远航 G2088 / Ravi','经营回落\n经营薄弱且疑似套利','18 / 0 / 1\n有效开播4','$6,000 / $200\n独立消费 −24%','−$680\n查看奖励成本','疑似套利\n审核中 / 暂无','详情'],
+ ['桥光 G2189 / Mila','混合变动\n经营薄弱，存在较高风险','16 / 0 / 1\n有效开播5','$3,600 / $120\n开播降，独立消费升','−$320\n查看奖励成本','高风险\n待审核 / 暂无','详情'],
+ ['新芽 G4103 / June','待判\n观察期评估','6 / 0 / 0\n有效开播2','$800 / $90\n无完整可比前周','$30\n仅展示已有金额','待评\n不推断低风险','查看状态 →']
+ ],[.17,.23,.14,.18,.12,.11,.05],{0:mine?32:2,5:16},74);
+ pager(799,mine?'共18个我负责的公会':'共120个授权公会');
+ note(851,'可展开：经营/风险依据、分层与奖励、身份结构、环比明细及责任归属。评分不作为默认阅读门槛。');
+ save(id);
+}
+workbench(0);
+guildList(1);
 
 // 03 / overview
 profile(2,0);portraitSummary(2);save(2);
@@ -365,8 +459,13 @@ text(304,800,'例如孙子公会比例12%、主播收入$100：孙子公会得$1
 btn(304,856,206,'返回组织选中节点',false,3);btn(530,856,240,'返回直属子公会汇总',false,27);save(26);
 commissionPage(27,true);save(27);
 
+// Shared-layout role and ranking states, not additional production modules.
+workbench(28,true);
+guildList(29,true);
+profile(32,0,'公会运营 Nina');portraitSummary(32);save(32);
+
 pages.sort((a,b)=>a.id-b.id);for(const p of pages)for(const t of p.links)if(!pages.find(x=>x.id===t))throw Error('Missing target '+t);
 fs.writeFileSync(path.join(root,'生成工具','pages.json'),JSON.stringify(pages,null,2),'utf8');
-const html=`<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SANO 公会运营原型</title><style>body{margin:0;background:#f7f8fc;color:#152238;font:15px 'Microsoft YaHei',sans-serif}header{background:#061a33;color:white;padding:32px 5%}header p{color:#b9c7de}main{padding:28px 5%;display:grid;grid-template-columns:repeat(auto-fit,minmax(370px,1fr));gap:24px}article{background:white;border:1px solid #e3e8f1;border-radius:10px;overflow:hidden}img{width:100%;display:block}h2{font-size:17px;margin:18px}a{color:#5530ee;text-decoration:none}.links{margin:18px;font-size:13px}</style><header><h1>SANO 公会运营 · 页面原型</h1><p>18张桌面后台原型 · 1672 × 941 · PNG评审 / SVG源文件 · 全部为虚构示例数据</p><p>结论优先：公会性质＋一句话结论＋关键依据。5个主模块，7个公会详情标签；日常、正式、手动统一到评估中心。</p><p>页面与状态示例并非独立模块。历史画像复用同一布局；全部金额 USD，业务时区 UTC+8。静态链接仅演示标注的示例上下文。</p></header><main>${pages.map(p=>`${p.id===21?'<section style="grid-column:1/-1"><h2>分层与奖励 · 五种奖励明细抽屉状态</h2><p>以下奖励图为同页抽屉状态，非独立页面；五个Tab共享一个抽屉，关闭后回到分层与奖励。</p></section>':p.id===26?'<section style="grid-column:1/-1"><h2>分层与奖励 · 子公会贡献筛选状态</h2><p>由组织节点下钻，仍在父公会画像同一标签，保留子公会筛选；不是第六个奖励Tab。</p></section>':p.id===27?'<section style="grid-column:1/-1"><h2>分层与奖励 · 直属子公会贡献标签状态</h2><p>与直属主播标签共享顶部汇总和奖励区；子公会自身收益与给父公会的贡献分列。</p></section>':''}<article><a href="原型图/${p.file}.png"><img loading="lazy" src="原型图/${p.file}.png" alt="${p.name}"></a><h2>${p.name}</h2><p class="links">${p.file} · ${p.kind==='drawer'?'抽屉状态':p.kind==='stateCollection'?'状态示例集合':p.kind==='state'?'复用模板状态':p.kind==='modal'?'弹窗状态':'页面/标签'}</p><p class="links"><a href="原型图/${p.file}.png">打开PNG大图</a>　·　<a href="源文件/${p.file}.svg">打开SVG / 页面跳转</a></p></article>`).join('')}</main></html>`;
+const html=`<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SANO 公会运营原型</title><style>body{margin:0;background:#f7f8fc;color:#152238;font:15px 'Microsoft YaHei',sans-serif}header{background:#061a33;color:white;padding:32px 5%}header p{color:#b9c7de}main{padding:28px 5%;display:grid;grid-template-columns:repeat(auto-fit,minmax(370px,1fr));gap:24px}article{background:white;border:1px solid #e3e8f1;border-radius:10px;overflow:hidden}img{width:100%;display:block}h2{font-size:17px;margin:18px}a{color:#5530ee;text-decoration:none}.links{margin:18px;font-size:13px}</style><header><h1>SANO 公会运营 · 页面原型</h1><p>18张桌面后台原型 · 1672 × 941 · PNG评审 / SVG源文件 · 全部为虚构示例数据</p><p>先看自己的盘子 → 公会经营列表 → 单公会详情。工作台按角色授权展示收益、平台价值、主播结构、发展趋势及Top10；5个主模块、7个详情标签。</p><p>页面与状态示例并非独立模块。历史画像复用同一布局；全部金额 USD，业务时区 UTC+8。静态链接仅演示标注的示例上下文。</p></header><main>${pages.map(p=>`${p.id===28?'<section style="grid-column:1/-1"><h2>同一工作台 · 角色范围状态</h2><p>我的工作台、我的列表与运营者公会详情均复用现有模板，不增加主模块。生产按登录权限过滤所有数据，不能通过图库示例切换角色。</p></section>':p.id===21?'<section style="grid-column:1/-1"><h2>分层与奖励 · 五种奖励明细抽屉状态</h2><p>以下奖励图为同页抽屉状态，非独立页面；五个Tab共享一个抽屉，关闭后回到分层与奖励。</p></section>':p.id===26?'<section style="grid-column:1/-1"><h2>分层与奖励 · 子公会贡献筛选状态</h2><p>由组织节点下钻，仍在父公会画像同一标签，保留子公会筛选；不是第六个奖励Tab。</p></section>':p.id===27?'<section style="grid-column:1/-1"><h2>分层与奖励 · 直属子公会贡献标签状态</h2><p>与直属主播标签共享顶部汇总和奖励区；子公会自身收益与给父公会的贡献分列。</p></section>':''}<article><a href="原型图/${p.file}.png"><img loading="lazy" src="原型图/${p.file}.png" alt="${p.name}"></a><h2>${p.name}</h2><p class="links">${p.file} · ${p.kind==='drawer'?'抽屉状态':p.kind==='stateCollection'?'状态示例集合':p.kind==='state'?'复用模板状态':p.kind==='modal'?'弹窗状态':'页面/标签'}</p><p class="links"><a href="原型图/${p.file}.png">打开PNG大图</a>　·　<a href="源文件/${p.file}.svg">打开SVG / 页面跳转</a></p></article>`).join('')}</main></html>`;
 fs.writeFileSync(path.join(root,'原型导航.html'),html.replace('18张桌面后台原型',`${pages.length}张桌面后台原型`),'utf8');
 console.log(`Generated ${pages.length} SVG pages and a local gallery in ${root}`);

@@ -5,7 +5,7 @@
 <text x="28" y="68" font-size="12" fill="#9DAFC7" font-weight="400">公会运营管理</text>
 
 <circle cx="35" cy="118" r="3" fill="#7690AB"/>
-<text x="51" y="123" font-size="15" fill="#C2CFDF" font-weight="400">经营总览</text>
+<text x="51" y="123" font-size="15" fill="#C2CFDF" font-weight="400">经营工作台</text>
 
 
 <rect x="16" y="155" width="208" height="43" rx="7" fill="#5530EE" stroke="none"/>

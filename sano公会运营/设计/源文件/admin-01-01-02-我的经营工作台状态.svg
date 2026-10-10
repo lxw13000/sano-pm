@@ -1,0 +1,282 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941"><style>text{font-family:"Microsoft YaHei","Segoe UI",sans-serif}a{cursor:pointer}</style>
+<rect x="0" y="0" width="1672" height="941" rx="0" fill="#F7F8FC" stroke="none"/>
+<rect x="0" y="0" width="240" height="941" rx="0" fill="#061A33" stroke="none"/>
+<text x="28" y="43" font-size="27" fill="white" font-weight="700">SANO</text>
+<text x="28" y="68" font-size="12" fill="#9DAFC7" font-weight="400">公会运营管理</text>
+<a href="admin-01-01-02-我的经营工作台状态.svg">
+<rect x="16" y="97" width="208" height="43" rx="7" fill="#5530EE" stroke="none"/>
+<circle cx="35" cy="118" r="3" fill="white"/>
+<text x="51" y="123" font-size="15" fill="white" font-weight="600">经营工作台</text>
+</a>
+<a href="admin-02-01-02-我的公会列表状态.svg">
+<circle cx="35" cy="176" r="3" fill="#7690AB"/>
+<text x="51" y="181" font-size="15" fill="#C2CFDF" font-weight="400">我的公会</text>
+</a>
+<text x="27" y="790" font-size="11" fill="#8EA4BC" font-weight="400">当前权限</text>
+<text x="27" y="818" font-size="14" fill="white" font-weight="400">公会运营 Nina</text>
+<text x="27" y="887" font-size="12" fill="#8EA4BC" font-weight="400">SANO / 需求评审</text>
+<rect x="240" y="0" width="1432" height="54" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="280" y="34" font-size="13" fill="#718096" font-weight="400">公会运营  /  我的经营工作台</text>
+<rect x="1324" y="13" width="100" height="26" rx="13" fill="#FFF7E6" stroke="none"/>
+<text x="1335" y="31" font-size="12" fill="#B77912" font-weight="500">原型示例数据</text>
+<text x="1480" y="34" font-size="12" fill="#718096" font-weight="400">UTC+8   ·   USD</text>
+<text x="280" y="101" font-size="27" fill="#152238" font-weight="650">我的公会经营工作台</text>
+<text x="280" y="129" font-size="13" fill="#718096" font-weight="400">当前登录：运营 Nina · 只展示我负责的18个公会，不含其他运营数据</text>
+<line x1="280" y1="910" x2="1632" y2="910" stroke="#E3E8F1" />
+<text x="280" y="930" font-size="11" fill="#718096" font-weight="400">静态示例 · 金额USD · 评分非规则计算结果 · 跳转以目标页标注口径为准，生产下钻须保留评估上下文</text>
+<text x="1450" y="930" font-size="11" fill="#718096" font-weight="400">admin-01-01-02 · 评审稿</text>
+<rect x="280" y="154" width="1352" height="63" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="300" y="179" font-size="14" fill="#5530EE" font-weight="600">数据范围：我的公会（18个）</text>
+<text x="300" y="202" font-size="12" fill="#718096" font-weight="400">经营：W36 08-31至09-06 · 对比W35 · 组织/身份截至09-06 · 风险：正式W36 / 60日</text>
+<rect x="1056" y="165" width="168" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="1070" y="190" font-size="14" fill="#5530EE" font-weight="500">周期：完整周 ▾</text>
+<rect x="1238" y="165" width="162" height="38" rx="6" fill="white" stroke="#D6DCE7"/>
+<text x="1252" y="190" font-size="14" fill="#5530EE" font-weight="500">国家：全部 ▾</text>
+<a href="admin-02-01-02-我的公会列表状态.svg">
+<rect x="1418" y="165" width="194" height="38" rx="6" fill="#5530EE" stroke="#5530EE"/>
+<text x="1432" y="190" font-size="14" fill="white" font-weight="500">查看我的公会 →</text>
+</a>
+<rect x="280" y="232" width="212" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="300" y="259" font-size="13" fill="#718096" font-weight="400">我的公会</text>
+<text x="300" y="297" font-size="28" fill="#152238" font-weight="600">18</text>
+<text x="300" y="322" font-size="12" fill="#718096" font-weight="400">已评16 / 待评2</text>
+<rect x="508" y="232" width="212" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="528" y="259" font-size="13" fill="#718096" font-weight="400">正向发展</text>
+<text x="528" y="297" font-size="28" fill="#079875" font-weight="600">7</text>
+<text x="528" y="322" font-size="12" fill="#718096" font-weight="400">回落4 / 其他5 / 待判2</text>
+<rect x="736" y="232" width="212" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="756" y="259" font-size="13" fill="#718096" font-weight="400">高风险公会</text>
+<text x="756" y="297" font-size="28" fill="#D64B59" font-weight="600">3</text>
+<text x="756" y="322" font-size="12" fill="#718096" font-weight="400">其中疑似套利1个</text>
+<rect x="964" y="232" width="212" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="984" y="259" font-size="13" fill="#718096" font-weight="400">有效开播主播</text>
+<text x="984" y="297" font-size="28" fill="#152238" font-weight="600">226</text>
+<text x="984" y="322" font-size="12" fill="#718096" font-weight="400">公会主播280人</text>
+<rect x="1192" y="232" width="212" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="1212" y="259" font-size="13" fill="#718096" font-weight="400">超级主播</text>
+<text x="1212" y="297" font-size="28" fill="#152238" font-weight="600">18</text>
+<text x="1212" y="322" font-size="12" fill="#718096" font-weight="400">仅我负责公会 · 截止日身份</text>
+<rect x="1420" y="232" width="212" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="1440" y="259" font-size="13" fill="#718096" font-weight="400">优质主播</text>
+<text x="1440" y="297" font-size="28" fill="#152238" font-weight="600">56</text>
+<text x="1440" y="322" font-size="12" fill="#718096" font-weight="400">仅我负责公会 · 截止日身份</text>
+<rect x="280" y="354" width="257.6" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="300" y="381" font-size="13" fill="#718096" font-weight="400">房间消费</text>
+<text x="300" y="419" font-size="28" fill="#152238" font-weight="600">$118,460.00</text>
+<text x="300" y="444" font-size="12" fill="#718096" font-weight="400">本人负责公会 · 底层订单去重</text>
+<rect x="553.6" y="354" width="257.6" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="573.6" y="381" font-size="13" fill="#718096" font-weight="400">主播收益</text>
+<text x="573.6" y="419" font-size="28" fill="#152238" font-weight="600">$22,140.00</text>
+<text x="573.6" y="444" font-size="12" fill="#718096" font-weight="400">直接16,540 + 奖励5,600</text>
+<rect x="827.2" y="354" width="257.6" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="847.2" y="381" font-size="13" fill="#718096" font-weight="400">公会自身收益</text>
+<text x="847.2" y="419" font-size="28" fill="#152238" font-weight="600">$4,260.00</text>
+<text x="847.2" y="444" font-size="12" fill="#718096" font-weight="400">分层3,260 + 公会奖励1,000</text>
+<rect x="1100.8000000000002" y="354" width="257.6" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="1120.8000000000002" y="381" font-size="13" fill="#718096" font-weight="400">平台贡献净收益</text>
+<text x="1120.8000000000002" y="419" font-size="28" fill="#079875" font-weight="600">$4,126.20</text>
+<text x="1120.8000000000002" y="444" font-size="12" fill="#718096" font-weight="400">按消费金额计算</text>
+<rect x="1374.4" y="354" width="257.6" height="108" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="1394.4" y="381" font-size="13" fill="#718096" font-weight="400">平台奖励成本</text>
+<text x="1394.4" y="419" font-size="28" fill="#152238" font-weight="600">$7,786.86</text>
+<text x="1394.4" y="444" font-size="12" fill="#718096" font-weight="400">含关联账号归属1,186.86</text>
+<rect x="280" y="478" width="438" height="90" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="302" y="510" font-size="17" fill="#152238" font-weight="600">主播供给价值</text>
+<text x="300" y="532" font-size="14" fill="#152238" font-weight="400">超级18 / 优质56 / 常规206</text>
+<text x="300" y="554" font-size="12" fill="#718096" font-weight="400">280名主播中226人有效开播</text>
+<rect x="734" y="478" width="438" height="90" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="756" y="510" font-size="17" fill="#152238" font-weight="600">用户经营价值</text>
+<text x="754" y="532" font-size="14" fill="#152238" font-weight="400">独立用户消费 $71,800 · 环比 +12%</text>
+<text x="754" y="554" font-size="12" fill="#718096" font-weight="400">独立付费620人 · 独立复购32%</text>
+<rect x="1188" y="478" width="444" height="90" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="1210" y="510" font-size="17" fill="#152238" font-weight="600">经济价值与发展</text>
+<text x="1208" y="532" font-size="13" fill="#152238" font-weight="400">平台净收益11,913.06 − 奖励7,786.86</text>
+<text x="1208" y="554" font-size="12" fill="#718096" font-weight="400">发展看周变化；经营性质与风险单列，不互相替代</text>
+<a href="admin-02-01-02-我的公会列表状态.svg">
+<rect x="280" y="576" width="1352" height="28" rx="6" fill="#F0ECFF" stroke="none"/>
+<text x="300" y="595" font-size="12" fill="#5530EE" font-weight="400">经营关注：回落4个 · 平台贡献为负2个 · 数据未就绪2个</text>
+<text x="1460" y="595" font-size="12" fill="#5530EE" font-weight="400">查看关注公会 →</text>
+</a>
+<g id="ranking-value" data-business-period="2026-W36">
+<rect x="280" y="614" width="438" height="280" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="302" y="646" font-size="17" fill="#152238" font-weight="600">平台贡献Top10</text>
+<text x="300" y="663" font-size="11" fill="#718096" font-weight="400">08-31至09-06 · 按消费净收益减奖励成本</text>
+<rect x="292" y="675" width="414" height="27" rx="4" fill="#F5F7FB" stroke="#E3E8F1"/>
+<text x="299" y="693" font-size="11" fill="#718096" font-weight="600">排名</text>
+<text x="344" y="693" font-size="11" fill="#718096" font-weight="600">公会</text>
+<text x="514" y="693" font-size="11" fill="#718096" font-weight="600">净收益 (USD)</text>
+<text x="658" y="693" font-size="11" fill="#718096" font-weight="600">操作</text>
+<rect x="292" y="702" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="303" y="715" font-size="12" fill="#718096" font-weight="400">1</text>
+<text x="344" y="715" font-size="12" fill="#152238" font-weight="400">星河 G1024</text>
+<text x="514" y="715" font-size="12" fill="#152238" font-weight="500">$1,600.00</text>
+<a href="admin-02-02-05-运营者查看公会状态.svg">
+<text x="657" y="715" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+</a>
+<rect x="292" y="720.4" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="303" y="733.4" font-size="12" fill="#718096" font-weight="400">2</text>
+<text x="344" y="733.4" font-size="12" fill="#152238" font-weight="400">银月 G2100</text>
+<text x="514" y="733.4" font-size="12" fill="#152238" font-weight="500">$850.00</text>
+<text x="657" y="733.4" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="292" y="738.8" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="303" y="751.8" font-size="12" fill="#718096" font-weight="400">3</text>
+<text x="344" y="751.8" font-size="12" fill="#152238" font-weight="400">晨风 G1103</text>
+<text x="514" y="751.8" font-size="12" fill="#152238" font-weight="500">$600.00</text>
+<text x="657" y="751.8" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="292" y="757.2" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="303" y="770.2" font-size="12" fill="#718096" font-weight="400">4</text>
+<text x="344" y="770.2" font-size="12" fill="#152238" font-weight="400">春芽 G4108</text>
+<text x="514" y="770.2" font-size="12" fill="#152238" font-weight="500">$400.00</text>
+<text x="657" y="770.2" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="292" y="775.6" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="303" y="788.6" font-size="12" fill="#718096" font-weight="400">5</text>
+<text x="344" y="788.6" font-size="12" fill="#152238" font-weight="400">月光 G1102</text>
+<text x="514" y="788.6" font-size="12" fill="#152238" font-weight="500">$380.00</text>
+<text x="657" y="788.6" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="292" y="794" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="303" y="807" font-size="12" fill="#718096" font-weight="400">6</text>
+<text x="344" y="807" font-size="12" fill="#152238" font-weight="400">柳岸 G4110</text>
+<text x="514" y="807" font-size="12" fill="#152238" font-weight="500">$330.00</text>
+<text x="657" y="807" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="292" y="812.4" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="303" y="825.4" font-size="12" fill="#718096" font-weight="400">7</text>
+<text x="344" y="825.4" font-size="12" fill="#152238" font-weight="400">清风 G4112</text>
+<text x="514" y="825.4" font-size="12" fill="#152238" font-weight="500">$280.00</text>
+<text x="657" y="825.4" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="292" y="830.8" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="303" y="843.8" font-size="12" fill="#718096" font-weight="400">8</text>
+<text x="344" y="843.8" font-size="12" fill="#152238" font-weight="400">星芒 G1201</text>
+<text x="514" y="843.8" font-size="12" fill="#152238" font-weight="500">$260.00</text>
+<text x="657" y="843.8" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="292" y="849.2" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="303" y="862.2" font-size="12" fill="#718096" font-weight="400">9</text>
+<text x="344" y="862.2" font-size="12" fill="#152238" font-weight="400">青禾 G4114</text>
+<text x="514" y="862.2" font-size="12" fill="#152238" font-weight="500">$250.00</text>
+<text x="657" y="862.2" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="292" y="867.6" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="303" y="880.6" font-size="12" fill="#718096" font-weight="400">10</text>
+<text x="344" y="880.6" font-size="12" fill="#152238" font-weight="400">新芽 G4103</text>
+<text x="514" y="880.6" font-size="12" fill="#152238" font-weight="500">$30.00</text>
+<text x="657" y="880.6" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+</g>
+<g id="ranking-income" data-business-period="2026-W36">
+<rect x="734" y="614" width="438" height="280" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="756" y="646" font-size="17" fill="#152238" font-weight="600">公会收益Top10</text>
+<text x="754" y="663" font-size="11" fill="#718096" font-weight="400">08-31至09-06 · 公会分层＋公会奖励</text>
+<rect x="746" y="675" width="414" height="27" rx="4" fill="#F5F7FB" stroke="#E3E8F1"/>
+<text x="753" y="693" font-size="11" fill="#718096" font-weight="600">排名</text>
+<text x="798" y="693" font-size="11" fill="#718096" font-weight="600">公会</text>
+<text x="968" y="693" font-size="11" fill="#718096" font-weight="600">自身收益 (USD)</text>
+<text x="1112" y="693" font-size="11" fill="#718096" font-weight="600">操作</text>
+<rect x="746" y="702" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="757" y="715" font-size="12" fill="#718096" font-weight="400">1</text>
+<text x="798" y="715" font-size="12" fill="#152238" font-weight="400">星河 G1024</text>
+<text x="968" y="715" font-size="12" fill="#152238" font-weight="500">$1,200.00</text>
+<a href="admin-02-02-05-运营者查看公会状态.svg">
+<text x="1111" y="715" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+</a>
+<rect x="746" y="720.4" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="757" y="733.4" font-size="12" fill="#718096" font-weight="400">2</text>
+<text x="798" y="733.4" font-size="12" fill="#152238" font-weight="400">银月 G2100</text>
+<text x="968" y="733.4" font-size="12" fill="#152238" font-weight="500">$800.00</text>
+<text x="1111" y="733.4" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="746" y="738.8" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="757" y="751.8" font-size="12" fill="#718096" font-weight="400">3</text>
+<text x="798" y="751.8" font-size="12" fill="#152238" font-weight="400">晨风 G1103</text>
+<text x="968" y="751.8" font-size="12" fill="#152238" font-weight="500">$650.00</text>
+<text x="1111" y="751.8" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="746" y="757.2" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="757" y="770.2" font-size="12" fill="#718096" font-weight="400">4</text>
+<text x="798" y="770.2" font-size="12" fill="#152238" font-weight="400">月光 G1102</text>
+<text x="968" y="770.2" font-size="12" fill="#152238" font-weight="500">$300.00</text>
+<text x="1111" y="770.2" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="746" y="775.6" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="757" y="788.6" font-size="12" fill="#718096" font-weight="400">5</text>
+<text x="798" y="788.6" font-size="12" fill="#152238" font-weight="400">星芒 G1201</text>
+<text x="968" y="788.6" font-size="12" fill="#152238" font-weight="500">$220.00</text>
+<text x="1111" y="788.6" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="746" y="794" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="757" y="807" font-size="12" fill="#718096" font-weight="400">6</text>
+<text x="798" y="807" font-size="12" fill="#152238" font-weight="400">春芽 G4108</text>
+<text x="968" y="807" font-size="12" fill="#152238" font-weight="500">$160.00</text>
+<text x="1111" y="807" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="746" y="812.4" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="757" y="825.4" font-size="12" fill="#718096" font-weight="400">7</text>
+<text x="798" y="825.4" font-size="12" fill="#152238" font-weight="400">柳岸 G4110</text>
+<text x="968" y="825.4" font-size="12" fill="#152238" font-weight="500">$140.00</text>
+<text x="1111" y="825.4" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="746" y="830.8" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="757" y="843.8" font-size="12" fill="#718096" font-weight="400">8</text>
+<text x="798" y="843.8" font-size="12" fill="#152238" font-weight="400">清风 G4112</text>
+<text x="968" y="843.8" font-size="12" fill="#152238" font-weight="500">$130.00</text>
+<text x="1111" y="843.8" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="746" y="849.2" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="757" y="862.2" font-size="12" fill="#718096" font-weight="400">9</text>
+<text x="798" y="862.2" font-size="12" fill="#152238" font-weight="400">青禾 G4114</text>
+<text x="968" y="862.2" font-size="12" fill="#152238" font-weight="500">$120.00</text>
+<text x="1111" y="862.2" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="746" y="867.6" width="414" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="757" y="880.6" font-size="12" fill="#718096" font-weight="400">10</text>
+<text x="798" y="880.6" font-size="12" fill="#152238" font-weight="400">新芽 G4103</text>
+<text x="968" y="880.6" font-size="12" fill="#152238" font-weight="500">$90.00</text>
+<text x="1111" y="880.6" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+</g>
+<g id="ranking-growth" data-business-period="2026-W36">
+<rect x="1188" y="614" width="444" height="280" rx="9" fill="white" stroke="#E3E8F1"/>
+<text x="1210" y="646" font-size="17" fill="#152238" font-weight="600">经营增长Top10</text>
+<text x="1208" y="663" font-size="11" fill="#718096" font-weight="400">08-31至09-06 对比 08-24至08-30</text>
+<rect x="1200" y="675" width="420" height="27" rx="4" fill="#F5F7FB" stroke="#E3E8F1"/>
+<text x="1207" y="693" font-size="11" fill="#718096" font-weight="600">排名</text>
+<text x="1252" y="693" font-size="11" fill="#718096" font-weight="600">公会</text>
+<text x="1422" y="693" font-size="11" fill="#718096" font-weight="600">独立消费环比</text>
+<text x="1566" y="693" font-size="11" fill="#718096" font-weight="600">操作</text>
+<rect x="1200" y="702" width="420" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="1211" y="715" font-size="12" fill="#718096" font-weight="400">1</text>
+<text x="1252" y="715" font-size="12" fill="#152238" font-weight="400">银月 G2100</text>
+<text x="1422" y="715" font-size="12" fill="#152238" font-weight="500">+18%</text>
+<text x="1565" y="715" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="1200" y="720.4" width="420" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="1211" y="733.4" font-size="12" fill="#718096" font-weight="400">2</text>
+<text x="1252" y="733.4" font-size="12" fill="#152238" font-weight="400">晨风 G1103</text>
+<text x="1422" y="733.4" font-size="12" fill="#152238" font-weight="500">+15%</text>
+<text x="1565" y="733.4" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="1200" y="738.8" width="420" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="1211" y="751.8" font-size="12" fill="#718096" font-weight="400">3</text>
+<text x="1252" y="751.8" font-size="12" fill="#152238" font-weight="400">星河 G1024</text>
+<text x="1422" y="751.8" font-size="12" fill="#152238" font-weight="500">+12%</text>
+<a href="admin-02-02-05-运营者查看公会状态.svg">
+<text x="1565" y="751.8" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+</a>
+<rect x="1200" y="757.2" width="420" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="1211" y="770.2" font-size="12" fill="#718096" font-weight="400">4</text>
+<text x="1252" y="770.2" font-size="12" fill="#152238" font-weight="400">月光 G1102</text>
+<text x="1422" y="770.2" font-size="12" fill="#152238" font-weight="500">+8%</text>
+<text x="1565" y="770.2" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="1200" y="775.6" width="420" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="1211" y="788.6" font-size="12" fill="#718096" font-weight="400">5</text>
+<text x="1252" y="788.6" font-size="12" fill="#152238" font-weight="400">星芒 G1201</text>
+<text x="1422" y="788.6" font-size="12" fill="#152238" font-weight="500">+5%</text>
+<text x="1565" y="788.6" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="1200" y="794" width="420" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="1211" y="807" font-size="12" fill="#718096" font-weight="400">6</text>
+<text x="1252" y="807" font-size="12" fill="#152238" font-weight="400">春芽 G4108</text>
+<text x="1422" y="807" font-size="12" fill="#152238" font-weight="500">+4%</text>
+<text x="1565" y="807" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="1200" y="812.4" width="420" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="1211" y="825.4" font-size="12" fill="#718096" font-weight="400">7</text>
+<text x="1252" y="825.4" font-size="12" fill="#152238" font-weight="400">柳岸 G4110</text>
+<text x="1422" y="825.4" font-size="12" fill="#152238" font-weight="500">+3%</text>
+<text x="1565" y="825.4" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="1200" y="830.8" width="420" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="1211" y="843.8" font-size="12" fill="#718096" font-weight="400">8</text>
+<text x="1252" y="843.8" font-size="12" fill="#152238" font-weight="400">清风 G4112</text>
+<text x="1422" y="843.8" font-size="12" fill="#152238" font-weight="500">+2%</text>
+<text x="1565" y="843.8" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<rect x="1200" y="849.2" width="420" height="18.4" rx="0" fill="white" stroke="#E3E8F1"/>
+<text x="1211" y="862.2" font-size="12" fill="#718096" font-weight="400">9</text>
+<text x="1252" y="862.2" font-size="12" fill="#152238" font-weight="400">青禾 G4114</text>
+<text x="1422" y="862.2" font-size="12" fill="#152238" font-weight="500">+1%</text>
+<text x="1565" y="862.2" font-size="12" fill="#5530EE" font-weight="400">详情</text>
+<text x="1210" y="879" font-size="11" fill="#718096" font-weight="400">可比公会仅9家，按实际展示</text>
+</g>
+</svg>

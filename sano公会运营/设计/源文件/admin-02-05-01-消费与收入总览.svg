@@ -5,7 +5,7 @@
 <text x="28" y="68" font-size="12" fill="#9DAFC7" font-weight="400">公会运营管理</text>
 <a href="admin-01-01-01-公会经营总览.svg">
 <circle cx="35" cy="118" r="3" fill="#7690AB"/>
-<text x="51" y="123" font-size="15" fill="#C2CFDF" font-weight="400">经营总览</text>
+<text x="51" y="123" font-size="15" fill="#C2CFDF" font-weight="400">经营工作台</text>
 </a>
 <a href="admin-02-01-01-公会列表.svg">
 <rect x="16" y="155" width="208" height="43" rx="7" fill="#5530EE" stroke="none"/>
@@ -121,25 +121,25 @@
 <text x="1282.6399999999999" y="572" font-size="12" fill="#55647C" font-weight="600">金额</text>
 <text x="1460.1599999999999" y="572" font-size="12" fill="#55647C" font-weight="600">归属</text>
 <rect x="978" y="586" width="634" height="22" rx="0" fill="white" stroke="#E3E8F1"/>
-<text x="991" y="600" font-size="13" fill="#152238" font-weight="400">主播直接收入</text>
-<text x="1282.6399999999999" y="600" font-size="13" fill="#152238" font-weight="400">$7,500.00</text>
-<text x="1460.1599999999999" y="600" font-size="13" fill="#152238" font-weight="400">主播</text>
+<text x="991" y="600" font-size="12" fill="#152238" font-weight="400">主播直接收入</text>
+<text x="1282.6399999999999" y="600" font-size="12" fill="#152238" font-weight="400">$7,500.00</text>
+<text x="1460.1599999999999" y="600" font-size="12" fill="#152238" font-weight="400">主播</text>
 <rect x="978" y="608" width="634" height="22" rx="0" fill="white" stroke="#E3E8F1"/>
-<text x="991" y="622" font-size="13" fill="#152238" font-weight="400">主播奖励</text>
-<text x="1282.6399999999999" y="622" font-size="13" fill="#152238" font-weight="400">$1,160.00</text>
-<text x="1460.1599999999999" y="622" font-size="13" fill="#152238" font-weight="400">主播本人，不分层</text>
+<text x="991" y="622" font-size="12" fill="#152238" font-weight="400">主播奖励</text>
+<text x="1282.6399999999999" y="622" font-size="12" fill="#152238" font-weight="400">$1,160.00</text>
+<text x="1460.1599999999999" y="622" font-size="12" fill="#152238" font-weight="400">主播本人，不分层</text>
 <rect x="978" y="630" width="634" height="22" rx="0" fill="white" stroke="#E3E8F1"/>
-<text x="991" y="644" font-size="13" fill="#152238" font-weight="400">直属主播贡献</text>
-<text x="1282.6399999999999" y="644" font-size="13" fill="#152238" font-weight="400">$1,500.00</text>
-<text x="1460.1599999999999" y="644" font-size="13" fill="#152238" font-weight="400">本公会</text>
+<text x="991" y="644" font-size="12" fill="#152238" font-weight="400">直属主播贡献</text>
+<text x="1282.6399999999999" y="644" font-size="12" fill="#152238" font-weight="400">$1,500.00</text>
+<text x="1460.1599999999999" y="644" font-size="12" fill="#152238" font-weight="400">本公会</text>
 <rect x="978" y="652" width="634" height="22" rx="0" fill="white" stroke="#E3E8F1"/>
-<text x="991" y="666" font-size="13" fill="#152238" font-weight="400">直属子公会贡献</text>
-<text x="1282.6399999999999" y="666" font-size="13" fill="#152238" font-weight="400">$240.00</text>
-<text x="1460.1599999999999" y="666" font-size="13" fill="#152238" font-weight="400">本公会，一层差额</text>
+<text x="991" y="666" font-size="12" fill="#152238" font-weight="400">直属子公会贡献</text>
+<text x="1282.6399999999999" y="666" font-size="12" fill="#152238" font-weight="400">$240.00</text>
+<text x="1460.1599999999999" y="666" font-size="12" fill="#152238" font-weight="400">本公会，一层差额</text>
 <rect x="978" y="674" width="634" height="22" rx="0" fill="white" stroke="#E3E8F1"/>
-<text x="991" y="688" font-size="13" fill="#152238" font-weight="400">公会奖励</text>
-<text x="1282.6399999999999" y="688" font-size="13" fill="#152238" font-weight="400">$600.00</text>
-<text x="1460.1599999999999" y="688" font-size="13" fill="#152238" font-weight="400">本公会，来源见明细</text>
+<text x="991" y="688" font-size="12" fill="#152238" font-weight="400">公会奖励</text>
+<text x="1282.6399999999999" y="688" font-size="12" fill="#152238" font-weight="400">$600.00</text>
+<text x="1460.1599999999999" y="688" font-size="12" fill="#152238" font-weight="400">本公会，来源见明细</text>
 <a href="admin-02-06-01-分层与奖励.svg">
 <text x="1430" y="512" font-size="13" fill="#5530EE" font-weight="400">分层 / 奖励明细 →</text>
 </a>
