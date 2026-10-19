@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1760" height="1120" viewBox="0 0 1760 1120"><style>text{font-family:"Microsoft YaHei","Segoe UI",sans-serif}a{cursor:pointer}</style>
+<rect x="0" y="0" width="1760" height="1120" rx="0" fill="#F5F7FB" stroke="none"/>
+<rect x="0" y="0" width="216" height="1120" rx="0" fill="#0B1C35" stroke="none"/>
+<text xml:space="preserve" x="28" y="48" font-size="29" fill="white" font-weight="750">SANO</text>
+<text xml:space="preserve" x="29" y="73" font-size="12" fill="#A0B0C7" font-weight="400">人员与直播管理</text>
+<a href="admin-01-01-01-我的运营概览.svg">
+<rect x="14" y="111" width="188" height="42" rx="8" fill="#6545E8" stroke="none"/>
+<path d="M2 2h6v6H2z M12 2h6v6h-6z M2 12h6v6H2z M12 12h6v6h-6z" transform="translate(29,122)" fill="none" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+<text xml:space="preserve" x="62" y="138" font-size="14" fill="white" font-weight="600">运营概览</text>
+</a>
+<path d="M3 18V7h14v11 M7 7V2h6v5 M7 11h2 M12 11h2 M7 15h2 M12 15h2" transform="translate(29,181)" fill="none" stroke="#A4B6CF" stroke-width="1.5" stroke-linejoin="round"/>
+<text xml:space="preserve" x="60" y="196" font-size="14" fill="#E1E8F3" font-weight="600">组织管理</text>
+<text xml:space="preserve" x="180" y="196" font-size="14" fill="#A4B6CF" font-weight="400">⌄</text>
+<a href="admin-02-01-01-BD列表.svg">
+<circle cx="46" cy="232" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="238" font-size="13" fill="#AABDD3" font-weight="400">BD列表</text>
+</a>
+<a href="admin-03-01-01-代理树形列表.svg">
+<circle cx="46" cy="276" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="282" font-size="13" fill="#AABDD3" font-weight="400">代理列表</text>
+</a>
+<a href="admin-04-01-01-主播列表.svg">
+<circle cx="46" cy="320" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="326" font-size="13" fill="#AABDD3" font-weight="400">主播列表</text>
+</a>
+<path d="M2 5h16v12H2z M2 9h16 M12 13h3" transform="translate(29,397)" fill="none" stroke="#A4B6CF" stroke-width="1.5" stroke-linejoin="round"/>
+<text xml:space="preserve" x="60" y="412" font-size="14" fill="#E1E8F3" font-weight="600">直播与收入</text>
+<text xml:space="preserve" x="180" y="412" font-size="14" fill="#A4B6CF" font-weight="400">⌄</text>
+<a href="admin-05-01-01-主播收入数据.svg">
+<circle cx="46" cy="448" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="454" font-size="13" fill="#AABDD3" font-weight="400">主播收入</text>
+</a>
+<a href="admin-06-01-01-代理收入数据.svg">
+<circle cx="46" cy="492" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="498" font-size="13" fill="#AABDD3" font-weight="400">代理收入</text>
+</a>
+<a href="admin-07-01-01-主播工作数据.svg">
+<circle cx="46" cy="536" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="542" font-size="13" fill="#AABDD3" font-weight="400">主播工作</text>
+</a>
+<a href="admin-08-01-01-当前直播间列表.svg">
+<circle cx="46" cy="580" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="586" font-size="13" fill="#AABDD3" font-weight="400">直播审核</text>
+</a>
+<rect x="18" y="929" width="180" height="98" rx="9" fill="#142943" stroke="none"/>
+<circle cx="43" cy="959" r="13" fill="#4C4490"/>
+<text xml:space="preserve" x="37" y="964" font-size="13" fill="white" font-weight="600">N</text>
+<text xml:space="preserve" x="65" y="957" font-size="13" fill="white" font-weight="600">Nina</text>
+<text xml:space="preserve" x="65" y="978" font-size="10" fill="#A1B2CB" font-weight="400">运营 · 当前授权范围</text>
+<text xml:space="preserve" x="30" y="1008" font-size="11" fill="#A1B2CB" font-weight="400">3 BD  /  18 代理</text>
+<text xml:space="preserve" x="28" y="1082" font-size="10" fill="#738CA9" font-weight="400">SANO · 管理后台</text>
+<rect x="216" y="0" width="1544" height="64" rx="0" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="252" y="39" font-size="13" fill="#6B7C93" font-weight="400">首页  /  我的运营概览</text>
+<rect x="1373" y="20" width="86" height="24" rx="12" fill="#FFF6E5" stroke="none"/>
+<text xml:space="preserve" x="1383" y="36" font-size="11" fill="#A46B16" font-weight="550">原型示例数据</text>
+<text xml:space="preserve" x="1535" y="39" font-size="12" fill="#6B7C93" font-weight="400">Nina  ·  运营</text>
+<text xml:space="preserve" x="252" y="112" font-size="27" fill="#192B46" font-weight="700">我的运营概览</text>
+<text xml:space="preserve" x="252" y="140" font-size="13" fill="#6B7C93" font-weight="400">先了解自己的管理规模，再进入人员列表与业务明细</text>
+<rect x="1519" y="89" width="86" height="24" rx="12" fill="#F0EDFF" stroke="none"/>
+<text xml:space="preserve" x="1529" y="105" font-size="11" fill="#6545E8" font-weight="550">我的授权范围</text>
+<path d="M252 1081H1724" transform="" stroke="#E5EAF2" fill="none"/>
+<text xml:space="preserve" x="252" y="1103" font-size="10" fill="#6B7C93" font-weight="400">示例数据仅供评审  ·  数据范围：运营 Nina  ·  金额 USD  ·  时区 UTC+8</text>
+<text xml:space="preserve" x="1470" y="1103" font-size="10" fill="#6B7C93" font-weight="400">admin-01-01-01  /  V1</text>
+<rect x="252" y="160" width="1472" height="38" rx="7" fill="#F0EDFF" stroke="none"/>
+<circle cx="268" cy="179" r="3" fill="#6545E8"/>
+<text xml:space="preserve" x="281" y="184" font-size="12" fill="#6545E8" font-weight="400">我的管理范围：3个BD / 18个代理 / 280名主播</text>
+<text xml:space="preserve" x="1446" y="184" font-size="11" fill="#6B7C93" font-weight="400">今日数据更新于 14:30</text>
+<rect x="1460" y="219" width="264" height="38" rx="7" fill="white" stroke="#DAE1ED"/>
+<text xml:space="preserve" x="1474" y="243" font-size="13" fill="#6545E8" font-weight="550">2026-10-13 — 2026-10-19 ▦</text>
+<text xml:space="preserve" x="252" y="244" font-size="16" fill="#192B46" font-weight="650">人员与组织</text>
+<a href="admin-02-01-01-BD列表.svg">
+<rect x="252" y="270" width="233.66666666666666" height="100" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="270" y="296" font-size="12" fill="#6B7C93" font-weight="400">BD数量</text>
+<text xml:space="preserve" x="270" y="331" font-size="27" fill="#192B46" font-weight="650">3</text>
+<text xml:space="preserve" x="270" y="357" font-size="10" fill="#6B7C93" font-weight="400">查看BD及负责情况</text>
+</a>
+<a href="admin-03-01-01-代理树形列表.svg">
+<rect x="499.66666666666663" y="270" width="233.66666666666666" height="100" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="517.6666666666666" y="296" font-size="12" fill="#6B7C93" font-weight="400">代理数量</text>
+<text xml:space="preserve" x="517.6666666666666" y="331" font-size="27" fill="#192B46" font-weight="650">18</text>
+<text xml:space="preserve" x="517.6666666666666" y="357" font-size="10" fill="#6B7C93" font-weight="400">包含授权范围内子代理</text>
+</a>
+<a href="admin-04-01-01-主播列表.svg">
+<rect x="747.3333333333333" y="270" width="233.66666666666666" height="100" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="765.3333333333333" y="296" font-size="12" fill="#6B7C93" font-weight="400">主播总人数</text>
+<text xml:space="preserve" x="765.3333333333333" y="331" font-size="27" fill="#192B46" font-weight="650">280</text>
+<text xml:space="preserve" x="765.3333333333333" y="357" font-size="10" fill="#6B7C93" font-weight="400">按主播ID去重</text>
+</a>
+<a href="admin-04-01-01-主播列表.svg">
+<rect x="995" y="270" width="233.66666666666666" height="100" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="1013" y="296" font-size="12" fill="#6B7C93" font-weight="400">超级主播</text>
+<text xml:space="preserve" x="1013" y="331" font-size="27" fill="#192B46" font-weight="650">18</text>
+<text xml:space="preserve" x="1013" y="357" font-size="10" fill="#6B7C93" font-weight="400">已有身份结果</text>
+</a>
+<a href="admin-04-01-01-主播列表.svg">
+<rect x="1242.6666666666665" y="270" width="233.66666666666666" height="100" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="1260.6666666666665" y="296" font-size="12" fill="#6B7C93" font-weight="400">优质主播</text>
+<text xml:space="preserve" x="1260.6666666666665" y="331" font-size="27" fill="#192B46" font-weight="650">56</text>
+<text xml:space="preserve" x="1260.6666666666665" y="357" font-size="10" fill="#6B7C93" font-weight="400">已有身份结果</text>
+</a>
+<a href="admin-08-01-01-当前直播间列表.svg">
+<rect x="1490.3333333333333" y="270" width="233.66666666666666" height="100" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="1508.3333333333333" y="296" font-size="12" fill="#6B7C93" font-weight="400">当前在播</text>
+<text xml:space="preserve" x="1508.3333333333333" y="331" font-size="27" fill="#07866C" font-weight="650">38</text>
+<text xml:space="preserve" x="1508.3333333333333" y="357" font-size="10" fill="#6B7C93" font-weight="400">按已有在播状态</text>
+</a>
+<text xml:space="preserve" x="252" y="409" font-size="16" fill="#192B46" font-weight="650">收入与冻结收益</text>
+<a href="admin-05-01-01-主播收入数据.svg">
+<rect x="252" y="430" width="283.2" height="110" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="270" y="456" font-size="12" fill="#6B7C93" font-weight="400">主播总收入</text>
+<text xml:space="preserve" x="270" y="491" font-size="27" fill="#192B46" font-weight="650">$48,260.00</text>
+<text xml:space="preserve" x="270" y="527" font-size="10" fill="#6B7C93" font-weight="400">近7天 · 主播分成后所得</text>
+</a>
+<a href="admin-05-01-01-主播收入数据.svg">
+<rect x="549.2" y="430" width="283.2" height="110" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="567.2" y="456" font-size="12" fill="#6B7C93" font-weight="400">幸运礼物收入</text>
+<text xml:space="preserve" x="567.2" y="491" font-size="27" fill="#192B46" font-weight="650">$15,320.00</text>
+<text xml:space="preserve" x="567.2" y="527" font-size="10" fill="#6B7C93" font-weight="400">业务类型 · 不与渠道金额重复相加</text>
+</a>
+<a href="admin-05-01-01-主播收入数据.svg">
+<rect x="846.4" y="430" width="283.2" height="110" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="864.4" y="456" font-size="12" fill="#6B7C93" font-weight="400">普通礼物收入</text>
+<text xml:space="preserve" x="864.4" y="491" font-size="27" fill="#192B46" font-weight="650">$26,480.00</text>
+<text xml:space="preserve" x="864.4" y="527" font-size="10" fill="#6B7C93" font-weight="400">业务类型 · 游戏收入 $6,460.00</text>
+</a>
+<a href="admin-06-01-01-代理收入数据.svg">
+<rect x="1143.6" y="430" width="283.2" height="110" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="1161.6" y="456" font-size="12" fill="#6B7C93" font-weight="400">代理总收入</text>
+<text xml:space="preserve" x="1161.6" y="491" font-size="27" fill="#192B46" font-weight="650">$8,426.00</text>
+<text xml:space="preserve" x="1161.6" y="527" font-size="10" fill="#6B7C93" font-weight="400">已有代理收入汇总</text>
+</a>
+<a href="admin-04-02-01-主播详情.svg">
+<rect x="1440.8" y="430" width="283.2" height="110" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="1458.8" y="456" font-size="12" fill="#6B7C93" font-weight="400">主播冻结收益</text>
+<text xml:space="preserve" x="1458.8" y="491" font-size="27" fill="#A46B16" font-weight="650">$1,380.00</text>
+<text xml:space="preserve" x="1458.8" y="527" font-size="10" fill="#6B7C93" font-weight="400">范围内主播 · 金额时点待核对</text>
+</a>
+<rect x="252" y="566" width="720" height="226" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="274" y="599" font-size="17" fill="#192B46" font-weight="650">我管理的BD</text>
+<a href="admin-02-01-01-BD列表.svg">
+<text xml:space="preserve" x="863" y="599" font-size="12" fill="#6545E8" font-weight="400">查看全部 →</text>
+</a>
+<rect x="272" y="617" width="680" height="43" rx="6" fill="#F1F4F9" stroke="none"/>
+<text xml:space="preserve" x="284" y="644" font-size="11" fill="#596B84" font-weight="600">BD / ID</text>
+<text xml:space="preserve" x="518.909090909091" y="644" font-size="11" fill="#596B84" font-weight="600">所属运营</text>
+<text xml:space="preserve" x="667.2727272727273" y="644" font-size="11" fill="#596B84" font-weight="600">代理数</text>
+<text xml:space="preserve" x="766.1818181818181" y="644" font-size="11" fill="#596B84" font-weight="600">主播数</text>
+<text xml:space="preserve" x="865.090909090909" y="644" font-size="11" fill="#596B84" font-weight="600">状态</text>
+<path d="M272 699H952" transform="" stroke="#E5EAF2" fill="none"/>
+<a href="admin-02-02-01-BD具体情况.svg">
+<text xml:space="preserve" x="284" y="683.5" font-size="12" fill="#192B46" font-weight="400">Leo · BD1001</text>
+</a>
+<text xml:space="preserve" x="518.909090909091" y="683.5" font-size="12" fill="#192B46" font-weight="400">Nina</text>
+<text xml:space="preserve" x="667.2727272727273" y="683.5" font-size="12" fill="#192B46" font-weight="400">5</text>
+<text xml:space="preserve" x="766.1818181818181" y="683.5" font-size="12" fill="#192B46" font-weight="400">96</text>
+<text xml:space="preserve" x="865.090909090909" y="683.5" font-size="12" fill="#07866C" font-weight="400">正常</text>
+<path d="M272 738H952" transform="" stroke="#E5EAF2" fill="none"/>
+<text xml:space="preserve" x="284" y="722.5" font-size="12" fill="#192B46" font-weight="400">Aria · BD1002</text>
+<text xml:space="preserve" x="518.909090909091" y="722.5" font-size="12" fill="#192B46" font-weight="400">Nina</text>
+<text xml:space="preserve" x="667.2727272727273" y="722.5" font-size="12" fill="#192B46" font-weight="400">6</text>
+<text xml:space="preserve" x="766.1818181818181" y="722.5" font-size="12" fill="#192B46" font-weight="400">104</text>
+<text xml:space="preserve" x="865.090909090909" y="722.5" font-size="12" fill="#07866C" font-weight="400">正常</text>
+<path d="M272 777H952" transform="" stroke="#E5EAF2" fill="none"/>
+<text xml:space="preserve" x="284" y="761.5" font-size="12" fill="#192B46" font-weight="400">Max · BD1003</text>
+<text xml:space="preserve" x="518.909090909091" y="761.5" font-size="12" fill="#192B46" font-weight="400">Nina</text>
+<text xml:space="preserve" x="667.2727272727273" y="761.5" font-size="12" fill="#192B46" font-weight="400">4</text>
+<text xml:space="preserve" x="766.1818181818181" y="761.5" font-size="12" fill="#192B46" font-weight="400">62</text>
+<text xml:space="preserve" x="865.090909090909" y="761.5" font-size="12" fill="#CC5363" font-weight="400">禁用</text>
+<rect x="994" y="566" width="730" height="226" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="1016" y="599" font-size="17" fill="#192B46" font-weight="650">当前在播</text>
+<a href="admin-08-01-01-当前直播间列表.svg">
+<text xml:space="preserve" x="1600" y="599" font-size="12" fill="#6545E8" font-weight="400">进入直播间 →</text>
+</a>
+<rect x="1016" y="618" width="70" height="112" rx="8" fill="#D8D1E7" stroke="none"/>
+<g clip-path="url(#clip-0-1016-618)"><defs><clipPath id="clip-0-1016-618"><rect x="1016" y="618" width="70" height="112" rx="8"/></clipPath></defs><ellipse cx="1052.4" cy="713.2" rx="30.099999999999998" ry="42.56" fill="#6E688E"/><ellipse cx="1051" cy="665.04" rx="15.4" ry="32.48" fill="#3E3444"/><ellipse cx="1051" cy="667.28" rx="11.200000000000001" ry="22.400000000000002" fill="#E5B49D"/><path d="M1039.8 658.32Q1044 635.92 1062.9 657.2" stroke="#3E3444" stroke-width="5.6000000000000005" fill="none"/><circle cx="1046.8" cy="665.04" r="0.84" fill="#574350"/><circle cx="1055.2" cy="665.04" r="0.84" fill="#574350"/><path d="M1048.2 675.12q2.8000000000000003 2.8000000000000003 5.6000000000000005 0" stroke="#A97074" stroke-width="1" fill="none"/></g>
+<text xml:space="preserve" x="1099" y="641" font-size="14" fill="#192B46" font-weight="600">Lina</text>
+<rect x="1099" y="651" width="64" height="24" rx="12" fill="#F0EDFF" stroke="none"/>
+<text xml:space="preserve" x="1109" y="667" font-size="11" fill="#6545E8" font-weight="550">超级主播</text>
+<text xml:space="preserve" x="1099" y="696" font-size="11" fill="#6B7C93" font-weight="400">开播 01:42</text>
+<a href="admin-08-01-01-当前直播间列表.svg">
+<text xml:space="preserve" x="1099" y="721" font-size="11" fill="#6545E8" font-weight="400">查看直播间 →</text>
+</a>
+<rect x="1246" y="618" width="70" height="112" rx="8" fill="#C9DDDC" stroke="none"/>
+<g clip-path="url(#clip-0-1246-618)"><defs><clipPath id="clip-0-1246-618"><rect x="1246" y="618" width="70" height="112" rx="8"/></clipPath></defs><ellipse cx="1282.4" cy="713.2" rx="30.099999999999998" ry="42.56" fill="#386F73"/><ellipse cx="1281" cy="665.04" rx="15.4" ry="32.48" fill="#3E3444"/><ellipse cx="1281" cy="667.28" rx="11.200000000000001" ry="22.400000000000002" fill="#E5B49D"/><path d="M1269.8 658.32Q1274 635.92 1292.9 657.2" stroke="#3E3444" stroke-width="5.6000000000000005" fill="none"/><circle cx="1276.8" cy="665.04" r="0.84" fill="#574350"/><circle cx="1285.2" cy="665.04" r="0.84" fill="#574350"/><path d="M1278.2 675.12q2.8000000000000003 2.8000000000000003 5.6000000000000005 0" stroke="#A97074" stroke-width="1" fill="none"/></g>
+<text xml:space="preserve" x="1329" y="641" font-size="14" fill="#192B46" font-weight="600">Nok</text>
+<rect x="1329" y="651" width="64" height="24" rx="12" fill="#E8F7F1" stroke="none"/>
+<text xml:space="preserve" x="1339" y="667" font-size="11" fill="#07866C" font-weight="550">优质主播</text>
+<text xml:space="preserve" x="1329" y="696" font-size="11" fill="#6B7C93" font-weight="400">开播 00:58</text>
+<a href="admin-08-01-01-当前直播间列表.svg">
+<text xml:space="preserve" x="1329" y="721" font-size="11" fill="#6545E8" font-weight="400">查看直播间 →</text>
+</a>
+<rect x="1476" y="618" width="70" height="112" rx="8" fill="#EBD9CF" stroke="none"/>
+<g clip-path="url(#clip-0-1476-618)"><defs><clipPath id="clip-0-1476-618"><rect x="1476" y="618" width="70" height="112" rx="8"/></clipPath></defs><ellipse cx="1512.4" cy="713.2" rx="30.099999999999998" ry="42.56" fill="#896353"/><ellipse cx="1511" cy="665.04" rx="15.4" ry="32.48" fill="#3E3444"/><ellipse cx="1511" cy="667.28" rx="11.200000000000001" ry="22.400000000000002" fill="#E5B49D"/><path d="M1499.8 658.32Q1504 635.92 1522.9 657.2" stroke="#3E3444" stroke-width="5.6000000000000005" fill="none"/><circle cx="1506.8" cy="665.04" r="0.84" fill="#574350"/><circle cx="1515.2" cy="665.04" r="0.84" fill="#574350"/><path d="M1508.2 675.12q2.8000000000000003 2.8000000000000003 5.6000000000000005 0" stroke="#A97074" stroke-width="1" fill="none"/></g>
+<text xml:space="preserve" x="1559" y="641" font-size="14" fill="#192B46" font-weight="600">June</text>
+<rect x="1559" y="651" width="42" height="24" rx="12" fill="#E8F7F1" stroke="none"/>
+<text xml:space="preserve" x="1569" y="667" font-size="11" fill="#07866C" font-weight="550">主播</text>
+<text xml:space="preserve" x="1559" y="696" font-size="11" fill="#6B7C93" font-weight="400">开播 02:10</text>
+<a href="admin-08-01-01-当前直播间列表.svg">
+<text xml:space="preserve" x="1559" y="721" font-size="11" fill="#6545E8" font-weight="400">查看直播间 →</text>
+</a>
+<rect x="252" y="814" width="1472" height="229" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="274" y="849" font-size="17" fill="#192B46" font-weight="650">从这里继续查看</text>
+<a href="admin-03-01-01-代理树形列表.svg">
+<rect x="274" y="874" width="339" height="118" rx="8" fill="#F8F9FD" stroke="none"/>
+<text xml:space="preserve" x="292" y="907" font-size="15" fill="#192B46" font-weight="600">代理关系</text>
+<text xml:space="preserve" x="292" y="934" font-size="11" fill="#6B7C93" font-weight="400">展开代理层级，查直属主播结构</text>
+<text xml:space="preserve" x="292" y="971" font-size="12" fill="#6545E8" font-weight="400">查看详情 →</text>
+</a>
+<a href="admin-05-01-01-主播收入数据.svg">
+<rect x="635" y="874" width="339" height="118" rx="8" fill="#F8F9FD" stroke="none"/>
+<text xml:space="preserve" x="653" y="907" font-size="15" fill="#192B46" font-weight="600">主播收入</text>
+<text xml:space="preserve" x="653" y="934" font-size="11" fill="#6B7C93" font-weight="400">按业务与渠道查看分成后所得</text>
+<text xml:space="preserve" x="653" y="971" font-size="12" fill="#6545E8" font-weight="400">查看详情 →</text>
+</a>
+<a href="admin-06-01-01-代理收入数据.svg">
+<rect x="996" y="874" width="339" height="118" rx="8" fill="#F8F9FD" stroke="none"/>
+<text xml:space="preserve" x="1014" y="907" font-size="15" fill="#192B46" font-weight="600">代理收入</text>
+<text xml:space="preserve" x="1014" y="934" font-size="11" fill="#6B7C93" font-weight="400">每日汇总、主播及子代理贡献</text>
+<text xml:space="preserve" x="1014" y="971" font-size="12" fill="#6545E8" font-weight="400">查看详情 →</text>
+</a>
+<a href="admin-07-01-01-主播工作数据.svg">
+<rect x="1357" y="874" width="339" height="118" rx="8" fill="#F8F9FD" stroke="none"/>
+<text xml:space="preserve" x="1375" y="907" font-size="15" fill="#192B46" font-weight="600">主播工作</text>
+<text xml:space="preserve" x="1375" y="934" font-size="11" fill="#6B7C93" font-weight="400">总时长与每日工作记录</text>
+<text xml:space="preserve" x="1375" y="971" font-size="12" fill="#6545E8" font-weight="400">查看详情 →</text>
+</a>
+</svg>

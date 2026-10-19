@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1760" height="1120" viewBox="0 0 1760 1120"><style>text{font-family:"Microsoft YaHei","Segoe UI",sans-serif}a{cursor:pointer}</style>
+<rect x="0" y="0" width="1760" height="1120" rx="0" fill="#F5F7FB" stroke="none"/>
+<rect x="0" y="0" width="216" height="1120" rx="0" fill="#0B1C35" stroke="none"/>
+<text xml:space="preserve" x="28" y="48" font-size="29" fill="white" font-weight="750">SANO</text>
+<text xml:space="preserve" x="29" y="73" font-size="12" fill="#A0B0C7" font-weight="400">人员与直播管理</text>
+<a href="admin-01-01-01-我的运营概览.svg">
+<path d="M2 2h6v6H2z M12 2h6v6h-6z M2 12h6v6H2z M12 12h6v6h-6z" transform="translate(29,122)" fill="none" stroke="#9CAEC6" stroke-width="1.5" stroke-linejoin="round"/>
+<text xml:space="preserve" x="62" y="138" font-size="14" fill="#BBC8D9" font-weight="400">运营概览</text>
+</a>
+<path d="M3 18V7h14v11 M7 7V2h6v5 M7 11h2 M12 11h2 M7 15h2 M12 15h2" transform="translate(29,181)" fill="none" stroke="#A4B6CF" stroke-width="1.5" stroke-linejoin="round"/>
+<text xml:space="preserve" x="60" y="196" font-size="14" fill="#E1E8F3" font-weight="600">组织管理</text>
+<text xml:space="preserve" x="180" y="196" font-size="14" fill="#A4B6CF" font-weight="400">⌄</text>
+<a href="admin-02-01-01-BD列表.svg">
+<rect x="30" y="213" width="172" height="38" rx="7" fill="#6545E8" stroke="none"/>
+<circle cx="46" cy="232" r="2.5" fill="white"/>
+<text xml:space="preserve" x="63" y="238" font-size="13" fill="white" font-weight="600">BD列表</text>
+</a>
+<a href="admin-03-01-01-代理树形列表.svg">
+<circle cx="46" cy="276" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="282" font-size="13" fill="#AABDD3" font-weight="400">代理列表</text>
+</a>
+<a href="admin-04-01-01-主播列表.svg">
+<circle cx="46" cy="320" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="326" font-size="13" fill="#AABDD3" font-weight="400">主播列表</text>
+</a>
+<path d="M2 5h16v12H2z M2 9h16 M12 13h3" transform="translate(29,397)" fill="none" stroke="#A4B6CF" stroke-width="1.5" stroke-linejoin="round"/>
+<text xml:space="preserve" x="60" y="412" font-size="14" fill="#E1E8F3" font-weight="600">直播与收入</text>
+<text xml:space="preserve" x="180" y="412" font-size="14" fill="#A4B6CF" font-weight="400">⌄</text>
+<a href="admin-05-01-01-主播收入数据.svg">
+<circle cx="46" cy="448" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="454" font-size="13" fill="#AABDD3" font-weight="400">主播收入</text>
+</a>
+<a href="admin-06-01-01-代理收入数据.svg">
+<circle cx="46" cy="492" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="498" font-size="13" fill="#AABDD3" font-weight="400">代理收入</text>
+</a>
+<a href="admin-07-01-01-主播工作数据.svg">
+<circle cx="46" cy="536" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="542" font-size="13" fill="#AABDD3" font-weight="400">主播工作</text>
+</a>
+<a href="admin-08-01-01-当前直播间列表.svg">
+<circle cx="46" cy="580" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="586" font-size="13" fill="#AABDD3" font-weight="400">直播审核</text>
+</a>
+<rect x="18" y="929" width="180" height="98" rx="9" fill="#142943" stroke="none"/>
+<circle cx="43" cy="959" r="13" fill="#4C4490"/>
+<text xml:space="preserve" x="37" y="964" font-size="13" fill="white" font-weight="600">N</text>
+<text xml:space="preserve" x="65" y="957" font-size="13" fill="white" font-weight="600">Nina</text>
+<text xml:space="preserve" x="65" y="978" font-size="10" fill="#A1B2CB" font-weight="400">运营 · 当前授权范围</text>
+<text xml:space="preserve" x="30" y="1008" font-size="11" fill="#A1B2CB" font-weight="400">3 BD  /  18 代理</text>
+<text xml:space="preserve" x="28" y="1082" font-size="10" fill="#738CA9" font-weight="400">SANO · 管理后台</text>
+<rect x="216" y="0" width="1544" height="64" rx="0" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="252" y="39" font-size="13" fill="#6B7C93" font-weight="400">组织管理  /  BD列表</text>
+<rect x="1373" y="20" width="86" height="24" rx="12" fill="#FFF6E5" stroke="none"/>
+<text xml:space="preserve" x="1383" y="36" font-size="11" fill="#A46B16" font-weight="550">原型示例数据</text>
+<text xml:space="preserve" x="1535" y="39" font-size="12" fill="#6B7C93" font-weight="400">Nina  ·  运营</text>
+<text xml:space="preserve" x="252" y="112" font-size="27" fill="#192B46" font-weight="700">BD列表</text>
+<text xml:space="preserve" x="252" y="140" font-size="13" fill="#6B7C93" font-weight="400">查看BD基础资料、运营归属与负责情况</text>
+<rect x="1519" y="89" width="86" height="24" rx="12" fill="#F0EDFF" stroke="none"/>
+<text xml:space="preserve" x="1529" y="105" font-size="11" fill="#6545E8" font-weight="550">我的授权范围</text>
+<path d="M252 1081H1724" transform="" stroke="#E5EAF2" fill="none"/>
+<text xml:space="preserve" x="252" y="1103" font-size="10" fill="#6B7C93" font-weight="400">示例数据仅供评审  ·  数据范围：运营 Nina  ·  金额 USD  ·  时区 UTC+8</text>
+<text xml:space="preserve" x="1470" y="1103" font-size="10" fill="#6B7C93" font-weight="400">admin-02-01-01  /  V1</text>
+<rect x="252" y="160" width="1472" height="38" rx="7" fill="#F0EDFF" stroke="none"/>
+<circle cx="268" cy="179" r="3" fill="#6545E8"/>
+<text xml:space="preserve" x="281" y="184" font-size="12" fill="#6545E8" font-weight="400">我的管理范围：3个BD / 18个代理 / 280名主播</text>
+<text xml:space="preserve" x="1446" y="184" font-size="11" fill="#6B7C93" font-weight="400">今日数据更新于 14:30</text>
+<rect x="252" y="218" width="1472" height="152" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="272" y="239" font-size="11" fill="#6B7C93" font-weight="500">ID</text>
+<rect x="272" y="249" width="272" height="35" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="283" y="272" font-size="12" fill="#A0ACBD" font-weight="400">请输入BD ID</text>
+<text xml:space="preserve" x="562" y="239" font-size="11" fill="#6B7C93" font-weight="500">名称</text>
+<rect x="562" y="249" width="272" height="35" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="573" y="272" font-size="12" fill="#A0ACBD" font-weight="400">请输入名称</text>
+<text xml:space="preserve" x="852" y="239" font-size="11" fill="#6B7C93" font-weight="500">国家代码</text>
+<rect x="852" y="249" width="272" height="35" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="863" y="272" font-size="12" fill="#192B46" font-weight="400">全部</text>
+<text xml:space="preserve" x="1102" y="272" font-size="13" fill="#6B7C93" font-weight="400">⌄</text>
+<text xml:space="preserve" x="1142" y="239" font-size="11" fill="#6B7C93" font-weight="500">所属运营</text>
+<rect x="1142" y="249" width="272" height="35" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="1153" y="272" font-size="12" fill="#192B46" font-weight="400">Nina · OP1001</text>
+<text xml:space="preserve" x="1392" y="272" font-size="13" fill="#6B7C93" font-weight="400">⌄</text>
+<text xml:space="preserve" x="1432" y="239" font-size="11" fill="#6B7C93" font-weight="500">创建时间段</text>
+<rect x="1432" y="249" width="272" height="35" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="1443" y="272" font-size="12" fill="#192B46" font-weight="400">开始日期 — 结束日期</text>
+<text xml:space="preserve" x="1682" y="272" font-size="13" fill="#6B7C93" font-weight="400">▦</text>
+<text xml:space="preserve" x="272" y="342" font-size="11" fill="#6B7C93" font-weight="400"></text>
+<rect x="1512" y="319" width="84" height="38" rx="7" fill="white" stroke="#DAE1ED"/>
+<text xml:space="preserve" x="1526" y="343" font-size="13" fill="#6545E8" font-weight="550">重置</text>
+<rect x="1608" y="319" width="96" height="38" rx="7" fill="#6545E8" stroke="#6545E8"/>
+<text xml:space="preserve" x="1622" y="343" font-size="13" fill="white" font-weight="550">查询</text>
+<rect x="252" y="384" width="1472" height="458" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="272" y="426" font-size="16" fill="#192B46" font-weight="650">BD列表</text>
+<text xml:space="preserve" x="337.92" y="426" font-size="11" fill="#6B7C93" font-weight="400">共3个BD</text>
+<rect x="272" y="450" width="1432" height="43" rx="6" fill="#F1F4F9" stroke="none"/>
+<text xml:space="preserve" x="284" y="477" font-size="11" fill="#596B84" font-weight="600">名称 / ID</text>
+<text xml:space="preserve" x="499.21387283236993" y="477" font-size="11" fill="#596B84" font-weight="600">联系方式</text>
+<text xml:space="preserve" x="747.5375722543353" y="477" font-size="11" fill="#596B84" font-weight="600">国家代码</text>
+<text xml:space="preserve" x="871.6994219653179" y="477" font-size="11" fill="#596B84" font-weight="600">所属运营</text>
+<text xml:space="preserve" x="1086.913294797688" y="477" font-size="11" fill="#596B84" font-weight="600">账号状态</text>
+<text xml:space="preserve" x="1219.3526011560696" y="477" font-size="11" fill="#596B84" font-weight="600">创建时间</text>
+<text xml:space="preserve" x="1484.2312138728325" y="477" font-size="11" fill="#596B84" font-weight="600">操作</text>
+<path d="M272 567H1704" transform="" stroke="#E5EAF2" fill="none"/>
+<a href="admin-02-02-01-BD具体情况.svg">
+<text xml:space="preserve" x="284" y="525" font-size="12" fill="#192B46" font-weight="600">Leo</text>
+<text xml:space="preserve" x="284" y="542" font-size="10" fill="#6B7C93" font-weight="600">BD1001</text>
+</a>
+<text xml:space="preserve" x="499.21387283236993" y="534" font-size="12" fill="#192B46" font-weight="400">+66 82 451 6630</text>
+<text xml:space="preserve" x="747.5375722543353" y="534" font-size="12" fill="#192B46" font-weight="400">TH</text>
+<text xml:space="preserve" x="871.6994219653179" y="534" font-size="12" fill="#192B46" font-weight="400">Nina · OP1001</text>
+<text xml:space="preserve" x="1086.913294797688" y="534" font-size="12" fill="#07866C" font-weight="400">● 正常</text>
+<text xml:space="preserve" x="1219.3526011560696" y="534" font-size="12" fill="#192B46" font-weight="400">2026-04-01 10:20</text>
+<a href="admin-02-02-01-BD具体情况.svg">
+<text xml:space="preserve" x="1484.2312138728325" y="534" font-size="11" fill="#6545E8" font-weight="400">具体情况</text>
+</a>
+<path d="M272 641H1704" transform="" stroke="#E5EAF2" fill="none"/>
+<a href="admin-02-02-01-BD具体情况.svg">
+<text xml:space="preserve" x="284" y="599" font-size="12" fill="#192B46" font-weight="600">Aria</text>
+<text xml:space="preserve" x="284" y="616" font-size="10" fill="#6B7C93" font-weight="600">BD1002</text>
+</a>
+<text xml:space="preserve" x="499.21387283236993" y="608" font-size="12" fill="#192B46" font-weight="400">+91 98 154 2731</text>
+<text xml:space="preserve" x="747.5375722543353" y="608" font-size="12" fill="#192B46" font-weight="400">IN</text>
+<text xml:space="preserve" x="871.6994219653179" y="608" font-size="12" fill="#192B46" font-weight="400">Nina · OP1001</text>
+<text xml:space="preserve" x="1086.913294797688" y="608" font-size="12" fill="#07866C" font-weight="400">● 正常</text>
+<text xml:space="preserve" x="1219.3526011560696" y="608" font-size="12" fill="#192B46" font-weight="400">2026-05-06 15:40</text>
+<a href="admin-02-02-01-BD具体情况.svg">
+<text xml:space="preserve" x="1484.2312138728325" y="608" font-size="11" fill="#6545E8" font-weight="400">具体情况</text>
+</a>
+<path d="M272 715H1704" transform="" stroke="#E5EAF2" fill="none"/>
+<a href="admin-02-02-01-BD具体情况.svg">
+<text xml:space="preserve" x="284" y="673" font-size="12" fill="#192B46" font-weight="600">Max</text>
+<text xml:space="preserve" x="284" y="690" font-size="10" fill="#6B7C93" font-weight="600">BD1003</text>
+</a>
+<text xml:space="preserve" x="499.21387283236993" y="682" font-size="12" fill="#192B46" font-weight="400">+63 91 564 8220</text>
+<text xml:space="preserve" x="747.5375722543353" y="682" font-size="12" fill="#192B46" font-weight="400">PH</text>
+<text xml:space="preserve" x="871.6994219653179" y="682" font-size="12" fill="#192B46" font-weight="400">Nina · OP1001</text>
+<text xml:space="preserve" x="1086.913294797688" y="682" font-size="12" fill="#CC5363" font-weight="400">● 禁用</text>
+<text xml:space="preserve" x="1219.3526011560696" y="682" font-size="12" fill="#192B46" font-weight="400">2026-06-12 09:10</text>
+<a href="admin-02-02-01-BD具体情况.svg">
+<text xml:space="preserve" x="1484.2312138728325" y="682" font-size="11" fill="#6545E8" font-weight="400">具体情况</text>
+</a>
+<text xml:space="preserve" x="272" y="752" font-size="11" fill="#6B7C93" font-weight="400">共 3 条</text>
+<text xml:space="preserve" x="1394" y="752" font-size="15" fill="#6B7C93" font-weight="400">‹</text>
+<rect x="1420" y="734" width="26.16" height="24" rx="12" fill="#F0EDFF" stroke="none"/>
+<text xml:space="preserve" x="1430" y="750" font-size="11" fill="#6545E8" font-weight="550">1</text>
+<text xml:space="preserve" x="1470" y="752" font-size="12" fill="#6B7C93" font-weight="400">›</text>
+<rect x="1580" y="731" width="124" height="32" rx="6" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="1593" y="752" font-size="11" fill="#6B7C93" font-weight="400">20 条 / 页  ⌄</text>
+<rect x="252" y="862" width="1472" height="34" rx="6" fill="#F4F6FA" stroke="none"/>
+<text xml:space="preserve" x="264" y="884" font-size="11" fill="#6B7C93" font-weight="400">查看BD资料及负责情况；点击具体情况打开右侧抽屉。</text>
+</svg>
