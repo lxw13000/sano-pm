@@ -71,7 +71,7 @@
 <text xml:space="preserve" x="1470" y="1103" font-size="10" fill="#6B7C93" font-weight="400">admin-08-02-02  /  V1</text>
 <rect x="252" y="160" width="1472" height="38" rx="7" fill="#F0EDFF" stroke="none"/>
 <circle cx="268" cy="179" r="3" fill="#6545E8"/>
-<text xml:space="preserve" x="281" y="184" font-size="12" fill="#6545E8" font-weight="400">当前主播：Lina / U2001  ·  星河代理 G1024  ·  负责人 Leo / BD</text>
+<text xml:space="preserve" x="281" y="184" font-size="12" fill="#6545E8" font-weight="400">当前主播：Lina / U2001  ·  星河代理 G1024  ·  负责人 Evan / BD</text>
 <text xml:space="preserve" x="1446" y="184" font-size="11" fill="#6B7C93" font-weight="400">今日数据更新于 14:30</text>
 <rect x="252" y="218" width="1472" height="122" rx="10" fill="white" stroke="#E5EAF2"/>
 <circle cx="300" cy="269" r="29" fill="#6545E818"/>
@@ -89,9 +89,9 @@
 <text xml:space="preserve" x="1534" y="275" font-size="13" fill="white" font-weight="550">进入实时审核 →</text>
 </a>
 <rect x="252" y="360" width="357.5" height="103" rx="10" fill="white" stroke="#E5EAF2"/>
-<text xml:space="preserve" x="270" y="386" font-size="12" fill="#6B7C93" font-weight="400">近7天收入</text>
+<text xml:space="preserve" x="270" y="386" font-size="12" fill="#6B7C93" font-weight="400">所选期间收入</text>
 <text xml:space="preserve" x="270" y="421" font-size="27" fill="#192B46" font-weight="650">$6,240.00</text>
-<text xml:space="preserve" x="270" y="450" font-size="10" fill="#6B7C93" font-weight="400">分成后所得</text>
+<text xml:space="preserve" x="270" y="450" font-size="10" fill="#6B7C93" font-weight="400">分成后所得 · 跟随下方统计时间</text>
 <rect x="623.5" y="360" width="357.5" height="103" rx="10" fill="white" stroke="#E5EAF2"/>
 <text xml:space="preserve" x="641.5" y="386" font-size="12" fill="#6B7C93" font-weight="400">本人消费</text>
 <text xml:space="preserve" x="641.5" y="421" font-size="27" fill="#192B46" font-weight="650">$286.00</text>
@@ -101,15 +101,22 @@
 <text xml:space="preserve" x="1013" y="421" font-size="27" fill="#192B46" font-weight="650">$150.00</text>
 <text xml:space="preserve" x="1013" y="450" font-size="10" fill="#6B7C93" font-weight="400">使用已有冻结收益字段</text>
 <rect x="1366.5" y="360" width="357.5" height="103" rx="10" fill="white" stroke="#E5EAF2"/>
-<text xml:space="preserve" x="1384.5" y="386" font-size="12" fill="#6B7C93" font-weight="400">总工作时长</text>
+<text xml:space="preserve" x="1384.5" y="386" font-size="12" fill="#6B7C93" font-weight="400">所选期间工作时长</text>
 <text xml:space="preserve" x="1384.5" y="421" font-size="27" fill="#192B46" font-weight="650">452 min</text>
-<text xml:space="preserve" x="1384.5" y="450" font-size="10" fill="#6B7C93" font-weight="400">允许已有计算误差</text>
+<text xml:space="preserve" x="1384.5" y="450" font-size="10" fill="#6B7C93" font-weight="400">跟随下方统计时间 · 允许已有误差</text>
 <rect x="252" y="486" width="934" height="562" rx="10" fill="white" stroke="#E5EAF2"/>
 <text xml:space="preserve" x="274" y="522" font-size="17" fill="#192B46" font-weight="650">直播与收入</text>
-<rect x="1000" y="497" width="164" height="38" rx="7" fill="white" stroke="#DAE1ED"/>
-<text xml:space="preserve" x="1014" y="521" font-size="13" fill="#6545E8" font-weight="550">近7天 ▾</text>
+<text xml:space="preserve" x="558" y="523" font-size="11" fill="#6B7C93" font-weight="500">统计时间段</text>
+<rect x="627" y="501" width="351" height="32" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="638" y="522" font-size="12" fill="#192B46" font-weight="400">2026-10-13 — 2026-10-19</text>
+<text xml:space="preserve" x="956" y="522" font-size="13" fill="#6B7C93" font-weight="400">▦</text>
+<rect x="990" y="501" width="86" height="32" rx="7" fill="white" stroke="#DAE1ED"/>
+<text xml:space="preserve" x="1004" y="522" font-size="13" fill="#6545E8" font-weight="550">近7天</text>
+<rect x="1088" y="501" width="76" height="32" rx="7" fill="#6545E8" stroke="#6545E8"/>
+<text xml:space="preserve" x="1102" y="522" font-size="13" fill="white" font-weight="550">查询</text>
 <text xml:space="preserve" x="274" y="557" font-size="13" fill="#192B46" font-weight="600">收入构成（$）</text>
 <text xml:space="preserve" x="416" y="557" font-size="11" fill="#6B7C93" font-weight="400">业务类型与渠道类型同时展示</text>
+<text xml:space="preserve" x="930" y="557" font-size="11" fill="#6B7C93" font-weight="400">默认近7天，含今天</text>
 <rect x="274" y="572" width="290" height="55" rx="6" fill="#F1F5FF" stroke="none"/>
 <text xml:space="preserve" x="287" y="591" font-size="11" fill="#6B7C93" font-weight="400">幸运礼物收入</text>
 <text xml:space="preserve" x="287" y="615" font-size="18" fill="#192B46" font-weight="650">$2,100.00</text>
@@ -132,7 +139,7 @@
 <text xml:space="preserve" x="962" y="655" font-size="11" fill="#6B7C93" font-weight="400">私聊收入</text>
 <text xml:space="preserve" x="962" y="679" font-size="18" fill="#192B46" font-weight="650">$500.00</text>
 <text xml:space="preserve" x="274" y="728" font-size="14" fill="#192B46" font-weight="650">每日收入与工作记录</text>
-<text xml:space="preserve" x="970" y="728" font-size="11" fill="#6B7C93" font-weight="400">近7天 · 时长 min</text>
+<text xml:space="preserve" x="930" y="728" font-size="11" fill="#6B7C93" font-weight="400">2026-10-13 — 2026-10-19 · min</text>
 <rect x="274" y="748" width="890" height="43" rx="6" fill="#F1F4F9" stroke="none"/>
 <text xml:space="preserve" x="286" y="775" font-size="11" fill="#596B84" font-weight="600">日期</text>
 <text xml:space="preserve" x="417.85185185185185" y="775" font-size="11" fill="#596B84" font-weight="600">总收入（$）</text>
@@ -197,7 +204,7 @@
 <text xml:space="preserve" x="1230" y="602" font-size="12" fill="#6B7C93" font-weight="400">代理长</text>
 <text xml:space="preserve" x="1350" y="602" font-size="12" fill="#192B46" font-weight="400">Maya / U1001</text>
 <text xml:space="preserve" x="1230" y="639" font-size="12" fill="#6B7C93" font-weight="400">所属运营</text>
-<text xml:space="preserve" x="1350" y="639" font-size="12" fill="#192B46" font-weight="400">Leo / BD1001</text>
+<text xml:space="preserve" x="1350" y="639" font-size="12" fill="#192B46" font-weight="400">Evan / BD1001</text>
 <text xml:space="preserve" x="1230" y="676" font-size="12" fill="#6B7C93" font-weight="400">上级代理</text>
 <text xml:space="preserve" x="1350" y="676" font-size="12" fill="#192B46" font-weight="400">无上级代理</text>
 <rect x="1208" y="757" width="516" height="291" rx="10" fill="white" stroke="#E5EAF2"/>
@@ -224,7 +231,7 @@
 <text xml:space="preserve" x="1711" y="111" font-size="25" fill="#6B7C93" font-weight="400">×</text>
 </a>
 <rect x="498" y="163" width="1234" height="65" rx="8" fill="#F0EDFF" stroke="none"/>
-<text xml:space="preserve" x="514" y="189" font-size="13" fill="#192B46" font-weight="550">星河代理 G1024  ·  Leo / BD  ·  单人直播</text>
+<text xml:space="preserve" x="514" y="189" font-size="13" fill="#192B46" font-weight="550">星河代理 G1024  ·  Evan / BD  ·  单人直播</text>
 <text xml:space="preserve" x="514" y="212" font-size="11" fill="#6B7C93" font-weight="400">本场开播 12:48  ·  已播 01:42  ·  当前观众 128</text>
 <rect x="1581" y="183" width="76.32" height="24" rx="12" fill="#E8F7F1" stroke="none"/>
 <text xml:space="preserve" x="1591" y="199" font-size="11" fill="#07866C" font-weight="550">● 正在直播</text>

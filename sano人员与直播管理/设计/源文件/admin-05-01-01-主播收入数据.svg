@@ -65,186 +65,203 @@
 <circle cx="268" cy="179" r="3" fill="#6545E8"/>
 <text xml:space="preserve" x="281" y="184" font-size="12" fill="#6545E8" font-weight="400">我的管理范围：3个BD / 18个代理 / 280名主播</text>
 <text xml:space="preserve" x="1446" y="184" font-size="11" fill="#6B7C93" font-weight="400">今日数据更新于 14:30</text>
-<rect x="252" y="218" width="1472" height="230" rx="10" fill="white" stroke="#E5EAF2"/>
-<text xml:space="preserve" x="272" y="239" font-size="11" fill="#6B7C93" font-weight="500">主播ID</text>
-<rect x="272" y="249" width="272" height="35" rx="6" fill="white" stroke="#DDE4EF"/>
-<text xml:space="preserve" x="283" y="272" font-size="12" fill="#A0ACBD" font-weight="400">请输入主播ID</text>
-<text xml:space="preserve" x="562" y="239" font-size="11" fill="#6B7C93" font-weight="500">代理ID</text>
-<rect x="562" y="249" width="272" height="35" rx="6" fill="white" stroke="#DDE4EF"/>
-<text xml:space="preserve" x="573" y="272" font-size="12" fill="#A0ACBD" font-weight="400">请输入代理ID</text>
-<text xml:space="preserve" x="852" y="239" font-size="11" fill="#6B7C93" font-weight="500">代理长ID</text>
-<rect x="852" y="249" width="272" height="35" rx="6" fill="white" stroke="#DDE4EF"/>
-<text xml:space="preserve" x="863" y="272" font-size="12" fill="#A0ACBD" font-weight="400">请输入代理长ID</text>
-<text xml:space="preserve" x="1142" y="239" font-size="11" fill="#6B7C93" font-weight="500">运营人员</text>
-<rect x="1142" y="249" width="272" height="35" rx="6" fill="white" stroke="#DDE4EF"/>
-<text xml:space="preserve" x="1153" y="272" font-size="12" fill="#192B46" font-weight="400">全部授权负责人</text>
-<text xml:space="preserve" x="1392" y="272" font-size="13" fill="#6B7C93" font-weight="400">⌄</text>
-<text xml:space="preserve" x="1432" y="239" font-size="11" fill="#6B7C93" font-weight="500">统计时间段</text>
-<rect x="1432" y="249" width="272" height="35" rx="6" fill="white" stroke="#DDE4EF"/>
-<text xml:space="preserve" x="1443" y="272" font-size="12" fill="#192B46" font-weight="400">2026-10-13 — 2026-10-19</text>
-<text xml:space="preserve" x="1682" y="272" font-size="13" fill="#6B7C93" font-weight="400">▦</text>
-<text xml:space="preserve" x="272" y="317" font-size="11" fill="#6B7C93" font-weight="500">国家地区</text>
-<rect x="272" y="327" width="272" height="35" rx="6" fill="white" stroke="#DDE4EF"/>
-<text xml:space="preserve" x="283" y="350" font-size="12" fill="#192B46" font-weight="400">全部</text>
-<text xml:space="preserve" x="522" y="350" font-size="13" fill="#6B7C93" font-weight="400">⌄</text>
-<text xml:space="preserve" x="562" y="317" font-size="11" fill="#6B7C93" font-weight="500">性别</text>
-<rect x="562" y="327" width="272" height="35" rx="6" fill="white" stroke="#DDE4EF"/>
-<text xml:space="preserve" x="573" y="350" font-size="12" fill="#192B46" font-weight="400">全部</text>
-<text xml:space="preserve" x="812" y="350" font-size="13" fill="#6B7C93" font-weight="400">⌄</text>
-<text xml:space="preserve" x="852" y="317" font-size="11" fill="#6B7C93" font-weight="500">总收入 ≥</text>
-<rect x="852" y="327" width="272" height="35" rx="6" fill="white" stroke="#DDE4EF"/>
-<text xml:space="preserve" x="863" y="350" font-size="12" fill="#192B46" font-weight="400">最低金额（$）</text>
-<text xml:space="preserve" x="1142" y="317" font-size="11" fill="#6B7C93" font-weight="500">总收入 ≤</text>
-<rect x="1142" y="327" width="272" height="35" rx="6" fill="white" stroke="#DDE4EF"/>
-<text xml:space="preserve" x="1153" y="350" font-size="12" fill="#192B46" font-weight="400">最高金额（$）</text>
-<text xml:space="preserve" x="272" y="420" font-size="11" fill="#6B7C93" font-weight="400"></text>
-<rect x="1512" y="397" width="84" height="38" rx="7" fill="white" stroke="#DAE1ED"/>
-<text xml:space="preserve" x="1526" y="421" font-size="13" fill="#6545E8" font-weight="550">重置</text>
-<rect x="1608" y="397" width="96" height="38" rx="7" fill="#6545E8" stroke="#6545E8"/>
-<text xml:space="preserve" x="1622" y="421" font-size="13" fill="white" font-weight="550">查询</text>
-<rect x="252" y="462" width="357.5" height="94" rx="10" fill="white" stroke="#E5EAF2"/>
-<text xml:space="preserve" x="270" y="488" font-size="12" fill="#6B7C93" font-weight="400">主播总收入</text>
-<text xml:space="preserve" x="270" y="523" font-size="27" fill="#192B46" font-weight="650">$48,260.00</text>
-<text xml:space="preserve" x="270" y="543" font-size="10" fill="#6B7C93" font-weight="400">分成后总计</text>
-<rect x="623.5" y="462" width="357.5" height="94" rx="10" fill="white" stroke="#E5EAF2"/>
-<text xml:space="preserve" x="641.5" y="488" font-size="12" fill="#6B7C93" font-weight="400">幸运礼物收入</text>
-<text xml:space="preserve" x="641.5" y="523" font-size="27" fill="#192B46" font-weight="650">$15,320.00</text>
-<text xml:space="preserve" x="641.5" y="543" font-size="10" fill="#6B7C93" font-weight="400">业务类型</text>
-<rect x="995" y="462" width="357.5" height="94" rx="10" fill="white" stroke="#E5EAF2"/>
-<text xml:space="preserve" x="1013" y="488" font-size="12" fill="#6B7C93" font-weight="400">普通礼物收入</text>
-<text xml:space="preserve" x="1013" y="523" font-size="27" fill="#192B46" font-weight="650">$26,480.00</text>
-<text xml:space="preserve" x="1013" y="543" font-size="10" fill="#6B7C93" font-weight="400">业务类型</text>
-<rect x="1366.5" y="462" width="357.5" height="94" rx="10" fill="white" stroke="#E5EAF2"/>
-<text xml:space="preserve" x="1384.5" y="488" font-size="12" fill="#6B7C93" font-weight="400">游戏收入</text>
-<text xml:space="preserve" x="1384.5" y="523" font-size="27" fill="#192B46" font-weight="650">$6,460.00</text>
-<text xml:space="preserve" x="1384.5" y="543" font-size="10" fill="#6B7C93" font-weight="400">业务类型</text>
-<rect x="252" y="574" width="1472" height="480" rx="10" fill="white" stroke="#E5EAF2"/>
-<text xml:space="preserve" x="272" y="616" font-size="16" fill="#192B46" font-weight="650">主播收入明细</text>
-<text xml:space="preserve" x="384" y="616" font-size="11" fill="#6B7C93" font-weight="400">近7天 · 含今天</text>
-<rect x="272" y="625" width="520.6417910447761" height="27" rx="4" fill="#F1F4F9" stroke="none"/>
-<text xml:space="preserve" x="284" y="643" font-size="11" fill="#6B7C93" font-weight="600">人员与归属</text>
-<rect x="795.6417910447761" y="625" width="114.55223880597015" height="27" rx="4" fill="#EDE9FE" stroke="none"/>
-<text xml:space="preserve" x="807.6417910447761" y="643" font-size="11" fill="#6545E8" font-weight="600">总收入</text>
-<rect x="913.1940298507463" y="625" width="349.65671641791045" height="27" rx="4" fill="#EFF5FF" stroke="none"/>
-<text xml:space="preserve" x="925.1940298507463" y="643" font-size="11" fill="#4277CE" font-weight="600">业务类型收入</text>
-<rect x="1265.8507462686568" y="625" width="435.14925373134326" height="27" rx="4" fill="#EAF6F2" stroke="none"/>
-<text xml:space="preserve" x="1277.8507462686568" y="643" font-size="11" fill="#07866C" font-weight="600">渠道类型收入</text>
-<rect x="272" y="659" width="1432" height="43" rx="6" fill="#F1F4F9" stroke="none"/>
-<text xml:space="preserve" x="284" y="686" font-size="11" fill="#596B84" font-weight="600">主播 / ID</text>
-<text xml:space="preserve" x="401.55223880597015" y="686" font-size="11" fill="#596B84" font-weight="600">国家 / 性别</text>
-<text xml:space="preserve" x="476.35820895522386" y="686" font-size="11" fill="#596B84" font-weight="600">代理 / ID</text>
-<text xml:space="preserve" x="593.9104477611941" y="686" font-size="11" fill="#596B84" font-weight="600">代理长 / ID</text>
-<text xml:space="preserve" x="700.7761194029852" y="686" font-size="11" fill="#596B84" font-weight="600">运营人员</text>
-<text xml:space="preserve" x="807.6417910447763" y="686" font-size="11" fill="#596B84" font-weight="600">总收入（$）</text>
-<text xml:space="preserve" x="925.1940298507463" y="686" font-size="11" fill="#596B84" font-weight="600">幸运礼物（$）</text>
-<text xml:space="preserve" x="1048.089552238806" y="686" font-size="11" fill="#596B84" font-weight="600">普通礼物（$）</text>
-<text xml:space="preserve" x="1170.9850746268658" y="686" font-size="11" fill="#596B84" font-weight="600">游戏（$）</text>
-<text xml:space="preserve" x="1277.8507462686568" y="686" font-size="11" fill="#596B84" font-weight="600">单人直播（$）</text>
-<text xml:space="preserve" x="1395.402985074627" y="686" font-size="11" fill="#596B84" font-weight="600">多人视频（$）</text>
-<text xml:space="preserve" x="1512.955223880597" y="686" font-size="11" fill="#596B84" font-weight="600">音频直播（$）</text>
-<text xml:space="preserve" x="1619.8208955223881" y="686" font-size="11" fill="#596B84" font-weight="600">私聊（$）</text>
-<path d="M272 758H1704" transform="" stroke="#E5EAF2" fill="none"/>
+<rect x="252" y="218" width="1472" height="132" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="268" y="238" font-size="11" fill="#6B7C93" font-weight="500">主播ID</text>
+<rect x="268" y="245" width="241.6" height="32" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="278" y="266" font-size="12" fill="#A0ACBD" font-weight="400">请输入主播ID</text>
+<text xml:space="preserve" x="521.6" y="238" font-size="11" fill="#6B7C93" font-weight="500">代理ID</text>
+<rect x="521.6" y="245" width="241.6" height="32" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="531.6" y="266" font-size="12" fill="#A0ACBD" font-weight="400">请输入代理ID</text>
+<text xml:space="preserve" x="775.2" y="238" font-size="11" fill="#6B7C93" font-weight="500">代理长ID</text>
+<rect x="775.2" y="245" width="241.6" height="32" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="785.2" y="266" font-size="12" fill="#A0ACBD" font-weight="400">请输入代理长ID</text>
+<text xml:space="preserve" x="1028.8" y="238" font-size="11" fill="#6B7C93" font-weight="500">运营人员</text>
+<rect x="1028.8" y="245" width="241.6" height="32" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="1038.8" y="266" font-size="12" fill="#192B46" font-weight="400">全部授权负责人</text>
+<text xml:space="preserve" x="1250.3999999999999" y="266" font-size="13" fill="#6B7C93" font-weight="400">⌄</text>
+<text xml:space="preserve" x="1282.4" y="238" font-size="11" fill="#6B7C93" font-weight="500">统计时间段</text>
+<rect x="1282.4" y="245" width="241.6" height="32" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="1292.4" y="266" font-size="12" fill="#192B46" font-weight="400">2026-10-13 — 2026-10-19</text>
+<text xml:space="preserve" x="1504" y="266" font-size="13" fill="#6B7C93" font-weight="400">▦</text>
+<text xml:space="preserve" x="268" y="296" font-size="11" fill="#6B7C93" font-weight="500">国家地区</text>
+<rect x="268" y="303" width="241.6" height="32" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="278" y="324" font-size="12" fill="#192B46" font-weight="400">全部</text>
+<text xml:space="preserve" x="489.6" y="324" font-size="13" fill="#6B7C93" font-weight="400">⌄</text>
+<text xml:space="preserve" x="521.6" y="296" font-size="11" fill="#6B7C93" font-weight="500">性别</text>
+<rect x="521.6" y="303" width="241.6" height="32" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="531.6" y="324" font-size="12" fill="#192B46" font-weight="400">全部</text>
+<text xml:space="preserve" x="743.2" y="324" font-size="13" fill="#6B7C93" font-weight="400">⌄</text>
+<text xml:space="preserve" x="775.2" y="296" font-size="11" fill="#6B7C93" font-weight="500">总收入 ≥</text>
+<rect x="775.2" y="303" width="241.6" height="32" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="785.2" y="324" font-size="12" fill="#192B46" font-weight="400">最低金额（$）</text>
+<text xml:space="preserve" x="1028.8" y="296" font-size="11" fill="#6B7C93" font-weight="500">总收入 ≤</text>
+<rect x="1028.8" y="303" width="241.6" height="32" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="1038.8" y="324" font-size="12" fill="#192B46" font-weight="400">最高金额（$）</text>
+<rect x="1540" y="303" width="68" height="32" rx="7" fill="white" stroke="#DAE1ED"/>
+<text xml:space="preserve" x="1554" y="324" font-size="13" fill="#6545E8" font-weight="550">重置</text>
+<rect x="1620" y="303" width="88" height="32" rx="7" fill="#6545E8" stroke="#6545E8"/>
+<text xml:space="preserve" x="1634" y="324" font-size="13" fill="white" font-weight="550">查询</text>
+<rect x="252" y="362" width="357.5" height="94" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="270" y="388" font-size="12" fill="#6B7C93" font-weight="400">主播总收入</text>
+<text xml:space="preserve" x="270" y="423" font-size="27" fill="#192B46" font-weight="650">$48,260.00</text>
+<text xml:space="preserve" x="270" y="443" font-size="10" fill="#6B7C93" font-weight="400">分成后总计</text>
+<rect x="623.5" y="362" width="357.5" height="94" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="641.5" y="388" font-size="12" fill="#6B7C93" font-weight="400">幸运礼物收入</text>
+<text xml:space="preserve" x="641.5" y="423" font-size="27" fill="#192B46" font-weight="650">$15,320.00</text>
+<text xml:space="preserve" x="641.5" y="443" font-size="10" fill="#6B7C93" font-weight="400">业务类型</text>
+<rect x="995" y="362" width="357.5" height="94" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="1013" y="388" font-size="12" fill="#6B7C93" font-weight="400">普通礼物收入</text>
+<text xml:space="preserve" x="1013" y="423" font-size="27" fill="#192B46" font-weight="650">$26,480.00</text>
+<text xml:space="preserve" x="1013" y="443" font-size="10" fill="#6B7C93" font-weight="400">业务类型</text>
+<rect x="1366.5" y="362" width="357.5" height="94" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="1384.5" y="388" font-size="12" fill="#6B7C93" font-weight="400">游戏收入</text>
+<text xml:space="preserve" x="1384.5" y="423" font-size="27" fill="#192B46" font-weight="650">$6,460.00</text>
+<text xml:space="preserve" x="1384.5" y="443" font-size="10" fill="#6B7C93" font-weight="400">业务类型</text>
+<rect x="252" y="474" width="1472" height="480" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="272" y="516" font-size="16" fill="#192B46" font-weight="650">主播收入明细</text>
+<text xml:space="preserve" x="384" y="516" font-size="11" fill="#6B7C93" font-weight="400">近7天 · 含今天</text>
+<rect x="272" y="525" width="485.6350974930362" height="27" rx="4" fill="#F1F4F9" stroke="none"/>
+<text xml:space="preserve" x="284" y="543" font-size="11" fill="#6B7C93" font-weight="600">人员与归属</text>
+<rect x="760.6350974930363" y="525" width="106.69359331476323" height="27" rx="4" fill="#EDE9FE" stroke="none"/>
+<text xml:space="preserve" x="772.6350974930363" y="543" font-size="11" fill="#6545E8" font-weight="600">总收入</text>
+<rect x="870.3286908077995" y="525" width="326.0807799442897" height="27" rx="4" fill="#EFF5FF" stroke="none"/>
+<text xml:space="preserve" x="882.3286908077995" y="543" font-size="11" fill="#4277CE" font-weight="600">业务类型收入</text>
+<rect x="1199.4094707520892" y="525" width="405.857938718663" height="27" rx="4" fill="#EAF6F2" stroke="none"/>
+<text xml:space="preserve" x="1211.4094707520892" y="543" font-size="11" fill="#07866C" font-weight="600">渠道类型收入</text>
+<rect x="1608.2674094707522" y="525" width="92.73259052924791" height="27" rx="4" fill="#F1F4F9" stroke="none"/>
+<text xml:space="preserve" x="1620.2674094707522" y="543" font-size="11" fill="#6B7C93" font-weight="600">操作</text>
+<rect x="272" y="559" width="1432" height="43" rx="6" fill="#F1F4F9" stroke="none"/>
+<text xml:space="preserve" x="284" y="586" font-size="11" fill="#596B84" font-weight="600">主播 / ID</text>
+<text xml:space="preserve" x="393.69359331476323" y="586" font-size="11" fill="#596B84" font-weight="600">国家 / 性别</text>
+<text xml:space="preserve" x="463.49860724233986" y="586" font-size="11" fill="#596B84" font-weight="600">代理 / ID</text>
+<text xml:space="preserve" x="573.1922005571031" y="586" font-size="11" fill="#596B84" font-weight="600">代理长 / ID</text>
+<text xml:space="preserve" x="672.9136490250696" y="586" font-size="11" fill="#596B84" font-weight="600">运营人员</text>
+<text xml:space="preserve" x="772.6350974930361" y="586" font-size="11" fill="#596B84" font-weight="600">总收入（$）</text>
+<text xml:space="preserve" x="882.3286908077994" y="586" font-size="11" fill="#596B84" font-weight="600">幸运礼物（$）</text>
+<text xml:space="preserve" x="997.008356545961" y="586" font-size="11" fill="#596B84" font-weight="600">普通礼物（$）</text>
+<text xml:space="preserve" x="1111.6880222841226" y="586" font-size="11" fill="#596B84" font-weight="600">游戏（$）</text>
+<text xml:space="preserve" x="1211.4094707520892" y="586" font-size="11" fill="#596B84" font-weight="600">单人直播（$）</text>
+<text xml:space="preserve" x="1321.1030640668523" y="586" font-size="11" fill="#596B84" font-weight="600">多人视频（$）</text>
+<text xml:space="preserve" x="1430.7966573816157" y="586" font-size="11" fill="#596B84" font-weight="600">音频直播（$）</text>
+<text xml:space="preserve" x="1530.5181058495823" y="586" font-size="11" fill="#596B84" font-weight="600">私聊（$）</text>
+<text xml:space="preserve" x="1620.2674094707522" y="586" font-size="11" fill="#596B84" font-weight="600">操作</text>
+<path d="M272 658H1704" transform="" stroke="#E5EAF2" fill="none"/>
 <a href="admin-04-02-01-主播详情.svg">
-<text xml:space="preserve" x="284" y="725" font-size="12" fill="#192B46" font-weight="600">Lina</text>
-<text xml:space="preserve" x="284" y="742" font-size="10" fill="#6B7C93" font-weight="600">U2001</text>
+<text xml:space="preserve" x="284" y="625" font-size="12" fill="#192B46" font-weight="600">Lina</text>
+<text xml:space="preserve" x="284" y="642" font-size="10" fill="#6B7C93" font-weight="600">U2001</text>
 </a>
-<text xml:space="preserve" x="401.55223880597015" y="734" font-size="12" fill="#192B46" font-weight="400">TH · 女</text>
-<text xml:space="preserve" x="476.35820895522386" y="725" font-size="12" fill="#192B46" font-weight="400">星河代理</text>
-<text xml:space="preserve" x="476.35820895522386" y="742" font-size="10" fill="#6B7C93" font-weight="400">G1024</text>
-<text xml:space="preserve" x="593.9104477611941" y="725" font-size="12" fill="#192B46" font-weight="400">Maya</text>
-<text xml:space="preserve" x="593.9104477611941" y="742" font-size="10" fill="#6B7C93" font-weight="400">U1001</text>
-<text xml:space="preserve" x="700.7761194029852" y="734" font-size="12" fill="#192B46" font-weight="400">Leo · BD</text>
-<text xml:space="preserve" x="807.6417910447763" y="734" font-size="12" fill="#192B46" font-weight="600">$6,240.00</text>
-<text xml:space="preserve" x="925.1940298507463" y="734" font-size="12" fill="#192B46" font-weight="400">$2,100.00</text>
-<text xml:space="preserve" x="1048.089552238806" y="734" font-size="12" fill="#192B46" font-weight="400">$3,000.00</text>
-<text xml:space="preserve" x="1170.9850746268658" y="734" font-size="12" fill="#192B46" font-weight="400">$1,140.00</text>
-<text xml:space="preserve" x="1277.8507462686568" y="734" font-size="12" fill="#192B46" font-weight="400">$2,800.00</text>
-<text xml:space="preserve" x="1395.402985074627" y="734" font-size="12" fill="#192B46" font-weight="400">$2,200.00</text>
-<text xml:space="preserve" x="1512.955223880597" y="734" font-size="12" fill="#192B46" font-weight="400">$740.00</text>
-<text xml:space="preserve" x="1619.8208955223881" y="734" font-size="12" fill="#192B46" font-weight="400">$500.00</text>
-<path d="M272 814H1704" transform="" stroke="#E5EAF2" fill="none"/>
+<text xml:space="preserve" x="393.69359331476323" y="634" font-size="12" fill="#192B46" font-weight="400">TH · 女</text>
+<text xml:space="preserve" x="463.49860724233986" y="625" font-size="12" fill="#192B46" font-weight="400">星河代理</text>
+<text xml:space="preserve" x="463.49860724233986" y="642" font-size="10" fill="#6B7C93" font-weight="400">G1024</text>
+<text xml:space="preserve" x="573.1922005571031" y="625" font-size="12" fill="#192B46" font-weight="400">Maya</text>
+<text xml:space="preserve" x="573.1922005571031" y="642" font-size="10" fill="#6B7C93" font-weight="400">U1001</text>
+<text xml:space="preserve" x="672.9136490250696" y="634" font-size="12" fill="#192B46" font-weight="400">Evan · BD</text>
+<text xml:space="preserve" x="772.6350974930361" y="634" font-size="12" fill="#192B46" font-weight="600">$6,240.00</text>
+<text xml:space="preserve" x="882.3286908077994" y="634" font-size="12" fill="#192B46" font-weight="400">$2,100.00</text>
+<text xml:space="preserve" x="997.008356545961" y="634" font-size="12" fill="#192B46" font-weight="400">$3,000.00</text>
+<text xml:space="preserve" x="1111.6880222841226" y="634" font-size="12" fill="#192B46" font-weight="400">$1,140.00</text>
+<text xml:space="preserve" x="1211.4094707520892" y="634" font-size="12" fill="#192B46" font-weight="400">$2,800.00</text>
+<text xml:space="preserve" x="1321.1030640668523" y="634" font-size="12" fill="#192B46" font-weight="400">$2,200.00</text>
+<text xml:space="preserve" x="1430.7966573816157" y="634" font-size="12" fill="#192B46" font-weight="400">$740.00</text>
+<text xml:space="preserve" x="1530.5181058495823" y="634" font-size="12" fill="#192B46" font-weight="400">$500.00</text>
+<a href="admin-05-01-02-主播收入详情抽屉.svg">
+<text xml:space="preserve" x="1620.2674094707522" y="634" font-size="12" fill="#6545E8" font-weight="400">查看详情</text>
+</a>
+<path d="M272 714H1704" transform="" stroke="#E5EAF2" fill="none"/>
 <a href="admin-04-02-01-主播详情.svg">
-<text xml:space="preserve" x="284" y="781" font-size="12" fill="#192B46" font-weight="600">Nok</text>
-<text xml:space="preserve" x="284" y="798" font-size="10" fill="#6B7C93" font-weight="600">U2002</text>
+<text xml:space="preserve" x="284" y="681" font-size="12" fill="#192B46" font-weight="600">Nok</text>
+<text xml:space="preserve" x="284" y="698" font-size="10" fill="#6B7C93" font-weight="600">U2002</text>
 </a>
-<text xml:space="preserve" x="401.55223880597015" y="790" font-size="12" fill="#192B46" font-weight="400">TH · 女</text>
-<text xml:space="preserve" x="476.35820895522386" y="781" font-size="12" fill="#192B46" font-weight="400">晨星代理</text>
-<text xml:space="preserve" x="476.35820895522386" y="798" font-size="10" fill="#6B7C93" font-weight="400">G1101</text>
-<text xml:space="preserve" x="593.9104477611941" y="781" font-size="12" fill="#192B46" font-weight="400">Tom</text>
-<text xml:space="preserve" x="593.9104477611941" y="798" font-size="10" fill="#6B7C93" font-weight="400">U1101</text>
-<text xml:space="preserve" x="700.7761194029852" y="790" font-size="12" fill="#192B46" font-weight="400">Leo · BD</text>
-<text xml:space="preserve" x="807.6417910447763" y="790" font-size="12" fill="#192B46" font-weight="600">$4,320.00</text>
-<text xml:space="preserve" x="925.1940298507463" y="790" font-size="12" fill="#192B46" font-weight="400">$1,200.00</text>
-<text xml:space="preserve" x="1048.089552238806" y="790" font-size="12" fill="#192B46" font-weight="400">$2,400.00</text>
-<text xml:space="preserve" x="1170.9850746268658" y="790" font-size="12" fill="#192B46" font-weight="400">$720.00</text>
-<text xml:space="preserve" x="1277.8507462686568" y="790" font-size="12" fill="#192B46" font-weight="400">$2,000.00</text>
-<text xml:space="preserve" x="1395.402985074627" y="790" font-size="12" fill="#192B46" font-weight="400">$1,200.00</text>
-<text xml:space="preserve" x="1512.955223880597" y="790" font-size="12" fill="#192B46" font-weight="400">$620.00</text>
-<text xml:space="preserve" x="1619.8208955223881" y="790" font-size="12" fill="#192B46" font-weight="400">$500.00</text>
-<path d="M272 870H1704" transform="" stroke="#E5EAF2" fill="none"/>
+<text xml:space="preserve" x="393.69359331476323" y="690" font-size="12" fill="#192B46" font-weight="400">TH · 女</text>
+<text xml:space="preserve" x="463.49860724233986" y="681" font-size="12" fill="#192B46" font-weight="400">晨星代理</text>
+<text xml:space="preserve" x="463.49860724233986" y="698" font-size="10" fill="#6B7C93" font-weight="400">G1101</text>
+<text xml:space="preserve" x="573.1922005571031" y="681" font-size="12" fill="#192B46" font-weight="400">Tom</text>
+<text xml:space="preserve" x="573.1922005571031" y="698" font-size="10" fill="#6B7C93" font-weight="400">U1101</text>
+<text xml:space="preserve" x="672.9136490250696" y="690" font-size="12" fill="#192B46" font-weight="400">Evan · BD</text>
+<text xml:space="preserve" x="772.6350974930361" y="690" font-size="12" fill="#192B46" font-weight="600">$4,320.00</text>
+<text xml:space="preserve" x="882.3286908077994" y="690" font-size="12" fill="#192B46" font-weight="400">$1,200.00</text>
+<text xml:space="preserve" x="997.008356545961" y="690" font-size="12" fill="#192B46" font-weight="400">$2,400.00</text>
+<text xml:space="preserve" x="1111.6880222841226" y="690" font-size="12" fill="#192B46" font-weight="400">$720.00</text>
+<text xml:space="preserve" x="1211.4094707520892" y="690" font-size="12" fill="#192B46" font-weight="400">$2,000.00</text>
+<text xml:space="preserve" x="1321.1030640668523" y="690" font-size="12" fill="#192B46" font-weight="400">$1,200.00</text>
+<text xml:space="preserve" x="1430.7966573816157" y="690" font-size="12" fill="#192B46" font-weight="400">$620.00</text>
+<text xml:space="preserve" x="1530.5181058495823" y="690" font-size="12" fill="#192B46" font-weight="400">$500.00</text>
+<a href="admin-05-01-02-主播收入详情抽屉.svg">
+<text xml:space="preserve" x="1620.2674094707522" y="690" font-size="12" fill="#6545E8" font-weight="400">查看详情</text>
+</a>
+<path d="M272 770H1704" transform="" stroke="#E5EAF2" fill="none"/>
 <a href="admin-04-02-01-主播详情.svg">
-<text xml:space="preserve" x="284" y="837" font-size="12" fill="#192B46" font-weight="600">June</text>
-<text xml:space="preserve" x="284" y="854" font-size="10" fill="#6B7C93" font-weight="600">U2003</text>
+<text xml:space="preserve" x="284" y="737" font-size="12" fill="#192B46" font-weight="600">June</text>
+<text xml:space="preserve" x="284" y="754" font-size="10" fill="#6B7C93" font-weight="600">U2003</text>
 </a>
-<text xml:space="preserve" x="401.55223880597015" y="846" font-size="12" fill="#192B46" font-weight="400">VN · 女</text>
-<text xml:space="preserve" x="476.35820895522386" y="837" font-size="12" fill="#192B46" font-weight="400">星芒代理</text>
-<text xml:space="preserve" x="476.35820895522386" y="854" font-size="10" fill="#6B7C93" font-weight="400">G1201</text>
-<text xml:space="preserve" x="593.9104477611941" y="837" font-size="12" fill="#192B46" font-weight="400">Amy</text>
-<text xml:space="preserve" x="593.9104477611941" y="854" font-size="10" fill="#6B7C93" font-weight="400">U1201</text>
-<text xml:space="preserve" x="700.7761194029852" y="846" font-size="12" fill="#192B46" font-weight="400">Leo · BD</text>
-<text xml:space="preserve" x="807.6417910447763" y="846" font-size="12" fill="#192B46" font-weight="600">$2,880.00</text>
-<text xml:space="preserve" x="925.1940298507463" y="846" font-size="12" fill="#192B46" font-weight="400">$960.00</text>
-<text xml:space="preserve" x="1048.089552238806" y="846" font-size="12" fill="#192B46" font-weight="400">$1,560.00</text>
-<text xml:space="preserve" x="1170.9850746268658" y="846" font-size="12" fill="#192B46" font-weight="400">$360.00</text>
-<text xml:space="preserve" x="1277.8507462686568" y="846" font-size="12" fill="#192B46" font-weight="400">$1,300.00</text>
-<text xml:space="preserve" x="1395.402985074627" y="846" font-size="12" fill="#192B46" font-weight="400">$900.00</text>
-<text xml:space="preserve" x="1512.955223880597" y="846" font-size="12" fill="#192B46" font-weight="400">$380.00</text>
-<text xml:space="preserve" x="1619.8208955223881" y="846" font-size="12" fill="#192B46" font-weight="400">$300.00</text>
-<path d="M272 926H1704" transform="" stroke="#E5EAF2" fill="none"/>
+<text xml:space="preserve" x="393.69359331476323" y="746" font-size="12" fill="#192B46" font-weight="400">VN · 女</text>
+<text xml:space="preserve" x="463.49860724233986" y="737" font-size="12" fill="#192B46" font-weight="400">星芒代理</text>
+<text xml:space="preserve" x="463.49860724233986" y="754" font-size="10" fill="#6B7C93" font-weight="400">G1201</text>
+<text xml:space="preserve" x="573.1922005571031" y="737" font-size="12" fill="#192B46" font-weight="400">Amy</text>
+<text xml:space="preserve" x="573.1922005571031" y="754" font-size="10" fill="#6B7C93" font-weight="400">U1201</text>
+<text xml:space="preserve" x="672.9136490250696" y="746" font-size="12" fill="#192B46" font-weight="400">Evan · BD</text>
+<text xml:space="preserve" x="772.6350974930361" y="746" font-size="12" fill="#192B46" font-weight="600">$2,880.00</text>
+<text xml:space="preserve" x="882.3286908077994" y="746" font-size="12" fill="#192B46" font-weight="400">$960.00</text>
+<text xml:space="preserve" x="997.008356545961" y="746" font-size="12" fill="#192B46" font-weight="400">$1,560.00</text>
+<text xml:space="preserve" x="1111.6880222841226" y="746" font-size="12" fill="#192B46" font-weight="400">$360.00</text>
+<text xml:space="preserve" x="1211.4094707520892" y="746" font-size="12" fill="#192B46" font-weight="400">$1,300.00</text>
+<text xml:space="preserve" x="1321.1030640668523" y="746" font-size="12" fill="#192B46" font-weight="400">$900.00</text>
+<text xml:space="preserve" x="1430.7966573816157" y="746" font-size="12" fill="#192B46" font-weight="400">$380.00</text>
+<text xml:space="preserve" x="1530.5181058495823" y="746" font-size="12" fill="#192B46" font-weight="400">$300.00</text>
+<a href="admin-05-01-02-主播收入详情抽屉.svg">
+<text xml:space="preserve" x="1620.2674094707522" y="746" font-size="12" fill="#6545E8" font-weight="400">查看详情</text>
+</a>
+<path d="M272 826H1704" transform="" stroke="#E5EAF2" fill="none"/>
 <a href="admin-04-02-01-主播详情.svg">
-<text xml:space="preserve" x="284" y="893" font-size="12" fill="#192B46" font-weight="600">Arun</text>
-<text xml:space="preserve" x="284" y="910" font-size="10" fill="#6B7C93" font-weight="600">U2004</text>
+<text xml:space="preserve" x="284" y="793" font-size="12" fill="#192B46" font-weight="600">Arun</text>
+<text xml:space="preserve" x="284" y="810" font-size="10" fill="#6B7C93" font-weight="600">U2004</text>
 </a>
-<text xml:space="preserve" x="401.55223880597015" y="902" font-size="12" fill="#192B46" font-weight="400">IN · 男</text>
-<text xml:space="preserve" x="476.35820895522386" y="893" font-size="12" fill="#192B46" font-weight="400">银河代理</text>
-<text xml:space="preserve" x="476.35820895522386" y="910" font-size="10" fill="#6B7C93" font-weight="400">G2100</text>
-<text xml:space="preserve" x="593.9104477611941" y="893" font-size="12" fill="#192B46" font-weight="400">Ravi</text>
-<text xml:space="preserve" x="593.9104477611941" y="910" font-size="10" fill="#6B7C93" font-weight="400">U2100</text>
-<text xml:space="preserve" x="700.7761194029852" y="902" font-size="12" fill="#192B46" font-weight="400">Aria · BD</text>
-<text xml:space="preserve" x="807.6417910447763" y="902" font-size="12" fill="#192B46" font-weight="600">$2,460.00</text>
-<text xml:space="preserve" x="925.1940298507463" y="902" font-size="12" fill="#192B46" font-weight="400">$780.00</text>
-<text xml:space="preserve" x="1048.089552238806" y="902" font-size="12" fill="#192B46" font-weight="400">$1,320.00</text>
-<text xml:space="preserve" x="1170.9850746268658" y="902" font-size="12" fill="#192B46" font-weight="400">$360.00</text>
-<text xml:space="preserve" x="1277.8507462686568" y="902" font-size="12" fill="#192B46" font-weight="400">$1,100.00</text>
-<text xml:space="preserve" x="1395.402985074627" y="902" font-size="12" fill="#192B46" font-weight="400">$860.00</text>
-<text xml:space="preserve" x="1512.955223880597" y="902" font-size="12" fill="#192B46" font-weight="400">$300.00</text>
-<text xml:space="preserve" x="1619.8208955223881" y="902" font-size="12" fill="#192B46" font-weight="400">$200.00</text>
-<path d="M272 982H1704" transform="" stroke="#E5EAF2" fill="none"/>
+<text xml:space="preserve" x="393.69359331476323" y="802" font-size="12" fill="#192B46" font-weight="400">IN · 男</text>
+<text xml:space="preserve" x="463.49860724233986" y="793" font-size="12" fill="#192B46" font-weight="400">银河代理</text>
+<text xml:space="preserve" x="463.49860724233986" y="810" font-size="10" fill="#6B7C93" font-weight="400">G2100</text>
+<text xml:space="preserve" x="573.1922005571031" y="793" font-size="12" fill="#192B46" font-weight="400">Ravi</text>
+<text xml:space="preserve" x="573.1922005571031" y="810" font-size="10" fill="#6B7C93" font-weight="400">U2100</text>
+<text xml:space="preserve" x="672.9136490250696" y="802" font-size="12" fill="#192B46" font-weight="400">Aria · BD</text>
+<text xml:space="preserve" x="772.6350974930361" y="802" font-size="12" fill="#192B46" font-weight="600">$2,460.00</text>
+<text xml:space="preserve" x="882.3286908077994" y="802" font-size="12" fill="#192B46" font-weight="400">$780.00</text>
+<text xml:space="preserve" x="997.008356545961" y="802" font-size="12" fill="#192B46" font-weight="400">$1,320.00</text>
+<text xml:space="preserve" x="1111.6880222841226" y="802" font-size="12" fill="#192B46" font-weight="400">$360.00</text>
+<text xml:space="preserve" x="1211.4094707520892" y="802" font-size="12" fill="#192B46" font-weight="400">$1,100.00</text>
+<text xml:space="preserve" x="1321.1030640668523" y="802" font-size="12" fill="#192B46" font-weight="400">$860.00</text>
+<text xml:space="preserve" x="1430.7966573816157" y="802" font-size="12" fill="#192B46" font-weight="400">$300.00</text>
+<text xml:space="preserve" x="1530.5181058495823" y="802" font-size="12" fill="#192B46" font-weight="400">$200.00</text>
+<a href="admin-05-01-02-主播收入详情抽屉.svg">
+<text xml:space="preserve" x="1620.2674094707522" y="802" font-size="12" fill="#6545E8" font-weight="400">查看详情</text>
+</a>
+<path d="M272 882H1704" transform="" stroke="#E5EAF2" fill="none"/>
 <a href="admin-04-02-01-主播详情.svg">
-<text xml:space="preserve" x="284" y="949" font-size="12" fill="#192B46" font-weight="600">Ploy</text>
-<text xml:space="preserve" x="284" y="966" font-size="10" fill="#6B7C93" font-weight="600">U2005</text>
+<text xml:space="preserve" x="284" y="849" font-size="12" fill="#192B46" font-weight="600">Ploy</text>
+<text xml:space="preserve" x="284" y="866" font-size="10" fill="#6B7C93" font-weight="600">U2005</text>
 </a>
-<text xml:space="preserve" x="401.55223880597015" y="958" font-size="12" fill="#192B46" font-weight="400">TH · 女</text>
-<text xml:space="preserve" x="476.35820895522386" y="949" font-size="12" fill="#192B46" font-weight="400">蓝湾代理</text>
-<text xml:space="preserve" x="476.35820895522386" y="966" font-size="10" fill="#6B7C93" font-weight="400">G3100</text>
-<text xml:space="preserve" x="593.9104477611941" y="949" font-size="12" fill="#192B46" font-weight="400">Mali</text>
-<text xml:space="preserve" x="593.9104477611941" y="966" font-size="10" fill="#6B7C93" font-weight="400">U3100</text>
-<text xml:space="preserve" x="700.7761194029852" y="958" font-size="12" fill="#192B46" font-weight="400">Nina · 运营</text>
-<text xml:space="preserve" x="807.6417910447763" y="958" font-size="12" fill="#192B46" font-weight="600">$1,920.00</text>
-<text xml:space="preserve" x="925.1940298507463" y="958" font-size="12" fill="#192B46" font-weight="400">$600.00</text>
-<text xml:space="preserve" x="1048.089552238806" y="958" font-size="12" fill="#192B46" font-weight="400">$1,080.00</text>
-<text xml:space="preserve" x="1170.9850746268658" y="958" font-size="12" fill="#192B46" font-weight="400">$240.00</text>
-<text xml:space="preserve" x="1277.8507462686568" y="958" font-size="12" fill="#192B46" font-weight="400">$800.00</text>
-<text xml:space="preserve" x="1395.402985074627" y="958" font-size="12" fill="#192B46" font-weight="400">$620.00</text>
-<text xml:space="preserve" x="1512.955223880597" y="958" font-size="12" fill="#192B46" font-weight="400">$300.00</text>
-<text xml:space="preserve" x="1619.8208955223881" y="958" font-size="12" fill="#192B46" font-weight="400">$200.00</text>
-<text xml:space="preserve" x="272" y="1015" font-size="11" fill="#6B7C93" font-weight="400">共 280 条</text>
-<text xml:space="preserve" x="1394" y="1015" font-size="15" fill="#6B7C93" font-weight="400">‹</text>
-<rect x="1420" y="997" width="26.16" height="24" rx="12" fill="#F0EDFF" stroke="none"/>
-<text xml:space="preserve" x="1430" y="1013" font-size="11" fill="#6545E8" font-weight="550">1</text>
-<text xml:space="preserve" x="1470" y="1015" font-size="12" fill="#6B7C93" font-weight="400">2    3    …    ›</text>
-<rect x="1580" y="994" width="124" height="32" rx="6" fill="white" stroke="#E5EAF2"/>
-<text xml:space="preserve" x="1593" y="1015" font-size="11" fill="#6B7C93" font-weight="400">20 条 / 页  ⌄</text>
-<rect x="252" y="1028" width="1472" height="34" rx="6" fill="#F4F6FA" stroke="none"/>
-<text xml:space="preserve" x="264" y="1050" font-size="11" fill="#6B7C93" font-weight="400">业务类型与渠道类型同时展示，两个维度不重复相加。今日更新于14:30，历史数据固定。</text>
+<text xml:space="preserve" x="393.69359331476323" y="858" font-size="12" fill="#192B46" font-weight="400">TH · 女</text>
+<text xml:space="preserve" x="463.49860724233986" y="849" font-size="12" fill="#192B46" font-weight="400">蓝湾代理</text>
+<text xml:space="preserve" x="463.49860724233986" y="866" font-size="10" fill="#6B7C93" font-weight="400">G3100</text>
+<text xml:space="preserve" x="573.1922005571031" y="849" font-size="12" fill="#192B46" font-weight="400">Mali</text>
+<text xml:space="preserve" x="573.1922005571031" y="866" font-size="10" fill="#6B7C93" font-weight="400">U3100</text>
+<text xml:space="preserve" x="672.9136490250696" y="858" font-size="12" fill="#192B46" font-weight="400">Nina · 运营</text>
+<text xml:space="preserve" x="772.6350974930361" y="858" font-size="12" fill="#192B46" font-weight="600">$1,920.00</text>
+<text xml:space="preserve" x="882.3286908077994" y="858" font-size="12" fill="#192B46" font-weight="400">$600.00</text>
+<text xml:space="preserve" x="997.008356545961" y="858" font-size="12" fill="#192B46" font-weight="400">$1,080.00</text>
+<text xml:space="preserve" x="1111.6880222841226" y="858" font-size="12" fill="#192B46" font-weight="400">$240.00</text>
+<text xml:space="preserve" x="1211.4094707520892" y="858" font-size="12" fill="#192B46" font-weight="400">$800.00</text>
+<text xml:space="preserve" x="1321.1030640668523" y="858" font-size="12" fill="#192B46" font-weight="400">$620.00</text>
+<text xml:space="preserve" x="1430.7966573816157" y="858" font-size="12" fill="#192B46" font-weight="400">$300.00</text>
+<text xml:space="preserve" x="1530.5181058495823" y="858" font-size="12" fill="#192B46" font-weight="400">$200.00</text>
+<a href="admin-05-01-02-主播收入详情抽屉.svg">
+<text xml:space="preserve" x="1620.2674094707522" y="858" font-size="12" fill="#6545E8" font-weight="400">查看详情</text>
+</a>
+<text xml:space="preserve" x="272" y="915" font-size="11" fill="#6B7C93" font-weight="400">共 280 条</text>
+<text xml:space="preserve" x="1394" y="915" font-size="15" fill="#6B7C93" font-weight="400">‹</text>
+<rect x="1420" y="897" width="26.16" height="24" rx="12" fill="#F0EDFF" stroke="none"/>
+<text xml:space="preserve" x="1430" y="913" font-size="11" fill="#6545E8" font-weight="550">1</text>
+<text xml:space="preserve" x="1470" y="915" font-size="12" fill="#6B7C93" font-weight="400">2    3    …    ›</text>
+<rect x="1580" y="894" width="124" height="32" rx="6" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="1593" y="915" font-size="11" fill="#6B7C93" font-weight="400">20 条 / 页  ⌄</text>
+<rect x="252" y="928" width="1472" height="34" rx="6" fill="#F4F6FA" stroke="none"/>
+<text xml:space="preserve" x="264" y="950" font-size="11" fill="#6B7C93" font-weight="400">业务类型与渠道类型同时展示，两个维度不重复相加。今日更新于14:30，历史数据固定。</text>
 </svg>

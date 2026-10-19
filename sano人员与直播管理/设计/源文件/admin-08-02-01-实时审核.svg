@@ -80,20 +80,20 @@
 <text xml:space="preserve" x="1260.6666666666665" y="299" font-size="10" fill="#6B7C93" font-weight="400">可进入人员列表</text>
 </a>
 <rect x="252" y="333" width="1472" height="74" rx="10" fill="white" stroke="#E5EAF2"/>
-<text xml:space="preserve" x="272" y="353" font-size="11" fill="#6B7C93" font-weight="500">主播ID</text>
-<rect x="272" y="363" width="245" height="35" rx="6" fill="white" stroke="#DDE4EF"/>
-<text xml:space="preserve" x="283" y="386" font-size="12" fill="#A0ACBD" font-weight="400">请输入主播ID</text>
-<text xml:space="preserve" x="540" y="353" font-size="11" fill="#6B7C93" font-weight="500">代理ID</text>
-<rect x="540" y="363" width="245" height="35" rx="6" fill="white" stroke="#DDE4EF"/>
-<text xml:space="preserve" x="551" y="386" font-size="12" fill="#A0ACBD" font-weight="400">请输入代理ID</text>
-<text xml:space="preserve" x="808" y="353" font-size="11" fill="#6B7C93" font-weight="500">渠道类型</text>
-<rect x="808" y="363" width="245" height="35" rx="6" fill="white" stroke="#DDE4EF"/>
-<text xml:space="preserve" x="819" y="386" font-size="12" fill="#192B46" font-weight="400">全部直播渠道</text>
-<text xml:space="preserve" x="1031" y="386" font-size="13" fill="#6B7C93" font-weight="400">⌄</text>
-<rect x="1512" y="356" width="84" height="38" rx="7" fill="white" stroke="#DAE1ED"/>
-<text xml:space="preserve" x="1526" y="380" font-size="13" fill="#6545E8" font-weight="550">重置</text>
-<rect x="1608" y="356" width="96" height="38" rx="7" fill="#6545E8" stroke="#6545E8"/>
-<text xml:space="preserve" x="1622" y="380" font-size="13" fill="white" font-weight="550">查询</text>
+<text xml:space="preserve" x="268" y="353" font-size="11" fill="#6B7C93" font-weight="500">主播ID</text>
+<rect x="268" y="360" width="240" height="32" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="278" y="381" font-size="12" fill="#A0ACBD" font-weight="400">请输入主播ID</text>
+<text xml:space="preserve" x="520" y="353" font-size="11" fill="#6B7C93" font-weight="500">代理ID</text>
+<rect x="520" y="360" width="240" height="32" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="530" y="381" font-size="12" fill="#A0ACBD" font-weight="400">请输入代理ID</text>
+<text xml:space="preserve" x="772" y="353" font-size="11" fill="#6B7C93" font-weight="500">渠道类型</text>
+<rect x="772" y="360" width="240" height="32" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="782" y="381" font-size="12" fill="#192B46" font-weight="400">全部直播渠道</text>
+<text xml:space="preserve" x="992" y="381" font-size="13" fill="#6B7C93" font-weight="400">⌄</text>
+<rect x="1540" y="360" width="68" height="32" rx="7" fill="white" stroke="#DAE1ED"/>
+<text xml:space="preserve" x="1554" y="381" font-size="13" fill="#6545E8" font-weight="550">重置</text>
+<rect x="1620" y="360" width="88" height="32" rx="7" fill="#6545E8" stroke="#6545E8"/>
+<text xml:space="preserve" x="1634" y="381" font-size="13" fill="white" font-weight="550">查询</text>
 <text xml:space="preserve" x="252" y="445" font-size="17" fill="#192B46" font-weight="650">在播直播间</text>
 <rect x="387" y="426" width="108" height="24" rx="12" fill="#FFF6E5" stroke="none"/>
 <text xml:space="preserve" x="397" y="442" font-size="11" fill="#A46B16" font-weight="550">字段与筛选待确认</text>
@@ -105,7 +105,7 @@
 <text xml:space="preserve" x="424" y="509" font-size="19" fill="#192B46" font-weight="650">Lina</text>
 <text xml:space="preserve" x="424" y="535" font-size="11" fill="#6B7C93" font-weight="400">U2001 · 超级主播</text>
 <text xml:space="preserve" x="424" y="566" font-size="12" fill="#192B46" font-weight="400">星河代理 / G1024</text>
-<text xml:space="preserve" x="424" y="593" font-size="11" fill="#6B7C93" font-weight="400">Leo · BD</text>
+<text xml:space="preserve" x="424" y="593" font-size="11" fill="#6B7C93" font-weight="400">Evan · BD</text>
 <text xml:space="preserve" x="424" y="625" font-size="12" fill="#192B46" font-weight="400">单人直播 · 01:42</text>
 <text xml:space="preserve" x="424" y="653" font-size="11" fill="#6B7C93" font-weight="400">当前观众 128  ·  RM88001</text>
 <a href="admin-08-02-01-实时审核.svg">
@@ -120,7 +120,7 @@
 <text xml:space="preserve" x="923" y="509" font-size="19" fill="#192B46" font-weight="650">Nok</text>
 <text xml:space="preserve" x="923" y="535" font-size="11" fill="#6B7C93" font-weight="400">U2002 · 优质主播</text>
 <text xml:space="preserve" x="923" y="566" font-size="12" fill="#192B46" font-weight="400">晨星代理 / G1101</text>
-<text xml:space="preserve" x="923" y="593" font-size="11" fill="#6B7C93" font-weight="400">Leo · BD</text>
+<text xml:space="preserve" x="923" y="593" font-size="11" fill="#6B7C93" font-weight="400">Evan · BD</text>
 <text xml:space="preserve" x="923" y="625" font-size="12" fill="#192B46" font-weight="400">多人视频直播 · 00:58</text>
 <text xml:space="preserve" x="923" y="653" font-size="11" fill="#6B7C93" font-weight="400">当前观众 86  ·  RM88002</text>
 <a href="admin-08-02-01-实时审核.svg">
@@ -135,7 +135,7 @@
 <text xml:space="preserve" x="1422" y="509" font-size="19" fill="#192B46" font-weight="650">June</text>
 <text xml:space="preserve" x="1422" y="535" font-size="11" fill="#6B7C93" font-weight="400">U2003 · 主播</text>
 <text xml:space="preserve" x="1422" y="566" font-size="12" fill="#192B46" font-weight="400">星芒代理 / G1201</text>
-<text xml:space="preserve" x="1422" y="593" font-size="11" fill="#6B7C93" font-weight="400">Leo · BD</text>
+<text xml:space="preserve" x="1422" y="593" font-size="11" fill="#6B7C93" font-weight="400">Evan · BD</text>
 <text xml:space="preserve" x="1422" y="625" font-size="12" fill="#192B46" font-weight="400">音频直播 · 02:10</text>
 <text xml:space="preserve" x="1422" y="653" font-size="11" fill="#6B7C93" font-weight="400">当前观众 42  ·  RM88003</text>
 <a href="admin-08-02-01-实时审核.svg">
@@ -197,7 +197,7 @@
 <text xml:space="preserve" x="1711" y="111" font-size="25" fill="#6B7C93" font-weight="400">×</text>
 </a>
 <rect x="498" y="163" width="1234" height="65" rx="8" fill="#F0EDFF" stroke="none"/>
-<text xml:space="preserve" x="514" y="189" font-size="13" fill="#192B46" font-weight="550">星河代理 G1024  ·  Leo / BD  ·  单人直播</text>
+<text xml:space="preserve" x="514" y="189" font-size="13" fill="#192B46" font-weight="550">星河代理 G1024  ·  Evan / BD  ·  单人直播</text>
 <text xml:space="preserve" x="514" y="212" font-size="11" fill="#6B7C93" font-weight="400">本场开播 12:48  ·  已播 01:42  ·  当前观众 128</text>
 <rect x="1581" y="183" width="76.32" height="24" rx="12" fill="#E8F7F1" stroke="none"/>
 <text xml:space="preserve" x="1591" y="199" font-size="11" fill="#07866C" font-weight="550">● 正在直播</text>
