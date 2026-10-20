@@ -1,0 +1,258 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1760" height="1120" viewBox="0 0 1760 1120"><style>text{font-family:"Microsoft YaHei","Segoe UI",sans-serif}a{cursor:pointer}</style>
+<rect x="0" y="0" width="1760" height="1120" rx="0" fill="#F5F7FB" stroke="none"/>
+<rect x="0" y="0" width="216" height="1120" rx="0" fill="#0B1C35" stroke="none"/>
+<text xml:space="preserve" x="28" y="48" font-size="29" fill="white" font-weight="750">SANO</text>
+<text xml:space="preserve" x="29" y="73" font-size="12" fill="#A0B0C7" font-weight="400">人员与直播管理</text>
+<a href="admin-01-01-01-我的运营概览.svg">
+<path d="M2 2h6v6H2z M12 2h6v6h-6z M2 12h6v6H2z M12 12h6v6h-6z" transform="translate(29,122)" fill="none" stroke="#9CAEC6" stroke-width="1.5" stroke-linejoin="round"/>
+<text xml:space="preserve" x="62" y="138" font-size="14" fill="#BBC8D9" font-weight="400">运营概览</text>
+</a>
+<path d="M3 18V7h14v11 M7 7V2h6v5 M7 11h2 M12 11h2 M7 15h2 M12 15h2" transform="translate(29,181)" fill="none" stroke="#A4B6CF" stroke-width="1.5" stroke-linejoin="round"/>
+<text xml:space="preserve" x="60" y="196" font-size="14" fill="#E1E8F3" font-weight="600">组织管理</text>
+<text xml:space="preserve" x="180" y="196" font-size="14" fill="#A4B6CF" font-weight="400">⌄</text>
+<a href="admin-02-01-01-BD列表.svg">
+<circle cx="46" cy="232" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="238" font-size="13" fill="#AABDD3" font-weight="400">BD列表</text>
+</a>
+<a href="admin-03-01-01-代理树形列表.svg">
+<circle cx="46" cy="276" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="282" font-size="13" fill="#AABDD3" font-weight="400">代理列表</text>
+</a>
+<a href="admin-04-01-01-主播列表.svg">
+<rect x="30" y="301" width="172" height="38" rx="7" fill="#6545E8" stroke="none"/>
+<circle cx="46" cy="320" r="2.5" fill="white"/>
+<text xml:space="preserve" x="63" y="326" font-size="13" fill="white" font-weight="600">主播列表</text>
+</a>
+<path d="M2 5h16v12H2z M2 9h16 M12 13h3" transform="translate(29,397)" fill="none" stroke="#A4B6CF" stroke-width="1.5" stroke-linejoin="round"/>
+<text xml:space="preserve" x="60" y="412" font-size="14" fill="#E1E8F3" font-weight="600">直播与收入</text>
+<text xml:space="preserve" x="180" y="412" font-size="14" fill="#A4B6CF" font-weight="400">⌄</text>
+<a href="admin-05-01-01-主播收入数据.svg">
+<circle cx="46" cy="448" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="454" font-size="13" fill="#AABDD3" font-weight="400">主播收入</text>
+</a>
+<a href="admin-06-01-01-代理收入数据.svg">
+<circle cx="46" cy="492" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="498" font-size="13" fill="#AABDD3" font-weight="400">代理收入</text>
+</a>
+<a href="admin-07-01-01-主播工作数据.svg">
+<circle cx="46" cy="536" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="542" font-size="13" fill="#AABDD3" font-weight="400">主播工作</text>
+</a>
+<a href="admin-08-01-01-当前直播间列表.svg">
+<circle cx="46" cy="580" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="586" font-size="13" fill="#AABDD3" font-weight="400">直播审核</text>
+</a>
+<rect x="18" y="929" width="180" height="98" rx="9" fill="#142943" stroke="none"/>
+<circle cx="43" cy="959" r="13" fill="#4C4490"/>
+<text xml:space="preserve" x="37" y="964" font-size="13" fill="white" font-weight="600">N</text>
+<text xml:space="preserve" x="65" y="957" font-size="13" fill="white" font-weight="600">Nina</text>
+<text xml:space="preserve" x="65" y="978" font-size="10" fill="#A1B2CB" font-weight="400">运营 · 当前授权范围</text>
+<text xml:space="preserve" x="30" y="1008" font-size="11" fill="#A1B2CB" font-weight="400">3 BD  /  18 代理</text>
+<text xml:space="preserve" x="28" y="1082" font-size="10" fill="#738CA9" font-weight="400">SANO · 管理后台</text>
+<rect x="216" y="0" width="1544" height="64" rx="0" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="252" y="39" font-size="13" fill="#6B7C93" font-weight="400">组织管理  /</text>
+<a href="admin-04-01-01-主播列表.svg">
+<text xml:space="preserve" x="340" y="39" font-size="13" fill="#6545E8" font-weight="400">主播列表</text>
+</a>
+<text xml:space="preserve" x="410" y="39" font-size="13" fill="#6B7C93" font-weight="400">/  主播详情</text>
+<rect x="1373" y="20" width="86" height="24" rx="12" fill="#FFF6E5" stroke="none"/>
+<text xml:space="preserve" x="1383" y="36" font-size="11" fill="#A46B16" font-weight="550">原型示例数据</text>
+<text xml:space="preserve" x="1535" y="39" font-size="12" fill="#6B7C93" font-weight="400">Nina  ·  运营</text>
+<a href="admin-04-01-01-主播列表.svg">
+<rect x="252" y="84" width="168" height="38" rx="7" fill="white" stroke="#DAE1ED"/>
+<text xml:space="preserve" x="266" y="108" font-size="13" fill="#6545E8" font-weight="550">← 返回主播列表</text>
+</a>
+<text xml:space="preserve" x="442" y="112" font-size="27" fill="#192B46" font-weight="700">主播详情</text>
+<text xml:space="preserve" x="252" y="140" font-size="13" fill="#6B7C93" font-weight="400">同设备查询从最后一次上报区域进入</text>
+<rect x="1519" y="89" width="86" height="24" rx="12" fill="#F0EDFF" stroke="none"/>
+<text xml:space="preserve" x="1529" y="105" font-size="11" fill="#6545E8" font-weight="550">我的授权范围</text>
+<path d="M252 1081H1724" transform="" stroke="#E5EAF2" fill="none"/>
+<text xml:space="preserve" x="252" y="1103" font-size="10" fill="#6B7C93" font-weight="400">示例数据仅供评审  ·  数据范围：运营 Nina  ·  收入 USD  ·  余额按所标单位  ·  时区 UTC+8</text>
+<text xml:space="preserve" x="1470" y="1103" font-size="10" fill="#6B7C93" font-weight="400">admin-04-03-01  /  V1</text>
+<rect x="252" y="160" width="1472" height="38" rx="7" fill="#F0EDFF" stroke="none"/>
+<circle cx="268" cy="179" r="3" fill="#6545E8"/>
+<text xml:space="preserve" x="281" y="184" font-size="12" fill="#6545E8" font-weight="400">当前主播：Lina / U2001 · 当前页面已定位至最后一次上报区域</text>
+<text xml:space="preserve" x="1446" y="184" font-size="11" fill="#6B7C93" font-weight="400">今日数据更新于 14:30</text>
+<rect x="252" y="218" width="1472" height="426" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="274" y="254" font-size="17" fill="#192B46" font-weight="650">最后一次上报信息</text>
+<text xml:space="preserve" x="457" y="254" font-size="12" fill="#6B7C93" font-weight="400">按服务端接收时间取最近一条</text>
+<text xml:space="preserve" x="274" y="300" font-size="11" fill="#6B7C93" font-weight="400">记录ID：</text>
+<text xml:space="preserve" x="323.32" y="300" font-size="12" fill="#192B46" font-weight="400">900201</text>
+<text xml:space="preserve" x="750" y="300" font-size="11" fill="#6B7C93" font-weight="400">用户ID：</text>
+<text xml:space="preserve" x="799.32" y="300" font-size="12" fill="#192B46" font-weight="400">2001</text>
+<text xml:space="preserve" x="1226" y="300" font-size="11" fill="#6B7C93" font-weight="400">服务端接收时间：</text>
+<text xml:space="preserve" x="1318" y="300" font-size="12" fill="#192B46" font-weight="400">2026-10-19 14:30:00.345</text>
+<text xml:space="preserve" x="274" y="330" font-size="11" fill="#6B7C93" font-weight="400">设备品牌：</text>
+<text xml:space="preserve" x="333" y="330" font-size="12" fill="#192B46" font-weight="400">OnePlus</text>
+<text xml:space="preserve" x="750" y="330" font-size="11" fill="#6B7C93" font-weight="400">原始型号：</text>
+<text xml:space="preserve" x="809" y="330" font-size="12" fill="#192B46" font-weight="400">CPH2581</text>
+<text xml:space="preserve" x="1226" y="330" font-size="11" fill="#6B7C93" font-weight="400">设备时间（毫秒）：</text>
+<text xml:space="preserve" x="1329" y="330" font-size="12" fill="#192B46" font-weight="400">1792391400000</text>
+<text xml:space="preserve" x="274" y="360" font-size="11" fill="#6B7C93" font-weight="400">系统及版本：</text>
+<text xml:space="preserve" x="344" y="360" font-size="12" fill="#192B46" font-weight="400">Android 16</text>
+<text xml:space="preserve" x="750" y="360" font-size="11" fill="#6B7C93" font-weight="400">App发布版本：</text>
+<text xml:space="preserve" x="827.48" y="360" font-size="12" fill="#192B46" font-weight="400">1.9.6</text>
+<text xml:space="preserve" x="1226" y="360" font-size="11" fill="#6B7C93" font-weight="400">App构建号：</text>
+<text xml:space="preserve" x="1292.48" y="360" font-size="12" fill="#192B46" font-weight="400">0190601</text>
+<text xml:space="preserve" x="274" y="390" font-size="11" fill="#6B7C93" font-weight="400">网络类型：</text>
+<text xml:space="preserve" x="333" y="390" font-size="12" fill="#192B46" font-weight="400">WIFI</text>
+<text xml:space="preserve" x="750" y="390" font-size="11" fill="#6B7C93" font-weight="400">是否模拟器：</text>
+<text xml:space="preserve" x="820" y="390" font-size="12" fill="#192B46" font-weight="400">否</text>
+<text xml:space="preserve" x="1226" y="390" font-size="11" fill="#6B7C93" font-weight="400">是否VPN或代理：</text>
+<text xml:space="preserve" x="1314.48" y="390" font-size="12" fill="#192B46" font-weight="400">未检测</text>
+<text xml:space="preserve" x="274" y="420" font-size="11" fill="#6B7C93" font-weight="400">上报IP：</text>
+<text xml:space="preserve" x="323.32" y="420" font-size="12" fill="#192B46" font-weight="400">203.0.113.24</text>
+<text xml:space="preserve" x="750" y="420" font-size="11" fill="#6B7C93" font-weight="400">IP国家：</text>
+<text xml:space="preserve" x="799.32" y="420" font-size="12" fill="#192B46" font-weight="400">TH</text>
+<text xml:space="preserve" x="1226" y="420" font-size="11" fill="#6B7C93" font-weight="400">IP地区 / 省州：</text>
+<text xml:space="preserve" x="1315.8" y="420" font-size="12" fill="#192B46" font-weight="400">Bangkok</text>
+<text xml:space="preserve" x="274" y="450" font-size="11" fill="#6B7C93" font-weight="400">IP城市：</text>
+<text xml:space="preserve" x="323.32" y="450" font-size="12" fill="#192B46" font-weight="400">Bangkok</text>
+<text xml:space="preserve" x="750" y="450" font-size="11" fill="#6B7C93" font-weight="400">注册国家：</text>
+<text xml:space="preserve" x="809" y="450" font-size="12" fill="#192B46" font-weight="400">TH</text>
+<text xml:space="preserve" x="1226" y="450" font-size="11" fill="#6B7C93" font-weight="400">注册渠道：</text>
+<text xml:space="preserve" x="1285" y="450" font-size="12" fill="#192B46" font-weight="400">organic</text>
+<text xml:space="preserve" x="274" y="480" font-size="11" fill="#6B7C93" font-weight="400">是否代理长：</text>
+<text xml:space="preserve" x="344" y="480" font-size="12" fill="#192B46" font-weight="400">否</text>
+<text xml:space="preserve" x="750" y="480" font-size="11" fill="#6B7C93" font-weight="400">是否Payroll代理：</text>
+<text xml:space="preserve" x="852.12" y="480" font-size="12" fill="#192B46" font-weight="400">否</text>
+<text xml:space="preserve" x="1226" y="480" font-size="11" fill="#6B7C93" font-weight="400">是否BD：</text>
+<text xml:space="preserve" x="1275.32" y="480" font-size="12" fill="#192B46" font-weight="400">否</text>
+<text xml:space="preserve" x="274" y="510" font-size="11" fill="#6B7C93" font-weight="400">客户端类型：</text>
+<text xml:space="preserve" x="344" y="510" font-size="12" fill="#192B46" font-weight="400">ANDROID</text>
+<rect x="274" y="522" width="1428" height="34" rx="6" fill="#F4F6FA" stroke="none"/>
+<text xml:space="preserve" x="286" y="544" font-size="11" fill="#6B7C93" font-weight="400">最近上报按服务端接收时间展示；上报快照保留当次结果，注册资料以基础信息为准。</text>
+<text xml:space="preserve" x="274" y="584" font-size="13" fill="#192B46" font-weight="600">同设备查询</text>
+<text xml:space="preserve" x="274" y="616" font-size="11" fill="#6B7C93" font-weight="400">安装实例ID：</text>
+<text xml:space="preserve" x="345.32" y="616" font-size="12" fill="#192B46" font-weight="400">install-demo-2001</text>
+<a href="admin-04-03-01-同设备查询-安装实例.svg">
+<text xml:space="preserve" x="882" y="616" font-size="11" fill="#6545E8" font-weight="400">查询记录 →</text>
+</a>
+<text xml:space="preserve" x="988" y="616" font-size="11" fill="#6B7C93" font-weight="400">设备标识（mac）：</text>
+<text xml:space="preserve" x="1087.48" y="616" font-size="12" fill="#192B46" font-weight="400">ad-demo-2001</text>
+<a href="admin-04-03-02-同设备查询-设备标识.svg">
+<text xml:space="preserve" x="1596" y="616" font-size="11" fill="#6545E8" font-weight="400">查询记录 →</text>
+</a>
+<a href="admin-04-02-01-主播详情.svg">
+<rect x="216" y="64" width="1544" height="1056" rx="0" fill="#10223B80" stroke="none"/>
+</a>
+<rect x="470" y="64" width="1290" height="1056" rx="0" fill="white" stroke="none"/>
+<text xml:space="preserve" x="498" y="111" font-size="23" fill="#192B46" font-weight="650">同设备查询</text>
+<text xml:space="preserve" x="498" y="139" font-size="12" fill="#6B7C93" font-weight="400">Lina / U2001 · 仅展示当前授权范围内的上报记录</text>
+<a href="admin-04-02-01-主播详情.svg">
+<text xml:space="preserve" x="1711" y="111" font-size="25" fill="#6B7C93" font-weight="400">×</text>
+</a>
+<rect x="498" y="164" width="1234" height="74" rx="8" fill="#F0EDFF" stroke="none"/>
+<text xml:space="preserve" x="514" y="191" font-size="12" fill="#6B7C93" font-weight="400">安装实例ID</text>
+<text xml:space="preserve" x="514" y="218" font-size="16" fill="#192B46" font-weight="600">install-demo-2001</text>
+<text xml:space="preserve" x="498" y="282" font-size="11" fill="#6B7C93" font-weight="400">查询依据</text>
+<a href="admin-04-03-01-同设备查询-安装实例.svg">
+<rect x="572" y="260" width="156" height="32" rx="7" fill="#6545E8" stroke="#6545E8"/>
+<text xml:space="preserve" x="586" y="281" font-size="13" fill="white" font-weight="550">安装实例</text>
+</a>
+<a href="admin-04-03-02-同设备查询-设备标识.svg">
+<rect x="740" y="260" width="164" height="32" rx="7" fill="white" stroke="#DAE1ED"/>
+<text xml:space="preserve" x="754" y="281" font-size="13" fill="#6545E8" font-weight="550">设备标识（mac）</text>
+</a>
+<text xml:space="preserve" x="962" y="282" font-size="11" fill="#6B7C93" font-weight="500">上报时间段</text>
+<rect x="1031" y="260" width="351" height="32" rx="6" fill="white" stroke="#DDE4EF"/>
+<text xml:space="preserve" x="1042" y="281" font-size="12" fill="#192B46" font-weight="400">2026-10-13 — 2026-10-19</text>
+<text xml:space="preserve" x="1360" y="281" font-size="13" fill="#6B7C93" font-weight="400">▦</text>
+<rect x="1394" y="260" width="86" height="32" rx="7" fill="white" stroke="#DAE1ED"/>
+<text xml:space="preserve" x="1408" y="281" font-size="13" fill="#6545E8" font-weight="550">近7天</text>
+<rect x="1492" y="260" width="84" height="32" rx="7" fill="#6545E8" stroke="#6545E8"/>
+<text xml:space="preserve" x="1506" y="281" font-size="13" fill="white" font-weight="550">查询</text>
+<rect x="498" y="316" width="402" height="85" rx="8" fill="#F6F7FB" stroke="none"/>
+<text xml:space="preserve" x="514" y="342" font-size="12" fill="#6B7C93" font-weight="400">范围内关联账号</text>
+<text xml:space="preserve" x="514" y="378" font-size="27" fill="#192B46" font-weight="650">3</text>
+<rect x="914" y="316" width="402" height="85" rx="8" fill="#F6F7FB" stroke="none"/>
+<text xml:space="preserve" x="930" y="342" font-size="12" fill="#6B7C93" font-weight="400">匹配上报记录</text>
+<text xml:space="preserve" x="930" y="378" font-size="27" fill="#192B46" font-weight="650">5</text>
+<rect x="1330" y="316" width="402" height="85" rx="8" fill="#F6F7FB" stroke="none"/>
+<text xml:space="preserve" x="1346" y="342" font-size="12" fill="#6B7C93" font-weight="400">匹配方式</text>
+<text xml:space="preserve" x="1346" y="378" font-size="21" fill="#192B46" font-weight="650">标识精确匹配</text>
+<text xml:space="preserve" x="498" y="438" font-size="17" fill="#192B46" font-weight="650">同标识上报记录</text>
+<text xml:space="preserve" x="498" y="466" font-size="11" fill="#6B7C93" font-weight="400">已查询：2026-10-13 — 2026-10-19 · 按服务端接收时间倒序，包含当前账号</text>
+<rect x="498" y="490" width="1234" height="43" rx="6" fill="#F1F4F9" stroke="none"/>
+<text xml:space="preserve" x="510" y="517" font-size="11" fill="#596B84" font-weight="600">服务端接收时间</text>
+<text xml:space="preserve" x="698.9377990430622" y="517" font-size="11" fill="#596B84" font-weight="600">主播 / 用户号</text>
+<text xml:space="preserve" x="805.2153110047848" y="517" font-size="11" fill="#596B84" font-weight="600">安装实例ID</text>
+<text xml:space="preserve" x="970.5358851674641" y="517" font-size="11" fill="#596B84" font-weight="600">设备标识（mac）</text>
+<text xml:space="preserve" x="1124.047846889952" y="517" font-size="11" fill="#596B84" font-weight="600">品牌 / 型号</text>
+<text xml:space="preserve" x="1253.9425837320573" y="517" font-size="11" fill="#596B84" font-weight="600">系统 / App版本</text>
+<text xml:space="preserve" x="1448.7846889952152" y="517" font-size="11" fill="#596B84" font-weight="600">IP / 地区</text>
+<text xml:space="preserve" x="1614.1052631578946" y="517" font-size="11" fill="#596B84" font-weight="600">模拟器 / VPN</text>
+<path d="M498 609H1732" transform="" stroke="#E5EAF2" fill="none"/>
+<text xml:space="preserve" x="510" y="575" font-size="12" fill="#192B46" font-weight="400">2026-10-19 14:30:00.345</text>
+<text xml:space="preserve" x="698.9377990430622" y="566" font-size="12" fill="#192B46" font-weight="400">Lina</text>
+<text xml:space="preserve" x="698.9377990430622" y="583" font-size="10" fill="#6B7C93" font-weight="400">U2001</text>
+<text xml:space="preserve" x="805.2153110047848" y="575" font-size="12" fill="#192B46" font-weight="400">install-demo-2001</text>
+<text xml:space="preserve" x="970.5358851674641" y="575" font-size="12" fill="#192B46" font-weight="400">ad-demo-2001</text>
+<text xml:space="preserve" x="1124.047846889952" y="566" font-size="12" fill="#192B46" font-weight="400">OnePlus</text>
+<text xml:space="preserve" x="1124.047846889952" y="583" font-size="10" fill="#6B7C93" font-weight="400">CPH2581</text>
+<text xml:space="preserve" x="1253.9425837320573" y="566" font-size="12" fill="#192B46" font-weight="400">Android 16</text>
+<text xml:space="preserve" x="1253.9425837320573" y="583" font-size="10" fill="#6B7C93" font-weight="400">1.9.6 / 0190601</text>
+<text xml:space="preserve" x="1448.7846889952152" y="566" font-size="12" fill="#192B46" font-weight="400">203.0.113.24</text>
+<text xml:space="preserve" x="1448.7846889952152" y="583" font-size="10" fill="#6B7C93" font-weight="400">TH · Bangkok</text>
+<text xml:space="preserve" x="1614.1052631578946" y="575" font-size="12" fill="#192B46" font-weight="400">否 / 未检测</text>
+<path d="M498 685H1732" transform="" stroke="#E5EAF2" fill="none"/>
+<text xml:space="preserve" x="510" y="651" font-size="12" fill="#192B46" font-weight="400">2026-10-19 13:40:10.120</text>
+<text xml:space="preserve" x="698.9377990430622" y="642" font-size="12" fill="#192B46" font-weight="400">Nok</text>
+<text xml:space="preserve" x="698.9377990430622" y="659" font-size="10" fill="#6B7C93" font-weight="400">U2002</text>
+<text xml:space="preserve" x="805.2153110047848" y="651" font-size="12" fill="#192B46" font-weight="400">install-demo-2001</text>
+<text xml:space="preserve" x="970.5358851674641" y="651" font-size="12" fill="#192B46" font-weight="400">ad-demo-2001</text>
+<text xml:space="preserve" x="1124.047846889952" y="642" font-size="12" fill="#192B46" font-weight="400">OnePlus</text>
+<text xml:space="preserve" x="1124.047846889952" y="659" font-size="10" fill="#6B7C93" font-weight="400">CPH2581</text>
+<text xml:space="preserve" x="1253.9425837320573" y="642" font-size="12" fill="#192B46" font-weight="400">Android 16</text>
+<text xml:space="preserve" x="1253.9425837320573" y="659" font-size="10" fill="#6B7C93" font-weight="400">1.9.6 / 0190601</text>
+<text xml:space="preserve" x="1448.7846889952152" y="642" font-size="12" fill="#192B46" font-weight="400">203.0.113.24</text>
+<text xml:space="preserve" x="1448.7846889952152" y="659" font-size="10" fill="#6B7C93" font-weight="400">TH · Bangkok</text>
+<text xml:space="preserve" x="1614.1052631578946" y="651" font-size="12" fill="#192B46" font-weight="400">否 / 否</text>
+<path d="M498 761H1732" transform="" stroke="#E5EAF2" fill="none"/>
+<text xml:space="preserve" x="510" y="727" font-size="12" fill="#192B46" font-weight="400">2026-10-18 21:10:12.800</text>
+<text xml:space="preserve" x="698.9377990430622" y="718" font-size="12" fill="#192B46" font-weight="400">Lina</text>
+<text xml:space="preserve" x="698.9377990430622" y="735" font-size="10" fill="#6B7C93" font-weight="400">U2001</text>
+<text xml:space="preserve" x="805.2153110047848" y="727" font-size="12" fill="#192B46" font-weight="400">install-demo-2001</text>
+<text xml:space="preserve" x="970.5358851674641" y="727" font-size="12" fill="#192B46" font-weight="400">ad-demo-2001</text>
+<text xml:space="preserve" x="1124.047846889952" y="718" font-size="12" fill="#192B46" font-weight="400">OnePlus</text>
+<text xml:space="preserve" x="1124.047846889952" y="735" font-size="10" fill="#6B7C93" font-weight="400">CPH2581</text>
+<text xml:space="preserve" x="1253.9425837320573" y="718" font-size="12" fill="#192B46" font-weight="400">Android 16</text>
+<text xml:space="preserve" x="1253.9425837320573" y="735" font-size="10" fill="#6B7C93" font-weight="400">1.9.6 / 0190601</text>
+<text xml:space="preserve" x="1448.7846889952152" y="718" font-size="12" fill="#192B46" font-weight="400">203.0.113.25</text>
+<text xml:space="preserve" x="1448.7846889952152" y="735" font-size="10" fill="#6B7C93" font-weight="400">TH · Bangkok</text>
+<text xml:space="preserve" x="1614.1052631578946" y="727" font-size="12" fill="#192B46" font-weight="400">否 / 未检测</text>
+<path d="M498 837H1732" transform="" stroke="#E5EAF2" fill="none"/>
+<text xml:space="preserve" x="510" y="803" font-size="12" fill="#192B46" font-weight="400">2026-10-17 19:05:01.080</text>
+<text xml:space="preserve" x="698.9377990430622" y="794" font-size="12" fill="#192B46" font-weight="400">Anna</text>
+<text xml:space="preserve" x="698.9377990430622" y="811" font-size="10" fill="#6B7C93" font-weight="400">U2008</text>
+<text xml:space="preserve" x="805.2153110047848" y="803" font-size="12" fill="#192B46" font-weight="400">install-demo-2001</text>
+<text xml:space="preserve" x="970.5358851674641" y="803" font-size="12" fill="#192B46" font-weight="400">ad-demo-2001</text>
+<text xml:space="preserve" x="1124.047846889952" y="794" font-size="12" fill="#192B46" font-weight="400">OnePlus</text>
+<text xml:space="preserve" x="1124.047846889952" y="811" font-size="10" fill="#6B7C93" font-weight="400">CPH2581</text>
+<text xml:space="preserve" x="1253.9425837320573" y="794" font-size="12" fill="#192B46" font-weight="400">Android 16</text>
+<text xml:space="preserve" x="1253.9425837320573" y="811" font-size="10" fill="#6B7C93" font-weight="400">1.9.5 / 0190502</text>
+<text xml:space="preserve" x="1448.7846889952152" y="794" font-size="12" fill="#192B46" font-weight="400">203.0.113.25</text>
+<text xml:space="preserve" x="1448.7846889952152" y="811" font-size="10" fill="#6B7C93" font-weight="400">TH · Bangkok</text>
+<text xml:space="preserve" x="1614.1052631578946" y="803" font-size="12" fill="#192B46" font-weight="400">未检测 / 否</text>
+<path d="M498 913H1732" transform="" stroke="#E5EAF2" fill="none"/>
+<text xml:space="preserve" x="510" y="879" font-size="12" fill="#192B46" font-weight="400">2026-10-15 11:20:42.320</text>
+<text xml:space="preserve" x="698.9377990430622" y="870" font-size="12" fill="#192B46" font-weight="400">Lina</text>
+<text xml:space="preserve" x="698.9377990430622" y="887" font-size="10" fill="#6B7C93" font-weight="400">U2001</text>
+<text xml:space="preserve" x="805.2153110047848" y="879" font-size="12" fill="#192B46" font-weight="400">install-demo-2001</text>
+<text xml:space="preserve" x="970.5358851674641" y="879" font-size="12" fill="#192B46" font-weight="400">ad-demo-2001</text>
+<text xml:space="preserve" x="1124.047846889952" y="870" font-size="12" fill="#192B46" font-weight="400">OnePlus</text>
+<text xml:space="preserve" x="1124.047846889952" y="887" font-size="10" fill="#6B7C93" font-weight="400">CPH2581</text>
+<text xml:space="preserve" x="1253.9425837320573" y="870" font-size="12" fill="#192B46" font-weight="400">Android 16</text>
+<text xml:space="preserve" x="1253.9425837320573" y="887" font-size="10" fill="#6B7C93" font-weight="400">1.9.5 / 0190502</text>
+<text xml:space="preserve" x="1448.7846889952152" y="870" font-size="12" fill="#192B46" font-weight="400">203.0.113.24</text>
+<text xml:space="preserve" x="1448.7846889952152" y="887" font-size="10" fill="#6B7C93" font-weight="400">TH · Bangkok</text>
+<text xml:space="preserve" x="1614.1052631578946" y="879" font-size="12" fill="#192B46" font-weight="400">否 / 否</text>
+<rect x="498" y="938" width="1234" height="34" rx="6" fill="#F4F6FA" stroke="none"/>
+<text xml:space="preserve" x="510" y="960" font-size="11" fill="#6B7C93" font-weight="400">按当前标识精确匹配，含当前账号的历史记录；账号数和记录数均限定在当前授权范围。</text>
+<path d="M498 1022H1732" transform="" stroke="#E5EAF2" fill="none"/>
+<text xml:space="preserve" x="498" y="1066" font-size="11" fill="#6B7C93" font-weight="400">关闭后回到主播详情的原上报区域，保留页面位置。</text>
+<a href="admin-04-02-01-主播详情.svg">
+<rect x="1618" y="1042" width="114" height="38" rx="7" fill="white" stroke="#DAE1ED"/>
+<text xml:space="preserve" x="1632" y="1066" font-size="13" fill="#6545E8" font-weight="550">关闭</text>
+</a>
+</svg>

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1760" height="1120" viewBox="0 0 1760 1120"><style>text{font-family:"Microsoft YaHei","Segoe UI",sans-serif}a{cursor:pointer}</style>
-<rect x="0" y="0" width="1760" height="1120" rx="0" fill="#F5F7FB" stroke="none"/>
-<rect x="0" y="0" width="216" height="1120" rx="0" fill="#0B1C35" stroke="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1760" height="2200" viewBox="0 0 1760 2200"><style>text{font-family:"Microsoft YaHei","Segoe UI",sans-serif}a{cursor:pointer}</style>
+<rect x="0" y="0" width="1760" height="2200" rx="0" fill="#F5F7FB" stroke="none"/>
+<rect x="0" y="0" width="216" height="2200" rx="0" fill="#0B1C35" stroke="none"/>
 <text xml:space="preserve" x="28" y="48" font-size="29" fill="white" font-weight="750">SANO</text>
 <text xml:space="preserve" x="29" y="73" font-size="12" fill="#A0B0C7" font-weight="400">人员与直播管理</text>
 <a href="admin-01-01-01-我的运营概览.svg">
@@ -63,19 +63,19 @@
 <text xml:space="preserve" x="266" y="108" font-size="13" fill="#6545E8" font-weight="550">← 返回主播列表</text>
 </a>
 <text xml:space="preserve" x="442" y="112" font-size="27" fill="#192B46" font-weight="700">主播详情</text>
-<text xml:space="preserve" x="252" y="140" font-size="13" fill="#6B7C93" font-weight="400">由主播列表进入 · 收入构成与每日工作记录同页展示</text>
+<text xml:space="preserve" x="252" y="140" font-size="13" fill="#6B7C93" font-weight="400">收入与工作同页展示 · 向下查看详细资料、账户余额及最后一次上报</text>
 <rect x="1519" y="89" width="86" height="24" rx="12" fill="#F0EDFF" stroke="none"/>
 <text xml:space="preserve" x="1529" y="105" font-size="11" fill="#6545E8" font-weight="550">我的授权范围</text>
-<path d="M252 1081H1724" transform="" stroke="#E5EAF2" fill="none"/>
-<text xml:space="preserve" x="252" y="1103" font-size="10" fill="#6B7C93" font-weight="400">示例数据仅供评审  ·  数据范围：运营 Nina  ·  金额 USD  ·  时区 UTC+8</text>
-<text xml:space="preserve" x="1470" y="1103" font-size="10" fill="#6B7C93" font-weight="400">admin-04-02-01  /  V1</text>
+<path d="M252 2161H1724" transform="" stroke="#E5EAF2" fill="none"/>
+<text xml:space="preserve" x="252" y="2183" font-size="10" fill="#6B7C93" font-weight="400">示例数据仅供评审  ·  数据范围：运营 Nina  ·  收入 USD  ·  余额按所标单位  ·  时区 UTC+8</text>
+<text xml:space="preserve" x="1470" y="2183" font-size="10" fill="#6B7C93" font-weight="400">admin-04-02-01  /  V1</text>
 <rect x="252" y="160" width="1472" height="38" rx="7" fill="#F0EDFF" stroke="none"/>
 <circle cx="268" cy="179" r="3" fill="#6545E8"/>
 <text xml:space="preserve" x="281" y="184" font-size="12" fill="#6545E8" font-weight="400">当前主播：Lina / U2001  ·  星河代理 G1024  ·  负责人 Evan / BD</text>
 <text xml:space="preserve" x="1446" y="184" font-size="11" fill="#6B7C93" font-weight="400">今日数据更新于 14:30</text>
 <rect x="252" y="218" width="1472" height="122" rx="10" fill="white" stroke="#E5EAF2"/>
-<circle cx="300" cy="269" r="29" fill="#6545E818"/>
-<text xml:space="preserve" x="289.85" y="279.15" font-size="24.65" fill="#6545E8" font-weight="600">L</text>
+<rect x="270" y="236" width="60" height="82" rx="8" fill="#D8D1E7" stroke="none"/>
+<g clip-path="url(#clip-9-270-236)"><defs><clipPath id="clip-9-270-236"><rect x="270" y="236" width="60" height="82" rx="8"/></clipPath></defs><ellipse cx="301.2" cy="305.7" rx="25.8" ry="31.16" fill="#6E688E"/><ellipse cx="300" cy="270.44" rx="13.2" ry="23.779999999999998" fill="#3E3444"/><ellipse cx="300" cy="272.08" rx="9.6" ry="16.400000000000002" fill="#E5B49D"/><path d="M290.4 265.52Q294 249.12 310.2 264.7" stroke="#3E3444" stroke-width="4.8" fill="none"/><circle cx="296.4" cy="270.44" r="0.72" fill="#574350"/><circle cx="303.6" cy="270.44" r="0.72" fill="#574350"/><path d="M297.6 277.82q2.4 2.0500000000000003 4.8 0" stroke="#A97074" stroke-width="1" fill="none"/></g>
 <text xml:space="preserve" x="350" y="259" font-size="25" fill="#192B46" font-weight="650">Lina</text>
 <rect x="427" y="239" width="64" height="24" rx="12" fill="#F0EDFF" stroke="none"/>
 <text xml:space="preserve" x="437" y="255" font-size="11" fill="#6545E8" font-weight="550">超级主播</text>
@@ -87,6 +87,10 @@
 <a href="admin-08-02-02-实时审核-主播详情来源.svg">
 <rect x="1520" y="251" width="180" height="38" rx="7" fill="#6545E8" stroke="#6545E8"/>
 <text xml:space="preserve" x="1534" y="275" font-size="13" fill="white" font-weight="550">进入实时审核 →</text>
+</a>
+<a href="#profile-details">
+<rect x="1326" y="251" width="174" height="38" rx="7" fill="white" stroke="#DAE1ED"/>
+<text xml:space="preserve" x="1340" y="275" font-size="13" fill="#6545E8" font-weight="550">详细资料 ↓</text>
 </a>
 <rect x="252" y="360" width="357.5" height="103" rx="10" fill="white" stroke="#E5EAF2"/>
 <text xml:space="preserve" x="270" y="386" font-size="12" fill="#6B7C93" font-weight="400">所选期间收入</text>
@@ -221,4 +225,169 @@
 <a href="admin-08-03-01-近七天巡查记录.svg">
 <text xml:space="preserve" x="1230" y="1006" font-size="13" fill="#6545E8" font-weight="400">查看七天记录 →</text>
 </a>
+<g id="profile-details">
+<text xml:space="preserve" x="252" y="1090" font-size="20" fill="#192B46" font-weight="650">详细资料</text>
+<text xml:space="preserve" x="362" y="1090" font-size="12" fill="#6B7C93" font-weight="400">基础资料与账户信息</text>
+<rect x="252" y="1112" width="720" height="390" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="274" y="1146" font-size="17" fill="#192B46" font-weight="650">基础信息</text>
+<text xml:space="preserve" x="274" y="1184" font-size="11" fill="#6B7C93" font-weight="400">主播ID：</text>
+<text xml:space="preserve" x="323.32" y="1184" font-size="12" fill="#192B46" font-weight="400">U2001</text>
+<text xml:space="preserve" x="612" y="1184" font-size="11" fill="#6B7C93" font-weight="400">基本用户号：</text>
+<text xml:space="preserve" x="682" y="1184" font-size="12" fill="#192B46" font-weight="400">000002001</text>
+<text xml:space="preserve" x="274" y="1216" font-size="11" fill="#6B7C93" font-weight="400">昵称：</text>
+<text xml:space="preserve" x="311" y="1216" font-size="12" fill="#192B46" font-weight="400">Lina</text>
+<text xml:space="preserve" x="612" y="1216" font-size="11" fill="#6B7C93" font-weight="400">代理邀请编码：</text>
+<text xml:space="preserve" x="693" y="1216" font-size="12" fill="#192B46" font-weight="400">INV-DEMO-2001</text>
+<text xml:space="preserve" x="274" y="1248" font-size="11" fill="#6B7C93" font-weight="400">性别：</text>
+<text xml:space="preserve" x="311" y="1248" font-size="12" fill="#192B46" font-weight="400">女</text>
+<text xml:space="preserve" x="612" y="1248" font-size="11" fill="#6B7C93" font-weight="400">年龄：</text>
+<text xml:space="preserve" x="649" y="1248" font-size="12" fill="#192B46" font-weight="400">24</text>
+<text xml:space="preserve" x="274" y="1280" font-size="11" fill="#6B7C93" font-weight="400">生日：</text>
+<text xml:space="preserve" x="311" y="1280" font-size="12" fill="#192B46" font-weight="400">2002-04-12</text>
+<text xml:space="preserve" x="612" y="1280" font-size="11" fill="#6B7C93" font-weight="400">国家编码：</text>
+<text xml:space="preserve" x="671" y="1280" font-size="12" fill="#192B46" font-weight="400">TH</text>
+<text xml:space="preserve" x="274" y="1312" font-size="11" fill="#6B7C93" font-weight="400">语言编码：</text>
+<text xml:space="preserve" x="333" y="1312" font-size="12" fill="#192B46" font-weight="400">en</text>
+<text xml:space="preserve" x="612" y="1312" font-size="11" fill="#6B7C93" font-weight="400">身高：</text>
+<text xml:space="preserve" x="649" y="1312" font-size="12" fill="#192B46" font-weight="400">168 cm</text>
+<text xml:space="preserve" x="274" y="1344" font-size="11" fill="#6B7C93" font-weight="400">体重：</text>
+<text xml:space="preserve" x="311" y="1344" font-size="12" fill="#192B46" font-weight="400">52 kg</text>
+<text xml:space="preserve" x="612" y="1344" font-size="11" fill="#6B7C93" font-weight="400">才艺：</text>
+<text xml:space="preserve" x="649" y="1344" font-size="12" fill="#192B46" font-weight="400">唱歌、舞蹈</text>
+<text xml:space="preserve" x="274" y="1376" font-size="11" fill="#6B7C93" font-weight="400">头像：</text>
+<text xml:space="preserve" x="311" y="1376" font-size="12" fill="#192B46" font-weight="400">已设置 · 页首展示</text>
+<text xml:space="preserve" x="612" y="1376" font-size="11" fill="#6B7C93" font-weight="400">背景图：</text>
+<text xml:space="preserve" x="660" y="1376" font-size="12" fill="#192B46" font-weight="400">已设置</text>
+<text xml:space="preserve" x="274" y="1408" font-size="11" fill="#6B7C93" font-weight="400">最后登录时间：</text>
+<text xml:space="preserve" x="355" y="1408" font-size="12" fill="#192B46" font-weight="400">2026-10-19 14:28:15</text>
+<text xml:space="preserve" x="612" y="1408" font-size="11" fill="#6B7C93" font-weight="400">最后登录IP：</text>
+<text xml:space="preserve" x="683.3199999999999" y="1408" font-size="12" fill="#192B46" font-weight="400">203.0.113.24</text>
+<text xml:space="preserve" x="274" y="1440" font-size="11" fill="#6B7C93" font-weight="400">用户设备编码：</text>
+<text xml:space="preserve" x="355" y="1440" font-size="12" fill="#192B46" font-weight="400">device-demo-2001</text>
+<text xml:space="preserve" x="612" y="1440" font-size="11" fill="#6B7C93" font-weight="400">个性签名：</text>
+<text xml:space="preserve" x="671" y="1440" font-size="12" fill="#192B46" font-weight="400">Enjoy music, enjoy every live.</text>
+<rect x="856" y="1352" width="92" height="28" rx="5" fill="#E5EEF8" stroke="none"/>
+<path d="M856 1380L880 1358L900 1372L924 1357L948 1380Z" fill="#A8BDD8"/>
+<circle cx="933" cy="1360" r="4" fill="#F8D78C"/>
+<rect x="994" y="1112" width="730" height="390" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="1016" y="1146" font-size="17" fill="#192B46" font-weight="650">账号与账户信息</text>
+<rect x="1016" y="1162" width="686" height="38" rx="6" fill="#F0EDFF" stroke="none"/>
+<text xml:space="preserve" x="1028" y="1186" font-size="11" fill="#6B7C93" font-weight="400">金币余额：</text>
+<text xml:space="preserve" x="1087" y="1186" font-size="12" fill="#192B46" font-weight="400">66 金币</text>
+<text xml:space="preserve" x="1248.6666666666667" y="1186" font-size="11" fill="#6B7C93" font-weight="400">钻石余额：</text>
+<text xml:space="preserve" x="1307.6666666666667" y="1186" font-size="12" fill="#192B46" font-weight="400">5,328 钻石</text>
+<text xml:space="preserve" x="1469.3333333333333" y="1186" font-size="11" fill="#6B7C93" font-weight="400">冻结钻石金额：</text>
+<text xml:space="preserve" x="1550.3333333333333" y="1186" font-size="12" fill="#192B46" font-weight="400">880 钻石</text>
+<text xml:space="preserve" x="1016" y="1230" font-size="11" fill="#6B7C93" font-weight="400">财富等级：</text>
+<text xml:space="preserve" x="1075" y="1230" font-size="12" fill="#192B46" font-weight="400">29</text>
+<text xml:space="preserve" x="1359" y="1230" font-size="11" fill="#6B7C93" font-weight="400">魅力等级：</text>
+<text xml:space="preserve" x="1418" y="1230" font-size="12" fill="#192B46" font-weight="400">3</text>
+<text xml:space="preserve" x="1016" y="1262" font-size="11" fill="#6B7C93" font-weight="400">账号状态：</text>
+<text xml:space="preserve" x="1075" y="1262" font-size="12" fill="#192B46" font-weight="400">正常</text>
+<text xml:space="preserve" x="1359" y="1262" font-size="11" fill="#6B7C93" font-weight="400">注销标记 / 注销状态：</text>
+<text xml:space="preserve" x="1480.48" y="1262" font-size="12" fill="#192B46" font-weight="400">未注销 / 未注销</text>
+<text xml:space="preserve" x="1016" y="1294" font-size="11" fill="#6B7C93" font-weight="400">真人认证：</text>
+<text xml:space="preserve" x="1075" y="1294" font-size="12" fill="#192B46" font-weight="400">已通过</text>
+<text xml:space="preserve" x="1359" y="1294" font-size="11" fill="#6B7C93" font-weight="400">真人认证限制：</text>
+<text xml:space="preserve" x="1440" y="1294" font-size="12" fill="#192B46" font-weight="400">否</text>
+<text xml:space="preserve" x="1016" y="1326" font-size="11" fill="#6B7C93" font-weight="400">认证限制备注：</text>
+<text xml:space="preserve" x="1097" y="1326" font-size="12" fill="#192B46" font-weight="400">—</text>
+<text xml:space="preserve" x="1359" y="1326" font-size="11" fill="#6B7C93" font-weight="400">是否首充：</text>
+<text xml:space="preserve" x="1418" y="1326" font-size="12" fill="#192B46" font-weight="400">是</text>
+<text xml:space="preserve" x="1016" y="1358" font-size="11" fill="#6B7C93" font-weight="400">当前代理：</text>
+<text xml:space="preserve" x="1075" y="1358" font-size="12" fill="#192B46" font-weight="400">星河代理 / G1024</text>
+<text xml:space="preserve" x="1359" y="1358" font-size="11" fill="#6B7C93" font-weight="400">加入当前代理时间：</text>
+<text xml:space="preserve" x="1462" y="1358" font-size="12" fill="#192B46" font-weight="400">2026-04-14 10:00:00</text>
+<text xml:space="preserve" x="1016" y="1390" font-size="11" fill="#6B7C93" font-weight="400">首次加入代理ID：</text>
+<text xml:space="preserve" x="1109.32" y="1390" font-size="12" fill="#192B46" font-weight="400">G1024</text>
+<text xml:space="preserve" x="1359" y="1390" font-size="11" fill="#6B7C93" font-weight="400">首次加入代理时间：</text>
+<text xml:space="preserve" x="1462" y="1390" font-size="12" fill="#192B46" font-weight="400">2026-04-14 10:00:00</text>
+<text xml:space="preserve" x="1016" y="1422" font-size="11" fill="#6B7C93" font-weight="400">注销发起时间：</text>
+<text xml:space="preserve" x="1097" y="1422" font-size="12" fill="#192B46" font-weight="400">—</text>
+<text xml:space="preserve" x="1359" y="1422" font-size="11" fill="#6B7C93" font-weight="400">注册时间：</text>
+<text xml:space="preserve" x="1418" y="1422" font-size="12" fill="#192B46" font-weight="400">2026-04-12 10:20:00</text>
+<text xml:space="preserve" x="1016" y="1454" font-size="11" fill="#6B7C93" font-weight="400">资料更新时间：</text>
+<text xml:space="preserve" x="1097" y="1454" font-size="12" fill="#192B46" font-weight="400">2026-10-19 14:28:15</text>
+<text xml:space="preserve" x="1359" y="1454" font-size="11" fill="#6B7C93" font-weight="400">修改人ID：</text>
+<text xml:space="preserve" x="1419.32" y="1454" font-size="12" fill="#192B46" font-weight="400">10001</text>
+<text xml:space="preserve" x="1016" y="1482" font-size="11" fill="#6B7C93" font-weight="400">余额使用金币、钻石原单位；与上方美元收入分别展示。</text>
+<rect x="252" y="1522" width="1472" height="172" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="274" y="1558" font-size="17" fill="#192B46" font-weight="650">联系方式、第三方绑定与其他资料</text>
+<text xml:space="preserve" x="274" y="1594" font-size="11" fill="#6B7C93" font-weight="400">手机号码：</text>
+<text xml:space="preserve" x="333" y="1594" font-size="12" fill="#192B46" font-weight="400">+66 82 451 6630</text>
+<text xml:space="preserve" x="750" y="1594" font-size="11" fill="#6B7C93" font-weight="400">邮箱：</text>
+<text xml:space="preserve" x="787" y="1594" font-size="12" fill="#192B46" font-weight="400">lina@example.com</text>
+<text xml:space="preserve" x="1226" y="1594" font-size="11" fill="#6B7C93" font-weight="400">谷歌ID：</text>
+<text xml:space="preserve" x="1275.32" y="1594" font-size="12" fill="#192B46" font-weight="400">g-demo-2001</text>
+<text xml:space="preserve" x="274" y="1626" font-size="11" fill="#6B7C93" font-weight="400">谷歌邮箱：</text>
+<text xml:space="preserve" x="333" y="1626" font-size="12" fill="#192B46" font-weight="400">lina.google@example.com</text>
+<text xml:space="preserve" x="750" y="1626" font-size="11" fill="#6B7C93" font-weight="400">苹果ID：</text>
+<text xml:space="preserve" x="799.32" y="1626" font-size="12" fill="#192B46" font-weight="400">未绑定</text>
+<text xml:space="preserve" x="1226" y="1626" font-size="11" fill="#6B7C93" font-weight="400">苹果邮箱：</text>
+<text xml:space="preserve" x="1285" y="1626" font-size="12" fill="#192B46" font-weight="400">未绑定</text>
+<text xml:space="preserve" x="274" y="1658" font-size="11" fill="#6B7C93" font-weight="400">经度 / 纬度：</text>
+<text xml:space="preserve" x="351.48" y="1658" font-size="12" fill="#192B46" font-weight="400">100.5018 / 13.7563</text>
+<text xml:space="preserve" x="750" y="1658" font-size="11" fill="#6B7C93" font-weight="400">是否首次登录：</text>
+<text xml:space="preserve" x="831" y="1658" font-size="12" fill="#192B46" font-weight="400">否</text>
+<rect x="252" y="1714" width="1472" height="426" rx="10" fill="white" stroke="#E5EAF2"/>
+<text xml:space="preserve" x="274" y="1750" font-size="17" fill="#192B46" font-weight="650">最后一次上报信息</text>
+<text xml:space="preserve" x="457" y="1750" font-size="12" fill="#6B7C93" font-weight="400">按服务端接收时间取最近一条</text>
+<text xml:space="preserve" x="274" y="1796" font-size="11" fill="#6B7C93" font-weight="400">记录ID：</text>
+<text xml:space="preserve" x="323.32" y="1796" font-size="12" fill="#192B46" font-weight="400">900201</text>
+<text xml:space="preserve" x="750" y="1796" font-size="11" fill="#6B7C93" font-weight="400">用户ID：</text>
+<text xml:space="preserve" x="799.32" y="1796" font-size="12" fill="#192B46" font-weight="400">2001</text>
+<text xml:space="preserve" x="1226" y="1796" font-size="11" fill="#6B7C93" font-weight="400">服务端接收时间：</text>
+<text xml:space="preserve" x="1318" y="1796" font-size="12" fill="#192B46" font-weight="400">2026-10-19 14:30:00.345</text>
+<text xml:space="preserve" x="274" y="1826" font-size="11" fill="#6B7C93" font-weight="400">设备品牌：</text>
+<text xml:space="preserve" x="333" y="1826" font-size="12" fill="#192B46" font-weight="400">OnePlus</text>
+<text xml:space="preserve" x="750" y="1826" font-size="11" fill="#6B7C93" font-weight="400">原始型号：</text>
+<text xml:space="preserve" x="809" y="1826" font-size="12" fill="#192B46" font-weight="400">CPH2581</text>
+<text xml:space="preserve" x="1226" y="1826" font-size="11" fill="#6B7C93" font-weight="400">设备时间（毫秒）：</text>
+<text xml:space="preserve" x="1329" y="1826" font-size="12" fill="#192B46" font-weight="400">1792391400000</text>
+<text xml:space="preserve" x="274" y="1856" font-size="11" fill="#6B7C93" font-weight="400">系统及版本：</text>
+<text xml:space="preserve" x="344" y="1856" font-size="12" fill="#192B46" font-weight="400">Android 16</text>
+<text xml:space="preserve" x="750" y="1856" font-size="11" fill="#6B7C93" font-weight="400">App发布版本：</text>
+<text xml:space="preserve" x="827.48" y="1856" font-size="12" fill="#192B46" font-weight="400">1.9.6</text>
+<text xml:space="preserve" x="1226" y="1856" font-size="11" fill="#6B7C93" font-weight="400">App构建号：</text>
+<text xml:space="preserve" x="1292.48" y="1856" font-size="12" fill="#192B46" font-weight="400">0190601</text>
+<text xml:space="preserve" x="274" y="1886" font-size="11" fill="#6B7C93" font-weight="400">网络类型：</text>
+<text xml:space="preserve" x="333" y="1886" font-size="12" fill="#192B46" font-weight="400">WIFI</text>
+<text xml:space="preserve" x="750" y="1886" font-size="11" fill="#6B7C93" font-weight="400">是否模拟器：</text>
+<text xml:space="preserve" x="820" y="1886" font-size="12" fill="#192B46" font-weight="400">否</text>
+<text xml:space="preserve" x="1226" y="1886" font-size="11" fill="#6B7C93" font-weight="400">是否VPN或代理：</text>
+<text xml:space="preserve" x="1314.48" y="1886" font-size="12" fill="#192B46" font-weight="400">未检测</text>
+<text xml:space="preserve" x="274" y="1916" font-size="11" fill="#6B7C93" font-weight="400">上报IP：</text>
+<text xml:space="preserve" x="323.32" y="1916" font-size="12" fill="#192B46" font-weight="400">203.0.113.24</text>
+<text xml:space="preserve" x="750" y="1916" font-size="11" fill="#6B7C93" font-weight="400">IP国家：</text>
+<text xml:space="preserve" x="799.32" y="1916" font-size="12" fill="#192B46" font-weight="400">TH</text>
+<text xml:space="preserve" x="1226" y="1916" font-size="11" fill="#6B7C93" font-weight="400">IP地区 / 省州：</text>
+<text xml:space="preserve" x="1315.8" y="1916" font-size="12" fill="#192B46" font-weight="400">Bangkok</text>
+<text xml:space="preserve" x="274" y="1946" font-size="11" fill="#6B7C93" font-weight="400">IP城市：</text>
+<text xml:space="preserve" x="323.32" y="1946" font-size="12" fill="#192B46" font-weight="400">Bangkok</text>
+<text xml:space="preserve" x="750" y="1946" font-size="11" fill="#6B7C93" font-weight="400">注册国家：</text>
+<text xml:space="preserve" x="809" y="1946" font-size="12" fill="#192B46" font-weight="400">TH</text>
+<text xml:space="preserve" x="1226" y="1946" font-size="11" fill="#6B7C93" font-weight="400">注册渠道：</text>
+<text xml:space="preserve" x="1285" y="1946" font-size="12" fill="#192B46" font-weight="400">organic</text>
+<text xml:space="preserve" x="274" y="1976" font-size="11" fill="#6B7C93" font-weight="400">是否代理长：</text>
+<text xml:space="preserve" x="344" y="1976" font-size="12" fill="#192B46" font-weight="400">否</text>
+<text xml:space="preserve" x="750" y="1976" font-size="11" fill="#6B7C93" font-weight="400">是否Payroll代理：</text>
+<text xml:space="preserve" x="852.12" y="1976" font-size="12" fill="#192B46" font-weight="400">否</text>
+<text xml:space="preserve" x="1226" y="1976" font-size="11" fill="#6B7C93" font-weight="400">是否BD：</text>
+<text xml:space="preserve" x="1275.32" y="1976" font-size="12" fill="#192B46" font-weight="400">否</text>
+<text xml:space="preserve" x="274" y="2006" font-size="11" fill="#6B7C93" font-weight="400">客户端类型：</text>
+<text xml:space="preserve" x="344" y="2006" font-size="12" fill="#192B46" font-weight="400">ANDROID</text>
+<rect x="274" y="2018" width="1428" height="34" rx="6" fill="#F4F6FA" stroke="none"/>
+<text xml:space="preserve" x="286" y="2040" font-size="11" fill="#6B7C93" font-weight="400">最近上报按服务端接收时间展示；上报快照保留当次结果，注册资料以基础信息为准。</text>
+<text xml:space="preserve" x="274" y="2080" font-size="13" fill="#192B46" font-weight="600">同设备查询</text>
+<text xml:space="preserve" x="274" y="2112" font-size="11" fill="#6B7C93" font-weight="400">安装实例ID：</text>
+<text xml:space="preserve" x="345.32" y="2112" font-size="12" fill="#192B46" font-weight="400">install-demo-2001</text>
+<a href="admin-04-03-01-同设备查询-安装实例.svg">
+<text xml:space="preserve" x="882" y="2112" font-size="11" fill="#6545E8" font-weight="400">查询记录 →</text>
+</a>
+<text xml:space="preserve" x="988" y="2112" font-size="11" fill="#6B7C93" font-weight="400">设备标识（mac）：</text>
+<text xml:space="preserve" x="1087.48" y="2112" font-size="12" fill="#192B46" font-weight="400">ad-demo-2001</text>
+<a href="admin-04-03-02-同设备查询-设备标识.svg">
+<text xml:space="preserve" x="1596" y="2112" font-size="11" fill="#6545E8" font-weight="400">查询记录 →</text>
+</a>
+</g>
 </svg>

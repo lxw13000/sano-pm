@@ -59,7 +59,7 @@
 <rect x="1519" y="89" width="86" height="24" rx="12" fill="#F0EDFF" stroke="none"/>
 <text xml:space="preserve" x="1529" y="105" font-size="11" fill="#6545E8" font-weight="550">我的授权范围</text>
 <path d="M252 1081H1724" transform="" stroke="#E5EAF2" fill="none"/>
-<text xml:space="preserve" x="252" y="1103" font-size="10" fill="#6B7C93" font-weight="400">示例数据仅供评审  ·  数据范围：运营 Nina  ·  金额 USD  ·  时区 UTC+8</text>
+<text xml:space="preserve" x="252" y="1103" font-size="10" fill="#6B7C93" font-weight="400">示例数据仅供评审  ·  数据范围：运营 Nina  ·  收入 USD  ·  余额按所标单位  ·  时区 UTC+8</text>
 <text xml:space="preserve" x="1470" y="1103" font-size="10" fill="#6B7C93" font-weight="400">admin-08-02-01  /  V1</text>
 <rect x="252" y="160" width="1472" height="38" rx="7" fill="#F0EDFF" stroke="none"/>
 <circle cx="268" cy="179" r="3" fill="#6545E8"/>

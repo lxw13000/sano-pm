@@ -63,19 +63,19 @@
 <text xml:space="preserve" x="266" y="108" font-size="13" fill="#6545E8" font-weight="550">← 返回主播列表</text>
 </a>
 <text xml:space="preserve" x="442" y="112" font-size="27" fill="#192B46" font-weight="700">主播详情</text>
-<text xml:space="preserve" x="252" y="140" font-size="13" fill="#6B7C93" font-weight="400">由主播列表进入 · 收入构成与每日工作记录同页展示</text>
+<text xml:space="preserve" x="252" y="140" font-size="13" fill="#6B7C93" font-weight="400">收入与工作同页展示 · 向下查看详细资料、账户余额及最后一次上报</text>
 <rect x="1519" y="89" width="86" height="24" rx="12" fill="#F0EDFF" stroke="none"/>
 <text xml:space="preserve" x="1529" y="105" font-size="11" fill="#6545E8" font-weight="550">我的授权范围</text>
 <path d="M252 1081H1724" transform="" stroke="#E5EAF2" fill="none"/>
-<text xml:space="preserve" x="252" y="1103" font-size="10" fill="#6B7C93" font-weight="400">示例数据仅供评审  ·  数据范围：运营 Nina  ·  金额 USD  ·  时区 UTC+8</text>
+<text xml:space="preserve" x="252" y="1103" font-size="10" fill="#6B7C93" font-weight="400">示例数据仅供评审  ·  数据范围：运营 Nina  ·  收入 USD  ·  余额按所标单位  ·  时区 UTC+8</text>
 <text xml:space="preserve" x="1470" y="1103" font-size="10" fill="#6B7C93" font-weight="400">admin-08-02-02  /  V1</text>
 <rect x="252" y="160" width="1472" height="38" rx="7" fill="#F0EDFF" stroke="none"/>
 <circle cx="268" cy="179" r="3" fill="#6545E8"/>
 <text xml:space="preserve" x="281" y="184" font-size="12" fill="#6545E8" font-weight="400">当前主播：Lina / U2001  ·  星河代理 G1024  ·  负责人 Evan / BD</text>
 <text xml:space="preserve" x="1446" y="184" font-size="11" fill="#6B7C93" font-weight="400">今日数据更新于 14:30</text>
 <rect x="252" y="218" width="1472" height="122" rx="10" fill="white" stroke="#E5EAF2"/>
-<circle cx="300" cy="269" r="29" fill="#6545E818"/>
-<text xml:space="preserve" x="289.85" y="279.15" font-size="24.65" fill="#6545E8" font-weight="600">L</text>
+<rect x="270" y="236" width="60" height="82" rx="8" fill="#D8D1E7" stroke="none"/>
+<g clip-path="url(#clip-23-270-236)"><defs><clipPath id="clip-23-270-236"><rect x="270" y="236" width="60" height="82" rx="8"/></clipPath></defs><ellipse cx="301.2" cy="305.7" rx="25.8" ry="31.16" fill="#6E688E"/><ellipse cx="300" cy="270.44" rx="13.2" ry="23.779999999999998" fill="#3E3444"/><ellipse cx="300" cy="272.08" rx="9.6" ry="16.400000000000002" fill="#E5B49D"/><path d="M290.4 265.52Q294 249.12 310.2 264.7" stroke="#3E3444" stroke-width="4.8" fill="none"/><circle cx="296.4" cy="270.44" r="0.72" fill="#574350"/><circle cx="303.6" cy="270.44" r="0.72" fill="#574350"/><path d="M297.6 277.82q2.4 2.0500000000000003 4.8 0" stroke="#A97074" stroke-width="1" fill="none"/></g>
 <text xml:space="preserve" x="350" y="259" font-size="25" fill="#192B46" font-weight="650">Lina</text>
 <rect x="427" y="239" width="64" height="24" rx="12" fill="#F0EDFF" stroke="none"/>
 <text xml:space="preserve" x="437" y="255" font-size="11" fill="#6545E8" font-weight="550">超级主播</text>
