@@ -26,21 +26,17 @@
 <path d="M2 5h16v12H2z M2 9h16 M12 13h3" transform="translate(29,397)" fill="none" stroke="#A4B6CF" stroke-width="1.5" stroke-linejoin="round"/>
 <text xml:space="preserve" x="60" y="412" font-size="14" fill="#E1E8F3" font-weight="600">直播与收入</text>
 <text xml:space="preserve" x="180" y="412" font-size="14" fill="#A4B6CF" font-weight="400">⌄</text>
-<a href="admin-05-01-01-主播收入数据.svg">
+<a href="admin-05-01-01-主播直播与收入.svg">
 <circle cx="46" cy="448" r="2.5" fill="#536C8D"/>
-<text xml:space="preserve" x="63" y="454" font-size="13" fill="#AABDD3" font-weight="400">主播收入</text>
+<text xml:space="preserve" x="63" y="454" font-size="13" fill="#AABDD3" font-weight="400">主播直播与收入</text>
 </a>
 <a href="admin-06-01-01-代理收入数据.svg">
 <circle cx="46" cy="492" r="2.5" fill="#536C8D"/>
 <text xml:space="preserve" x="63" y="498" font-size="13" fill="#AABDD3" font-weight="400">代理收入</text>
 </a>
-<a href="admin-07-01-01-主播工作数据.svg">
-<circle cx="46" cy="536" r="2.5" fill="#536C8D"/>
-<text xml:space="preserve" x="63" y="542" font-size="13" fill="#AABDD3" font-weight="400">主播工作</text>
-</a>
 <a href="admin-08-01-01-当前直播间列表.svg">
-<circle cx="46" cy="580" r="2.5" fill="#536C8D"/>
-<text xml:space="preserve" x="63" y="586" font-size="13" fill="#AABDD3" font-weight="400">直播审核</text>
+<circle cx="46" cy="536" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="542" font-size="13" fill="#AABDD3" font-weight="400">直播审核</text>
 </a>
 <rect x="18" y="929" width="180" height="98" rx="9" fill="#142943" stroke="none"/>
 <circle cx="43" cy="959" r="13" fill="#4C4490"/>
@@ -55,7 +51,7 @@
 <text xml:space="preserve" x="1383" y="36" font-size="11" fill="#A46B16" font-weight="550">原型示例数据</text>
 <text xml:space="preserve" x="1535" y="39" font-size="12" fill="#6B7C93" font-weight="400">Nina  ·  运营</text>
 <text xml:space="preserve" x="252" y="112" font-size="27" fill="#192B46" font-weight="700">代理列表</text>
-<text xml:space="preserve" x="252" y="140" font-size="13" fill="#6B7C93" font-weight="400">树形查看代理层级、实际负责人和直属主播结构</text>
+<text xml:space="preserve" x="252" y="140" font-size="13" fill="#6B7C93" font-weight="400">树形查看代理层级、实际负责人及直属主播人数</text>
 <rect x="1519" y="89" width="86" height="24" rx="12" fill="#F0EDFF" stroke="none"/>
 <text xml:space="preserve" x="1529" y="105" font-size="11" fill="#6545E8" font-weight="550">我的授权范围</text>
 <path d="M252 1081H1724" transform="" stroke="#E5EAF2" fill="none"/>
@@ -98,40 +94,43 @@
 <text xml:space="preserve" x="1554" y="324" font-size="13" fill="#6545E8" font-weight="550">重置</text>
 <rect x="1620" y="303" width="88" height="32" rx="7" fill="#6545E8" stroke="#6545E8"/>
 <text xml:space="preserve" x="1634" y="324" font-size="13" fill="white" font-weight="550">查询</text>
-<text xml:space="preserve" x="256" y="370" font-size="11" fill="#6B7C93" font-weight="400">当前显示：直属人数  ·  展开层级不会改变父行人数</text>
+<text xml:space="preserve" x="256" y="370" font-size="11" fill="#6B7C93" font-weight="400">总人数含优质、超级主播，三项均仅统计直属主播；不将三项相加</text>
 <rect x="252" y="390" width="1472" height="566" rx="10" fill="white" stroke="#E5EAF2"/>
 <text xml:space="preserve" x="272" y="432" font-size="16" fill="#192B46" font-weight="650">代理列表</text>
 <text xml:space="preserve" x="352" y="432" font-size="11" fill="#6B7C93" font-weight="400">共18个代理</text>
 <rect x="272" y="456" width="1432" height="43" rx="6" fill="#F1F4F9" stroke="none"/>
 <text xml:space="preserve" x="284" y="483" font-size="11" fill="#596B84" font-weight="600">代理名称 / ID</text>
-<text xml:space="preserve" x="478.96713615023475" y="483" font-size="11" fill="#596B84" font-weight="600">代理长 / WhatsApp</text>
-<text xml:space="preserve" x="687.3802816901408" y="483" font-size="11" fill="#596B84" font-weight="600">等级 / 比例</text>
-<text xml:space="preserve" x="801.6713615023474" y="483" font-size="11" fill="#596B84" font-weight="600">所属运营</text>
-<text xml:space="preserve" x="942.8544600938967" y="483" font-size="11" fill="#596B84" font-weight="600">直属主播结构</text>
-<text xml:space="preserve" x="1097.4835680751173" y="483" font-size="11" fill="#596B84" font-weight="600">上级代理</text>
-<text xml:space="preserve" x="1245.3896713615022" y="483" font-size="11" fill="#596B84" font-weight="600">上级代理长</text>
-<text xml:space="preserve" x="1379.849765258216" y="483" font-size="11" fill="#596B84" font-weight="600">创建时间</text>
-<text xml:space="preserve" x="1534.4788732394366" y="483" font-size="11" fill="#596B84" font-weight="600">操作</text>
+<text xml:space="preserve" x="464.73786407766994" y="483" font-size="11" fill="#596B84" font-weight="600">代理长 / WhatsApp</text>
+<text xml:space="preserve" x="666.3300970873787" y="483" font-size="11" fill="#596B84" font-weight="600">等级 / 比例</text>
+<text xml:space="preserve" x="770.6019417475729" y="483" font-size="11" fill="#596B84" font-weight="600">所属运营</text>
+<text xml:space="preserve" x="909.6310679611652" y="483" font-size="11" fill="#596B84" font-weight="600">直属主播</text>
+<text xml:space="preserve" x="1159.8834951456313" y="483" font-size="11" fill="#596B84" font-weight="600">上级代理</text>
+<text xml:space="preserve" x="1305.864077669903" y="483" font-size="11" fill="#596B84" font-weight="600">上级代理长</text>
+<text xml:space="preserve" x="1437.9417475728158" y="483" font-size="11" fill="#596B84" font-weight="600">创建时间</text>
+<text xml:space="preserve" x="1597.8252427184468" y="483" font-size="11" fill="#596B84" font-weight="600">操作</text>
 <path d="M272 564H1704" transform="" stroke="#E5EAF2" fill="none"/>
 <a href="admin-06-01-01-代理收入数据.svg">
 <text xml:space="preserve" x="284" y="526.5" font-size="12" fill="#192B46" font-weight="600">▾ 星河代理</text>
 <text xml:space="preserve" x="284" y="543.5" font-size="10" fill="#6B7C93" font-weight="600">G1024</text>
 </a>
-<text xml:space="preserve" x="478.96713615023475" y="526.5" font-size="12" fill="#192B46" font-weight="400">Maya · U1001</text>
-<text xml:space="preserve" x="478.96713615023475" y="543.5" font-size="10" fill="#6B7C93" font-weight="400">+66 81 245 6801</text>
-<text xml:space="preserve" x="687.3802816901408" y="526.5" font-size="12" fill="#192B46" font-weight="400">A级代理</text>
-<text xml:space="preserve" x="687.3802816901408" y="543.5" font-size="10" fill="#6B7C93" font-weight="400">20%</text>
-<text xml:space="preserve" x="801.6713615023474" y="526.5" font-size="12" fill="#192B46" font-weight="400">Evan · BD</text>
-<text xml:space="preserve" x="801.6713615023474" y="543.5" font-size="10" fill="#6B7C93" font-weight="400">BD1001</text>
-<text xml:space="preserve" x="942.8544600938967" y="526.5" font-size="12" fill="#192B46" font-weight="400">24 / 6 / 2</text>
-<text xml:space="preserve" x="942.8544600938967" y="543.5" font-size="10" fill="#6B7C93" font-weight="400">主播 / 优质 / 超级</text>
-<text xml:space="preserve" x="1097.4835680751173" y="526.5" font-size="12" fill="#192B46" font-weight="400">—</text>
-<text xml:space="preserve" x="1097.4835680751173" y="543.5" font-size="10" fill="#6B7C93" font-weight="400">顶级代理</text>
-<text xml:space="preserve" x="1245.3896713615022" y="535.5" font-size="12" fill="#192B46" font-weight="400">—</text>
-<text xml:space="preserve" x="1379.849765258216" y="526.5" font-size="12" fill="#192B46" font-weight="400">2026-04-06</text>
-<text xml:space="preserve" x="1379.849765258216" y="543.5" font-size="10" fill="#6B7C93" font-weight="400">10:20:00</text>
+<text xml:space="preserve" x="464.73786407766994" y="526.5" font-size="12" fill="#192B46" font-weight="400">Maya · U1001</text>
+<text xml:space="preserve" x="464.73786407766994" y="543.5" font-size="10" fill="#6B7C93" font-weight="400">+66 81 245 6801</text>
+<text xml:space="preserve" x="666.3300970873787" y="526.5" font-size="12" fill="#192B46" font-weight="400">A级代理</text>
+<text xml:space="preserve" x="666.3300970873787" y="543.5" font-size="10" fill="#6B7C93" font-weight="400">20%</text>
+<text xml:space="preserve" x="770.6019417475729" y="526.5" font-size="12" fill="#192B46" font-weight="400">Evan · BD</text>
+<text xml:space="preserve" x="770.6019417475729" y="543.5" font-size="10" fill="#6B7C93" font-weight="400">BD1001</text>
+<text xml:space="preserve" x="909.6310679611652" y="535.5" font-size="12" fill="#192B46" font-weight="400">总人数 24</text>
+<text xml:space="preserve" x="965.7910679611651" y="535.5" font-size="12" fill="#A2ADBD" font-weight="400"> · </text>
+<text xml:space="preserve" x="985.9510679611651" y="535.5" font-size="12" fill="#07866C" font-weight="400">优质 6</text>
+<text xml:space="preserve" x="1023.3910679611652" y="535.5" font-size="12" fill="#A2ADBD" font-weight="400"> · </text>
+<text xml:space="preserve" x="1043.5510679611652" y="535.5" font-size="12" fill="#6545E8" font-weight="400">超级 2</text>
+<text xml:space="preserve" x="1159.8834951456313" y="526.5" font-size="12" fill="#192B46" font-weight="400">—</text>
+<text xml:space="preserve" x="1159.8834951456313" y="543.5" font-size="10" fill="#6B7C93" font-weight="400">顶级代理</text>
+<text xml:space="preserve" x="1305.864077669903" y="535.5" font-size="12" fill="#192B46" font-weight="400">—</text>
+<text xml:space="preserve" x="1437.9417475728158" y="526.5" font-size="12" fill="#192B46" font-weight="400">2026-04-06</text>
+<text xml:space="preserve" x="1437.9417475728158" y="543.5" font-size="10" fill="#6B7C93" font-weight="400">10:20:00</text>
 <a href="admin-04-01-01-主播列表.svg">
-<text xml:space="preserve" x="1534.4788732394366" y="535.5" font-size="11" fill="#6545E8" font-weight="400">主播列表</text>
+<text xml:space="preserve" x="1597.8252427184468" y="535.5" font-size="11" fill="#6545E8" font-weight="400">主播列表</text>
 </a>
 <rect x="272" y="564" width="1432" height="65" rx="0" fill="#F8F6FF" stroke="none"/>
 <path d="M272 629H1704" transform="" stroke="#E5EAF2" fill="none"/>
@@ -139,108 +138,123 @@
 <text xml:space="preserve" x="284" y="591.5" font-size="12" fill="#192B46" font-weight="400">    ▾ 晨星代理</text>
 <text xml:space="preserve" x="284" y="608.5" font-size="10" fill="#6B7C93" font-weight="400">       G1101</text>
 </a>
-<text xml:space="preserve" x="478.96713615023475" y="591.5" font-size="12" fill="#192B46" font-weight="400">Tom · U1101</text>
-<text xml:space="preserve" x="478.96713615023475" y="608.5" font-size="10" fill="#6B7C93" font-weight="400">+66 82 160 4532</text>
-<text xml:space="preserve" x="687.3802816901408" y="591.5" font-size="12" fill="#192B46" font-weight="400">B级代理</text>
-<text xml:space="preserve" x="687.3802816901408" y="608.5" font-size="10" fill="#6B7C93" font-weight="400">16%</text>
-<text xml:space="preserve" x="801.6713615023474" y="591.5" font-size="12" fill="#192B46" font-weight="400">Evan · BD</text>
-<text xml:space="preserve" x="801.6713615023474" y="608.5" font-size="10" fill="#6B7C93" font-weight="400">BD1001</text>
-<text xml:space="preserve" x="942.8544600938967" y="591.5" font-size="12" fill="#192B46" font-weight="400">12 / 3 / 1</text>
-<text xml:space="preserve" x="942.8544600938967" y="608.5" font-size="10" fill="#6B7C93" font-weight="400">主播 / 优质 / 超级</text>
-<text xml:space="preserve" x="1097.4835680751173" y="591.5" font-size="12" fill="#192B46" font-weight="400">星河代理</text>
-<text xml:space="preserve" x="1097.4835680751173" y="608.5" font-size="10" fill="#6B7C93" font-weight="400">G1024</text>
-<text xml:space="preserve" x="1245.3896713615022" y="591.5" font-size="12" fill="#192B46" font-weight="400">Maya</text>
-<text xml:space="preserve" x="1245.3896713615022" y="608.5" font-size="10" fill="#6B7C93" font-weight="400">U1001</text>
-<text xml:space="preserve" x="1379.849765258216" y="591.5" font-size="12" fill="#192B46" font-weight="400">2026-05-12</text>
-<text xml:space="preserve" x="1379.849765258216" y="608.5" font-size="10" fill="#6B7C93" font-weight="400">14:30:00</text>
+<text xml:space="preserve" x="464.73786407766994" y="591.5" font-size="12" fill="#192B46" font-weight="400">Tom · U1101</text>
+<text xml:space="preserve" x="464.73786407766994" y="608.5" font-size="10" fill="#6B7C93" font-weight="400">+66 82 160 4532</text>
+<text xml:space="preserve" x="666.3300970873787" y="591.5" font-size="12" fill="#192B46" font-weight="400">B级代理</text>
+<text xml:space="preserve" x="666.3300970873787" y="608.5" font-size="10" fill="#6B7C93" font-weight="400">16%</text>
+<text xml:space="preserve" x="770.6019417475729" y="591.5" font-size="12" fill="#192B46" font-weight="400">Evan · BD</text>
+<text xml:space="preserve" x="770.6019417475729" y="608.5" font-size="10" fill="#6B7C93" font-weight="400">BD1001</text>
+<text xml:space="preserve" x="909.6310679611652" y="600.5" font-size="12" fill="#192B46" font-weight="400">总人数 12</text>
+<text xml:space="preserve" x="965.7910679611651" y="600.5" font-size="12" fill="#A2ADBD" font-weight="400"> · </text>
+<text xml:space="preserve" x="985.9510679611651" y="600.5" font-size="12" fill="#07866C" font-weight="400">优质 3</text>
+<text xml:space="preserve" x="1023.3910679611652" y="600.5" font-size="12" fill="#A2ADBD" font-weight="400"> · </text>
+<text xml:space="preserve" x="1043.5510679611652" y="600.5" font-size="12" fill="#6545E8" font-weight="400">超级 1</text>
+<text xml:space="preserve" x="1159.8834951456313" y="591.5" font-size="12" fill="#192B46" font-weight="400">星河代理</text>
+<text xml:space="preserve" x="1159.8834951456313" y="608.5" font-size="10" fill="#6B7C93" font-weight="400">G1024</text>
+<text xml:space="preserve" x="1305.864077669903" y="591.5" font-size="12" fill="#192B46" font-weight="400">Maya</text>
+<text xml:space="preserve" x="1305.864077669903" y="608.5" font-size="10" fill="#6B7C93" font-weight="400">U1001</text>
+<text xml:space="preserve" x="1437.9417475728158" y="591.5" font-size="12" fill="#192B46" font-weight="400">2026-05-12</text>
+<text xml:space="preserve" x="1437.9417475728158" y="608.5" font-size="10" fill="#6B7C93" font-weight="400">14:30:00</text>
 <a href="admin-04-01-01-主播列表.svg">
-<text xml:space="preserve" x="1534.4788732394366" y="600.5" font-size="11" fill="#6545E8" font-weight="400">主播列表</text>
+<text xml:space="preserve" x="1597.8252427184468" y="600.5" font-size="11" fill="#6545E8" font-weight="400">主播列表</text>
 </a>
 <path d="M272 694H1704" transform="" stroke="#E5EAF2" fill="none"/>
 <a href="admin-06-01-01-代理收入数据.svg">
 <text xml:space="preserve" x="284" y="656.5" font-size="12" fill="#192B46" font-weight="400">        星芒代理</text>
 <text xml:space="preserve" x="284" y="673.5" font-size="10" fill="#6B7C93" font-weight="400">        G1201</text>
 </a>
-<text xml:space="preserve" x="478.96713615023475" y="656.5" font-size="12" fill="#192B46" font-weight="400">Amy · U1201</text>
-<text xml:space="preserve" x="478.96713615023475" y="673.5" font-size="10" fill="#6B7C93" font-weight="400">+84 91 426 8810</text>
-<text xml:space="preserve" x="687.3802816901408" y="656.5" font-size="12" fill="#192B46" font-weight="400">C级代理</text>
-<text xml:space="preserve" x="687.3802816901408" y="673.5" font-size="10" fill="#6B7C93" font-weight="400">12%</text>
-<text xml:space="preserve" x="801.6713615023474" y="656.5" font-size="12" fill="#192B46" font-weight="400">Evan · BD</text>
-<text xml:space="preserve" x="801.6713615023474" y="673.5" font-size="10" fill="#6B7C93" font-weight="400">BD1001</text>
-<text xml:space="preserve" x="942.8544600938967" y="656.5" font-size="12" fill="#192B46" font-weight="400">8 / 2 / 0</text>
-<text xml:space="preserve" x="942.8544600938967" y="673.5" font-size="10" fill="#6B7C93" font-weight="400">主播 / 优质 / 超级</text>
-<text xml:space="preserve" x="1097.4835680751173" y="656.5" font-size="12" fill="#192B46" font-weight="400">晨星代理</text>
-<text xml:space="preserve" x="1097.4835680751173" y="673.5" font-size="10" fill="#6B7C93" font-weight="400">G1101</text>
-<text xml:space="preserve" x="1245.3896713615022" y="656.5" font-size="12" fill="#192B46" font-weight="400">Tom</text>
-<text xml:space="preserve" x="1245.3896713615022" y="673.5" font-size="10" fill="#6B7C93" font-weight="400">U1101</text>
-<text xml:space="preserve" x="1379.849765258216" y="656.5" font-size="12" fill="#192B46" font-weight="400">2026-06-18</text>
-<text xml:space="preserve" x="1379.849765258216" y="673.5" font-size="10" fill="#6B7C93" font-weight="400">09:15:00</text>
+<text xml:space="preserve" x="464.73786407766994" y="656.5" font-size="12" fill="#192B46" font-weight="400">Amy · U1201</text>
+<text xml:space="preserve" x="464.73786407766994" y="673.5" font-size="10" fill="#6B7C93" font-weight="400">+84 91 426 8810</text>
+<text xml:space="preserve" x="666.3300970873787" y="656.5" font-size="12" fill="#192B46" font-weight="400">C级代理</text>
+<text xml:space="preserve" x="666.3300970873787" y="673.5" font-size="10" fill="#6B7C93" font-weight="400">12%</text>
+<text xml:space="preserve" x="770.6019417475729" y="656.5" font-size="12" fill="#192B46" font-weight="400">Evan · BD</text>
+<text xml:space="preserve" x="770.6019417475729" y="673.5" font-size="10" fill="#6B7C93" font-weight="400">BD1001</text>
+<text xml:space="preserve" x="909.6310679611652" y="665.5" font-size="12" fill="#192B46" font-weight="400">总人数 8</text>
+<text xml:space="preserve" x="959.0710679611652" y="665.5" font-size="12" fill="#A2ADBD" font-weight="400"> · </text>
+<text xml:space="preserve" x="979.2310679611652" y="665.5" font-size="12" fill="#07866C" font-weight="400">优质 2</text>
+<text xml:space="preserve" x="1016.6710679611651" y="665.5" font-size="12" fill="#A2ADBD" font-weight="400"> · </text>
+<text xml:space="preserve" x="1036.8310679611652" y="665.5" font-size="12" fill="#6545E8" font-weight="400">超级 0</text>
+<text xml:space="preserve" x="1159.8834951456313" y="656.5" font-size="12" fill="#192B46" font-weight="400">晨星代理</text>
+<text xml:space="preserve" x="1159.8834951456313" y="673.5" font-size="10" fill="#6B7C93" font-weight="400">G1101</text>
+<text xml:space="preserve" x="1305.864077669903" y="656.5" font-size="12" fill="#192B46" font-weight="400">Tom</text>
+<text xml:space="preserve" x="1305.864077669903" y="673.5" font-size="10" fill="#6B7C93" font-weight="400">U1101</text>
+<text xml:space="preserve" x="1437.9417475728158" y="656.5" font-size="12" fill="#192B46" font-weight="400">2026-06-18</text>
+<text xml:space="preserve" x="1437.9417475728158" y="673.5" font-size="10" fill="#6B7C93" font-weight="400">09:15:00</text>
 <a href="admin-04-01-01-主播列表.svg">
-<text xml:space="preserve" x="1534.4788732394366" y="665.5" font-size="11" fill="#6545E8" font-weight="400">主播列表</text>
+<text xml:space="preserve" x="1597.8252427184468" y="665.5" font-size="11" fill="#6545E8" font-weight="400">主播列表</text>
 </a>
 <path d="M272 759H1704" transform="" stroke="#E5EAF2" fill="none"/>
 <a href="admin-06-01-01-代理收入数据.svg">
 <text xml:space="preserve" x="284" y="721.5" font-size="12" fill="#192B46" font-weight="400">    月光代理</text>
 <text xml:space="preserve" x="284" y="738.5" font-size="10" fill="#6B7C93" font-weight="400">    G1102</text>
 </a>
-<text xml:space="preserve" x="478.96713615023475" y="721.5" font-size="12" fill="#192B46" font-weight="400">May · U1102</text>
-<text xml:space="preserve" x="478.96713615023475" y="738.5" font-size="10" fill="#6B7C93" font-weight="400">+66 89 172 6008</text>
-<text xml:space="preserve" x="687.3802816901408" y="721.5" font-size="12" fill="#192B46" font-weight="400">C级代理</text>
-<text xml:space="preserve" x="687.3802816901408" y="738.5" font-size="10" fill="#6B7C93" font-weight="400">8%</text>
-<text xml:space="preserve" x="801.6713615023474" y="721.5" font-size="12" fill="#192B46" font-weight="400">Evan · BD</text>
-<text xml:space="preserve" x="801.6713615023474" y="738.5" font-size="10" fill="#6B7C93" font-weight="400">BD1001</text>
-<text xml:space="preserve" x="942.8544600938967" y="721.5" font-size="12" fill="#192B46" font-weight="400">16 / 4 / 1</text>
-<text xml:space="preserve" x="942.8544600938967" y="738.5" font-size="10" fill="#6B7C93" font-weight="400">主播 / 优质 / 超级</text>
-<text xml:space="preserve" x="1097.4835680751173" y="721.5" font-size="12" fill="#192B46" font-weight="400">星河代理</text>
-<text xml:space="preserve" x="1097.4835680751173" y="738.5" font-size="10" fill="#6B7C93" font-weight="400">G1024</text>
-<text xml:space="preserve" x="1245.3896713615022" y="721.5" font-size="12" fill="#192B46" font-weight="400">Maya</text>
-<text xml:space="preserve" x="1245.3896713615022" y="738.5" font-size="10" fill="#6B7C93" font-weight="400">U1001</text>
-<text xml:space="preserve" x="1379.849765258216" y="721.5" font-size="12" fill="#192B46" font-weight="400">2026-06-20</text>
-<text xml:space="preserve" x="1379.849765258216" y="738.5" font-size="10" fill="#6B7C93" font-weight="400">11:40:00</text>
+<text xml:space="preserve" x="464.73786407766994" y="721.5" font-size="12" fill="#192B46" font-weight="400">May · U1102</text>
+<text xml:space="preserve" x="464.73786407766994" y="738.5" font-size="10" fill="#6B7C93" font-weight="400">+66 89 172 6008</text>
+<text xml:space="preserve" x="666.3300970873787" y="721.5" font-size="12" fill="#192B46" font-weight="400">C级代理</text>
+<text xml:space="preserve" x="666.3300970873787" y="738.5" font-size="10" fill="#6B7C93" font-weight="400">8%</text>
+<text xml:space="preserve" x="770.6019417475729" y="721.5" font-size="12" fill="#192B46" font-weight="400">Evan · BD</text>
+<text xml:space="preserve" x="770.6019417475729" y="738.5" font-size="10" fill="#6B7C93" font-weight="400">BD1001</text>
+<text xml:space="preserve" x="909.6310679611652" y="730.5" font-size="12" fill="#192B46" font-weight="400">总人数 16</text>
+<text xml:space="preserve" x="965.7910679611651" y="730.5" font-size="12" fill="#A2ADBD" font-weight="400"> · </text>
+<text xml:space="preserve" x="985.9510679611651" y="730.5" font-size="12" fill="#07866C" font-weight="400">优质 4</text>
+<text xml:space="preserve" x="1023.3910679611652" y="730.5" font-size="12" fill="#A2ADBD" font-weight="400"> · </text>
+<text xml:space="preserve" x="1043.5510679611652" y="730.5" font-size="12" fill="#6545E8" font-weight="400">超级 1</text>
+<text xml:space="preserve" x="1159.8834951456313" y="721.5" font-size="12" fill="#192B46" font-weight="400">星河代理</text>
+<text xml:space="preserve" x="1159.8834951456313" y="738.5" font-size="10" fill="#6B7C93" font-weight="400">G1024</text>
+<text xml:space="preserve" x="1305.864077669903" y="721.5" font-size="12" fill="#192B46" font-weight="400">Maya</text>
+<text xml:space="preserve" x="1305.864077669903" y="738.5" font-size="10" fill="#6B7C93" font-weight="400">U1001</text>
+<text xml:space="preserve" x="1437.9417475728158" y="721.5" font-size="12" fill="#192B46" font-weight="400">2026-06-20</text>
+<text xml:space="preserve" x="1437.9417475728158" y="738.5" font-size="10" fill="#6B7C93" font-weight="400">11:40:00</text>
 <a href="admin-04-01-01-主播列表.svg">
-<text xml:space="preserve" x="1534.4788732394366" y="730.5" font-size="11" fill="#6545E8" font-weight="400">主播列表</text>
+<text xml:space="preserve" x="1597.8252427184468" y="730.5" font-size="11" fill="#6545E8" font-weight="400">主播列表</text>
 </a>
 <path d="M272 824H1704" transform="" stroke="#E5EAF2" fill="none"/>
 <a href="admin-06-01-01-代理收入数据.svg">
 <text xml:space="preserve" x="284" y="786.5" font-size="12" fill="#192B46" font-weight="400">▸ 银河代理</text>
 <text xml:space="preserve" x="284" y="803.5" font-size="10" fill="#6B7C93" font-weight="400">G2100</text>
 </a>
-<text xml:space="preserve" x="478.96713615023475" y="786.5" font-size="12" fill="#192B46" font-weight="400">Ravi · U2100</text>
-<text xml:space="preserve" x="478.96713615023475" y="803.5" font-size="10" fill="#6B7C93" font-weight="400">+91 98 451 3302</text>
-<text xml:space="preserve" x="687.3802816901408" y="786.5" font-size="12" fill="#192B46" font-weight="400">A级代理</text>
-<text xml:space="preserve" x="687.3802816901408" y="803.5" font-size="10" fill="#6B7C93" font-weight="400">20%</text>
-<text xml:space="preserve" x="801.6713615023474" y="786.5" font-size="12" fill="#192B46" font-weight="400">Aria · BD</text>
-<text xml:space="preserve" x="801.6713615023474" y="803.5" font-size="10" fill="#6B7C93" font-weight="400">BD1002</text>
-<text xml:space="preserve" x="942.8544600938967" y="786.5" font-size="12" fill="#192B46" font-weight="400">32 / 7 / 3</text>
-<text xml:space="preserve" x="942.8544600938967" y="803.5" font-size="10" fill="#6B7C93" font-weight="400">主播 / 优质 / 超级</text>
-<text xml:space="preserve" x="1097.4835680751173" y="786.5" font-size="12" fill="#192B46" font-weight="400">—</text>
-<text xml:space="preserve" x="1097.4835680751173" y="803.5" font-size="10" fill="#6B7C93" font-weight="400">顶级代理</text>
-<text xml:space="preserve" x="1245.3896713615022" y="795.5" font-size="12" fill="#192B46" font-weight="400">—</text>
-<text xml:space="preserve" x="1379.849765258216" y="786.5" font-size="12" fill="#192B46" font-weight="400">2026-05-08</text>
-<text xml:space="preserve" x="1379.849765258216" y="803.5" font-size="10" fill="#6B7C93" font-weight="400">15:20:00</text>
+<text xml:space="preserve" x="464.73786407766994" y="786.5" font-size="12" fill="#192B46" font-weight="400">Ravi · U2100</text>
+<text xml:space="preserve" x="464.73786407766994" y="803.5" font-size="10" fill="#6B7C93" font-weight="400">+91 98 451 3302</text>
+<text xml:space="preserve" x="666.3300970873787" y="786.5" font-size="12" fill="#192B46" font-weight="400">A级代理</text>
+<text xml:space="preserve" x="666.3300970873787" y="803.5" font-size="10" fill="#6B7C93" font-weight="400">20%</text>
+<text xml:space="preserve" x="770.6019417475729" y="786.5" font-size="12" fill="#192B46" font-weight="400">Aria · BD</text>
+<text xml:space="preserve" x="770.6019417475729" y="803.5" font-size="10" fill="#6B7C93" font-weight="400">BD1002</text>
+<text xml:space="preserve" x="909.6310679611652" y="795.5" font-size="12" fill="#192B46" font-weight="400">总人数 32</text>
+<text xml:space="preserve" x="965.7910679611651" y="795.5" font-size="12" fill="#A2ADBD" font-weight="400"> · </text>
+<text xml:space="preserve" x="985.9510679611651" y="795.5" font-size="12" fill="#07866C" font-weight="400">优质 7</text>
+<text xml:space="preserve" x="1023.3910679611652" y="795.5" font-size="12" fill="#A2ADBD" font-weight="400"> · </text>
+<text xml:space="preserve" x="1043.5510679611652" y="795.5" font-size="12" fill="#6545E8" font-weight="400">超级 3</text>
+<text xml:space="preserve" x="1159.8834951456313" y="786.5" font-size="12" fill="#192B46" font-weight="400">—</text>
+<text xml:space="preserve" x="1159.8834951456313" y="803.5" font-size="10" fill="#6B7C93" font-weight="400">顶级代理</text>
+<text xml:space="preserve" x="1305.864077669903" y="795.5" font-size="12" fill="#192B46" font-weight="400">—</text>
+<text xml:space="preserve" x="1437.9417475728158" y="786.5" font-size="12" fill="#192B46" font-weight="400">2026-05-08</text>
+<text xml:space="preserve" x="1437.9417475728158" y="803.5" font-size="10" fill="#6B7C93" font-weight="400">15:20:00</text>
 <a href="admin-04-01-01-主播列表.svg">
-<text xml:space="preserve" x="1534.4788732394366" y="795.5" font-size="11" fill="#6545E8" font-weight="400">主播列表</text>
+<text xml:space="preserve" x="1597.8252427184468" y="795.5" font-size="11" fill="#6545E8" font-weight="400">主播列表</text>
 </a>
 <path d="M272 889H1704" transform="" stroke="#E5EAF2" fill="none"/>
 <a href="admin-06-01-01-代理收入数据.svg">
 <text xml:space="preserve" x="284" y="851.5" font-size="12" fill="#192B46" font-weight="400">▸ 蓝湾代理</text>
 <text xml:space="preserve" x="284" y="868.5" font-size="10" fill="#6B7C93" font-weight="400">G3100</text>
 </a>
-<text xml:space="preserve" x="478.96713615023475" y="851.5" font-size="12" fill="#192B46" font-weight="400">Mali · U3100</text>
-<text xml:space="preserve" x="478.96713615023475" y="868.5" font-size="10" fill="#6B7C93" font-weight="400">+66 87 604 7712</text>
-<text xml:space="preserve" x="687.3802816901408" y="851.5" font-size="12" fill="#192B46" font-weight="400">B级代理</text>
-<text xml:space="preserve" x="687.3802816901408" y="868.5" font-size="10" fill="#6B7C93" font-weight="400">16%</text>
-<text xml:space="preserve" x="801.6713615023474" y="851.5" font-size="12" fill="#192B46" font-weight="400">Nina · 运营</text>
-<text xml:space="preserve" x="801.6713615023474" y="868.5" font-size="10" fill="#6B7C93" font-weight="400">OP1001</text>
-<text xml:space="preserve" x="942.8544600938967" y="851.5" font-size="12" fill="#192B46" font-weight="400">18 / 5 / 2</text>
-<text xml:space="preserve" x="942.8544600938967" y="868.5" font-size="10" fill="#6B7C93" font-weight="400">主播 / 优质 / 超级</text>
-<text xml:space="preserve" x="1097.4835680751173" y="851.5" font-size="12" fill="#192B46" font-weight="400">—</text>
-<text xml:space="preserve" x="1097.4835680751173" y="868.5" font-size="10" fill="#6B7C93" font-weight="400">顶级代理</text>
-<text xml:space="preserve" x="1245.3896713615022" y="860.5" font-size="12" fill="#192B46" font-weight="400">—</text>
-<text xml:space="preserve" x="1379.849765258216" y="851.5" font-size="12" fill="#192B46" font-weight="400">2026-06-02</text>
-<text xml:space="preserve" x="1379.849765258216" y="868.5" font-size="10" fill="#6B7C93" font-weight="400">16:35:00</text>
+<text xml:space="preserve" x="464.73786407766994" y="851.5" font-size="12" fill="#192B46" font-weight="400">Mali · U3100</text>
+<text xml:space="preserve" x="464.73786407766994" y="868.5" font-size="10" fill="#6B7C93" font-weight="400">+66 87 604 7712</text>
+<text xml:space="preserve" x="666.3300970873787" y="851.5" font-size="12" fill="#192B46" font-weight="400">B级代理</text>
+<text xml:space="preserve" x="666.3300970873787" y="868.5" font-size="10" fill="#6B7C93" font-weight="400">16%</text>
+<text xml:space="preserve" x="770.6019417475729" y="851.5" font-size="12" fill="#192B46" font-weight="400">Nina · 运营</text>
+<text xml:space="preserve" x="770.6019417475729" y="868.5" font-size="10" fill="#6B7C93" font-weight="400">OP1001</text>
+<text xml:space="preserve" x="909.6310679611652" y="860.5" font-size="12" fill="#192B46" font-weight="400">总人数 18</text>
+<text xml:space="preserve" x="965.7910679611651" y="860.5" font-size="12" fill="#A2ADBD" font-weight="400"> · </text>
+<text xml:space="preserve" x="985.9510679611651" y="860.5" font-size="12" fill="#07866C" font-weight="400">优质 5</text>
+<text xml:space="preserve" x="1023.3910679611652" y="860.5" font-size="12" fill="#A2ADBD" font-weight="400"> · </text>
+<text xml:space="preserve" x="1043.5510679611652" y="860.5" font-size="12" fill="#6545E8" font-weight="400">超级 2</text>
+<text xml:space="preserve" x="1159.8834951456313" y="851.5" font-size="12" fill="#192B46" font-weight="400">—</text>
+<text xml:space="preserve" x="1159.8834951456313" y="868.5" font-size="10" fill="#6B7C93" font-weight="400">顶级代理</text>
+<text xml:space="preserve" x="1305.864077669903" y="860.5" font-size="12" fill="#192B46" font-weight="400">—</text>
+<text xml:space="preserve" x="1437.9417475728158" y="851.5" font-size="12" fill="#192B46" font-weight="400">2026-06-02</text>
+<text xml:space="preserve" x="1437.9417475728158" y="868.5" font-size="10" fill="#6B7C93" font-weight="400">16:35:00</text>
 <a href="admin-04-01-01-主播列表.svg">
-<text xml:space="preserve" x="1534.4788732394366" y="860.5" font-size="11" fill="#6545E8" font-weight="400">主播列表</text>
+<text xml:space="preserve" x="1597.8252427184468" y="860.5" font-size="11" fill="#6545E8" font-weight="400">主播列表</text>
 </a>
 <text xml:space="preserve" x="272" y="924" font-size="11" fill="#6B7C93" font-weight="400">共 18 条</text>
 <text xml:space="preserve" x="1394" y="924" font-size="15" fill="#6B7C93" font-weight="400">‹</text>

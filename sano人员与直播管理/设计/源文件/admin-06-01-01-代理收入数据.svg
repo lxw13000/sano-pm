@@ -25,22 +25,18 @@
 <path d="M2 5h16v12H2z M2 9h16 M12 13h3" transform="translate(29,397)" fill="none" stroke="#A4B6CF" stroke-width="1.5" stroke-linejoin="round"/>
 <text xml:space="preserve" x="60" y="412" font-size="14" fill="#E1E8F3" font-weight="600">直播与收入</text>
 <text xml:space="preserve" x="180" y="412" font-size="14" fill="#A4B6CF" font-weight="400">⌄</text>
-<a href="admin-05-01-01-主播收入数据.svg">
+<a href="admin-05-01-01-主播直播与收入.svg">
 <circle cx="46" cy="448" r="2.5" fill="#536C8D"/>
-<text xml:space="preserve" x="63" y="454" font-size="13" fill="#AABDD3" font-weight="400">主播收入</text>
+<text xml:space="preserve" x="63" y="454" font-size="13" fill="#AABDD3" font-weight="400">主播直播与收入</text>
 </a>
 <a href="admin-06-01-01-代理收入数据.svg">
 <rect x="30" y="473" width="172" height="38" rx="7" fill="#6545E8" stroke="none"/>
 <circle cx="46" cy="492" r="2.5" fill="white"/>
 <text xml:space="preserve" x="63" y="498" font-size="13" fill="white" font-weight="600">代理收入</text>
 </a>
-<a href="admin-07-01-01-主播工作数据.svg">
-<circle cx="46" cy="536" r="2.5" fill="#536C8D"/>
-<text xml:space="preserve" x="63" y="542" font-size="13" fill="#AABDD3" font-weight="400">主播工作</text>
-</a>
 <a href="admin-08-01-01-当前直播间列表.svg">
-<circle cx="46" cy="580" r="2.5" fill="#536C8D"/>
-<text xml:space="preserve" x="63" y="586" font-size="13" fill="#AABDD3" font-weight="400">直播审核</text>
+<circle cx="46" cy="536" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="542" font-size="13" fill="#AABDD3" font-weight="400">直播审核</text>
 </a>
 <rect x="18" y="929" width="180" height="98" rx="9" fill="#142943" stroke="none"/>
 <circle cx="43" cy="959" r="13" fill="#4C4490"/>

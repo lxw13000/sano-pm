@@ -26,21 +26,17 @@
 <path d="M2 5h16v12H2z M2 9h16 M12 13h3" transform="translate(29,397)" fill="none" stroke="#A4B6CF" stroke-width="1.5" stroke-linejoin="round"/>
 <text xml:space="preserve" x="60" y="412" font-size="14" fill="#E1E8F3" font-weight="600">直播与收入</text>
 <text xml:space="preserve" x="180" y="412" font-size="14" fill="#A4B6CF" font-weight="400">⌄</text>
-<a href="admin-05-01-01-主播收入数据.svg">
+<a href="admin-05-01-01-主播直播与收入.svg">
 <circle cx="46" cy="448" r="2.5" fill="#536C8D"/>
-<text xml:space="preserve" x="63" y="454" font-size="13" fill="#AABDD3" font-weight="400">主播收入</text>
+<text xml:space="preserve" x="63" y="454" font-size="13" fill="#AABDD3" font-weight="400">主播直播与收入</text>
 </a>
 <a href="admin-06-01-01-代理收入数据.svg">
 <circle cx="46" cy="492" r="2.5" fill="#536C8D"/>
 <text xml:space="preserve" x="63" y="498" font-size="13" fill="#AABDD3" font-weight="400">代理收入</text>
 </a>
-<a href="admin-07-01-01-主播工作数据.svg">
-<circle cx="46" cy="536" r="2.5" fill="#536C8D"/>
-<text xml:space="preserve" x="63" y="542" font-size="13" fill="#AABDD3" font-weight="400">主播工作</text>
-</a>
 <a href="admin-08-01-01-当前直播间列表.svg">
-<circle cx="46" cy="580" r="2.5" fill="#536C8D"/>
-<text xml:space="preserve" x="63" y="586" font-size="13" fill="#AABDD3" font-weight="400">直播审核</text>
+<circle cx="46" cy="536" r="2.5" fill="#536C8D"/>
+<text xml:space="preserve" x="63" y="542" font-size="13" fill="#AABDD3" font-weight="400">直播审核</text>
 </a>
 <rect x="18" y="929" width="180" height="98" rx="9" fill="#142943" stroke="none"/>
 <circle cx="43" cy="959" r="13" fill="#4C4490"/>
@@ -105,19 +101,19 @@
 <text xml:space="preserve" x="1508.3333333333333" y="357" font-size="10" fill="#6B7C93" font-weight="400">按已有在播状态</text>
 </a>
 <text xml:space="preserve" x="252" y="409" font-size="16" fill="#192B46" font-weight="650">收入与冻结收益</text>
-<a href="admin-05-01-01-主播收入数据.svg">
+<a href="admin-05-01-01-主播直播与收入.svg">
 <rect x="252" y="430" width="283.2" height="110" rx="10" fill="white" stroke="#E5EAF2"/>
 <text xml:space="preserve" x="270" y="456" font-size="12" fill="#6B7C93" font-weight="400">主播总收入</text>
 <text xml:space="preserve" x="270" y="491" font-size="27" fill="#192B46" font-weight="650">$48,260.00</text>
 <text xml:space="preserve" x="270" y="527" font-size="10" fill="#6B7C93" font-weight="400">近7天 · 主播分成后所得</text>
 </a>
-<a href="admin-05-01-01-主播收入数据.svg">
+<a href="admin-05-01-01-主播直播与收入.svg">
 <rect x="549.2" y="430" width="283.2" height="110" rx="10" fill="white" stroke="#E5EAF2"/>
 <text xml:space="preserve" x="567.2" y="456" font-size="12" fill="#6B7C93" font-weight="400">幸运礼物收入</text>
 <text xml:space="preserve" x="567.2" y="491" font-size="27" fill="#192B46" font-weight="650">$15,320.00</text>
 <text xml:space="preserve" x="567.2" y="527" font-size="10" fill="#6B7C93" font-weight="400">业务类型 · 不与渠道金额重复相加</text>
 </a>
-<a href="admin-05-01-01-主播收入数据.svg">
+<a href="admin-05-01-01-主播直播与收入.svg">
 <rect x="846.4" y="430" width="283.2" height="110" rx="10" fill="white" stroke="#E5EAF2"/>
 <text xml:space="preserve" x="864.4" y="456" font-size="12" fill="#6B7C93" font-weight="400">普通礼物收入</text>
 <text xml:space="preserve" x="864.4" y="491" font-size="27" fill="#192B46" font-weight="650">$26,480.00</text>
@@ -206,10 +202,10 @@
 <text xml:space="preserve" x="292" y="934" font-size="11" fill="#6B7C93" font-weight="400">展开代理层级，查直属主播结构</text>
 <text xml:space="preserve" x="292" y="971" font-size="12" fill="#6545E8" font-weight="400">查看详情 →</text>
 </a>
-<a href="admin-05-01-01-主播收入数据.svg">
+<a href="admin-05-01-01-主播直播与收入.svg">
 <rect x="635" y="874" width="339" height="118" rx="8" fill="#F8F9FD" stroke="none"/>
-<text xml:space="preserve" x="653" y="907" font-size="15" fill="#192B46" font-weight="600">主播收入</text>
-<text xml:space="preserve" x="653" y="934" font-size="11" fill="#6B7C93" font-weight="400">按业务与渠道查看分成后所得</text>
+<text xml:space="preserve" x="653" y="907" font-size="15" fill="#192B46" font-weight="600">主播直播与收入</text>
+<text xml:space="preserve" x="653" y="934" font-size="11" fill="#6B7C93" font-weight="400">同看人员、直播时长与收入</text>
 <text xml:space="preserve" x="653" y="971" font-size="12" fill="#6545E8" font-weight="400">查看详情 →</text>
 </a>
 <a href="admin-06-01-01-代理收入数据.svg">
@@ -218,10 +214,10 @@
 <text xml:space="preserve" x="1014" y="934" font-size="11" fill="#6B7C93" font-weight="400">每日汇总、主播及子代理贡献</text>
 <text xml:space="preserve" x="1014" y="971" font-size="12" fill="#6545E8" font-weight="400">查看详情 →</text>
 </a>
-<a href="admin-07-01-01-主播工作数据.svg">
+<a href="admin-08-01-01-当前直播间列表.svg">
 <rect x="1357" y="874" width="339" height="118" rx="8" fill="#F8F9FD" stroke="none"/>
-<text xml:space="preserve" x="1375" y="907" font-size="15" fill="#192B46" font-weight="600">主播工作</text>
-<text xml:space="preserve" x="1375" y="934" font-size="11" fill="#6B7C93" font-weight="400">总时长与每日工作记录</text>
+<text xml:space="preserve" x="1375" y="907" font-size="15" fill="#192B46" font-weight="600">直播审核</text>
+<text xml:space="preserve" x="1375" y="934" font-size="11" fill="#6B7C93" font-weight="400">查看当前在播及巡查记录</text>
 <text xml:space="preserve" x="1375" y="971" font-size="12" fill="#6545E8" font-weight="400">查看详情 →</text>
 </a>
 </svg>
