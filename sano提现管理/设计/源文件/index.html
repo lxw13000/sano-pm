@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SANO 管理端提现审核、失败复审与订单生命周期交互原型">
+  <title>SANO · 提现管理</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="workbench.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">SANO<span>管理后台</span></div>
+    <div class="nav-section">资金管理</div>
+    <div class="nav-item muted">▦ <span>资金概览</span></div>
+    <div class="nav-item active">▤ <span>提现管理</span><i></i></div>
+    <div class="nav-item muted">▥ <span>充值记录</span></div>
+    <div class="sidebar-note"><span class="avatar">N</span><div>Nina · 运营<small>资金审核工作台</small></div></div>
+    <div class="sidebar-footer">SANO · 管理后台</div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span>资金管理 <b>/</b> 提现管理</span><div><span class="demo-label">原型 · 示例数据</span><a href="../原型导航.html">原型导航 ↗</a><a href="?">重置演示</a><span>Nina · 运营</span></div></header>
+    <main>
+      <div class="page-heading"><div><div class="eyebrow">WITHDRAWAL MANAGEMENT</div><h1>提现管理</h1><p>初审处理待审核订单，复审处理打款失败订单。</p></div><div class="heading-note"><span class="dot"></span> 订单已由程序完成自动／人工分流</div></div>
+      <section id="status-summary" class="status-summary" aria-label="按提现状态筛选"></section>
+      <section class="card filters">
+        <form id="filter-form">
+          <label>流水号<input id="f-order" placeholder="当前或历史订单号"></label>
+          <label>上游订单号<input id="f-upstream" placeholder="请输入上游订单号"></label>
+          <label>渠道类型<select id="f-type"><option value="">全部渠道类型</option><option>第三方渠道</option><option>PayRoll</option></select></label>
+          <label>提现渠道<select id="f-channel"><option value="">全部提现渠道</option><option>payer_max</option><option>pay_roll</option><option>bank_transfer</option></select></label>
+          <label>提现方式<select id="f-method"><option value="">全部提现方式</option><option>GCASH</option><option>BANK</option></select></label>
+          <label>用户 ID<input id="f-user" placeholder="请输入用户 ID"></label>
+          <label>提现状态<select id="f-status"><option value="">全部状态</option></select></label>
+          <label>国家<input id="f-country" placeholder="国家代码，如 PH"></label>
+          <label class="date-range">发起时间<div><input id="f-start" type="date" value="2026-10-16"><span>至</span><input id="f-end" type="date" value="2026-10-22"></div></label>
+          <div class="filter-actions"><button type="submit" class="primary">⌕ 查询</button><button type="button" data-action="reset-filter">重置</button></div>
+        </form>
+      </section>
+      <section class="card list-card">
+        <div class="list-toolbar"><div class="toolbar-left"><h2>提现订单 <span id="list-count"></span></h2><button id="batch-initial" class="primary" data-action="batch-initial">批量初审</button><button id="batch-review" data-action="batch-review">批量复审</button><span id="selected-label" class="muted"></span><button id="clear-selection" class="text-btn" data-action="clear-selection" hidden>取消选择</button></div><div class="toolbar-right"><button data-action="export">↓ 导出</button><button data-action="refresh-list" aria-label="刷新订单列表">↻ 刷新</button></div></div>
+        <div class="list-secondary"><div id="selection-hint" class="selection-hint">初审可跨提现方式批量处理；复审必须是同一提现方式。</div><button id="recent-toggle" class="text-btn" data-action="recent-toggle" disabled>最近处理批次</button></div>
+        <div id="recent-batches" class="recent-batches" hidden></div>
+        <div id="method-shortcuts" class="method-shortcuts" hidden></div>
+        <div class="main-table-scroll"><table class="main-table"><thead><tr><th class="pin-check"><input type="checkbox" id="select-all-main" aria-label="选择当前页符合条件的订单"></th><th class="pin-order">订单 / 用户</th><th>状态 / 最近失败原因</th><th>提现方式</th><th>提现 USD</th><th>实际打款</th><th>最近打款渠道</th><th>发起时间</th><th class="extra-col">手续费 USD</th><th class="extra-col">钻石变动</th><th class="extra-col">收款信息</th><th class="extra-col">审核 / 备注</th><th class="extra-col">上游订单号</th><th class="pin-actions">操作</th></tr></thead><tbody id="main-rows"></tbody></table></div>
+        <div class="list-footer"><span id="list-total"></span><div><select id="page-size" aria-label="每页订单数"><option value="20">20 条 / 页</option><option value="50">50 条 / 页</option><option value="100">100 条 / 页</option></select><button id="page-prev" data-action="page-prev">上一页</button><span id="page-position">1 / 1</span><button id="page-next" data-action="page-next">下一页</button></div></div>
+      </section>
+      <p class="page-footnote">示例订单与金额均为虚构，操作仅在本地模拟。通过审核后先进入打款中，再查询实际结果。</p>
+    </main>
+  </div>
+  <div id="drawer-layer" class="layer" hidden></div>
+  <div id="detail-layer" class="layer detail-layer" hidden></div>
+  <div id="submit-confirm-layer" class="layer submit-confirm-layer" hidden></div>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>
