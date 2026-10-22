@@ -1,0 +1,3 @@
+# 切换代理主播日表前
+
+这些SQL使用旧sano_proxy_day_data表，保留用于历史对照。当前执行请使用查询方案根目录中的SQL，新佣金来源为sano_proxy_anchor_data。
