@@ -1,0 +1,19 @@
+CREATE TABLE `sano_room_mai` (
+  `id` bigint NOT NULL COMMENT 'ID推流ID',
+  `user_id` int DEFAULT NULL COMMENT '用户ID',
+  `home_user_id` int DEFAULT NULL COMMENT '房主ID',
+  `room_id` int DEFAULT NULL COMMENT '房间ID',
+  `mai_index` tinyint DEFAULT NULL COMMENT '麦位序号',
+  `create_time` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '上麦时间',
+  `end_time` datetime DEFAULT NULL COMMENT '下麦时间',
+  `shang_mai_second` int DEFAULT '0' COMMENT '连麦时长',
+  `coin` bigint DEFAULT '0' COMMENT '累积普通金币',
+  `diamond` decimal(64,3) DEFAULT '0.000' COMMENT '累积普通钻石',
+  `coin_lucky` bigint DEFAULT '0' COMMENT '累积幸运金币',
+  `diamond_lucky` decimal(64,3) DEFAULT '0.000' COMMENT '累积幸运钻石',
+  `country_code` char(3) DEFAULT NULL COMMENT '国家代码',
+  PRIMARY KEY (`id`) USING BTREE,
+  KEY `room_id` (`room_id`),
+  KEY `create_time` (`create_time`),
+  KEY `userId` (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='麦位信息';
