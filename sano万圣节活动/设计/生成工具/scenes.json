@@ -1,0 +1,226 @@
+[
+  {
+    "id": "h5-live",
+    "file": "01-H5-进行中-主播南瓜灯榜",
+    "title": "进行中 · 主播南瓜灯榜",
+    "type": "H5 主页面",
+    "note": "明确当天任意单场达到 1000 分；今日未达标与历史待补领奖励分开",
+    "mobile": true
+  },
+  {
+    "id": "h5-host",
+    "file": "02-H5-进行中-主播游戏积分榜",
+    "title": "主播游戏积分榜",
+    "type": "H5 榜单页签",
+    "note": "房间内游戏积分累计给主播，每地区前 10 名获奖",
+    "mobile": true
+  },
+  {
+    "id": "h5-user",
+    "file": "03-H5-进行中-用户游戏积分榜",
+    "title": "用户游戏积分榜",
+    "type": "H5 榜单页签",
+    "note": "用户活动总积分持续累计，每地区前 20 名获奖",
+    "mobile": true
+  },
+  {
+    "id": "h5-daily",
+    "file": "04-H5-每日达标奖励-跨天补领",
+    "title": "每日达标奖励 · 跨天补领",
+    "type": "H5 底部面板",
+    "note": "按日期展示单场最高分，每个达标日期仅一份；活动内可跨天补领",
+    "mobile": true
+  },
+  {
+    "id": "h5-rules",
+    "file": "05-H5-活动规则",
+    "title": "活动规则",
+    "type": "H5 底部面板",
+    "note": "单场 1000 分才获当日资格，多场不合并；榜单总分持续累计",
+    "mobile": true
+  },
+  {
+    "id": "h5-prizes",
+    "file": "06-H5-排名奖励预览",
+    "title": "排名奖励预览",
+    "type": "H5 底部面板",
+    "note": "读取当前榜单区域的排名奖励配置，逐名次展示头像框道具及金币",
+    "mobile": true
+  },
+  {
+    "id": "h5-before",
+    "file": "07-H5-活动开始前",
+    "title": "活动开始前",
+    "type": "H5 生命周期",
+    "note": "距开始倒计时，未开始不产生积分与领奖资格",
+    "mobile": true
+  },
+  {
+    "id": "h5-ended",
+    "file": "08-H5-已结束待发放",
+    "title": "已结束 · 待发放",
+    "type": "H5 生命周期",
+    "note": "每日奖励不可再领，最终榜单固定，等待排名奖励发放",
+    "mobile": true
+  },
+  {
+    "id": "h5-final",
+    "file": "09-H5-最终榜单奖励待领取",
+    "title": "最终奖励待领取",
+    "type": "H5 生命周期",
+    "note": "页面保留期可领最终奖，和已关闭的每日奖励分开",
+    "mobile": true
+  },
+  {
+    "id": "h5-final-claimed",
+    "file": "10-H5-最终榜单奖励已领取",
+    "title": "最终奖励已领取",
+    "type": "H5 奖励结果",
+    "note": "跨榜权益分别记录，金币及头像框到账后显示已领取",
+    "mobile": true
+  },
+  {
+    "id": "h5-unmapped",
+    "file": "11-H5-地区暂不可用",
+    "title": "地区暂不可用",
+    "type": "H5 异常状态",
+    "note": "注册国家未映射时不误配榜单，不影响每日领奖",
+    "mobile": true
+  },
+  {
+    "id": "h5-empty",
+    "file": "12-H5-空榜",
+    "title": "尚无上榜记录",
+    "type": "H5 空状态",
+    "note": "空榜说明，不放虚构获奖用户",
+    "mobile": true
+  },
+  {
+    "id": "h5-error",
+    "file": "13-H5-榜单加载失败",
+    "title": "榜单加载失败",
+    "type": "H5 异常状态",
+    "note": "保留活动及奖励入口，可重试榜单，不伪装为空榜",
+    "mobile": true
+  },
+  {
+    "id": "h5-offline",
+    "file": "14-H5-页面已下线",
+    "title": "页面已下线",
+    "type": "H5 生命周期",
+    "note": "原页面直链展示已下线，无每日或最终奖励领取按钮",
+    "mobile": true
+  },
+  {
+    "id": "admin-config",
+    "file": "15-管理端-活动配置",
+    "title": "活动配置",
+    "type": "管理端主页面",
+    "note": "四个时间点及每日奖励规则，未确定参数阻止发布",
+    "mobile": false
+  },
+  {
+    "id": "admin-regions",
+    "file": "16-管理端-榜单区域配置",
+    "title": "活动区域配置",
+    "type": "管理端主列表",
+    "note": "直接展示活动区域配置列表，不设地区概览板块",
+    "mobile": false
+  },
+  {
+    "id": "admin-region-edit",
+    "file": "17-管理端-编辑榜单区域",
+    "title": "编辑活动区域",
+    "type": "管理端右侧抽屉",
+    "note": "演示国家清单，重复归属及未知国家码校验",
+    "mobile": false
+  },
+  {
+    "id": "admin-rewards",
+    "file": "18-管理端-排名奖励配置",
+    "title": "排名奖励配置",
+    "type": "管理端主列表",
+    "note": "筛选及配置列表，支持新增，头像框选择商城道具",
+    "mobile": false
+  },
+  {
+    "id": "admin-reward-edit",
+    "file": "19-管理端-编辑排名奖励",
+    "title": "编辑排名奖励",
+    "type": "管理端右侧抽屉",
+    "note": "选择有效商城头像框道具，编辑金币和有效期",
+    "mobile": false
+  },
+  {
+    "id": "admin-boards",
+    "file": "20-管理端-实时榜单数据",
+    "title": "实时榜单数据",
+    "type": "管理端主列表",
+    "note": "仅筛选条件和列表，阶段与更新时间放在列表工具栏",
+    "mobile": false
+  },
+  {
+    "id": "admin-board-detail",
+    "file": "21-管理端-榜单来源明细",
+    "title": "榜单来源明细",
+    "type": "管理端右侧抽屉",
+    "note": "追溯游戏或礼物来源，聚合示例合计与榜单一致",
+    "mobile": false
+  },
+  {
+    "id": "admin-final",
+    "file": "22-管理端-最终榜单数据",
+    "title": "最终榜单数据",
+    "type": "管理端生命周期",
+    "note": "结束后展示固定最终快照，不再累计进行中积分",
+    "mobile": false
+  },
+  {
+    "id": "admin-records",
+    "file": "23-管理端-奖励领取记录",
+    "title": "奖励领取记录",
+    "type": "管理端主列表",
+    "note": "增加美元总投入、参与人数、参与主播及南瓜灯和金币投放领取汇总",
+    "mobile": false
+  },
+  {
+    "id": "admin-record-detail",
+    "file": "24-管理端-领取流水异常明细",
+    "title": "领取流水 · 部分资产异常",
+    "type": "管理端右侧抽屉",
+    "note": "金币已到账但背包异常，不把整份标为成功或重发",
+    "mobile": false
+  },
+  {
+    "id": "admin-reward-add",
+    "file": "25-管理端-新增排名奖励",
+    "title": "新增排名奖励",
+    "type": "管理端右侧抽屉",
+    "note": "选区域、榜单、未配置名次、金币与商城头像框；校验重复和范围",
+    "mobile": false
+  },
+  {
+    "id": "admin-records-region",
+    "file": "26-管理端-区域投入汇总",
+    "title": "区域投入汇总 · PH",
+    "type": "管理端区域汇总",
+    "note": "榜单区域选 PH，美元金额和所有汇总指标同步为 PH 范围",
+    "mobile": false
+  },
+  {
+    "id": "h5-qualified",
+    "file": "27-H5-今日单场达标待领取",
+    "title": "今日单场达标 · 待领取",
+    "type": "H5 每日奖励状态",
+    "note": "单场 1140 分，今日奖励可领；历史补领奖励独立展示",
+    "mobile": true
+  },
+  {
+    "id": "h5-daily-claimed",
+    "file": "28-H5-今日奖励已领取",
+    "title": "今日奖励已领取",
+    "type": "H5 每日奖励状态",
+    "note": "当日已领取后，继续单场达标不再产生第二份，历史奖励仍可补领",
+    "mobile": true
+  }
+]

@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="2700" viewBox="0 0 940 2700">
+<defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
+<rect x="0" y="0" width="940" height="2700" rx="0" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="940" height="96" rx="0" fill="#FFF" stroke="none" stroke-width="1"/>
+<text x="42" y="62" font-size="42" fill="#111827" font-weight="400" text-anchor="start">‹</text>
+<text x="470" y="66" font-size="30" fill="#111827" font-weight="700" text-anchor="middle">优质邀请任务详情</text>
+<rect x="820" y="28" width="86" height="44" rx="22" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="863" y="57" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">规则</text>
+<rect x="56" y="126" width="828" height="268" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="174" font-size="23" fill="#111827" font-weight="700" text-anchor="start">每周优质邀请人数</text>
+<rect x="730" y="148" width="69" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="764.5" y="167" font-size="12" fill="#16A34A" font-weight="500" text-anchor="middle">已完成</text>
+<text x="88" y="218" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">本周 09/14–09/20</text>
+<text x="88" y="264" font-size="15" fill="#64748B" font-weight="400" text-anchor="start">本周邀请6人</text>
+<text x="264" y="268" font-size="21" fill="#4F2BEE" font-weight="700" text-anchor="start">有效优质邀请4人</text>
+<text x="88" y="310" font-size="14" fill="#475569" font-weight="400" text-anchor="start">主播路径2人 · 消费者路径3人 · 重叠1人，按ID去重</text>
+<text x="88" y="350" font-size="16" fill="#4F2BEE" font-weight="700" text-anchor="start">命中3人档，预计奖励钻石30,000</text>
+<text x="70" y="448" font-size="20" fill="#111827" font-weight="700" text-anchor="start">本周期邀请的所有用户</text>
+<text x="870" y="448" font-size="13" fill="#64748B" font-weight="500" text-anchor="end">6人 · 有效4人</text>
+<rect x="56" y="480" width="828" height="212" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="110" cy="531" r="25" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<text x="110" y="537" font-size="19" fill="#4F2BEE" font-weight="700" text-anchor="middle">A</text>
+<text x="150" y="527" font-size="17" fill="#111827" font-weight="700" text-anchor="start">Aki</text>
+<text x="150" y="553" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">ID 831001</text>
+<text x="564" y="529" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">邀请 09/14 10:12</text>
+<rect x="756" y="541" width="114" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="813" y="560" font-size="12" fill="#16A34A" font-weight="500" text-anchor="middle">有效优质邀请</text>
+<rect x="88" y="586" width="238" height="82" rx="11" fill="#F0FDF7" stroke="none" stroke-width="1"/>
+<text x="100" y="610" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">直播达标天数</text>
+<text x="100" y="638" font-size="12" fill="#111827" font-weight="600" text-anchor="start">3/3天</text>
+<text x="312" y="660" font-size="11" fill="#16A34A" font-weight="600" text-anchor="end">达标</text>
+<rect x="342" y="586" width="238" height="82" rx="11" fill="#F0FDF7" stroke="none" stroke-width="1"/>
+<text x="354" y="610" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">幸运礼物钻石</text>
+<text x="354" y="638" font-size="12" fill="#111827" font-weight="600" text-anchor="start">62,000/50,000</text>
+<text x="566" y="660" font-size="11" fill="#16A34A" font-weight="600" text-anchor="end">达标</text>
+<rect x="596" y="586" width="238" height="82" rx="11" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<text x="608" y="610" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">消费金币</text>
+<text x="608" y="638" font-size="12" fill="#111827" font-weight="600" text-anchor="start">120,000/1,000,000</text>
+<text x="820" y="660" font-size="11" fill="#94A3B8" font-weight="600" text-anchor="end">未达标</text>
+<rect x="56" y="712" width="828" height="212" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="110" cy="763" r="25" fill="#DDF2ED" stroke="none" stroke-width="1"/>
+<text x="110" y="769" font-size="19" fill="#4F2BEE" font-weight="700" text-anchor="middle">M</text>
+<text x="150" y="759" font-size="17" fill="#111827" font-weight="700" text-anchor="start">Mia</text>
+<text x="150" y="785" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">ID 831026</text>
+<text x="564" y="761" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">邀请 09/15 08:30</text>
+<rect x="756" y="773" width="114" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="813" y="792" font-size="12" fill="#16A34A" font-weight="500" text-anchor="middle">有效优质邀请</text>
+<rect x="88" y="818" width="238" height="82" rx="11" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<text x="100" y="842" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">直播达标天数</text>
+<text x="100" y="870" font-size="12" fill="#111827" font-weight="600" text-anchor="start">0/3天</text>
+<text x="312" y="892" font-size="11" fill="#94A3B8" font-weight="600" text-anchor="end">未达标</text>
+<rect x="342" y="818" width="238" height="82" rx="11" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<text x="354" y="842" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">幸运礼物钻石</text>
+<text x="354" y="870" font-size="12" fill="#111827" font-weight="600" text-anchor="start">0/50,000</text>
+<text x="566" y="892" font-size="11" fill="#94A3B8" font-weight="600" text-anchor="end">未达标</text>
+<rect x="596" y="818" width="238" height="82" rx="11" fill="#F0FDF7" stroke="none" stroke-width="1"/>
+<text x="608" y="842" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">消费金币</text>
+<text x="608" y="870" font-size="12" fill="#111827" font-weight="600" text-anchor="start">1,240,000/1,000,000</text>
+<text x="820" y="892" font-size="11" fill="#16A34A" font-weight="600" text-anchor="end">达标</text>
+<rect x="56" y="944" width="828" height="212" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="110" cy="995" r="25" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<text x="110" y="1001" font-size="19" fill="#4F2BEE" font-weight="700" text-anchor="middle">K</text>
+<text x="150" y="991" font-size="17" fill="#111827" font-weight="700" text-anchor="start">Kai</text>
+<text x="150" y="1017" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">ID 831102</text>
+<text x="564" y="993" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">邀请 09/16 13:05</text>
+<rect x="756" y="1005" width="114" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="813" y="1024" font-size="12" fill="#16A34A" font-weight="500" text-anchor="middle">有效优质邀请</text>
+<rect x="88" y="1050" width="238" height="82" rx="11" fill="#F0FDF7" stroke="none" stroke-width="1"/>
+<text x="100" y="1074" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">直播达标天数</text>
+<text x="100" y="1102" font-size="12" fill="#111827" font-weight="600" text-anchor="start">4/3天</text>
+<text x="312" y="1124" font-size="11" fill="#16A34A" font-weight="600" text-anchor="end">达标</text>
+<rect x="342" y="1050" width="238" height="82" rx="11" fill="#F0FDF7" stroke="none" stroke-width="1"/>
+<text x="354" y="1074" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">幸运礼物钻石</text>
+<text x="354" y="1102" font-size="12" fill="#111827" font-weight="600" text-anchor="start">81,000/50,000</text>
+<text x="566" y="1124" font-size="11" fill="#16A34A" font-weight="600" text-anchor="end">达标</text>
+<rect x="596" y="1050" width="238" height="82" rx="11" fill="#F0FDF7" stroke="none" stroke-width="1"/>
+<text x="608" y="1074" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">消费金币</text>
+<text x="608" y="1102" font-size="12" fill="#111827" font-weight="600" text-anchor="start">1,110,000/1,000,000</text>
+<text x="820" y="1124" font-size="11" fill="#16A34A" font-weight="600" text-anchor="end">达标</text>
+<rect x="56" y="1176" width="828" height="212" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="110" cy="1227" r="25" fill="#DDF2ED" stroke="none" stroke-width="1"/>
+<text x="110" y="1233" font-size="19" fill="#4F2BEE" font-weight="700" text-anchor="middle">N</text>
+<text x="150" y="1223" font-size="17" fill="#111827" font-weight="700" text-anchor="start">Nia</text>
+<text x="150" y="1249" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">ID 831188</text>
+<text x="564" y="1225" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">邀请 09/18 19:42</text>
+<rect x="756" y="1237" width="114" height="28" rx="14" fill="#ECFDF5" stroke="none" stroke-width="1"/>
+<text x="813" y="1256" font-size="12" fill="#16A34A" font-weight="500" text-anchor="middle">有效优质邀请</text>
+<rect x="88" y="1282" width="238" height="82" rx="11" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<text x="100" y="1306" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">直播达标天数</text>
+<text x="100" y="1334" font-size="12" fill="#111827" font-weight="600" text-anchor="start">1/3天</text>
+<text x="312" y="1356" font-size="11" fill="#94A3B8" font-weight="600" text-anchor="end">未达标</text>
+<rect x="342" y="1282" width="238" height="82" rx="11" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<text x="354" y="1306" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">幸运礼物钻石</text>
+<text x="354" y="1334" font-size="12" fill="#111827" font-weight="600" text-anchor="start">0/50,000</text>
+<text x="566" y="1356" font-size="11" fill="#94A3B8" font-weight="600" text-anchor="end">未达标</text>
+<rect x="596" y="1282" width="238" height="82" rx="11" fill="#F0FDF7" stroke="none" stroke-width="1"/>
+<text x="608" y="1306" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">消费金币</text>
+<text x="608" y="1334" font-size="12" fill="#111827" font-weight="600" text-anchor="start">1,080,000/1,000,000</text>
+<text x="820" y="1356" font-size="11" fill="#16A34A" font-weight="600" text-anchor="end">达标</text>
+<rect x="56" y="1408" width="828" height="212" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="110" cy="1459" r="25" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<text x="110" y="1465" font-size="19" fill="#4F2BEE" font-weight="700" text-anchor="middle">Y</text>
+<text x="150" y="1455" font-size="17" fill="#111827" font-weight="700" text-anchor="start">Yuna</text>
+<text x="150" y="1481" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">ID 831265</text>
+<text x="564" y="1457" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">邀请 09/18 20:20</text>
+<rect x="756" y="1469" width="99" height="28" rx="14" fill="#FEF2F2" stroke="none" stroke-width="1"/>
+<text x="805.5" y="1488" font-size="12" fill="#DC2626" font-weight="500" text-anchor="middle">非有效邀请</text>
+<rect x="88" y="1514" width="238" height="82" rx="11" fill="#F0FDF7" stroke="none" stroke-width="1"/>
+<text x="100" y="1538" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">直播达标天数</text>
+<text x="100" y="1566" font-size="12" fill="#111827" font-weight="600" text-anchor="start">3/3天</text>
+<text x="312" y="1588" font-size="11" fill="#16A34A" font-weight="600" text-anchor="end">达标</text>
+<rect x="342" y="1514" width="238" height="82" rx="11" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<text x="354" y="1538" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">幸运礼物钻石</text>
+<text x="354" y="1566" font-size="12" fill="#111827" font-weight="600" text-anchor="start">32,000/50,000</text>
+<text x="566" y="1588" font-size="11" fill="#94A3B8" font-weight="600" text-anchor="end">未达标</text>
+<rect x="596" y="1514" width="238" height="82" rx="11" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<text x="608" y="1538" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">消费金币</text>
+<text x="608" y="1566" font-size="12" fill="#111827" font-weight="600" text-anchor="start">250,000/1,000,000</text>
+<text x="820" y="1588" font-size="11" fill="#94A3B8" font-weight="600" text-anchor="end">未达标</text>
+<rect x="56" y="1640" width="828" height="212" rx="20" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="110" cy="1691" r="25" fill="#DDF2ED" stroke="none" stroke-width="1"/>
+<text x="110" y="1697" font-size="19" fill="#4F2BEE" font-weight="700" text-anchor="middle">E</text>
+<text x="150" y="1687" font-size="17" fill="#111827" font-weight="700" text-anchor="start">Eli</text>
+<text x="150" y="1713" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">ID 831221</text>
+<text x="564" y="1689" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">邀请 09/19 09:10</text>
+<rect x="756" y="1701" width="99" height="28" rx="14" fill="#FEF2F2" stroke="none" stroke-width="1"/>
+<text x="805.5" y="1720" font-size="12" fill="#DC2626" font-weight="500" text-anchor="middle">非有效邀请</text>
+<rect x="88" y="1746" width="238" height="82" rx="11" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<text x="100" y="1770" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">直播达标天数</text>
+<text x="100" y="1798" font-size="12" fill="#111827" font-weight="600" text-anchor="start">2/3天</text>
+<text x="312" y="1820" font-size="11" fill="#94A3B8" font-weight="600" text-anchor="end">未达标</text>
+<rect x="342" y="1746" width="238" height="82" rx="11" fill="#F0FDF7" stroke="none" stroke-width="1"/>
+<text x="354" y="1770" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">幸运礼物钻石</text>
+<text x="354" y="1798" font-size="12" fill="#111827" font-weight="600" text-anchor="start">54,000/50,000</text>
+<text x="566" y="1820" font-size="11" fill="#16A34A" font-weight="600" text-anchor="end">达标</text>
+<rect x="596" y="1746" width="238" height="82" rx="11" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<text x="608" y="1770" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">消费金币</text>
+<text x="608" y="1798" font-size="12" fill="#111827" font-weight="600" text-anchor="start">750,000/1,000,000</text>
+<text x="820" y="1820" font-size="11" fill="#94A3B8" font-weight="600" text-anchor="end">未达标</text>
+<rect x="56" y="1900" width="828" height="112" rx="16" fill="#F7F4FF" stroke="none" stroke-width="1"/>
+<text x="88" y="1942" font-size="15" fill="#4F2BEE" font-weight="700" text-anchor="start">判定说明</text>
+<text x="88" y="1978" font-size="13" fill="#475569" font-weight="400" text-anchor="start">主播路径需直播达标天数和幸运礼物收入同时达标；消费者路径仅看消费。</text>
+<text x="88" y="2000" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">Kai两条路径都达标，仍只计1名有效优质邀请用户。</text>
+<text x="70" y="2070" font-size="20" fill="#111827" font-weight="700" text-anchor="start">任务规则</text>
+<rect x="56" y="2100" width="828" height="406" rx="20" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+<text x="88" y="2142" font-size="13" fill="#475569" font-weight="400" text-anchor="start">直播达标：本周至少3天，每个达标日直播时长至少2小时。</text>
+<text x="88" y="2184" font-size="13" fill="#475569" font-weight="400" text-anchor="start">幸运礼物：邀请后本周收入至少50,000钻石。</text>
+<text x="88" y="2226" font-size="13" fill="#475569" font-weight="400" text-anchor="start">消费金币：邀请后本周实际累计至少1,000,000金币。</text>
+<text x="88" y="2268" font-size="13" fill="#475569" font-weight="400" text-anchor="start">每项只计算邀请关系生效后至周日23:59的行为。</text>
+<text x="88" y="2310" font-size="13" fill="#475569" font-weight="400" text-anchor="start">一个被邀请用户只归属一个邀请人；本周未达标不顺延。</text>
+<text x="88" y="2352" font-size="13" fill="#475569" font-weight="400" text-anchor="start">1人奖10,000钻石 · 3人奖30,000钻石 · 5人奖50,000钻石。</text>
+<text x="88" y="2394" font-size="13" fill="#475569" font-weight="400" text-anchor="start">阶梯奖励取最高已达档，不累计低档奖励。</text>
+<text x="88" y="2436" font-size="12" fill="#64748B" font-weight="400" text-anchor="start">消费按实际金币流水累计，不扣退款、撤销或异常后续处理。</text>
+</svg>

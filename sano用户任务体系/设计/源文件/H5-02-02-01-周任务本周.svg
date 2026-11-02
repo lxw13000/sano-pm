@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1760" viewBox="0 0 940 1760">
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="2050" viewBox="0 0 940 2050">
 <defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
-<rect x="0" y="0" width="940" height="1760" rx="0" fill="#F4F0FF" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="940" height="2050" rx="0" fill="#F4F0FF" stroke="none" stroke-width="1"/>
 <rect x="0" y="0" width="940" height="96" rx="0" fill="#FFF" stroke="none" stroke-width="1"/>
 <text x="42" y="62" font-size="42" fill="#111827" font-weight="400" text-anchor="start">‹</text>
 <text x="470" y="66" font-size="30" fill="#111827" font-weight="700" text-anchor="middle">用户任务</text>
@@ -19,7 +19,7 @@
 <rect x="56" y="350" width="828" height="164" rx="24" fill="url(#purpleGradient)" stroke="none" stroke-width="1"/>
 <text x="90" y="398" font-size="24" fill="#FFF" font-weight="700" text-anchor="start">黄金优质主播</text>
 <text x="90" y="436" font-size="14" fill="#DDD6FE" font-weight="400" text-anchor="start">周任务 · 周期结束后统一审核结算</text>
-<text x="90" y="478" font-size="16" fill="#FFF" font-weight="600" text-anchor="start">3个奖励模块进行中</text>
+<text x="90" y="478" font-size="16" fill="#FFF" font-weight="600" text-anchor="start">4个奖励模块进行中</text>
 <rect x="700" y="378" width="69" height="28" rx="14" fill="#FFF" stroke="none" stroke-width="1"/>
 <text x="734.5" y="397" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">进行中</text>
 <rect x="56" y="546" width="828" height="254" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
@@ -70,7 +70,21 @@
 <text x="234" y="1305" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">钻石 40000</text>
 <rect x="690" y="1320" width="158" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
 <text x="769" y="1347" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看模块</text>
-<rect x="56" y="1422" width="828" height="96" rx="18" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
-<text x="88" y="1460" font-size="13" fill="#9A3412" font-weight="600" text-anchor="start">周任务只允许查看本周和上周，不提供更早周期入口。</text>
-<text x="88" y="1492" font-size="13" fill="#9A3412" font-weight="400" text-anchor="start">进入新一周后，上上周未领取奖励视为主动放弃。</text>
+<rect x="56" y="1404" width="828" height="254" rx="22" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<text x="88" y="1452" font-size="20" fill="#111827" font-weight="700" text-anchor="start">优质邀请奖励</text>
+<rect x="744" y="1428" width="62" height="28" rx="14" fill="#EEF2FF" stroke="none" stroke-width="1"/>
+<text x="775" y="1447" font-size="12" fill="#4F2BEE" font-weight="500" text-anchor="middle">周</text>
+<text x="88" y="1486" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">1/1项任务完成</text>
+<rect x="88" y="1506" width="760" height="10" rx="5" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<rect x="88" y="1506" width="760" height="10" rx="5" fill="#6D45F5" stroke="none" stroke-width="1"/>
+<text x="88" y="1550" font-size="14" fill="#475569" font-weight="400" text-anchor="start">模块任务已全部完成</text>
+<text x="88" y="1586" font-size="12" fill="#64748B" font-weight="500" text-anchor="start">当前档位</text>
+<rect x="192" y="1568" width="154" height="36" rx="18" fill="#F1EEFF" stroke="none" stroke-width="1"/>
+<text x="214" y="1592" font-size="18" fill="#7652F6" font-weight="700" text-anchor="middle">◆</text>
+<text x="234" y="1591" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="start">钻石 30000</text>
+<rect x="690" y="1606" width="158" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
+<text x="769" y="1633" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">查看详情</text>
+<rect x="56" y="1708" width="828" height="96" rx="18" fill="#FFF7ED" stroke="#FED7AA" stroke-width="1"/>
+<text x="88" y="1746" font-size="13" fill="#9A3412" font-weight="600" text-anchor="start">周任务只允许查看本周和上周，不提供更早周期入口。</text>
+<text x="88" y="1778" font-size="13" fill="#9A3412" font-weight="400" text-anchor="start">进入新一周后，上上周未领取奖励视为主动放弃。</text>
 </svg>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SANO · 优质主播交互原型</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="demo-bar" aria-label="原型演示工具">
+    <a href="../原型导航.html">← 场景导航</a>
+    <span>本地交互演示 · 虚构数据</span>
+    <select id="scene-select" aria-label="演示场景"></select>
+    <button id="reset-demo">重置示例</button>
+  </aside>
+  <main id="app" class="phone"></main>
+  <dialog id="week-dialog" aria-labelledby="picker-title"></dialog>
+  <div id="toast" role="status" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>

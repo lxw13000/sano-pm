@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="940" height="1840" viewBox="0 0 940 1840">
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="2040" viewBox="0 0 940 2040">
 <defs><linearGradient id="purpleGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4F2BEE"/></linearGradient></defs><style>text{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif}</style>
-<rect x="0" y="0" width="940" height="1840" rx="0" fill="#F8FAFC" stroke="none" stroke-width="1"/>
+<rect x="0" y="0" width="940" height="2040" rx="0" fill="#F8FAFC" stroke="none" stroke-width="1"/>
 <rect x="0" y="0" width="940" height="96" rx="0" fill="#FFF" stroke="none" stroke-width="1"/>
 <text x="42" y="62" font-size="42" fill="#111827" font-weight="400" text-anchor="start">‹</text>
 <text x="470" y="66" font-size="30" fill="#111827" font-weight="700" text-anchor="middle">规则说明</text>
@@ -44,4 +44,9 @@
 <text x="102" y="1421" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="middle">07</text>
 <text x="146" y="1410" font-size="18" fill="#111827" font-weight="700" text-anchor="start">逾期放弃</text>
 <text x="146" y="1448" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">上周/上月奖励超出上一周期后自动视为放弃。</text>
+<rect x="56" y="1540" width="828" height="150" rx="18" fill="#FFF" stroke="#E5E7EB" stroke-width="1"/>
+<circle cx="102" cy="1592" r="24" fill="#E9E2FF" stroke="none" stroke-width="1"/>
+<text x="102" y="1599" font-size="13" fill="#4F2BEE" font-weight="700" text-anchor="middle">08</text>
+<text x="146" y="1588" font-size="18" fill="#111827" font-weight="700" text-anchor="start">优质邀请</text>
+<text x="146" y="1626" font-size="14" fill="#64748B" font-weight="400" text-anchor="start">仅统计本周新邀请；任一路径达标计1人，重复路径不重复计数。</text>
 </svg>

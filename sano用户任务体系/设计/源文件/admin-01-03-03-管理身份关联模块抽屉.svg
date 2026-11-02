@@ -86,33 +86,39 @@
 <text x="1086" y="222" font-size="12" fill="#475569" font-weight="600" text-anchor="start">奖励策略</text>
 <text x="1306" y="222" font-size="12" fill="#475569" font-weight="600" text-anchor="start">App顺序</text>
 <text x="1446" y="222" font-size="12" fill="#475569" font-weight="600" text-anchor="start">操作</text>
-<rect x="674" y="238" width="964" height="54" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<rect x="674" y="238" width="964" height="50" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
 <text x="686" y="271" font-size="12" fill="#334155" font-weight="400" text-anchor="start">时长达标奖励</text>
 <text x="986" y="271" font-size="12" fill="#334155" font-weight="400" text-anchor="start">周</text>
 <text x="1086" y="271" font-size="12" fill="#334155" font-weight="400" text-anchor="start">固定奖励</text>
 <text x="1306" y="271" font-size="12" fill="#334155" font-weight="400" text-anchor="start">1</text>
 <text x="1446" y="271" font-size="12" fill="#334155" font-weight="400" text-anchor="start">调整 删除</text>
-<rect x="674" y="292" width="964" height="54" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
-<text x="686" y="325" font-size="12" fill="#334155" font-weight="400" text-anchor="start">收入阶梯奖励</text>
-<text x="986" y="325" font-size="12" fill="#334155" font-weight="400" text-anchor="start">周</text>
-<text x="1086" y="325" font-size="12" fill="#334155" font-weight="400" text-anchor="start">阶梯奖励</text>
-<text x="1306" y="325" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2</text>
-<text x="1446" y="325" font-size="12" fill="#334155" font-weight="400" text-anchor="start">调整 删除</text>
-<rect x="674" y="346" width="964" height="54" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
-<text x="686" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">分享奖励</text>
-<text x="986" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">周</text>
-<text x="1086" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">固定奖励</text>
-<text x="1306" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">3</text>
-<text x="1446" y="379" font-size="12" fill="#334155" font-weight="400" text-anchor="start">调整 删除</text>
-<rect x="674" y="400" width="964" height="54" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
-<text x="686" y="433" font-size="12" fill="#334155" font-weight="400" text-anchor="start">PK奖励</text>
-<text x="986" y="433" font-size="12" fill="#334155" font-weight="400" text-anchor="start">周</text>
-<text x="1086" y="433" font-size="12" fill="#334155" font-weight="400" text-anchor="start">固定奖励</text>
-<text x="1306" y="433" font-size="12" fill="#334155" font-weight="400" text-anchor="start">4</text>
-<text x="1446" y="433" font-size="12" fill="#334155" font-weight="400" text-anchor="start">调整 删除</text>
-<rect x="674" y="468" width="964" height="84" rx="7" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
-<text x="696" y="500" font-size="11" fill="#475569" font-weight="400" text-anchor="start">任务组成、周期和奖励策略来自任务模块，此处不重复编辑。</text>
-<text x="696" y="528" font-size="11" fill="#475569" font-weight="400" text-anchor="start">身份关联关系只保存身份ID、任务模块ID和App展示顺序。</text>
+<rect x="674" y="288" width="964" height="50" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="686" y="321" font-size="12" fill="#334155" font-weight="400" text-anchor="start">收入阶梯奖励</text>
+<text x="986" y="321" font-size="12" fill="#334155" font-weight="400" text-anchor="start">周</text>
+<text x="1086" y="321" font-size="12" fill="#334155" font-weight="400" text-anchor="start">阶梯奖励</text>
+<text x="1306" y="321" font-size="12" fill="#334155" font-weight="400" text-anchor="start">2</text>
+<text x="1446" y="321" font-size="12" fill="#334155" font-weight="400" text-anchor="start">调整 删除</text>
+<rect x="674" y="338" width="964" height="50" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="686" y="371" font-size="12" fill="#334155" font-weight="400" text-anchor="start">分享奖励</text>
+<text x="986" y="371" font-size="12" fill="#334155" font-weight="400" text-anchor="start">周</text>
+<text x="1086" y="371" font-size="12" fill="#334155" font-weight="400" text-anchor="start">固定奖励</text>
+<text x="1306" y="371" font-size="12" fill="#334155" font-weight="400" text-anchor="start">3</text>
+<text x="1446" y="371" font-size="12" fill="#334155" font-weight="400" text-anchor="start">调整 删除</text>
+<rect x="674" y="388" width="964" height="50" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="686" y="421" font-size="12" fill="#334155" font-weight="400" text-anchor="start">PK奖励</text>
+<text x="986" y="421" font-size="12" fill="#334155" font-weight="400" text-anchor="start">周</text>
+<text x="1086" y="421" font-size="12" fill="#334155" font-weight="400" text-anchor="start">固定奖励</text>
+<text x="1306" y="421" font-size="12" fill="#334155" font-weight="400" text-anchor="start">4</text>
+<text x="1446" y="421" font-size="12" fill="#334155" font-weight="400" text-anchor="start">调整 删除</text>
+<rect x="674" y="438" width="964" height="50" rx="0" fill="#FFF" stroke="#E9EDF3" stroke-width="1"/>
+<text x="686" y="471" font-size="12" fill="#334155" font-weight="400" text-anchor="start">优质邀请奖励</text>
+<text x="986" y="471" font-size="12" fill="#334155" font-weight="400" text-anchor="start">周</text>
+<text x="1086" y="471" font-size="12" fill="#334155" font-weight="400" text-anchor="start">阶梯奖励</text>
+<text x="1306" y="471" font-size="12" fill="#334155" font-weight="400" text-anchor="start">5</text>
+<text x="1446" y="471" font-size="12" fill="#334155" font-weight="400" text-anchor="start">调整 删除</text>
+<rect x="674" y="502" width="964" height="84" rx="7" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+<text x="696" y="534" font-size="11" fill="#475569" font-weight="400" text-anchor="start">任务组成、周期和奖励策略来自任务模块，此处不重复编辑。</text>
+<text x="696" y="562" font-size="11" fill="#475569" font-weight="400" text-anchor="start">身份关联关系只保存身份ID、任务模块ID和App展示顺序。</text>
 <rect x="1370" y="854" width="110" height="42" rx="7" fill="#FFFFFF" stroke="#B8A9FF" stroke-width="1"/>
 <text x="1425" y="881" font-size="14" fill="#4F2BEE" font-weight="500" text-anchor="middle">取消</text>
 <rect x="1498" y="854" width="140" height="42" rx="7" fill="#4F2BEE" stroke="#B8A9FF" stroke-width="1"/>

@@ -43,3 +43,4 @@ logs/
 
 # 运行时上传文件
 uploads/
+/outputs/

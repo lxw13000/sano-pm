@@ -1,0 +1,162 @@
+[
+  {
+    "id": "agency",
+    "file": "app-01-01-01-公会管理入口",
+    "title": "公会管理 · 新增入口",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=agency"
+  },
+  {
+    "id": "current",
+    "file": "app-01-02-01-优质主播-本周",
+    "title": "优质主播 · 本周",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=current"
+  },
+  {
+    "id": "last",
+    "file": "app-01-02-02-优质主播-上周",
+    "title": "优质主播 · 上周",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=last"
+  },
+  {
+    "id": "picker-current",
+    "file": "app-01-02-03-选择自然周-本周来源",
+    "title": "选择自然周 · 本周来源",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=picker-current"
+  },
+  {
+    "id": "picker-current-pending",
+    "file": "app-01-02-10-选择自然周-待确认",
+    "title": "选择自然周 · 待确认",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=picker-current-pending"
+  },
+  {
+    "id": "picker-last",
+    "file": "app-01-02-11-选择自然周-上周来源",
+    "title": "选择自然周 · 上周来源",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=picker-last"
+  },
+  {
+    "id": "picker-last-pending",
+    "file": "app-01-02-12-选择自然周-上周来源待确认",
+    "title": "选择自然周 · 上周来源待确认",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=picker-last-pending"
+  },
+  {
+    "id": "picker-custom",
+    "file": "app-01-02-13-选择自然周-自定义来源",
+    "title": "选择自然周 · 自定义来源",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=picker-custom"
+  },
+  {
+    "id": "picker-custom-pending",
+    "file": "app-01-02-14-选择自然周-自定义来源待确认",
+    "title": "选择自然周 · 自定义来源待确认",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=picker-custom-pending"
+  },
+  {
+    "id": "custom",
+    "file": "app-01-02-04-优质主播-自定义周",
+    "title": "优质主播 · 自定义周",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=custom"
+  },
+  {
+    "id": "income-current",
+    "file": "app-01-02-15-优质主播-本周收入列",
+    "title": "优质主播 · 本周收入列",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=income-current"
+  },
+  {
+    "id": "income-last",
+    "file": "app-01-02-16-优质主播-上周收入列",
+    "title": "优质主播 · 上周收入列",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=income-last"
+  },
+  {
+    "id": "income-custom",
+    "file": "app-01-02-17-优质主播-自定义周收入列",
+    "title": "优质主播 · 自定义周收入列",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=income-custom"
+  },
+  {
+    "id": "empty",
+    "file": "app-01-02-05-暂无有效成员",
+    "title": "暂无当前有效成员",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=empty"
+  },
+  {
+    "id": "inactive",
+    "file": "app-01-02-06-本周暂无业务",
+    "title": "有成员 · 无业务",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=inactive"
+  },
+  {
+    "id": "error",
+    "file": "app-01-02-07-加载失败",
+    "title": "加载失败 · 可重试",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=error"
+  },
+  {
+    "id": "loading",
+    "file": "app-01-02-08-加载中",
+    "title": "加载中",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=loading"
+  },
+  {
+    "id": "partial",
+    "file": "app-01-02-09-部分统计中",
+    "title": "部分指标统计中",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=partial"
+  },
+  {
+    "id": "many",
+    "file": "app-01-02-18-多成员分批加载",
+    "title": "多成员 · 真实滚动与分批加载",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=many"
+  },
+  {
+    "id": "page-error",
+    "file": "app-01-02-19-后续批次失败",
+    "title": "后续批次失败 · 保留汇总与已加载行",
+    "width": 390,
+    "height": 1060,
+    "source": "源文件/index.html?scene=page-error"
+  }
+]

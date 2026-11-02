@@ -35,15 +35,16 @@
 <text x="834" y="196" font-size="13" fill="#334155" font-weight="500" text-anchor="start">章节标题</text>
 <rect x="834" y="208" width="760" height="42" rx="6" fill="#FFFFFF" stroke="#DCE3EE" stroke-width="1"/>
 <text x="848" y="235" font-size="13" fill="#1E293B" font-weight="400" text-anchor="start">任务周期与完成方式</text>
-<rect x="834" y="270" width="760" height="252" rx="7" fill="#FFF" stroke="#DCE3EE" stroke-width="1"/>
-<text x="854" y="310" font-size="14" fill="#334155" font-weight="400" text-anchor="start">1. 每个任务模块有日、周或月周期。</text>
-<text x="854" y="350" font-size="14" fill="#334155" font-weight="400" text-anchor="start">2. 模块内全部任务要求完成后，模块才完成并获得奖励。</text>
-<text x="854" y="390" font-size="14" fill="#334155" font-weight="400" text-anchor="start">3. 小周期任务按至少完成次数、最长连续次数统计。</text>
-<text x="854" y="430" font-size="14" fill="#334155" font-weight="400" text-anchor="start">4. 阶梯模块达到最低档即完成，奖励按最高档发放。</text>
-<text x="854" y="470" font-size="14" fill="#334155" font-weight="400" text-anchor="start">5. 周期审核后生成结算记录，达标奖励进入待领取。</text>
-<rect x="834" y="560" width="760" height="190" rx="14" fill="#F7F4FF" stroke="none" stroke-width="1"/>
-<text x="1214" y="598" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">App预览</text>
-<text x="870" y="642" font-size="17" fill="#111827" font-weight="700" text-anchor="start">任务周期与完成方式</text>
-<text x="870" y="680" font-size="13" fill="#475569" font-weight="400" text-anchor="start">完成模块内全部任务要求，即可获得该模块对应奖励。</text>
-<text x="870" y="714" font-size="13" fill="#475569" font-weight="400" text-anchor="start">详情展示完成次数、最长连续次数和当前奖励档位。</text>
+<rect x="834" y="270" width="760" height="286" rx="7" fill="#FFF" stroke="#DCE3EE" stroke-width="1"/>
+<text x="854" y="306" font-size="14" fill="#334155" font-weight="400" text-anchor="start">1. 每个任务模块有日、周或月周期。</text>
+<text x="854" y="346" font-size="14" fill="#334155" font-weight="400" text-anchor="start">2. 模块内全部任务要求完成后，模块才完成并获得奖励。</text>
+<text x="854" y="386" font-size="14" fill="#334155" font-weight="400" text-anchor="start">3. 小周期任务按至少完成次数、最长连续次数统计。</text>
+<text x="854" y="426" font-size="14" fill="#334155" font-weight="400" text-anchor="start">4. 阶梯模块达到最低档即完成，奖励按最高档发放。</text>
+<text x="854" y="466" font-size="14" fill="#334155" font-weight="400" text-anchor="start">5. 周期审核后生成结算记录，达标奖励进入待领取。</text>
+<text x="854" y="506" font-size="14" fill="#334155" font-weight="400" text-anchor="start">6. 优质邀请仅统计本周新邀请及邀请生效后的行为。</text>
+<rect x="834" y="584" width="760" height="190" rx="14" fill="#F7F4FF" stroke="none" stroke-width="1"/>
+<text x="1214" y="622" font-size="14" fill="#4F2BEE" font-weight="600" text-anchor="middle">App预览</text>
+<text x="870" y="666" font-size="17" fill="#111827" font-weight="700" text-anchor="start">任务周期与完成方式</text>
+<text x="870" y="704" font-size="13" fill="#475569" font-weight="400" text-anchor="start">完成模块内全部任务要求，即可获得该模块对应奖励。</text>
+<text x="870" y="738" font-size="13" fill="#475569" font-weight="400" text-anchor="start">详情展示完成次数、最长连续次数和当前奖励档位。</text>
 </svg>
